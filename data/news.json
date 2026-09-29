@@ -1,5 +1,5 @@
 {
- "updated": 1790674619,
+ "updated": 1790697437,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -28,14 +28,14 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 9,
+   "count": 8,
    "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 9,
-   "new": 0
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,45 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Condé Nast built multimodal video discovery with Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
+   "summary": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Generative AI Innovation Center, they built a multimodal video discovery solution on Amazon Bedrock and Amazon OpenSearch Service that cut discovery time to under 2 minutes.",
+   "ts": 1790697317,
+   "zh": "康泰纳仕用Bedrock构建多模态视频检索",
+   "brief": "康泰纳仕编辑此前检索14万条视频库平均耗时250分钟，与AWS生成式AI创新中心合作，基于Amazon Bedrock和OpenSearch构建多模态视频发现方案。",
+   "why": "内容型企业可参考：多模态检索能大幅压缩素材查找人力成本。",
+   "score": 8
+  },
+  {
+   "id": "https://huggingface.co/blog/nvidia/kumo-tabular",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+   "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
+   "summary": "",
+   "ts": 1790695838,
+   "zh": "英伟达Kumo Tabular刷新表格预测精度效率",
+   "brief": "Hugging Face发布NVIDIA Kumo Tabular，称其在表格预测任务上同时提升准确率与效率。",
+   "why": "表格数据是企业最常见场景，可关注其落地成本与效果。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+   "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "summary": "",
+   "ts": 1790687220,
+   "zh": "面向MCP智能体的来源感知验证方法",
+   "brief": "Hugging Face发布研究，提出针对MCP智能体的来源感知验证，强调不仅要核实事实还要核实信息来源。",
+   "why": "企业部署AI智能体时，来源可追溯是合规与可信的关键。",
+   "score": 6
+  },
   {
    "id": "https://arxiv.org/abs/2609.30291",
    "source": "arxiv",
