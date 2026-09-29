@@ -28,3 +28,5 @@ jobs:
           git config user.email "news-bot@users.noreply.github.com"
           git add data/news.json
           git diff --cached --quiet || (git commit -m "news: $(date -u +%F\ %H:%M)" && git push)
+      - name: purge jsDelivr cache   # 国内服务器从 jsDelivr 拉数据，推完立刻刷新缓存
+        run: curl -s -m 30 "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/data/news.json" || true
