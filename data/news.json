@@ -1,5 +1,5 @@
 {
- "updated": 1790674246,
+ "updated": 1790674619,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -70,7 +70,11 @@
    "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
    "link": "https://arxiv.org/abs/2609.30291",
    "summary": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and symbolic AI, and to integrate AI and systems engineering. We present a comprehensive framework for the design and evaluation of autonomous systems, based on a generic agent architecture that characterizes their behavior as the composition of cognitive functions organized around a long-term memory containing the agent's ev",
-   "ts": 1790654400
+   "ts": 1790654400,
+   "zh": "自主系统：从认知到集体智能",
+   "brief": "arXiv发布综述文章，探讨自主系统作为AI发展终极阶段，需连接主义与符号主义AI结合。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://arxiv.org/abs/2609.30325",
@@ -79,7 +83,11 @@
    "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
    "link": "https://arxiv.org/abs/2609.30325",
    "summary": "arXiv:2609.30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability; as those benchmarks saturate, the real barrier to deployment is a special case of alignment: scope adherence. We introduce ScopeBench, a benchmark of 30 dead-end agentic security tasks in which the stated objective is reachable only by violating the stated scope. Each task appears under two conditi",
-   "ts": 1790654400
+   "ts": 1790654400,
+   "zh": "ScopeBench：目标压力下智能体是否守边界",
+   "brief": "arXiv提出ScopeBench基准，测试渗透测试智能体在目标压力下是否遵守客户授权范围。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://arxiv.org/abs/2609.30328",
@@ -88,7 +96,11 @@
    "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
    "link": "https://arxiv.org/abs/2609.30328",
    "summary": "arXiv:2609.30328v1 Announce Type: new Abstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent verification, which decomposes a judgment into checkable claims and verifies each against evidence, is a promising response and works well when the evidence is a set of retrieved documents. We argue such methods require two things of their evidence: it must be independent of the answer under review, and it must differ b",
-   "ts": 1790654400
+   "ts": 1790654400,
+   "zh": "多智能体代码评审何时真正有依据",
+   "brief": "arXiv提出两种无标签度量方法，让评审模型在证据不足时拒绝给出判断。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://arxiv.org/abs/2609.30341",
@@ -97,7 +109,11 @@
    "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
    "link": "https://arxiv.org/abs/2609.30341",
    "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructures. This article presents an architectural mediation approach based on the Model Context Protocol (MCP), implemented through the Eunomia Agent, to enable controlled interaction between large language model (LLM) agents and data space services. The proposed mediation layer translates data space capabil",
-   "ts": 1790654400
+   "ts": 1790654400,
+   "zh": "用MCP桥接LLM智能体与数据空间",
+   "brief": "arXiv提出基于模型上下文协议的架构中介方案，解决智能体与主权数据空间的集成难题。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://arxiv.org/abs/2609.30383",
@@ -106,7 +122,11 @@
    "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
    "link": "https://arxiv.org/abs/2609.30383",
    "summary": "arXiv:2609.30383v1 Announce Type: new Abstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specific task. Skill-based agent systems therefore enable flexible reuse of third-party capabilities, but the openness of this skill ecosystem also opens up a new attack surface. Prior work has focused on vulnerabilities within individual skills, but little attention has been paid to risks that arise from interactions across skills. In this paper, we introduce skill cascading",
-   "ts": 1790654400
+   "ts": 1790654400,
+   "zh": "技能级联攻击：技能型智能体系统风险",
+   "brief": "arXiv揭示技能型智能体系统存在技能级联攻击，可组合多个技能造成危害。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://arxiv.org/abs/2609.30563",
@@ -115,7 +135,11 @@
    "title": "Thinking Less to Simulate Better: Intuitive Prompting Improves LLM Agents Simulating Individual Social Media Reactions, Including Unfamiliar Content",
    "link": "https://arxiv.org/abs/2609.30563",
    "summary": "arXiv:2609.30563v1 Announce Type: new Abstract: Platform policies are increasingly tested on artificial users, making agent fidelity important. Yet convincing fake profiles could also manipulate perceived public opinion before elections. Validation has concentrated on agreement with human behaviour and has paid little attention to whether an agent behaves in line with the profile it was given. The present study profiled eight Serbian participants through a questionnaire, a deep interview, and a written self-presentation, recorded their reactions to sixty-eight social media posts, and asked fou",
-   "ts": 1790654400
+   "ts": 1790654400,
+   "zh": "直觉提示提升LLM智能体社媒模拟保真度",
+   "brief": "arXiv发现直觉式提示可提升LLM智能体模拟个人社交媒体反应的准确性。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://arxiv.org/abs/2609.30571",
@@ -124,7 +148,11 @@
    "title": "HARDEN: Constrained Evolutionary Search for Harder, Answer-Preserving Evaluation Cases",
    "link": "https://arxiv.org/abs/2609.30571",
    "summary": "arXiv:2609.30571v1 Announce Type: new Abstract: Language models are often evaluated on curated benchmarks that underrepresent the complexity of enterprise deployments. We introduce HARDEN, a constrained evolutionary search method to adapt the input of existing evaluation cases into more challenging variants while keeping their expected outputs fixed. HARDEN searches along generated domain-specific complexity axes while enforcing feasibility constraints such as preserving task semantics, realism, and execution validity. Across FinQA, PubMedQA, and ContractNLI and three Qwen3.5 model scales (35B",
-   "ts": 1790654400
+   "ts": 1790654400,
+   "zh": "HARDEN：生成更难且保留答案的评测用例",
+   "brief": "arXiv提出约束进化搜索方法HARDEN，将现有评测用例改造得更难但答案不变。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://arxiv.org/abs/2609.30662",
@@ -133,7 +161,11 @@
    "title": "LLM Parkinsonism: Executive-Control Failure, Token-Inefficient Persistence, and an Uncertainty-Aware Global Executive Control Architecture for Autonomous Language-Model Agents",
    "link": "https://arxiv.org/abs/2609.30662",
    "summary": "arXiv:2609.30662v1 Announce Type: new Abstract: Large language models (LLMs) can plan, use tools, write code, and execute long-horizon workflows, yet strong local competence does not guarantee project-level executive control. Agents may continue acting after the original objective is satisfied, producing low-value refinements, repeated verification, and repairs to self-created complexity. We use LLM Parkinsonism as a narrowly defined, non-clinical metaphor for this pattern of persistent action despite diminishing task-level value. We argue that the problem is not explained by autoregressive ne",
-   "ts": 1790654400
+   "ts": 1790654400,
+   "zh": "LLM帕金森症：执行控制失效与治理架构",
+   "brief": "arXiv指出LLM智能体存在目标完成后仍持续行动等执行控制失效，并提出不确定性感知的全局控制架构。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
@@ -142,7 +174,11 @@
    "title": "Grok 4.7 is now available on Amazon Bedrock",
    "link": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
    "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.",
-   "ts": 1790633596
+   "ts": 1790633596,
+   "zh": "Grok 4.7上线亚马逊Bedrock",
+   "brief": "xAI的Grok 4.7在Amazon Bedrock上线，支持50万token上下文和四档推理强度。",
+   "why": "企业可在AWS上直接调用前沿模型，选型多一个选项。",
+   "score": 8
   },
   {
    "id": "https://openai.com/index/how-we-will-do-better-for-australia",
@@ -151,7 +187,11 @@
    "title": "How we will do better for Australia",
    "link": "https://openai.com/index/how-we-will-do-better-for-australia",
    "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-   "ts": 1790622000
+   "ts": 1790622000,
+   "zh": "OpenAI就澳大利亚政府网站事件致歉",
+   "brief": "OpenAI为涉及澳大利亚政府网站的事件道歉，并公布更强保障措施支持澳网络安全。",
+   "why": "AI安全事件与合规风险，值得提醒客户关注供应商责任。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
@@ -160,7 +200,11 @@
    "title": "Towards safety cases for frontier AI training",
    "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
    "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-   "ts": 1790622000
+   "ts": 1790622000,
+   "zh": "前沿AI训练安全案例指南",
+   "brief": "OpenAI发布前沿AI训练安全案例的早期指南，涵盖技术保障、运营实践与失准事件调查。",
+   "why": "企业采购前沿模型时可参考其安全治理框架。",
+   "score": 7
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
@@ -169,7 +213,11 @@
    "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
    "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
    "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-   "ts": 1790622000
+   "ts": 1790622000,
+   "zh": "未来愿景XPRIZE获奖预告片《天赋》",
+   "brief": "Google AI发布未来愿景XPRIZE获奖预告片《The Gifted》的观看链接。",
+   "why": "",
+   "score": 1
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
@@ -178,7 +226,11 @@
    "title": "Introducing Claude Sonnet 5.5 on AWS",
    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
    "summary": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cost per task at faster speed. This post covers what's new, when to choose Sonnet, and how to get started.",
-   "ts": 1790621833
+   "ts": 1790621833,
+   "zh": "Claude Sonnet 5.5 上线 AWS Bedrock",
+   "brief": "AWS 宣布 Claude Sonnet 5.5 在 Amazon Bedrock 和 AWS 上的 Claude 平台可用，更快更省，适合编码与知识工作。",
+   "why": "企业可低成本接入更强模型，适合评估替换现有 AI 方案。",
+   "score": 8
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
@@ -187,7 +239,11 @@
    "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
    "link": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
    "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Part 1 tutorial deploys Qwen3-TTS and streams speech through a Gradio application.",
-   "ts": 1790612146
+   "ts": 1790612146,
+   "zh": "用 vLLM-Omni 在 SageMaker 构建实时语音应用",
+   "brief": "教程演示在 SageMaker AI 上部署 Qwen3-TTS 文本转语音模型，通过双向连接流式输出语音。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
@@ -196,7 +252,11 @@
    "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2",
    "link": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
    "summary": "Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI. Generate an image with FLUX.2-klein through real-time inference, then animate it into video with Wan2.1-VACE through asynchronous inference, and retrieve the MP4 from Amazon S3.",
-   "ts": 1790612117
+   "ts": 1790612117,
+   "zh": "用 vLLM-Omni 在 SageMaker 生成图像与视频",
+   "brief": "教程演示在同一容器部署 FLUX.2-klein 生成图像、Wan2.1-VACE 生成视频并存入 S3。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
@@ -205,7 +265,11 @@
    "title": "Implementing synthetic monitoring using Amazon Nova Act",
    "link": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
    "summary": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for resilient, managed user-journey validation that moves beyond brittle UI scripts, with a complete sample implementation.",
-   "ts": 1790610992
+   "ts": 1790610992,
+   "zh": "用 Amazon Nova Act 实现合成监控",
+   "brief": "介绍用 Nova Act 和 Bedrock AgentCore 做智能体驱动的合成监控，替代脆弱的 UI 脚本。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
@@ -214,7 +278,11 @@
    "title": "Automating Amazon Textract adapter lifecycle management across accounts",
    "link": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
    "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion process, a pre-classification routing pattern for multiple form versions, and production security controls such as VPC endpoints, encryption, and least-privilege IAM.",
-   "ts": 1790610544
+   "ts": 1790610544,
+   "zh": "跨账户自动化管理 Textract 适配器生命周期",
+   "brief": "讲解用 CloudFormation 和 Terraform 管理 Textract 自定义查询适配器，含跨账户发布与安全控制。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://huggingface.co/blog/Hcompany/holo4",
@@ -223,7 +291,11 @@
    "title": "Holo4: powering generalist computer-use agents",
    "link": "https://huggingface.co/blog/Hcompany/holo4",
    "summary": "",
-   "ts": 1790588645
+   "ts": 1790588645,
+   "zh": "Holo4：驱动通用计算机操作智能体",
+   "brief": "Hugging Face 发布 Holo4，用于驱动通用型计算机操作智能体。",
+   "why": "",
+   "score": 5
   },
   {
    "id": "https://openai.com/index/lenfest-ai-collaborative-expansion",
@@ -232,7 +304,11 @@
    "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
    "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
    "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-   "ts": 1790578800
+   "ts": 1790578800,
+   "zh": "OpenAI 扩大与 Lenfest 研究所合作",
+   "brief": "OpenAI 追加 500 万美元资金及最高 500 万美元软件额度，扩展 Lenfest AI 合作与奖学金项目。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://openai.com/form/codex-originals",
@@ -241,7 +317,11 @@
    "title": "Are you a Codex Original?",
    "link": "https://openai.com/form/codex-originals",
    "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-   "ts": 1790553600
+   "ts": 1790553600,
+   "zh": "OpenAI 征集 Codex 用户故事",
+   "brief": "OpenAI 征集使用 Codex 的开发者、研究者与创作者的真实项目故事，用于 Codex Originals 项目。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://openai.com/index/basis-tax-workbook-with-astra",
@@ -250,7 +330,11 @@
    "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
    "link": "https://openai.com/index/basis-tax-workbook-with-astra",
    "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-   "ts": 1790553600
+   "ts": 1790553600,
+   "zh": "Basis 用 GPT-6 Astra 两倍速完成税务表",
+   "brief": "Basis 称 GPT-6 Astra 完成 50 页税务工作簿的速度是 GPT-5.6 Sol 的两倍，意图理解更强。",
+   "why": "财务、税务等专业场景 AI 效率提升，可作落地案例参考。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/proaction",
@@ -259,7 +343,11 @@
    "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
    "link": "https://openai.com/index/proaction",
    "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-   "ts": 1790362800
+   "ts": 1790362800,
+   "zh": "Proaction 用 Codex 提升销售 60%",
+   "brief": "Proaction 借助 Codex、GPT-Live-1 和 GPT-6 Astra，更快构建和销售车队管理方案，销售提升 60%。",
+   "why": "中小企业可参考 AI 提效销售的落地路径。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
@@ -268,7 +356,11 @@
    "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
    "link": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
    "summary": "Learn how to scale Mixture-of-Experts (MoE) reinforcement learning on Amazon EKS using Elastic Fabric Adapter (EFA) and DeepEP. This post presents an architecture that combines Amazon EKS, EFA, and Amazon S3 and increased aggregate reinforcement learning rollout throughput by 40% for large-scale RLHF and GRPO training.",
-   "ts": 1790353790
+   "ts": 1790353790,
+   "zh": "EKS 上 MoE 强化学习吞吐提升 40%",
+   "brief": "介绍在 Amazon EKS 上用 EFA 和 DeepEP 扩展 MoE 强化学习，聚合 rollout 吞吐提升 40%。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
@@ -277,7 +369,11 @@
    "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
    "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
    "summary": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference.",
-   "ts": 1790353087
+   "ts": 1790353087,
+   "zh": "SageMaker HyperPod 加速多模态 RL 训练",
+   "brief": "讲解在 SageMaker HyperPod 上运行 SkyRL 框架，用 GRPO 后训练 Qwen3-VL-8B 视觉语言模型。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
@@ -286,7 +382,11 @@
    "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
    "link": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
    "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accuracy while streaming responses in real time.",
-   "ts": 1790352922
+   "ts": 1790352922,
+   "zh": "NarrateAI：Bedrock上的LLM质量保障方案",
+   "brief": "AWS介绍NarrateAI在Amazon Bedrock上实现生产级LLM质量保障的五种技术，数值准确率约99%。",
+   "why": "企业上LLM最怕答错，可讲质量保障与准确率如何落地。",
+   "score": 8
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
@@ -295,7 +395,11 @@
    "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
    "link": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
    "summary": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and clone a voice from a short reference clip. Cross-lingual cloning preserves the speaker's identity across languages.",
-   "ts": 1790352586
+   "ts": 1790352586,
+   "zh": "SageMaker部署Qwen3-TTS实时语音克隆",
+   "brief": "AWS介绍在SageMaker JumpStart部署Qwen3-TTS-1.7B语音合成模型，支持短音频跨语言克隆音色。",
+   "why": "客服、培训语音场景可低成本定制音色，值得关注。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
@@ -304,7 +408,11 @@
    "title": "How Datacor built self-service rental analytics with Amazon Quick Sight",
    "link": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
    "summary": "Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an automated cross-cloud data pipeline and multi-tenant row-level security.",
-   "ts": 1790351682
+   "ts": 1790351682,
+   "zh": "Datacor用Quick Sight做自助租赁分析",
+   "brief": "Datacor将Quick Sight仪表盘和自然语言查询嵌入TrackAbout平台，实现跨云数据管道与多租户行级安全。",
+   "why": "中小企业可参考：把BI和自然语言问数嵌入自有产品。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
@@ -313,7 +421,11 @@
    "title": "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
    "link": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
    "summary": "Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. This post shares the architecture and validation results from a cross-Region training run, where a remote cluster matched a co-located cluster's throughput after a brief NeuralCache warmup.",
-   "ts": 1790351384
+   "ts": 1790351384,
+   "zh": "SageMaker HyperPod跨区域训练方案",
+   "brief": "AWS与Qumulo展示跨区域训练架构，远程集群吞吐量可匹配同地集群。",
+   "why": "数据合规要求数据不出境时，跨区训练是可行路径。",
+   "score": 6
   },
   {
    "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
@@ -322,7 +434,11 @@
    "title": "Introducing Gemini 3.8 Live with Live Avatar",
    "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
    "summary": "",
-   "ts": 1790266839
+   "ts": 1790266839,
+   "zh": "谷歌发布Gemini 3.8 Live与实时虚拟形象",
+   "brief": "Google DeepMind发布Gemini 3.8 Live，新增Live Avatar实时虚拟形象能力。",
+   "why": "实时多模态交互升级，可评估用于客服与培训场景。",
+   "score": 8
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
@@ -331,7 +447,11 @@
    "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
    "link": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
    "summary": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn how to deploy it to Amazon SageMaker AI real-time and asynchronous endpoints for word-level, speaker-labeled transcription, plus the production details that matter: the GPU AMI pin, scaling, and cost controls.",
-   "ts": 1790266812
+   "ts": 1790266812,
+   "zh": "SageMaker上WhisperX说话人转录",
+   "brief": "AWS发布WhisperX深度学习容器，集成强制对齐与说话人分离，可部署实时和异步端点。",
+   "why": "会议、客服录音自动转写分角色，企业知识沉淀可用。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
@@ -340,7 +460,11 @@
    "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
    "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the agent using Amazon Bedrock AgentCore Gateway and MCP, while line-of-business accounts expose their data as MCP servers with secure cross-account access and fine-grained authorization.",
-   "ts": 1790266367
+   "ts": 1790266367,
+   "zh": "用AgentCore Gateway构建多账户AI代理",
+   "brief": "AWS介绍用Bedrock AgentCore Gateway和MCP构建多账户架构，各团队数据留在自己账户内统一查询。",
+   "why": "解决数据隔离与统一问数的矛盾，适合集团型客户。",
+   "score": 8
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
@@ -349,7 +473,11 @@
    "title": "Aderant builds intelligent ticket triage with Amazon Nova",
    "link": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
    "summary": "Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classification, routing, and knowledge enrichment for its cloud operations team.",
-   "ts": 1790266006
+   "ts": 1790266006,
+   "zh": "Aderant用Amazon Nova做工单智能分诊",
+   "brief": "Aderant基于Bedrock上的Nova Lite构建工单分诊系统，自动完成上下文收集、分类、路由和知识补充。",
+   "why": "IT运维工单自动化是中小企业易见效的AI落地场景。",
+   "score": 8
   },
   {
    "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
@@ -358,7 +486,11 @@
    "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
    "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
    "summary": "",
-   "ts": 1790258937
+   "ts": 1790258937,
+   "zh": "LFM2.5-VL-DSpark加速视觉语言模型",
+   "brief": "Hugging Face介绍LFM2.5-VL-DSpark，用于加速视觉语言模型推理。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://blogs.nvidia.com/blog/open-protein-dataset/",
@@ -367,7 +499,11 @@
    "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
    "link": "https://blogs.nvidia.com/blog/open-protein-dataset/",
    "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google […]",
-   "ts": 1790258450
+   "ts": 1790258450,
+   "zh": "英伟达：开放科学助力应对下一次疫情",
+   "brief": "英伟达加入联盟，呼吁用开放科学和前期冠状病毒研究为下一次大流行做准备。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
@@ -376,7 +512,11 @@
    "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
    "summary": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive […]",
-   "ts": 1790254836
+   "ts": 1790254836,
+   "zh": "CONTROL Resonant登陆GeForce NOW",
+   "brief": "Remedy新作CONTROL Resonant在GeForce NOW云游戏平台首发上线，并推出会员捆绑包。",
+   "why": "",
+   "score": 1
   },
   {
    "id": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
@@ -385,7 +525,11 @@
    "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
    "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
    "summary": "",
-   "ts": 1790188900
+   "ts": 1790188900,
+   "zh": "用NVIDIA Warp和MjWarp加速机器人仿真",
+   "brief": "Hugging Face介绍如何用NVIDIA Warp与MjWarp加速机器人仿真与学习工作流。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
@@ -394,7 +538,11 @@
    "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
    "link": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
    "summary": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazon Bedrock AgentCore. Using Model Context Protocol (MCP), HAL delivers governed knowledge inside the tools teams already use, with no AWS credentials on the client and security anchored in Microsoft Entra ID.",
-   "ts": 1790188869
+   "ts": 1790188869,
+   "zh": "HEMA用MCP和Bedrock打造内部AI助手",
+   "brief": "荷兰百年零售商HEMA基于Amazon Bedrock AgentCore构建内部AI助手HAL，用MCP协议在现有工具中提供受管控知识。",
+   "why": "示范中小企业如何用AI助手打通内部知识，降低员工查找成本。",
+   "score": 8
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
@@ -403,7 +551,11 @@
    "title": "Agentic conversational video intelligence built on AWS",
    "link": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
    "summary": "Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orchestrates Amazon Bedrock, Amazon Rekognition, and Amazon Transcribe at runtime, deciding which service to call so you can ask natural language questions about your videos and get answers in seconds.",
-   "ts": 1790187714
+   "ts": 1790187714,
+   "zh": "基于AWS构建对话式视频智能方案",
+   "brief": "AWS发布教程，用Strands Agents SDK智能体调度Bedrock、Rekognition和Transcribe，实现自然语言视频问答。",
+   "why": "展示视频内容可被AI检索问答，适合媒体、安防、培训场景。",
+   "score": 6
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
@@ -412,7 +564,11 @@
    "title": "Use open weight models as your AI coding agent with Amazon Bedrock",
    "link": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
    "summary": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant. Learn how to configure multi-model workflows, match the right model to each task, and keep your data in your own AWS account with no infrastructure to manage.",
-   "ts": 1790187464
+   "ts": 1790187464,
+   "zh": "用Bedrock开源权重模型做AI编程助手",
+   "brief": "AWS介绍将开源终端编程智能体OpenCode与Bedrock开源权重模型搭配，实现按量付费、数据留在自有账户的编程助手。",
+   "why": "给企业一个可控成本、数据不出境的AI编程落地选项。",
+   "score": 7
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
@@ -421,7 +577,11 @@
    "title": "Google Beam expands with new regions, partners, and customers",
    "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
    "summary": "Google Beam promotional animation",
-   "ts": 1790186400
+   "ts": 1790186400,
+   "zh": "Google Beam扩展新地区、伙伴与客户",
+   "brief": "Google宣布Beam产品扩展至新地区，并新增合作伙伴与客户。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
@@ -430,7 +590,11 @@
    "title": "Advancing Private AI Compute with secure, server-side memory",
    "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
    "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "ts": 1790179257
+   "ts": 1790179257,
+   "zh": "DeepMind为私有AI计算加入服务端记忆",
+   "brief": "Google DeepMind为Private AI Compute引入私密的服务端记忆功能，用于个人AI。",
+   "why": "隐私与记忆能力结合，预示企业级AI数据合规方向。",
+   "score": 6
   },
   {
    "id": "https://openai.com/index/two-years-of-openai-academy",
@@ -439,7 +603,11 @@
    "title": "Two years of OpenAI Academy",
    "link": "https://openai.com/index/two-years-of-openai-academy",
    "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-   "ts": 1790179200
+   "ts": 1790179200,
+   "zh": "OpenAI Academy成立两周年",
+   "brief": "OpenAI回顾Academy两周年，并表示将AI技能培训带给更多社区。",
+   "why": "企业AI培训可参考其课程与社区运营模式。",
+   "score": 6
   },
   {
    "id": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
@@ -448,7 +616,11 @@
    "title": "Gemini 3.8 text-to-speech says hello",
    "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
    "summary": "",
-   "ts": 1790177114
+   "ts": 1790177114,
+   "zh": "Gemini 3.8文本转语音发布",
+   "brief": "Google DeepMind发布Gemini 3.8文本转语音能力。",
+   "why": "语音合成升级，可用于客服、培训内容自动生成。",
+   "score": 5
   },
   {
    "id": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
@@ -457,7 +629,11 @@
    "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
    "link": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
    "summary": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it […]",
-   "ts": 1790175632
+   "ts": 1790175632,
+   "zh": "NVIDIA验证工程师谈硬件规模化保障",
+   "brief": "NVIDIA介绍验证工程师Sakeena Fiza如何通过细致排查保障硬件大规模成功。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
@@ -466,7 +642,11 @@
    "title": "OpenAI extends cyber access to Ukraine for civilian defense",
    "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
    "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-   "ts": 1790168400
+   "ts": 1790168400,
+   "zh": "OpenAI向乌克兰扩展网络防御访问",
+   "brief": "OpenAI将Daybreak项目访问权限扩展至乌克兰政府，支持民用基础设施网络防御。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
@@ -475,7 +655,11 @@
    "title": "How invideo improves color grading 3x with GPT‑6 Astra",
    "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
    "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-   "ts": 1790164800
+   "ts": 1790164800,
+   "zh": "invideo用GPT-6 Astra提升调色三倍",
+   "brief": "invideo借助GPT-6 Astra更精准规划剪辑，调色效率提升三倍，一天产出50个自定义特效。",
+   "why": "展示AI在视频制作流程中的具体提效数据，可类比内容团队。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/ringg",
@@ -484,7 +668,11 @@
    "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
    "link": "https://openai.com/index/ringg",
    "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-   "ts": 1790164800
+   "ts": 1790164800,
+   "zh": "Ringg用OpenAI智能体解决65%客服来电",
+   "brief": "Ringg基于GPT-5.6构建多语言语音、聊天、WhatsApp和网页智能体，成本比GPT-4.1降低90%。",
+   "why": "客服AI降本90%的案例，直接对应企业客服成本优化。",
+   "score": 9
   },
   {
    "id": "https://openai.com/index/sam-altman-un-security-council-remarks",
@@ -493,7 +681,11 @@
    "title": "Sam Altman’s remarks at the United Nations Security Council",
    "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
    "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-   "ts": 1790164800
+   "ts": 1790164800,
+   "zh": "Sam Altman在联合国安理会发言",
+   "brief": "OpenAI CEO Sam Altman在联合国安理会就AI安全、人类控制和国际合作发表讲话。",
+   "why": "AI安全与监管信号，影响企业AI合规预期。",
+   "score": 6
   },
   {
    "id": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
@@ -502,7 +694,11 @@
    "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
    "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
    "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-   "ts": 1790164800
+   "ts": 1790164800,
+   "zh": "Harvey用GPT-6 Astra提升法律文书起草",
+   "brief": "OpenAI称GPT-6 Astra可生成结构更清晰、更懂上下文的法律文件，让律师专注策略。",
+   "why": "法律等专业服务AI落地案例，可讲行业替代与增效。",
+   "score": 8
   },
   {
    "id": "https://openai.com/index/introducing-mentalhealthbench",
@@ -511,7 +707,11 @@
    "title": "Introducing MentalHealthBench",
    "link": "https://openai.com/index/introducing-mentalhealthbench",
    "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-   "ts": 1790157600
+   "ts": 1790157600,
+   "zh": "OpenAI发布心理健康评测基准",
+   "brief": "OpenAI推出MentalHealthBench，用专家标准评估AI在真实心理健康对话中的有用性与安全性。",
+   "why": "AI安全合规信号，涉及客服与员工关怀场景风险。",
+   "score": 5
   },
   {
    "id": "https://blogs.nvidia.com/blog/ai-day-singapore/",
@@ -520,7 +720,11 @@
    "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
    "link": "https://blogs.nvidia.com/blog/ai-day-singapore/",
    "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region […]",
-   "ts": 1790130622
+   "ts": 1790130622,
+   "zh": "英伟达新加坡AI日展示东南亚AI进展",
+   "brief": "英伟达9月22-23日在新加坡举办AI Day，提供实操培训、专家课程与高性能计算工具。",
+   "why": "东南亚AI培训与生态活动，可参考做企业培训选题。",
+   "score": 5
   },
   {
    "id": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
@@ -529,7 +733,11 @@
    "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
    "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
    "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-   "ts": 1790128800
+   "ts": 1790128800,
+   "zh": "ChatGPT广告扩展至东南亚和台湾",
+   "brief": "ChatGPT Ads扩展至东南亚与台湾，符合条件的企业可在60多个国家触达用户。",
+   "why": "新增AI广告投放渠道，中小企业获客可关注。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/airbnb-gpt-6-astra",
@@ -538,7 +746,11 @@
    "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
    "link": "https://openai.com/index/airbnb-gpt-6-astra",
    "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-   "ts": 1790125200
+   "ts": 1790125200,
+   "zh": "Airbnb扩大使用GPT-6 Astra等前沿模型",
+   "brief": "Airbnb扩大对GPT-6 Astra及OpenAI前沿模型的访问，用于修bug、设计系统和加快交付。",
+   "why": "知名企业研发提效案例，可讲AI对工程团队价值。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
@@ -547,7 +759,11 @@
    "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
    "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
    "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-   "ts": 1790121600
+   "ts": 1790121600,
+   "zh": "Grab与OpenAI在东南亚推广AI技能",
+   "brief": "双方推出GO Forward with AI项目，帮助东南亚3万名合作伙伴掌握实用AI技能。",
+   "why": "大规模企业AI培训案例，直接对标培训业务。",
+   "score": 9
   },
   {
    "id": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -556,7 +772,11 @@
    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
    "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
    "summary": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-   "ts": 1790121600
+   "ts": 1790121600,
+   "zh": "Claude发现类CRISPR新型酶系统",
+   "brief": "Anthropic称Claude发现一种具有类CRISPR重复序列的新型酶系统。",
+   "why": "AI用于科研发现的案例，可讲AI创新潜力。",
+   "score": 6
   },
   {
    "id": "https://openai.com/index/better-prompt-caching-for-gpt-6",
@@ -565,7 +785,11 @@
    "title": "Better prompt caching for GPT-6",
    "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
    "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-   "ts": 1790110800
+   "ts": 1790110800,
+   "zh": "GPT-6提示缓存能力升级",
+   "brief": "GPT-6改进提示缓存，提升命中率，新增诊断、断点与成本延迟控制。",
+   "why": "直接降低API调用成本，影响企业AI预算。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
@@ -574,7 +798,11 @@
    "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
    "link": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
    "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
-   "ts": 1790100622
+   "ts": 1790100622,
+   "zh": "GPT-6 Sol与Luna上线亚马逊Bedrock",
+   "brief": "GPT-6 Sol和GPT-6 Luna在Amazon Bedrock正式可用，可按任务匹配智能与效率。",
+   "why": "企业可在既有云平台选型，降低采购门槛。",
+   "score": 8
   },
   {
    "id": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
@@ -583,7 +811,11 @@
    "title": "Introducing GPT-6 Sol and Luna",
    "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
    "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-   "ts": 1790100000
+   "ts": 1790100000,
+   "zh": "OpenAI发布GPT-6 Sol与Luna",
+   "brief": "OpenAI推出GPT-6 Sol和Luna两款模型，以不同能力与成本组合服务日常工作。",
+   "why": "新模型分层定价，企业选型与成本控制关键。",
+   "score": 9
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
@@ -592,7 +824,11 @@
    "title": "Claude Opus 5.5 is now available on AWS",
    "link": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
    "summary": "Claude Opus 5.5, Anthropic's most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what's new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock.",
-   "ts": 1790098081
+   "ts": 1790098081,
+   "zh": "Claude Opus 5.5上线AWS",
+   "brief": "Anthropic最强Opus模型Claude Opus 5.5在Amazon Bedrock和AWS上的Claude平台可用。",
+   "why": "企业级智能体与长任务能力升级，选型参考。",
+   "score": 8
   },
   {
    "id": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
@@ -601,7 +837,11 @@
    "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
    "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
    "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at […]",
-   "ts": 1790078441
+   "ts": 1790078441,
+   "zh": "英伟达Isaac ROS 5.0推进机器人开发",
+   "brief": "英伟达发布Isaac ROS 5.0，提供GPU加速的物理AI模型与工具，支持机器人感知推理行动。",
+   "why": "偏开发者技术，与多数中小企业关联弱。",
+   "score": 3
   },
   {
    "id": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
@@ -610,7 +850,11 @@
    "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
    "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
    "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-   "ts": 1790078400
+   "ts": 1790078400,
+   "zh": "Parallel用GPT-6 Astra将研究时间与成本减半",
+   "brief": "OpenAI称Parallel的智能体用GPT-6 Astra做劳动力市场数据研究，时间和成本均减半。",
+   "why": "AI做研究降本50%，可作企业提效案例讲给老板听。",
+   "score": 9
   },
   {
    "id": "https://openai.com/index/priorities-principles-third-party-assessments",
@@ -619,7 +863,11 @@
    "title": "Priorities and principles for effective third party assessments",
    "link": "https://openai.com/index/priorities-principles-third-party-assessments",
    "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-   "ts": 1790035200
+   "ts": 1790035200,
+   "zh": "OpenAI发布第三方AI安全评估原则",
+   "brief": "OpenAI公布对前沿模型进行严格、安全、独立第三方安全评估的重点与原则。",
+   "why": "预示AI合规与第三方审计趋势，企业采购需关注。",
+   "score": 7
   },
   {
    "id": "https://huggingface.co/blog/evaleval-aisi",
@@ -628,7 +876,11 @@
    "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
    "link": "https://huggingface.co/blog/evaleval-aisi",
    "summary": "",
-   "ts": 1790035200
+   "ts": 1790035200,
+   "zh": "英国AISI与EvalEval推动基准结果可复现",
+   "brief": "英国AI安全研究所与EvalEval合作，让模型基准测试结果可复现。",
+   "why": "模型评测更可信，企业选型参考依据增强。",
+   "score": 5
   },
   {
    "id": "https://huggingface.co/blog/transformers-llama-cpp-quants",
@@ -637,7 +889,11 @@
    "title": "Transformers now runs llama.cpp quants",
    "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
    "summary": "",
-   "ts": 1790035200
+   "ts": 1790035200,
+   "zh": "Transformers现已支持llama.cpp量化格式",
+   "brief": "Hugging Face的Transformers库现在可以直接运行llama.cpp的量化模型。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://huggingface.co/blog/omlx",
@@ -646,7 +902,11 @@
    "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
    "link": "https://huggingface.co/blog/omlx",
    "summary": "",
-   "ts": 1790035200
+   "ts": 1790035200,
+   "zh": "oMLX作者Jun Kim加入Hugging Face",
+   "brief": "oMLX创建者兼维护者Jun Kim加入Hugging Face，支持MLX社区发展。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
@@ -655,7 +915,11 @@
    "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
    "link": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
    "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing […]",
-   "ts": 1790013607
+   "ts": 1790013607,
+   "zh": "英伟达推出DSX Ready认证电力与冷却产品",
+   "brief": "英伟达发布DSX Ready，用于认证适配AI工厂的电力与冷却产品。",
+   "why": "AI基建受电力冷却制约，重资产投入需提前规划。",
+   "score": 6
   },
   {
    "id": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
@@ -664,7 +928,11 @@
    "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
    "link": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
    "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, […]",
-   "ts": 1790006446
+   "ts": 1790006446,
+   "zh": "英伟达：规模化物理AI需各层安全",
+   "brief": "英伟达称物理AI正从研究走向规模部署，2035年L3-5自动驾驶车将达4900万辆。",
+   "why": "机器人、自动驾驶落地加速，制造业老板需关注。",
+   "score": 6
   },
   {
    "id": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
@@ -673,7 +941,11 @@
    "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
    "link": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
    "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead […]",
-   "ts": 1790006410
+   "ts": 1790006410,
+   "zh": "埃及AI生态从赋能走向规模化生产",
+   "brief": "埃及AI开发者、初创与企业齐聚，展示跨行业AI应用已进入生产规模。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
@@ -682,7 +954,11 @@
    "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
    "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
    "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, […]",
-   "ts": 1790002294
+   "ts": 1790002294,
+   "zh": "英伟达：AI安全是工程问题",
+   "brief": "英伟达提出AI安全需明确需求、可执行控制、责任人和验证证据，覆盖智能体各层。",
+   "why": "给企业AI安全治理提供可落地框架思路。",
+   "score": 7
   },
   {
    "id": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
@@ -691,7 +967,11 @@
    "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
    "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
    "summary": "",
-   "ts": 1789998274
+   "ts": 1789998274,
+   "zh": "像物理学家一样剪枝：块移除作为伊辛优化",
+   "brief": "研究者将大模型块移除剪枝问题建模为伊辛优化问题。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -700,7 +980,11 @@
    "title": "Advisory Group on Mathematics and Artificial Intelligence",
    "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
    "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-   "ts": 1789992000
+   "ts": 1789992000,
+   "zh": "OpenAI成立数学与AI咨询小组",
+   "brief": "OpenAI与独立数学与AI咨询小组合作，指导新兴AI成果的评审与传播。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
@@ -709,7 +993,11 @@
    "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
    "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
    "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-   "ts": 1789992000
+   "ts": 1789992000,
+   "zh": "Higgsfield AI一天内上线GPT-6视频新功能",
+   "brief": "Higgsfield AI借助GPT-6 Astra，让小企业更易制作视频广告并加快新功能上市。",
+   "why": "小企业用AI做营销素材提速，可作落地案例。",
+   "score": 8
   },
   {
    "id": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
@@ -718,7 +1006,11 @@
    "title": "5 Companies Using NVIDIA AI for Clean Energy",
    "link": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
    "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception […]",
-   "ts": 1789984835
+   "ts": 1789984835,
+   "zh": "英伟达展示五家企业用AI推动清洁能源",
+   "brief": "纽约气候周上，英伟达介绍五家利用其AI技术加速清洁能源落地的企业。",
+   "why": "AI在能源等实体行业的落地案例，可作行业应用素材。",
+   "score": 6
   },
   {
    "id": "https://openai.com/index/building-standards-next-phase-ai",
@@ -727,7 +1019,11 @@
    "title": "Building standards for the next phase of AI",
    "link": "https://openai.com/index/building-standards-next-phase-ai",
    "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-   "ts": 1789984800
+   "ts": 1789984800,
+   "zh": "OpenAI呼吁建立全球AI标准框架",
+   "brief": "OpenAI发文提出全球AI标准路径，呼吁协调评估、报告与治理以提升安全。",
+   "why": "AI合规治理风向，影响企业AI使用规范预期。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
@@ -736,7 +1032,11 @@
    "title": "Expanding OpenAI Academy with new learning paths",
    "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
    "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-   "ts": 1789974000
+   "ts": 1789974000,
+   "zh": "OpenAI Academy新增多条学习路径",
+   "brief": "OpenAI Academy推出面向员工、开发者、管理者、教师和学生的新学习路径。",
+   "why": "企业AI培训可参考其课程体系与技能框架。",
+   "score": 8
   },
   {
    "id": "https://openai.com/index/v7",
@@ -745,7 +1045,11 @@
    "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
    "link": "https://openai.com/index/v7",
    "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-   "ts": 1789948800
+   "ts": 1789948800,
+   "zh": "V7用GPT-5.6将成本降78%并提准确率",
+   "brief": "V7利用GPT-5.6把企业零散文件转为可溯源上下文，完成复杂工作。",
+   "why": "降本增效的企业落地案例，适合讲ROI。",
+   "score": 9
   },
   {
    "id": "https://huggingface.co/blog/tokenizers-v1",
@@ -754,7 +1058,11 @@
    "title": "tokenizers v1: encode, decode and scaling, measured",
    "link": "https://huggingface.co/blog/tokenizers-v1",
    "summary": "",
-   "ts": 1789948800
+   "ts": 1789948800,
+   "zh": "Hugging Face发布tokenizers v1",
+   "brief": "Hugging Face推出tokenizers v1，涵盖编码、解码与扩展性实测。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
@@ -763,7 +1071,11 @@
    "title": "New experts join Google’s AI & Economy team",
    "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
    "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
-   "ts": 1789740000
+   "ts": 1789740000,
+   "zh": "新专家加入谷歌AI与经济团队",
+   "brief": "谷歌宣布新专家加入其AI与经济研究团队。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
@@ -772,7 +1084,11 @@
    "title": "Co-creating the future of fashion with Google",
    "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
    "summary": "Jane Wade and Sergio Hudson",
-   "ts": 1789736400
+   "ts": 1789736400,
+   "zh": "谷歌与设计师共探时尚未来",
+   "brief": "谷歌发布与Jane Wade、Sergio Hudson合作探索时尚未来的内容。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://openai.com/index/australian-youth-safety-blueprint",
@@ -781,7 +1097,11 @@
    "title": "Introducing the Australian Youth Safety Blueprint",
    "link": "https://openai.com/index/australian-youth-safety-blueprint",
    "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-   "ts": 1789732800
+   "ts": 1789732800,
+   "zh": "OpenAI发布澳大利亚青年安全蓝图",
+   "brief": "OpenAI推出六支柱路线图，旨在让青少年更安全地使用AI。",
+   "why": "AI青少年安全合规，教育机构需关注。",
+   "score": 5
   },
   {
    "id": "https://www.anthropic.com/news/accenture-embedded-evaluation",
@@ -790,7 +1110,11 @@
    "title": "Partnering with Accenture on embedded evaluation",
    "link": "https://www.anthropic.com/news/accenture-embedded-evaluation",
    "summary": "Partnering with Accenture on embedded evaluation",
-   "ts": 1789689600
+   "ts": 1789689600,
+   "zh": "Anthropic与埃森哲合作嵌入式评估",
+   "brief": "Anthropic宣布与埃森哲合作开展嵌入式评估。",
+   "why": "咨询巨头联手AI厂商，企业落地服务模式参考。",
+   "score": 7
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
@@ -799,7 +1123,11 @@
    "title": "Making global data easier to explore",
    "link": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
    "summary": "UN System Data Commons Data webpage",
-   "ts": 1789675200
+   "ts": 1789675200,
+   "zh": "谷歌让全球数据更易探索",
+   "brief": "谷歌介绍联合国系统数据共享平台的数据网页。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
@@ -808,7 +1136,11 @@
    "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
    "summary": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on […]",
-   "ts": 1789650055
+   "ts": 1789650055,
+   "zh": "Aniimo登陆GeForce NOW云游戏",
+   "brief": "Pawprint Studio的Aniimo首发上线GeForce NOW，007 First Light获路径追踪更新。",
+   "why": "",
+   "score": 1
   },
   {
    "id": "https://openai.com/index/cooley-gopublic",
@@ -817,7 +1149,11 @@
    "title": "How Cooley is accelerating IPO work with ChatGPT",
    "link": "https://openai.com/index/cooley-gopublic",
    "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-   "ts": 1789646400
+   "ts": 1789646400,
+   "zh": "Cooley用ChatGPT加速IPO工作",
+   "brief": "Cooley基于ChatGPT Work打造GO Public，助律师更早发现问题。",
+   "why": "专业服务机构AI落地案例，可讲行业应用。",
+   "score": 8
   },
   {
    "id": "https://openai.com/index/astra-for-law",
@@ -826,7 +1162,11 @@
    "title": "Introducing Astra for Law",
    "link": "https://openai.com/index/astra-for-law",
    "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-   "ts": 1789603200
+   "ts": 1789603200,
+   "zh": "OpenAI推出法律行业专用产品Astra",
+   "brief": "OpenAI发布面向法律行业的Astra，提供前沿智能、律所定制工作流、法律数据源接入及保密级管控。",
+   "why": "垂直行业AI方案成型，可参考其行业落地与合规管控思路。",
+   "score": 8
   },
   {
    "id": "https://www.anthropic.com/news/life-sciences-verification-program",
@@ -835,7 +1175,11 @@
    "title": "Introducing the Life Sciences Verification Program",
    "link": "https://www.anthropic.com/news/life-sciences-verification-program",
    "summary": "Introducing the Life Sciences Verification Program",
-   "ts": 1789603200
+   "ts": 1789603200,
+   "zh": "Anthropic推出生命科学验证计划",
+   "brief": "Anthropic发布生命科学验证计划，面向生命科学领域的AI应用提供验证机制。",
+   "why": "垂直行业合规验证需求上升，可作行业AI落地案例参考。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/model-misalignment-reporting-framework",
@@ -844,7 +1188,11 @@
    "title": "Our framework for reporting model misalignment",
    "link": "https://openai.com/index/model-misalignment-reporting-framework",
    "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-   "ts": 1789578000
+   "ts": 1789578000,
+   "zh": "OpenAI发布模型失准报告框架",
+   "brief": "OpenAI公布追踪、调查和披露模型失准的框架，并附六份异常行为报告。",
+   "why": "AI风险披露机制成形，企业选型与治理需关注。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
@@ -853,7 +1201,11 @@
    "title": "Helping older adults use AI in everyday life",
    "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
    "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-   "ts": 1789574400
+   "ts": 1789574400,
+   "zh": "OpenAI与AARP合作教老年人用AI",
+   "brief": "OpenAI与美国退休人员协会合作，在10个美国城市为1000名老年人提供免费ChatGPT实操培训。",
+   "why": "AI技能培训模式可借鉴，企业AI培训可参考。",
+   "score": 6
   },
   {
    "id": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
@@ -862,7 +1214,11 @@
    "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
    "link": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
    "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. […]",
-   "ts": 1789570848
+   "ts": 1789570848,
+   "zh": "英伟达Vera Rubin NVL72首秀MLPerf推理",
+   "brief": "英伟达Vera Rubin NVL72在MLPerf Inference v6.1首次亮相并取得领先性能。",
+   "why": "推理性能提升直接影响企业AI算力成本与产出。",
+   "score": 6
   },
   {
    "id": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
@@ -871,7 +1227,11 @@
    "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
    "link": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
    "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use […]",
-   "ts": 1789563633
+   "ts": 1789563633,
+   "zh": "Emerald AI、谷歌与英伟达成立AI能源联盟",
+   "brief": "三方发起AI能源管理联盟AEMA，推动灵活AI数据中心与电网协同。",
+   "why": "AI数据中心能耗与电力成本成企业基础设施关键变量。",
+   "score": 7
   },
   {
    "id": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
@@ -880,7 +1240,11 @@
    "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
    "link": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
    "summary": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the […]",
-   "ts": 1789534842
+   "ts": 1789534842,
+   "zh": "曼彻斯特大学用英伟达Earth-2预测空气污染",
+   "brief": "曼彻斯特大学利用英伟达Earth-2模型预测全英空气污染，替代昂贵传统化学模型。",
+   "why": "AI替代高成本传统计算的行业案例，可作落地参考。",
+   "score": 5
   },
   {
    "id": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
@@ -889,7 +1253,11 @@
    "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
    "link": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
    "summary": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into […]",
-   "ts": 1789511074
+   "ts": 1789511074,
+   "zh": "黄仁勋在Dreamforce谈AI与CRM推理模型",
+   "brief": "黄仁勋与Salesforce CEO同台，Salesforce发布基于英伟达Nemotron 3 Super的首个CRM推理模型Koa。",
+   "why": "CRM等企业软件嵌入推理模型，预示业务系统AI化趋势。",
+   "score": 8
   },
   {
    "id": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
@@ -898,7 +1266,11 @@
    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
    "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
    "summary": "",
-   "ts": 1789491957
+   "ts": 1789491957,
+   "zh": "谷歌DeepMind发布Gemini 3.8 Live",
+   "brief": "谷歌DeepMind推出Gemini 3.8 Live及3.8 Live Extended Thinking版本。",
+   "why": "新模型能力升级，企业AI应用选型需跟进。",
+   "score": 7
   },
   {
    "id": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
@@ -907,7 +1279,11 @@
    "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
    "link": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
    "summary": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers […]",
-   "ts": 1789491359
+   "ts": 1789491359,
+   "zh": "英伟达：从兆瓦到Token的AI工厂效率",
+   "brief": "英伟达介绍如何通过电力调度与优化提升AI工厂的Token产出效率。",
+   "why": "AI工厂成本与能效管理，关系企业算力投入回报。",
+   "score": 6
   },
   {
    "id": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
@@ -916,7 +1292,11 @@
    "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
    "link": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
    "summary": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — […]",
-   "ts": 1789491340
+   "ts": 1789491340,
+   "zh": "英伟达在AI Infra峰会展示能效进展",
+   "brief": "英伟达在AI Infra峰会介绍Vera Rubin与DSX平台，优化AI工厂每瓦Token效率。",
+   "why": "算力能效提升降低企业AI使用成本。",
+   "score": 6
   },
   {
    "id": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
@@ -925,7 +1305,11 @@
    "title": "Your Agent Aced the Task. Will It Do It Again?",
    "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
    "summary": "",
-   "ts": 1789488044
+   "ts": 1789488044,
+   "zh": "Hugging Face：智能体任务能否稳定复现",
+   "brief": "Hugging Face发文探讨AI智能体完成任务后能否稳定重复执行同一任务。",
+   "why": "智能体可靠性问题，关系企业自动化落地可行性。",
+   "score": 6
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
@@ -934,7 +1318,11 @@
    "title": "AI for Societal Impact",
    "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
    "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
-   "ts": 1789488000
+   "ts": 1789488000,
+   "zh": "谷歌AI社会影响案例合集",
+   "brief": "谷歌发布AI社会影响案例合集，展示专家与地方领导者如何用AI突破惠及大众。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
@@ -943,7 +1331,11 @@
    "title": "Building AI to accelerate science and improve lives",
    "link": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
    "summary": "B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor",
-   "ts": 1789488000
+   "ts": 1789488000,
+   "zh": "谷歌用AI加速科研改善生活",
+   "brief": "谷歌发布视频素材，展示教师、学生、患者与医生等多元场景。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
@@ -952,7 +1344,11 @@
    "title": "AI for everyone in every language",
    "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
    "summary": "Animation of several words in different languages slowly zooming past",
-   "ts": 1789488000
+   "ts": 1789488000,
+   "zh": "谷歌让AI覆盖每种语言",
+   "brief": "谷歌发布动画，展示多种语言词汇缓慢掠过画面。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
@@ -961,7 +1357,11 @@
    "title": "New insights from Google’s AI & Economy ATLAS",
    "link": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
    "summary": "Text \"AI & Economy Atlas v1.0 2026\" with the Google G and a spinning globe illustration",
-   "ts": 1789477200
+   "ts": 1789477200,
+   "zh": "谷歌发布AI与经济ATLAS新洞察",
+   "brief": "谷歌发布AI与经济ATLAS v1.0 2026版，提供相关新洞察。",
+   "why": "可帮老板理解AI对经济和就业的结构性影响。",
+   "score": 7
   },
   {
    "id": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
@@ -970,7 +1370,11 @@
    "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
    "link": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
    "summary": "",
-   "ts": 1789462842
+   "ts": 1789462842,
+   "zh": "儿童医院用开源英伟达AI做心脏护理",
+   "brief": "一家大型儿童医院使用开源英伟达AI技术开展心脏护理。",
+   "why": "医疗AI落地案例，可作行业应用参考。",
+   "score": 7
   }
  ]
 }
