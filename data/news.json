@@ -1,11 +1,11 @@
 {
- "updated": 1790772165,
+ "updated": 1790798727,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,8 +22,8 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 3,
-   "new": 0
+   "count": 5,
+   "new": 2
   },
   "google-ai": {
    "name": "Google AI",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 8,
-   "new": 0
+   "count": 9,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 13,
-   "new": 0
+   "new": 2
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 2
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,110 @@
   }
  },
  "items": [
+  {
+   "id": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "summary": "",
+   "ts": 1790798505,
+   "zh": "Gemini 4 Argon：下一代前沿智能",
+   "brief": "Google DeepMind 发布 Gemini 4 Argon，称其为新一代前沿智能。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+   "link": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+   "summary": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th […]",
+   "ts": 1790787621,
+   "zh": "英伟达开放2027-2028研究生奖学金申请",
+   "brief": "英伟达开放2027-2028研究生奖学金申请，奖金最高6万美元，提供资助、导师和技术支持。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Query claims in natural language with Amazon Bedrock Knowledge Bases",
+   "link": "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
+   "summary": "This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim documents from Amazon S3, querying with the AgenticRetrieveStream API, multi-turn follow-ups, metadata filters, and contextual grounding guardrails.",
+   "ts": 1790782635,
+   "zh": "用自然语言查询理赔：Bedrock知识库",
+   "brief": "AWS 技术教程：在 Amazon Bedrock 知识库上搭建对话式理赔助手，支持带引用的自然语言问答。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
+   "summary": "Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a filesystem, and hand work to each other to produce a finished track.",
+   "ts": 1790781717,
+   "zh": "在Bedrock AgentCore上搭建多智能体音乐流水线",
+   "brief": "AWS 教程：用 Bedrock AgentCore Runtime 实例部署三智能体音乐制作流水线，共享GPU与文件系统。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Introducing SynthID Bio",
+   "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "ts": 1790780587,
+   "zh": "DeepMind推出SynthID Bio",
+   "brief": "Google DeepMind 推出 SynthID Bio，为AI生成蛋白质加水印的概念验证，同时保留生物功能。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+   "link": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+   "summary": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced […]",
+   "ts": 1790780400,
+   "zh": "英伟达与CoreWeave打通智能体AI生产闭环",
+   "brief": "CoreWeave 将英伟达新一代基础设施引入生产环境，双方合作覆盖训练到智能体AI生产部署。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Disrupting a coordinated model-distillation campaign",
+   "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+   "ts": 1790764200,
+   "zh": "OpenAI 打击协同模型蒸馏行动",
+   "brief": "OpenAI 披露其阻止了一场提取受保护模型推理的协同蒸馏行动，并加强防御。",
+   "why": "",
+   "score": 5
+  },
+  {
+   "id": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Helping small businesses put AI to work",
+   "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+   "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+   "ts": 1790762400,
+   "zh": "OpenAI 携手SBDC帮小企业用上AI",
+   "brief": "OpenAI 与美国 SBDC 合作，为小企业扩大实操AI培训和本地支持，并发布小团队用AI报告。",
+   "why": "中小企业可参考官方AI落地路径与培训资源。",
+   "score": 9
+  },
   {
    "id": "https://arxiv.org/abs/2609.35799",
    "source": "arxiv",
@@ -192,6 +296,19 @@
    "brief": "Amazon Bedrock在首尔支持Claude Opus 5和Sonnet 5、在新加坡支持Sonnet 5的区域内推理，满足本地数据处理要求。",
    "why": "韩新两地企业可合规使用Claude，数据全程留在本地。",
    "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/open-tts-leaderboard",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+   "link": "https://huggingface.co/blog/open-tts-leaderboard",
+   "summary": "",
+   "ts": 1790726400,
+   "zh": "开源TTS排行榜：多语言语音评测",
+   "brief": "Hugging Face 发布开源TTS排行榜，提供多语言文本转语音与声音克隆的可扩展评测。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
