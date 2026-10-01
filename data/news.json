@@ -1,17 +1,17 @@
 {
- "updated": 1790849675,
+ "updated": 1790879249,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 9,
-   "new": 0
+   "count": 10,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 13,
-   "new": 0
+   "count": 14,
+   "new": 2
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 6
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,153 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+   "summary": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT's memory subsystem works and how to implement Amazon S3 Vectors as a custom memory provider, using a multi-agent investment research use case.",
+   "ts": 1790876096,
+   "zh": "用NVIDIA NeMo与S3 Vectors构建智能体记忆",
+   "brief": "AWS发布教程，介绍在EKS上用Amazon S3 Vectors作为NVIDIA NeMo Agent Toolkit的持久记忆层。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://openai.com/index/the-eternal-complement",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "The eternal complement",
+   "link": "https://openai.com/index/the-eternal-complement",
+   "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+   "ts": 1790874000,
+   "zh": "OpenAI：AI是创意的永恒补充",
+   "brief": "OpenAI发文探讨先进AI对突破性创意背后日常执行工作的价值，认为执行将影响下一阶段经济与进步速度。",
+   "why": "可用来向老板说明AI补的是执行环节，不是替代人。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS",
+   "link": "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/",
+   "summary": "Generative AI makes it cheap to produce personalized content at scale, but which variation do you show each customer? Amazon Payments used a multi-objective contextual bandit on Amazon SageMaker AI to personalize an acquisition funnel, achieving a high single-digit conversion lift for one audience, and learning why content, not the model, was the constraint.",
+   "ts": 1790873464,
+   "zh": "AWS用情境老虎机提升获客转化率",
+   "brief": "Amazon Payments在SageMaker AI上用多目标情境老虎机做个性化，某类受众转化率提升近两位数。",
+   "why": "个性化投放有可量化转化提升，适合做落地案例。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
+   "link": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/",
+   "summary": "Ambient agents respond to events such as an Amazon S3 upload, a schedule, or an alert instead of waiting for a chat prompt. This post walks through building framework-agnostic ambient agents on Amazon Bedrock AgentCore using Amazon SQS, AWS Lambda, and Amazon DynamoDB, with a single ask_human tool and a Jobs page for human-in-the-loop review.",
+   "ts": 1790872824,
+   "zh": "用Bedrock AgentCore构建环境感知智能体",
+   "brief": "AWS介绍基于SQS、Lambda、DynamoDB在Bedrock AgentCore上构建事件驱动、可人工介入的智能体。",
+   "why": "事件驱动+人工审核是企业流程自动化的典型形态。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Implementing Multi-Environment Access for Claude Platform on AWS",
+   "link": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+   "summary": "Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account.",
+   "ts": 1790872343,
+   "zh": "AWS上Claude平台的多环境访问配置",
+   "brief": "AWS讲解如何用跨账户SigV4、工作区API密钥和OIDC联邦实现Claude平台多环境安全访问与隔离。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter",
+   "link": "https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter/",
+   "summary": "Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards. The new hierarchy filter gives dashboard authors rich, multi-level filtering in a single compact control, reducing clutter and guiding readers to the data they need in fewer steps.",
+   "ts": 1790872094,
+   "zh": "Quick Sight推出层级筛选器简化下钻",
+   "brief": "Amazon Quick Sight新增层级筛选控件，让仪表板作者用单一控件实现多级筛选。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://openai.com/index/albertsons-reimagining-retail",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Albertsons Companies is reimagining retail from the inside out",
+   "link": "https://openai.com/index/albertsons-reimagining-retail",
+   "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+   "ts": 1790870400,
+   "zh": "Albertsons用ChatGPT企业版重塑零售",
+   "brief": "Albertsons公司使用ChatGPT Enterprise和OpenAI API提升团队效率并改善数百万顾客的购物体验。",
+   "why": "大型零售企业全员用AI的案例，可类比讲给中小企业。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How uniopen customized Amazon Nova to their retail moderation policies for production deployment",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment/",
+   "summary": "See how uniopen, a retail platform from Taiwan's Uni-President Enterprises Group, adapted Amazon Nova 2 Lite to its content-moderation policies using supervised fine-tuning in Amazon SageMaker AI and prompt optimization. Business-relevant evaluation and release gates kept quality in check.",
+   "ts": 1790868781,
+   "zh": "uniopen用Amazon Nova定制内容审核",
+   "brief": "台湾统一集团旗下uniopen在SageMaker AI上微调Amazon Nova 2 Lite，适配其零售内容审核政策并上线。",
+   "why": "中文零售企业自训审核模型的落地样本，参考性强。",
+   "score": 8
+  },
+  {
+   "id": "https://huggingface.co/blog/allenai/olmocore3",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+   "link": "https://huggingface.co/blog/allenai/olmocore3",
+   "summary": "",
+   "ts": 1790866903,
+   "zh": "Olmo-core 3：面向大型MoE的开源训练设施",
+   "brief": "Hugging Face发布Olmo-core 3，提供面向大型混合专家模型的开源可扩展训练基础设施。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Fall Into 25 New Games on GeForce NOW This October",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
+   "summary": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is […]",
+   "ts": 1790859654,
+   "zh": "GeForce NOW十月新增25款游戏",
+   "brief": "英伟达GeForce NOW十月上线25款新游戏，本周先开放六款，含《巫师3》重制版等。",
+   "why": "",
+   "score": 0
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
+   "link": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+   "summary": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year […]",
+   "ts": 1790859649,
+   "zh": "英伟达AI工厂如何最大化投资回报",
+   "brief": "英伟达发文称每兆瓦AI工厂成本约6000万美元，并从产能收益等三方面解析其投资回报逻辑。",
+   "why": "可帮老板理解算力投入的成本与回报结构。",
+   "score": 6
+  },
   {
    "id": "https://arxiv.org/abs/2609.38288",
    "source": "arxiv",
