@@ -1,5 +1,5 @@
 {
- "updated": 1790814937,
+ "updated": 1790849675,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -10,8 +10,8 @@
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -59,10 +59,127 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2609.38288",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+   "link": "https://arxiv.org/abs/2609.38288",
+   "summary": "arXiv:2609.38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for supervision. Accordingly, we synthesize long-horizon improve",
+   "ts": 1790827200,
+   "zh": "AREX-2：长周期反思任务提升智能体自进化",
+   "brief": "arXiv新论文提出AREX-2，通过长周期反思任务增强LLM智能体在测试时迭代优化解的能力。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2609.38294",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
+   "link": "https://arxiv.org/abs/2609.38294",
+   "summary": "arXiv:2609.38294v1 Announce Type: new Abstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency. Existing methods for workflow generation typically optimize accuracy alone or a weighted sum of objectives, so each trained generator commits to one fixed trade-off and must be retrained from scratch when preferences change. To alleviate this, we propose MoFlow, which generates workflows optimized across varied preferences. Specifically, MoFlow formulates workflow generation as a multi-objective Mar",
+   "ts": 1790827200,
+   "zh": "MoFlow：多目标智能体工作流生成",
+   "brief": "arXiv新论文提出MoFlow，联合优化智能体工作流的准确率、成本、延迟、鲁棒性等多目标。",
+   "why": "多目标工作流优化思路可启发企业AI流程的成本与效果平衡。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2609.38296",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AI Agents are Vulnerable to Radicalization",
+   "link": "https://arxiv.org/abs/2609.38296",
+   "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the",
+   "ts": 1790827200,
+   "zh": "AI智能体易受极端化影响",
+   "brief": "arXiv新论文模拟两个LLM智能体对话，发现目标智能体可被另一智能体操纵信念走向极端化。",
+   "why": "提示企业部署多智能体系统时需关注内容安全与信念操纵风险。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2609.38369",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Can an AI Agent Rediscover a Blaschke-Curve Invariant?",
+   "link": "https://arxiv.org/abs/2609.38369",
+   "summary": "arXiv:2609.38369v1 Announce Type: new Abstract: We study generalized Blaschke curves as a controlled environment for AI-assisted mathematical rediscovery. For one fixed degree-four Blaschke product, an agent receives numerical coordinates of the six pair-lines determined by each of 80 boundary configurations. The target theorem is withheld from the task instructions. The saved research log reports rejected geometric hypotheses and a homogeneous cubic fitted to polygon sides. Its frozen coefficients predict 480 lines from 80 unseen parameter values, with a recorded RMS scale-free residual of $8",
+   "ts": 1790827200,
+   "zh": "AI智能体能否重新发现Blaschke曲线不变量",
+   "brief": "arXiv新论文用广义Blaschke曲线作为受控环境，测试AI智能体辅助数学再发现的能力。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2609.38372",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Self-Evolving Harness on Multiple Tasks with the Agent as Its Own Optimizer",
+   "link": "https://arxiv.org/abs/2609.38372",
+   "summary": "arXiv:2609.38372v1 Announce Type: new Abstract: A harness is the code around a language-model agent that organizes prompts, calls tools, manages context, and controls execution. As models grow stronger, recent work has begun to let agents improve their own harnesses, a line of work known as self-evolving harnesses. In most existing methods, a separate proposer running on a human-designed harness modifies the solver's harness, and a separate harness is evolved for each benchmark. Real-world tasks come from many domains, so both the evolution and the evaluation of a harness should cover a divers",
+   "ts": 1790827200,
+   "zh": "智能体自我优化实现多任务自进化框架",
+   "brief": "arXiv新论文研究让智能体作为自身优化器，自动改进组织提示、工具调用与上下文的harness代码。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2609.38397",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "SimTrace: Grounded Multimodal User Trajectories Generation for Online User Modeling",
+   "link": "https://arxiv.org/abs/2609.38397",
+   "summary": "arXiv:2609.38397v1 Announce Type: new Abstract: Virtual clients offer a cost-effective approach to support applications such as A/B testing, recommender system development, and interface evaluation. However, building them requires access to large-scale, semantically faithful, fine-grained online user trajectories. These data are difficult to obtain because proprietary logs are subject to privacy restrictions and small businesses often lack sufficient traffic. Consequently, existing public datasets either abstract away fine-grained user interaction details or preserve rich context but remain pl",
+   "ts": 1790827200,
+   "zh": "SimTrace：面向在线用户建模的多模态轨迹生成",
+   "brief": "arXiv新论文提出SimTrace，生成有依据的多模态用户轨迹，用于虚拟客户与在线用户建模。",
+   "why": "虚拟用户模拟可用于企业A/B测试与产品界面评估，降低调研成本。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2609.38411",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "A Competing-Hazards Systematization of Loss of Control in Autonomous Agents",
+   "link": "https://arxiv.org/abs/2609.38411",
+   "summary": "arXiv:2609.38411v1 Announce Type: new Abstract: Leading AI developers have reported agents acting beyond their approved limits, which a United Nations panel described as an early warning of loss of human control. Yet incident reports and agent-safety evaluations describe these events differently, making it difficult to compare failures, trace risk across attempts, or separate agent behavior from the environment's role in allowing an out-of-scope action to succeed. To address this gap, we introduce a common framework in which each attempt ends in approved completion, safe stopping, scope escape",
+   "ts": 1790827200,
+   "zh": "自主智能体失控的竞争风险系统化分析",
+   "brief": "arXiv新论文用竞争风险框架系统化分析自主智能体失控事件，统一事故报告与安全评估的描述。",
+   "why": "为企业AI治理与失控风险识别提供框架参考。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2609.38445",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AIM: Agentic Idea Management for Automated Research",
+   "link": "https://arxiv.org/abs/2609.38445",
+   "summary": "arXiv:2609.38445v1 Announce Type: new Abstract: Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organizing evolving research ideas, selecting promising directions, and maintaining alignment between ideas and their implementations. To address these challenges, we introduce the Agentic Idea Manager (AIM), a fully autonomous framework for managing and exploring research directions in idea-driven automated research. Inspired by Bayesian optimization, AIM u",
+   "ts": 1790827200,
+   "zh": "AIM：面向自动化研究的智能体创意管理",
+   "brief": "arXiv新论文提出AIM，区分创意驱动与方案驱动搜索，解决研究创意组织与方向选择等挑战。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://www.anthropic.com/news/barclays-scales-claude",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Barclays scales Claude to upgrade operations and improve client experience",
+   "link": "https://www.anthropic.com/news/barclays-scales-claude",
+   "summary": "Barclays scales Claude to upgrade operations and improve client experience",
+   "ts": 1790812800,
+   "zh": "巴克莱银行规模化部署Claude升级运营",
+   "brief": "Anthropic发布案例，巴克莱银行规模化应用Claude以升级运营并改善客户体验。",
+   "why": "金融巨头落地案例可作企业AI咨询的标杆参考，增强老板信心。",
+   "score": 9
+  },
   {
    "id": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
    "source": "deepmind",
