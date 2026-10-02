@@ -1,17 +1,17 @@
 {
- "updated": 1790934724,
+ "updated": 1790963651,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -28,8 +28,8 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 4,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
@@ -40,14 +40,14 @@
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 15,
-   "new": 0
+   "count": 16,
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 3
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,101 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/index/practical-guide-building-gpt-6",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "A model guide for the GPT-6 family",
+   "link": "https://openai.com/index/practical-guide-building-gpt-6",
+   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+   "ts": 1790957700,
+   "zh": "GPT-6 家族模型选择指南",
+   "brief": "OpenAI 发布指南，教初创企业如何选择 GPT-6 模型、调节推理强度、优化提示词与工具协作并部署到生产。",
+   "why": "帮企业理解如何按场景选模型、控成本、上生产。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+   "link": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+   "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example.",
+   "ts": 1790956106,
+   "zh": "用 Amazon Quick 批量审查租约合规",
+   "brief": "AWS 介绍 Adjudicated Query 模式，将 Quick 聊天代理与限定 MCP 服务器结合，给出可部署的 CDK 参考架构。",
+   "why": "展示合规场景可验证的 AI 落地范式，可作案例讲。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+   "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.",
+   "ts": 1790955965,
+   "zh": "为 Claude Desktop 添加安全联网搜索",
+   "brief": "AWS 介绍通过 Bedrock AgentCore Gateway 为 Claude Desktop 接入 Web Search，并用 JWT 做入站认证。",
+   "why": "解决企业用 Claude 时知识过期的实际问题。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+   "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinforcement learning (MTRL) on Amazon SageMaker AI and share the gains we measured in retrieval quality and reliability.",
+   "ts": 1790955860,
+   "zh": "在 SageMaker 上用多轮 RL 微调搜索代理",
+   "brief": "AWS 介绍在 SageMaker AI 上用多轮强化学习微调搜索代理，以更低延迟和成本获得前沿模型级可靠性。",
+   "why": "说明小模型微调可替代大模型，降本思路。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/allenai/astabrief",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+   "link": "https://huggingface.co/blog/allenai/astabrief",
+   "summary": "",
+   "ts": 1790954390,
+   "zh": "Asta 开源快速报告生成模型 AstaBrief",
+   "brief": "Hugging Face 发布 Asta 中的快速报告生成模型 AstaBrief 的开源版本。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "The latest AI news we announced in September 2026",
+   "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+   "summary": "A video showing the September AI updates",
+   "ts": 1790953200,
+   "zh": "谷歌 2026 年 9 月 AI 更新汇总",
+   "brief": "谷歌发布视频，汇总 2026 年 9 月宣布的最新 AI 动态。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+   "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+   "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, […]",
+   "ts": 1790946039,
+   "zh": "英伟达 DGX Spark 64GB 支持本地 AI",
+   "brief": "英伟达宣布本月推出 64GB 统一内存的 DGX Spark，让开发者能在本地运行更强的开源模型和 AI 代理。",
+   "why": "本地跑模型门槛降低，涉及数据安全与成本。",
+   "score": 7
+  },
   {
    "id": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
    "source": "huggingface",
@@ -179,6 +270,32 @@
    "brief": "arXiv 论文提出 GAVA，让具身智能体在用户纠正可能错误时选择接受、拒绝、查看或询问。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://openai.com/index/chatham-financial",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Chatham scales its capital markets expertise with OpenAI",
+   "link": "https://openai.com/index/chatham-financial",
+   "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+   "ts": 1790899200,
+   "zh": "Chatham 用 OpenAI 改造资本市场业务",
+   "brief": "Chatham Financial 用 Codex 和 GPT-5.6 构建技术并重构流程，将交易验证从 30 分钟缩短到 4 分钟以内。",
+   "why": "典型企业落地案例，效率提升数据可直接引用。",
+   "score": 9
+  },
+  {
+   "id": "https://www.anthropic.com/news/claude-frontier-academy",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+   "link": "https://www.anthropic.com/news/claude-frontier-academy",
+   "summary": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+   "ts": 1790899200,
+   "zh": "Anthropic 投 1 亿美元培训万名工程师",
+   "brief": "Anthropic 投入 1 亿美元培训 1 万名工程师，以缓解企业 AI 人才缺口。",
+   "why": "AI 人才培训是刚需，利好培训业务定位。",
+   "score": 9
   },
   {
    "id": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
