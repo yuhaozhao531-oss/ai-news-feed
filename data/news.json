@@ -1,16 +1,16 @@
 {
- "updated": 1790879249,
+ "updated": 1790902251,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "new": 0
   },
   "anthropic-eng": {
@@ -28,26 +28,26 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 5,
+   "count": 4,
    "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 10,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 14,
-   "new": 2
+   "count": 15,
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 6
+   "new": 2
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,45 @@
   }
  },
  "items": [
+  {
+   "id": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+   "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+   "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]",
+   "ts": 1790898253,
+   "zh": "英伟达GPU加速OpenAI GPT-6 Astra Ultrafast",
+   "brief": "OpenAI API及ChatGPT Work、Codex用户现可用GPT-6 Astra Ultrafast，基于英伟达Blackwell GPU，推理优化带来最高8倍速度提升。",
+   "why": "新模型速度大幅提升，企业可评估AI应用响应效率与成本优化空间。",
+   "score": 9
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+   "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from weeks to minutes.",
+   "ts": 1790892374,
+   "zh": "AWS用AgentCore多智能体自动化云迁移",
+   "brief": "AWS专业服务基于Bedrock AgentCore构建多智能体框架，自动完成云迁移的发现、IaC生成、治理与迁移后运维。",
+   "why": "展示智能体替代人工流程的落地范式，可作企业AI自动化案例讲解。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+   "link": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
+   "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person viewing the app, so row-level and column-level security apply per reader. Learn how to build, publish, and share a live-data app using natural language.",
+   "ts": 1790884146,
+   "zh": "Amazon Quick支持AI应用实时查询治理数据",
+   "brief": "Amazon Quick新增Live Data in Apps，AI构建的应用可实时查询Quick Sight数据集，并按查看者应用行列级权限。",
+   "why": "解决AI应用数据权限与实时性痛点，适合讲企业数据安全落地。",
+   "score": 8
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
    "source": "aws-ml",
@@ -322,6 +361,19 @@
    "brief": "Anthropic发布案例，巴克莱银行规模化应用Claude以升级运营并改善客户体验。",
    "why": "金融巨头落地案例可作企业AI咨询的标杆参考，增强老板信心。",
    "score": 9
+  },
+  {
+   "id": "https://openai.com/index/the-den-family-social",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+   "link": "https://openai.com/index/the-den-family-social",
+   "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+   "ts": 1790812800,
+   "zh": "The Den用ChatGPT Work每周省10-15小时",
+   "brief": "社交俱乐部The Den用ChatGPT Work将拨款申请从3天缩至2小时，酒牌材料从4天缩至3小时。",
+   "why": "中小企业用AI提效的具体案例，适合做老板易懂的落地故事。",
+   "score": 8
   },
   {
    "id": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
