@@ -1,17 +1,17 @@
 {
- "updated": 1790963651,
+ "updated": 1790979518,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -29,25 +29,25 @@
    "name": "Google AI",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 11,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 16,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
