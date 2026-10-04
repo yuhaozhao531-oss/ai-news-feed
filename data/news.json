@@ -1,5 +1,5 @@
 {
- "updated": 1791062591,
+ "updated": 1791093606,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -34,8 +34,8 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 11,
-   "new": 0
+   "count": 12,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "The Agent Said It Was Done. The Database Disagreed.",
+   "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "summary": "",
+   "ts": 1791068208,
+   "zh": "智能体说完成了，数据库却不同意",
+   "brief": "Hugging Face发文探讨AI智能体声称任务完成但数据库状态不符的问题。",
+   "why": "提醒企业：AI智能体落地需验证机制，别轻信其自我报告。",
+   "score": 7
+  },
   {
    "id": "https://openai.com/index/practical-guide-building-gpt-6",
    "source": "openai",
