@@ -1,11 +1,11 @@
 {
- "updated": 1791179353,
+ "updated": 1791211829,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -34,14 +34,14 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 11,
-   "new": 0
+   "count": 12,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 16,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -59,10 +59,36 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+   "link": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+   "summary": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatment can take weeks to return results. […]",
+   "ts": 1791205257,
+   "zh": "英伟达：AI助力缩小乳腺癌诊疗差距",
+   "brief": "英伟达发文介绍AI如何从筛查到治疗方案，帮助弥补乳腺癌诊疗中的致命缺口。",
+   "why": "医疗AI落地案例，可讲AI在垂直行业的实际价值。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Building advertising for the way people use AI",
+   "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+   "ts": 1791194400,
+   "zh": "OpenAI在ChatGPT推出新广告形式",
+   "brief": "OpenAI在ChatGPT中引入新视觉广告格式，并扩展测量工具、归因合作与品牌适配。",
+   "why": "AI平台开始卖广告，企业投放与流量逻辑要变。",
+   "score": 7
+  },
   {
    "id": "https://arxiv.org/abs/2610.02267",
    "source": "arxiv",
@@ -1375,6 +1401,19 @@
    "brief": "Basis 称 GPT-6 Astra 完成 50 页税务工作簿的速度是 GPT-5.6 Sol 的两倍，意图理解更强。",
    "why": "财务、税务等专业场景 AI 效率提升，可作落地案例参考。",
    "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/rl-environments",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Welcome RL Environments to the hub",
+   "link": "https://huggingface.co/blog/rl-environments",
+   "summary": "",
+   "ts": 1790553600,
+   "zh": "Hugging Face上线强化学习环境库",
+   "brief": "Hugging Face宣布将RL Environments引入其模型与数据集托管平台。",
+   "why": "偏开发者工具，与中小企业老板关联弱。",
+   "score": 3
   },
   {
    "id": "https://openai.com/index/proaction",
