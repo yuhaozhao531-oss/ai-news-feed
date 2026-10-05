@@ -1,5 +1,5 @@
 {
- "updated": 1791158317,
+ "updated": 1791179353,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -34,7 +34,7 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 12,
+   "count": 11,
    "new": 0
   },
   "nvidia": {
@@ -58,11 +58,115 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.02267",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+   "link": "https://arxiv.org/abs/2610.02267",
+   "summary": "arXiv:2610.02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such questions in a single forward pass with class probabilities, promising large cost and latency savings over LLM calls. We present a paired evaluation of an open-weight (Laya) and a hosted (Jev) System-1 model on 11 agent decision points built from 18 public sources: 7,283 base cases plus 6,640 robustness variants, with byte-identical inputs",
+   "ts": 1791172800,
+   "zh": "LLM智能体决策模型的配对自审评估",
+   "brief": "arXiv发布论文，提出对LLM智能体框架中System-1决策模型的配对自审评估方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.02330",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+   "link": "https://arxiv.org/abs/2610.02330",
+   "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-outcome rewards provide weak credit assignment over long interaction traces. Step-level rewards can offer more targeted feedback, but obtaining reliable step supervision often requires human or LLM judgment, or additional rollouts to estimate the downstream effect of an intermediate decision. In this paper, we argue that effective tool-use ",
+   "ts": 1791172800,
+   "zh": "长周期工具智能体的比较价值估计",
+   "brief": "arXiv论文提出面向长周期工具调用智能体的比较价值估计方法，改善信用分配。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.02331",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+   "link": "https://arxiv.org/abs/2610.02331",
+   "summary": "arXiv:2610.02331v1 Announce Type: new Abstract: Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored. We formulate world editing as intervening on an existing world while preserving properties that should remain unchanged, and introduce intervention depth as an axis describing how strongly an edit couples world entities, dynamics, and systems. We instantiate this capability through industry-grade game modding and introduce IGMWorld, together with IGMBench, a benchmark of ",
+   "ts": 1791172800,
+   "zh": "世界编辑：对可执行世界的深度干预",
+   "brief": "arXiv论文将世界编辑形式化为对已有可执行世界的干预，并研究不同深度的影响。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.02351",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
+   "link": "https://arxiv.org/abs/2610.02351",
+   "summary": "arXiv:2610.02351v1 Announce Type: new Abstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task is complete. This coupling makes action authorization and completion control difficult to enforce independently, allowing errors to propagate and unsupported completion claims to terminate execution. We introduce DeReAct, a modular agent architecture that externalizes two gating policies: a Critic that validates proposed actions before execution, and a Context Manager that reconstructs an environment-supported \\textsc",
+   "ts": 1791172800,
+   "zh": "DeReAct：分解推理与行动提升智能体可靠性",
+   "brief": "arXiv论文提出DeReAct，将推理与行动分解，以独立控制动作授权与任务完成判定。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.02405",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "When Terminal-Agent Training Stalls: Demystifying Data Generation and Verification Challenge",
+   "link": "https://arxiv.org/abs/2610.02405",
+   "summary": "arXiv:2610.02405v1 Announce Type: new Abstract: Using a frontier model like Claude Opus as a meta-agent to generate terminal tasks and verifiers for RL training is increasingly common. Yet a runnable Docker image and executable test suite do not guarantee a faithful end-to-end pipeline for terminal agent training. We present a meta-agent pipeline motivated by this gap, diagnosing three classes of failure: benchmark invalidity, harness brittleness, and reward misalignment. Prompt redesign and context extension raise baseline solvability 5.6 times, but a 9B model saturates at 81.3% mean pass@2 w",
+   "ts": 1791172800,
+   "zh": "终端智能体训练停滞：数据生成与验证挑战",
+   "brief": "arXiv论文分析用前沿模型生成终端任务与验证器做RL训练时，可运行环境不等于可靠流程。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.02480",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations",
+   "link": "https://arxiv.org/abs/2610.02480",
+   "summary": "arXiv:2610.02480v1 Announce Type: new Abstract: Recent years have seen the employment of a plethora of machine learning (ML) models in high-stakes domains, but they remain largely opaque to the practitioners who act on their predictions. While post-hoc explanation methods offer a lens into this model behavior, wielding them effectively demands expertise most domain experts lack: navigating high-dimensional outputs, selecting the best explanations, and synthesizing evidence across disparate tools. To this end, we present MEA, a multi-agent framework that removes the explanation knowledge barrie",
+   "ts": 1791172800,
+   "zh": "MEA：奖励驱动的多智能体模型解释系统",
+   "brief": "arXiv论文提出奖励驱动的多智能体系统MEA，为高风险领域模型生成忠实解释。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.02491",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "What Does a Token Cost? A Mixture-of-Agents Measurement of Sufficient Per-Token Compute",
+   "link": "https://arxiv.org/abs/2610.02491",
+   "summary": "arXiv:2610.02491v1 Announce Type: new Abstract: Large language models spend the same amount of computation on every token they generate, regardless of how difficult each token is to produce. Methods such as speculative decoding and model routing are built on the premise that much of this computation is unnecessary, yet the computation an individual token actually requires has not been measured. We measure it through a Mixture-of-Agents (MoA) lens: a panel of fifteen language models of increasing capacity, drawn from three families, in which every agent attempts to reproduce a reference sequenc",
+   "ts": 1791172800,
+   "zh": "一个Token值多少：每Token算力的混合智能体测量",
+   "brief": "arXiv论文用混合智能体方法测量生成每个token所需的充足算力，探讨按难度分配计算。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.02510",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "On-Premises Multi-Course RAG Tutoring for Business Education: Hardware-Software Trade-offs in a Campus AI Tutor",
+   "link": "https://arxiv.org/abs/2610.02510",
+   "summary": "arXiv:2610.02510v1 Announce Type: new Abstract: Campus AI tutors based on retrieval-augmented generation (RAG) must ground answers in assigned course materials while keeping textbooks and student dialogue on institutional infrastructure. We present CourseChat, an on-premises, multi-course RAG tutor for undergraduate business education, deployed behind a campus web gateway and intended for use embedded in Moodle. Six isolated course offerings, each keyed by its own course reference number (CRN), share twin-edge AI hosts running a FastAPI service, a local vector database, and a local large langu",
+   "ts": 1791172800,
+   "zh": "本地部署多课程RAG商科教学：软硬件权衡",
+   "brief": "arXiv论文介绍校园本地部署的CourseChat多课程RAG辅导系统，分析软硬件权衡。",
+   "why": "企业可参考本地部署RAG保护教材与对话数据，兼顾成本与隐私。",
+   "score": 6
+  },
   {
    "id": "https://huggingface.co/blog/microsoft/thinkingbox",
    "source": "huggingface",
