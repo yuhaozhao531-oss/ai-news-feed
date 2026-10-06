@@ -1,11 +1,11 @@
 {
- "updated": 1791237798,
+ "updated": 1791268107,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -34,7 +34,7 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 12,
+   "count": 9,
    "new": 0
   },
   "nvidia": {
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 6
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,24 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing GLM 5.3 on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+   "summary": "GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent.",
+   "ts": 1791242717,
+   "zh": "GLM 5.3 上线 Amazon Bedrock",
+   "brief": "智谱 GLM 5.3 在 Amazon Bedrock 上线，753B 参数 MoE 模型，面向编程与长周期智能体任务。",
+   "why": "企业可在 AWS 上直接调用国产大模型，多一个合规选型。",
+   "score": 7
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
    "source": "aws-ml",
