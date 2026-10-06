@@ -1,5 +1,5 @@
 {
- "updated": 1791268107,
+ "updated": 1791302397,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 9,
-   "new": 0
+   "count": 10,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 12,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 1
+   "new": 4
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,84 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+   "link": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+   "summary": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessment: what it is, how it improves enterprise-wide risk management, and how ISO/IEC 42005:2025 codifies best practices for conducting and documenting these assessments.",
+   "ts": 1791302008,
+   "zh": "AWS 谈 ISO/IEC 42005:2025 责任 AI 治理",
+   "brief": "AWS 介绍其工具如何帮助客户对齐责任 AI 国际标准，并解析 AI 系统影响评估。",
+   "why": "做 AI 治理咨询可引用国际标准，作为合规服务切入点。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Best practices for Amazon SageMaker HyperPod administration and governance",
+   "link": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
+   "summary": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams how to design infrastructure boundaries, govern access, allocate shared capacity, and operate HyperPod consistently across the organization, project, cluster, and workload control layers.",
+   "ts": 1791301823,
+   "zh": "SageMaker HyperPod 管理与治理最佳实践",
+   "brief": "AWS 发布在 Unified Studio 中管理 HyperPod 集群、权限与共享容量的实践指南。",
+   "why": "纯平台运维细节，中小企业老板基本用不上。",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio",
+   "link": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
+   "summary": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools.",
+   "ts": 1791301622,
+   "zh": "SageMaker Studio 可直接管理 HyperPod Spaces",
+   "brief": "数据科学家现可在 SageMaker Studio 中直接创建、启停 HyperPod EKS 上的 Spaces。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
+   "summary": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travelers change seats, check delays, and ask policy questions by voice, while the agent reaches your backend through MCP tools and confirms every change before it writes.",
+   "ts": 1791301542,
+   "zh": "用 Bedrock AgentCore 搭建语音旅行助手",
+   "brief": "AWS 演示用 Bedrock AgentCore、Nova Sonic 和知识库为航司 App 构建语音客服。",
+   "why": "可作为企业语音客服 AI 落地的参考案例。",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+   "link": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+   "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with […]",
+   "ts": 1791291619,
+   "zh": "电信运营商为何押注开源模型做 AI",
+   "brief": "NVIDIA 称电信运营商基于信任、可控与定制需求，正用开源模型构建 AI 战略。",
+   "why": "说明开源模型在企业关键业务中的可行性，可作选型论据。",
+   "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+   "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+   "summary": "",
+   "ts": 1791269079,
+   "zh": "Falcon-Emirati：学习方言与文化的 LLM",
+   "brief": "Hugging Face 发布 Falcon-Emirati 模型，称其能掌握方言、文化与语境细微差别。",
+   "why": "提示行业/本地化模型机会，可讲垂直定制方向。",
+   "score": 6
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
    "source": "aws-ml",
