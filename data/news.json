@@ -1,11 +1,11 @@
 {
- "updated": 1791353245,
+ "updated": 1791379958,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 30,
-   "new": 2
+   "count": 24,
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -28,14 +28,14 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 3,
-   "new": 0
+   "count": 4,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 10,
-   "new": 0
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -59,10 +59,49 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://huggingface.co/blog/tiiuae/falcon-asr",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Introducing Falcon ASR",
+   "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
+   "summary": "",
+   "ts": 1791379263,
+   "zh": "Hugging Face 发布 Falcon ASR 语音识别模型",
+   "brief": "Hugging Face 推出 Falcon ASR，一款新的自动语音识别模型。",
+   "why": "语音转写能力可接入客服、会议记录等企业场景。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+   "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+   "summary": "",
+   "ts": 1791377131,
+   "zh": "Nemotron 微调在 IOI 与 IMO 获金牌成绩",
+   "brief": "同一模型家族经微调后在 IOI 和 IMO 两项竞赛中取得金牌级结果。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Introducing Playground: Create and play custom games",
+   "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+   "summary": "Overview of Playground",
+   "ts": 1791374400,
+   "zh": "Google 推出 Playground 自定义游戏创作平台",
+   "brief": "Google 发布 Playground，用户可创建并游玩自定义游戏。",
+   "why": "",
+   "score": 2
+  },
   {
    "id": "https://arxiv.org/abs/2610.06910",
    "source": "arxiv",
