@@ -1,5 +1,5 @@
 {
- "updated": 1791326466,
+ "updated": 1791353245,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -10,8 +10,8 @@
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 4,
-   "new": 1
+   "count": 3,
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -23,7 +23,7 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 6,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -40,14 +40,14 @@
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 12,
+   "count": 11,
    "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 1
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,115 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.06910",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+   "link": "https://arxiv.org/abs/2610.06910",
+   "summary": "arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly from sparse user queries often forces coding agents to make underspecified assumptions, yielding incompl",
+   "ts": 1791345600,
+   "zh": "GAMEGO：用合成轨迹训练游戏开发智能体",
+   "brief": "arXiv新论文提出GAMEGO方法，用锚定真实资产的合成轨迹训练游戏开发AI智能体。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.06914",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+   "link": "https://arxiv.org/abs/2610.06914",
+   "summary": "arXiv:2610.06914v1 Announce Type: new Abstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while ",
+   "ts": 1791345600,
+   "zh": "Text2Dashboard：企业数据自然语言生成仪表盘",
+   "brief": "arXiv论文提出面向企业数据、由自然语言生成可审查仪表盘的受治理智能体架构。",
+   "why": "展示企业数据分析智能体的可控落地思路，可作案例讲。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.06923",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+   "link": "https://arxiv.org/abs/2610.06923",
+   "summary": "arXiv:2610.06923v1 Announce Type: new Abstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable functions through a conversational interface. A large-language-model controller maps clinical inten",
+   "ts": 1791345600,
+   "zh": "RadOnc-Agent：放疗全流程LLM编排框架",
+   "brief": "arXiv论文提出用LLM编排放疗护理路径各阶段AI工作流的框架。",
+   "why": "垂直医疗行业AI流程整合案例，可类比其他行业。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.06964",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Principles that Guide, Actions that Inform: Agent Evolution via Knowledge Abstraction",
+   "link": "https://arxiv.org/abs/2610.06964",
+   "summary": "arXiv:2610.06964v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in interactive environments, yet their ability to continually evolve from experience remains limited. Although fine-tuning enables adaptation, its dependence on parameter access and high computational costs restrict its flexibility, especially for large-scale and closed-source LLMs. External memory offers an alternative by allowing agents to accumulate experience without modifying model parameters. However, existing methods mainly focus on experience representation and organi",
+   "ts": 1791345600,
+   "zh": "智能体进化：通过知识抽象实现经验学习",
+   "brief": "arXiv论文提出让LLM智能体通过知识抽象从经验中持续进化的方法。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.06971",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems",
+   "link": "https://arxiv.org/abs/2610.06971",
+   "summary": "arXiv:2610.06971v1 Announce Type: new Abstract: Traditional data pipelines are notoriously brittle, often failing due to upstream schema drift, API contract changes, or website DOM modifications. Present observability tools only raise alerts but for human engineers, resulting in a high Mean Time to Repair (MTTR) and operational fatigue. In this paper we propose AegisFlow (Agentic Engine for Intelligent Self-healing and Graph-driven Operations for Workload remediation), a novel agentic framework that closes the loop between detection and resolution. AegisFlow uses a Watchdog agent to collect ru",
+   "ts": 1791345600,
+   "zh": "AegisFlow：脆弱数据生态的自愈多智能体框架",
+   "brief": "arXiv论文提出多智能体框架，自动修复数据管道因模式漂移等导致的故障。",
+   "why": "数据管道自愈能力对企业IT运维降本有参考价值。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.06986",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "EPOCH: Reliable Discovery through Evidence-Governed Search",
+   "link": "https://arxiv.org/abs/2610.06986",
+   "summary": "arXiv:2610.06986v1 Announce Type: new Abstract: AI research agents are increasingly used to search over programs, mathematical constructions, and proofs. However, existing systems typically optimize evaluator feedback without adequately governing how that feedback is interpreted, challenged, and reused. As a result, promising but fragile candidates can be promoted as discoveries, while benchmark improvements, finite certificates, and theorem-level claims are too easily conflated. We introduce EPOCH, an evidence-governed architecture designed to close this gap. EPOCH implements an evidence-gove",
+   "ts": 1791345600,
+   "zh": "EPOCH：证据治理的可靠发现搜索",
+   "brief": "arXiv论文提出通过证据治理机制提升AI研究智能体搜索可靠性的方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.07004",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Topology-Consistent Task Planning over Cellular Workflow Complexes for LLM-based Agents",
+   "link": "https://arxiv.org/abs/2610.07004",
+   "summary": "arXiv:2610.07004v1 Announce Type: new Abstract: Task planning for LLM agents requires workflows that satisfy both user intent and complex sub-task dependencies. While existing planners work well for sequential or directed acyclic graph (DAG)-like structures, they struggle with workflow patterns such as verification-correction loops, convergent branch merging, and reusable intermediate states that arise naturally in real-world tool orchestration. We present TopoPlanner, a topology-consistent planning framework that lifts tool dependency graphs into cellular workflow complexes and uses them as t",
+   "ts": 1791345600,
+   "zh": "面向LLM智能体的蜂窝工作流拓扑一致规划",
+   "brief": "arXiv论文提出在蜂窝工作流复合体上做拓扑一致任务规划的方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.07026",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Offline AI Modules: Voice-First Offline Architecture, Hardware Reference Stack, Quantization and Benchmarking",
+   "link": "https://arxiv.org/abs/2610.07026",
+   "summary": "arXiv:2610.07026v1 Announce Type: new Abstract: The Offline AI Modules workstream enables practical, low-power, and community-accessible deployment of voice-first AI systems that operate fully offline. Designed for African language communities where speech is the dominant mode of interaction and internet connectivity is unreliable or absent, the workstream delivers three reinforcing components: a modular voice-first offline architecture, a low-cost hardware reference bill of materials, and a reproducible quantization and a reproducible quantization and benchmarking pipeline for instruction-tun",
+   "ts": 1791345600,
+   "zh": "离线AI模块：语音优先离线架构与量化基准",
+   "brief": "arXiv论文介绍可完全离线运行的语音优先AI模块架构、硬件栈与量化基准。",
+   "why": "离线部署方案对数据敏感或网络差的企业有参考。",
+   "score": 4
+  },
   {
    "id": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
    "source": "deepmind",
@@ -166,6 +270,32 @@
    "brief": "NVIDIA 称电信运营商基于信任、可控与定制需求，正用开源模型构建 AI 战略。",
    "why": "说明开源模型在企业关键业务中的可行性，可作选型论据。",
    "score": 7
+  },
+  {
+   "id": "https://openai.com/index/jump-trading",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Jump Trading is scaling quant research with ChatGPT",
+   "link": "https://openai.com/index/jump-trading",
+   "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+   "ts": 1791288000,
+   "zh": "Jump Trading如何用ChatGPT扩展量化研究",
+   "brief": "OpenAI发布案例，介绍Jump Trading用ChatGPT结合多数据源与人工审核扩展量化研究。",
+   "why": "金融企业用AI做研究的落地案例，适合讲给老板听。",
+   "score": 8
+  },
+  {
+   "id": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Sharing AI progress in mathematics",
+   "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+   "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+   "ts": 1791288000,
+   "zh": "OpenAI分享数学领域AI研究进展",
+   "brief": "OpenAI公布内部前沿模型解决数学开放问题的结果，并在GitHub公开Lean证明形式化。",
+   "why": "展示前沿模型科研能力边界，可作AI能力趋势素材。",
+   "score": 5
   },
   {
    "id": "https://openai.com/index/advancing-computer-use-with-ironclad",
