@@ -1,11 +1,11 @@
 {
- "updated": 1791379958,
+ "updated": 1791405578,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 24,
-   "new": 0
+   "count": 26,
+   "new": 3
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,32 +22,32 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 6,
+   "count": 4,
    "new": 0
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 4,
-   "new": 1
+   "count": 3,
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 10,
-   "new": 2
+   "count": 9,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 11,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 7
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,123 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing Claude Haiku 5.5 on AWS",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+   "summary": "Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and costs around 75% less than Claude Haiku 4.5 for most tasks. This post covers its improvements and how to get started.",
+   "ts": 1791399130,
+   "zh": "Claude Haiku 5.5 上线 AWS 平台",
+   "brief": "Anthropic 在 Amazon Bedrock 和 AWS 上的 Claude 平台发布 Claude Haiku 5.5，称其为 Claude 5.5 系列最快最省模型，成本比 Haiku 4.5 低约 75%。",
+   "why": "高频、低成本任务成本大降，适合企业批量场景试水。",
+   "score": 8
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+   "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "summary": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of […]",
+   "ts": 1791398728,
+   "zh": "英伟达微软联手把 AI 智能体带上 Windows PC",
+   "brief": "英伟达与微软在旧金山活动上宣布共同设计软硬件，让 AI 智能体在 Windows PC 上运行，黄仁勋与纳德拉出席。",
+   "why": "企业办公终端将原生支持智能体，影响采购与IT规划。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+   "summary": "Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
+   "ts": 1791398084,
+   "zh": "Amazon Quick 与 Bedrock 重构 RAG 访问控制",
+   "brief": "AWS 介绍 Amazon Quick 与 Bedrock 知识库如何对接 SharePoint、Google Drive、Confluence 等源，实时校验文档级权限。",
+   "why": "解决企业知识库权限泄露顾虑，是落地RAG的关键前提。",
+   "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/LiquidAI/open-d1",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Multimodal open d1 decision models for the edge",
+   "link": "https://huggingface.co/blog/LiquidAI/open-d1",
+   "summary": "",
+   "ts": 1791392073,
+   "zh": "面向边缘设备的多模态开源决策模型",
+   "brief": "Hugging Face 发布面向边缘设备的多模态开源决策模型。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Beyond hours saved: Building the business case for agentic automation",
+   "link": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
+   "summary": "The RPA-era ROI model misses most of the value agentic automation creates. This post gives AI center of excellence leaders a framework to size the full value of agents across time savings, exception handling, decision quality, and maintenance economics, and to prioritize which workflows to automate first.",
+   "ts": 1791388200,
+   "zh": "智能体自动化的商业价值测算框架",
+   "brief": "AWS 发文指出 RPA 时代的 ROI 模型低估了智能体价值，给出覆盖时间节省、异常处理、决策质量与维护成本的评估框架。",
+   "why": "给老板算AI账的现成框架，可直接用于咨询与培训。",
+   "score": 9
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+   "summary": "Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
+   "ts": 1791388126,
+   "zh": "Qlik 基于 Bedrock 构建企业级可信 AI",
+   "brief": "Qlik 在 Amazon Bedrock 上构建 Qlik Answers，用多层多智能体架构、跨区域推理和 Guardrails 为 4 万多客户提供有出处的答案。",
+   "why": "企业级AI问答落地案例，可作行业标杆讲给客户。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Automate remediation post AWS DevOps Agent investigation",
+   "link": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+   "summary": "AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
+   "ts": 1791388009,
+   "zh": "用 Bedrock 自动修复 DevOps 智能体发现的问题",
+   "brief": "AWS 介绍如何用 Lambda Durable Functions、EventBridge 和 Bedrock 把 DevOps Agent 的调查结论转为预验证修复方案。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/building-ai-builders-playbook-for-closing-the-ai-knowledge-capability-gap/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Building AI builders: Playbook for closing the AI knowledge-capability gap",
+   "link": "https://aws.amazon.com/blogs/machine-learning/building-ai-builders-playbook-for-closing-the-ai-knowledge-capability-gap/",
+   "summary": "The biggest barrier to AI adoption isn't awareness. It's the gap between talking about AI and building with it. Here's the playbook we used to turn non-technical, customer-facing professionals into confident AI builders in six weeks, and how your organization can replicate it.",
+   "ts": 1791387867,
+   "zh": "六周把非技术人员培养成 AI 构建者",
+   "brief": "AWS 分享一套方法，六周内让非技术、面向客户的专业人员成为有信心的 AI 构建者，并说明组织如何复制。",
+   "why": "直接可借鉴的企业AI培训路径，适合做培训内容。",
+   "score": 9
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+   "summary": "Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, to turn database operations from reactive firefighting into proactive automation. A three-person team cut database diagnosis from 45 minutes to 10, a 78% reduction, in six months. See the design decisions other teams can reuse.",
+   "ts": 1791387508,
+   "zh": "Cornerstone 用 Bedrock 将数据库诊断缩短 78%",
+   "brief": "Cornerstone OnDemand 基于 Bedrock 和 Strands Agents 构建 Orion AI 多智能体系统，三人团队六个月内把数据库诊断从 45 分钟降至 10 分钟。",
+   "why": "量化降本案例，适合向老板证明AI投入回报。",
+   "score": 9
+  },
   {
    "id": "https://huggingface.co/blog/tiiuae/falcon-asr",
    "source": "huggingface",
@@ -101,6 +218,32 @@
    "brief": "Google 发布 Playground，用户可创建并游玩自定义游戏。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://openai.com/index/teens-learn-and-plan",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Helping teens learn, plan, and shape the future of AI",
+   "link": "https://openai.com/index/teens-learn-and-plan",
+   "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+   "ts": 1791374400,
+   "zh": "OpenAI 为青少年推出学习与规划功能",
+   "brief": "ChatGPT for Teens 上线 College Planner，帮助学生管理大学申请，并新增闪卡、测验和青少年 AI 委员会。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://openai.com/index/radisson",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+   "link": "https://openai.com/index/radisson",
+   "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+   "ts": 1791356400,
+   "zh": "丽笙酒店集团把酒店预订接入 ChatGPT",
+   "brief": "丽笙与埃森哲合作，用 OpenAI 技术构建 ChatGPT 插件，帮助旅客在规划行程时查找、比较和预订酒店。",
+   "why": "酒店业AI获客案例，可讲行业落地思路。",
+   "score": 6
   },
   {
    "id": "https://arxiv.org/abs/2610.06910",
@@ -205,6 +348,19 @@
    "brief": "arXiv论文介绍可完全离线运行的语音优先AI模块架构、硬件栈与量化基准。",
    "why": "离线部署方案对数据敏感或网络差的企业有参考。",
    "score": 4
+  },
+  {
+   "id": "https://openai.com/index/gpt-6-for-everyone",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "GPT-6 and Intelligent UI for everyone",
+   "link": "https://openai.com/index/gpt-6-for-everyone",
+   "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+   "ts": 1791331200,
+   "zh": "GPT-6 与智能界面全球上线",
+   "brief": "GPT-6 在全球 ChatGPT 中推出，配合 Intelligent UI，提供更快响应、可视化与可交互体验。",
+   "why": "模型能力升级，需评估对现有AI方案的影响。",
+   "score": 8
   },
   {
    "id": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
