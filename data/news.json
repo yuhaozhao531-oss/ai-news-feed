@@ -1,17 +1,17 @@
 {
- "updated": 1791456103,
+ "updated": 1791485598,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 27,
-   "new": 0
+   "count": 29,
+   "new": 3
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 3,
-   "new": 0
+   "count": 5,
+   "new": 2
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -22,7 +22,7 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 4,
+   "count": 3,
    "new": 0
   },
   "google-ai": {
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 11,
-   "new": 0
+   "count": 10,
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 2
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,110 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+   "link": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+   "summary": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay BlockRun for model inference one request at a time over x402, cutting the work of adding x402 payment support from months to days.",
+   "ts": 1791484409,
+   "zh": "Bedrock AgentCore 推出按次付费功能",
+   "brief": "AWS 发布 Bedrock AgentCore payments，让 AI 智能体按需付费调用服务，并由基础设施强制消费限额。",
+   "why": "智能体自动付费有了合规管控方案，可评估企业自动化采购场景。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
+   "link": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+   "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback.",
+   "ts": 1791476404,
+   "zh": "SageMaker HyperPod 多团队共享 GPU 集群方案",
+   "brief": "AWS 发布参考架构，用 IAM、命名空间和任务治理实现多团队安全共享一个 HyperPod 集群。",
+   "why": "GPU 成本高，多团队共享与成本分摊方案对降本有直接参考价值。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/index/oracle",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "link": "https://openai.com/index/oracle",
+   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+   "ts": 1791475200,
+   "zh": "Oracle 用 ChatGPT 和 Codex 提效案例",
+   "brief": "OpenAI 介绍 Oracle 在招聘、工程和运营中用 ChatGPT 与 Codex 把专家经验变成可复用工作流。",
+   "why": "大企业落地样板，可作培训中讲 AI 提效的现成案例。",
+   "score": 8
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+   "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through […]",
+   "ts": 1791464446,
+   "zh": "GeForce NOW 上线《战争机器：E-Day》",
+   "brief": "英伟达云游戏平台 GeForce NOW 本周上线《战争机器：E-Day》，并预告 Fire TV 将支持购买会员。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://openai.com/index/pollo-ai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+   "link": "https://openai.com/index/pollo-ai",
+   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+   "ts": 1791460800,
+   "zh": "Pollo AI 用 OpenAI 模型生成广告素材",
+   "brief": "Pollo AI 借助 GPT-5.6、GPT-6 Astra 和 GPT-Image-2.5，把创意想法转成图像和电影级视频广告。",
+   "why": "营销素材生成案例，可讲 AI 如何压缩创意制作成本。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Disrupting AI-enabled “false front” operations",
+   "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+   "ts": 1791417600,
+   "zh": "OpenAI 打击 AI 虚假媒体影响行动",
+   "brief": "OpenAI 封禁两个利用假记者和智库身份传播地缘政治信息的 AI 影响行动。",
+   "why": "提示企业使用 AI 生成内容的合规与声誉风险。",
+   "score": 6
+  },
+  {
+   "id": "https://www.anthropic.com/news/genesis-mission-commitment",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Building on our commitment to American scientific discovery",
+   "link": "https://www.anthropic.com/news/genesis-mission-commitment",
+   "summary": "Building on our commitment to American scientific discovery",
+   "ts": 1791417600,
+   "zh": "Anthropic 重申支持美国科学发现",
+   "brief": "Anthropic 发文重申其支持美国科学发现的承诺，未披露具体新举措。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://www.anthropic.com/news/2026-usage-policy-update",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "2026 Usage Policy update",
+   "link": "https://www.anthropic.com/news/2026-usage-policy-update",
+   "summary": "2026 Usage Policy update",
+   "ts": 1791417600,
+   "zh": "Anthropic 发布 2026 使用政策更新",
+   "brief": "Anthropic 公布 2026 年使用政策更新，涉及平台允许与禁止的使用范围。",
+   "why": "企业采购 AI 前需核对使用政策，避免合规踩线。",
+   "score": 7
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
    "source": "aws-ml",
