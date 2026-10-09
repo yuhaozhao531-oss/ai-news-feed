@@ -1,17 +1,17 @@
 {
- "updated": 1791485598,
+ "updated": 1791508526,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 29,
-   "new": 3
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 5,
-   "new": 2
+   "count": 6,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 10,
-   "new": 0
+   "count": 11,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 10,
+   "count": 11,
    "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 2
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through […]",
+   "ts": 1791493595,
+   "zh": "英伟达Omniverse：开发者用前沿AI智能体做仿真",
+   "brief": "英伟达介绍开发者结合前沿AI模型与Omniverse库，把仿真想法变成可运行应用。",
+   "why": "制造业/工程类企业可关注仿真与数字孪生的落地路径。",
+   "score": 6
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
    "source": "aws-ml",
@@ -129,6 +142,19 @@
    "score": 6
   },
   {
+   "id": "https://openai.com/index/legalon-halves-codex-costs",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "LegalOn halves Codex costs while maintaining development speed",
+   "link": "https://openai.com/index/legalon-halves-codex-costs",
+   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+   "ts": 1791460800,
+   "zh": "LegalOn用Codex成本降65%且不降开发速度",
+   "brief": "LegalOn通过按任务匹配不同模型并管理预算，把Codex日均成本估算降低65%。",
+   "why": "给老板讲AI降本：模型分级调度是可直接抄的做法。",
+   "score": 9
+  },
+  {
    "id": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
    "source": "openai",
    "sourceName": "OpenAI",
@@ -166,6 +192,32 @@
    "brief": "Anthropic 公布 2026 年使用政策更新，涉及平台允许与禁止的使用范围。",
    "why": "企业采购 AI 前需核对使用政策，避免合规踩线。",
    "score": 7
+  },
+  {
+   "id": "https://www.anthropic.com/news/anthropic-cyber-mission",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Introducing the Anthropic Cyber Mission",
+   "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
+   "summary": "Introducing the Anthropic Cyber Mission",
+   "ts": 1791417600,
+   "zh": "Anthropic推出网络安全使命计划",
+   "brief": "Anthropic发布Cyber Mission，聚焦网络安全方向的AI相关工作。",
+   "why": "安全合规是中小企业上AI的顾虑，可作话题切入。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/building-with-ml-intern",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "The model that didn't exist, so you made it yourself",
+   "link": "https://huggingface.co/blog/building-with-ml-intern",
+   "summary": "",
+   "ts": 1791417600,
+   "zh": "Hugging Face：不存在的模型，就自己造一个",
+   "brief": "Hugging Face发布内容，讲述当所需模型不存在时自行构建的做法。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
