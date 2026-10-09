@@ -1,17 +1,17 @@
 {
- "updated": 1791508526,
+ "updated": 1791542447,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 29,
+   "count": 30,
    "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 6,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -35,13 +35,13 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 11,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 11,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -59,10 +59,127 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/index/sophos",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+   "link": "https://openai.com/index/sophos",
+   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+   "ts": 1791529200,
+   "zh": "Sophos借助OpenAI将威胁调查时间缩短96%",
+   "brief": "OpenAI发布案例：Sophos用Daybreak将网络威胁调查时间缩短96%，自动化52%的MDR案件并保留人工监督。",
+   "why": "安全运营可被AI大幅压缩成本，是中小企业可复制的降本增效样板。",
+   "score": 9
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.10549",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+   "link": "https://arxiv.org/abs/2610.10549",
+   "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distributional fidelity without per-domain authoring. We introduce **Synthesis Through Simulation** (STS)",
+   "ts": 1791518400,
+   "zh": "用模拟合成企业数据训练工具调用智能体",
+   "brief": "arXiv论文提出通过可扩展的智能体-系统交互模拟，合成连贯的企业数据以训练和评估工具调用智能体。",
+   "why": "解决企业数据不能外流的训练难题，为内部AI落地提供思路。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.10590",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+   "link": "https://arxiv.org/abs/2610.10590",
+   "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user instructions and assistant messages from these operations. In an exploratory OpenTelemetry debugging",
+   "ts": 1791518400,
+   "zh": "工具智能体的可控遗忘：可逆上下文整理",
+   "brief": "arXiv论文研究由智能体自主选择并压缩历史工具返回结果，实现可逆的上下文管理。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.10611",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+   "link": "https://arxiv.org/abs/2610.10611",
+   "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal randomness. A stage specifies admissible transcripts, polynomial bounds, an alternating verification protocol, and a terminal checker. Its native reach uses default support; its closure frontier permits all support already admitted by the interface. Under a uniform pointwise probabilit",
+   "ts": 1791518400,
+   "zh": "智能体AI的验证与自我改进：基础与局限",
+   "brief": "arXiv论文比较智能体通过延长搜索、外部支持或修改提出与验证机制来提升表现的不同路径及其边界。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.10629",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+   "link": "https://arxiv.org/abs/2610.10629",
+   "summary": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it is confined to the runtime harness (instruction text, tool-call logic and primitive composition) while model weights stay fixed, so that every adaptation is a diff with a cause and a test attached. We give a dual-loop engine built on that bound, with one admission gate that writes a hash-chained reco",
+   "ts": 1791518400,
+   "zh": "合规约束下信贷流程LLM智能体的自演化",
+   "brief": "arXiv论文提出在信贷流程中，智能体自演化须保留可审查的变更、测试与审批记录，并设置准入闸门。",
+   "why": "金融等强监管行业上AI的合规框架参考，老板需关注。",
+   "score": 7
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.10635",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+   "link": "https://arxiv.org/abs/2610.10635",
+   "summary": "arXiv:2610.10635v1 Announce Type: new Abstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-driven instructions; on a frozen OpenFly navigator, this \\emph{instruction gap} drops success rate (SR) from $31.03\\%$ to $11.33\\%$. To scale translator training, we prompt a language model with human-written style examples to convert original commands into paired, intent-centered Weak commands, which yield $15.27\\%$ SR. We introduce the \\textbf{Trajectory-Grounded Instruction Translator (TGIT)}, ",
+   "ts": 1791518400,
+   "zh": "面向冻结空中导航智能体的指令翻译",
+   "brief": "arXiv论文针对空中视觉语言导航智能体，提出将简短意图指令翻译为轨迹对齐指令以缩小指令差距。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.10786",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+   "link": "https://arxiv.org/abs/2610.10786",
+   "summary": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcomes over many steps. Yet assumptions made during planning may be invalidated by the environment, tools may return unexpected results, or actions may fail. Effective agents must therefore not only generate plans, but also revise them. Such revisions often affect only part of a plan, leaving the preceding and subsequent structure intact. Rather than regenerate the entire plan and risk unnecessary cha",
+   "ts": 1791518400,
+   "zh": "Plan-and-Patch：扩散语言模型用于智能体规划",
+   "brief": "arXiv论文提出Plan-and-Patch方法，用扩散语言模型处理长周期智能体规划中环境变化导致的计划失效。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.10833",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+   "link": "https://arxiv.org/abs/2610.10833",
+   "summary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-Bench Lite and Qwen3-4B on Zork I (Jericho), two agentic benchmarks where additional computational time can meaningfully improve performance. In the simplest setting, where the budget is stated only in the prompt, agents fail to translate the stated budget into controlled use of time. These failures arise from gaps in t",
+   "ts": 1791518400,
+   "zh": "按时完成：有时间预算的高效AI智能体",
+   "brief": "arXiv论文研究小型LLM智能体能否在明确墙钟时间预算内既守时又高效地完成任务，并在MLE-Bench Lite上评测。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.10942",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+   "link": "https://arxiv.org/abs/2610.10942",
+   "summary": "arXiv:2610.10942v1 Announce Type: new Abstract: Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a terminal verdict, and the pass bar is set arbitrarily. We introduce StoreBench, a live-commerce environment in which an agent runs a mid-size online apparel store on a production-grade commerce backend, testing long-horizon planning and economic judgment under uncertainty. Customers order around the clock, suppliers r",
+   "ts": 1791518400,
+   "zh": "StoreBench：直播电商自主运营智能体评测环境",
+   "brief": "arXiv论文发布StoreBench，一个用于评估和训练自主运营智能体的直播电商动态环境。",
+   "why": "电商企业可关注AI运营智能体的评测与训练方向。",
+   "score": 5
+  },
   {
    "id": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
    "source": "nvidia",
