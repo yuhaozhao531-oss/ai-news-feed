@@ -1,11 +1,11 @@
 {
- "updated": 1791570228,
+ "updated": 1791593801,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 11,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 2
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -114,6 +114,19 @@
    "brief": "OpenAI发布案例：Sophos用Daybreak将网络威胁调查时间缩短96%，自动化52%的MDR案件并保留人工监督。",
    "why": "安全运营可被AI大幅压缩成本，是中小企业可复制的降本增效样板。",
    "score": 9
+  },
+  {
+   "id": "https://openai.com/index/asana-browser-agent",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "link": "https://openai.com/index/asana-browser-agent",
+   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+   "ts": 1791529200,
+   "zh": "Asana用GPT-6.1将浏览器模型成本降低76倍",
+   "brief": "Asana在Codex中使用GPT-6 Astra，使其浏览器代理测试成本降低76倍、速度提升5倍。",
+   "why": "展示AI代理降本增效的真实案例，可作企业落地参考。",
+   "score": 8
   },
   {
    "id": "https://arxiv.org/abs/2610.10549",
