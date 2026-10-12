@@ -1,10 +1,10 @@
 {
- "updated": 1791765405,
+ "updated": 1791802784,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 28,
+   "count": 27,
    "new": 0
   },
   "anthropic": {
@@ -34,7 +34,7 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 10,
+   "count": 9,
    "new": 0
   },
   "nvidia": {
@@ -58,11 +58,115 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.12542",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+   "link": "https://arxiv.org/abs/2610.12542",
+   "summary": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart list scheduler with no search tree as the control; and a textbook-UCT MCTS arm as a registered follo",
+   "ts": 1791777600,
+   "zh": "等预算下MCTS与随机重启调度对比研究",
+   "brief": "arXiv论文在同等搜索预算下比较蒙特卡洛树搜索与随机重启列表调度在DAG工作流上的表现。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.12593",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+   "link": "https://arxiv.org/abs/2610.12593",
+   "summary": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning value for the current task agent. Existing methods increasingly incorporate environment feedback, data validation, or learner failures, but still face a feedback-to-decision gap: observed weaknesses do not directly specify how future synthesis should change, or whether they can be represented by the ",
+   "ts": 1791777600,
+   "zh": "智能体数据合成：演化生成空间闭环学习",
+   "brief": "arXiv论文提出通过演化生成空间进行智能体数据合成，实现闭环学习以提升交互能力。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.12596",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+   "link": "https://arxiv.org/abs/2610.12596",
+   "summary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human ",
+   "ts": 1791777600,
+   "zh": "SpireBench：用杀戮尖塔评测智能体长程策略",
+   "brief": "arXiv发布SpireBench基准，用游戏《杀戮尖塔》评测智能体模型的长程战略推理能力。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.12598",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+   "link": "https://arxiv.org/abs/2610.12598",
+   "summary": "arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investigate whether the current policy can judge its own trajectories and use these judgments to improve task performance without a separately trained reward model. To this end, we introduce Behavioral Self-Rewarding (BSR), a reward-refinement method that reuses the policy to compare observable debugging b",
+   "ts": 1791777600,
+   "zh": "超越二元奖励：SWE智能体的行为自奖励",
+   "brief": "arXiv论文提出行为自奖励方法，改进软件工程智能体强化学习中二元奖励区分度不足的问题。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.12655",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+   "link": "https://arxiv.org/abs/2610.12655",
+   "summary": "arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet clarification is useful only when the agent can turn the answer into better decisions. As training changes how the agent handles incomplete information and uses additional answers, the same clarification can become more or less useful. We introduce CLEAT (CLarification through valuE-guided Agent co-",
+   "ts": 1791777600,
+   "zh": "CLEAT：交互智能体的价值引导澄清学习",
+   "brief": "arXiv论文提出CLEAT方法，让交互智能体通过澄清提问对齐用户未明说的目标与约束。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.12789",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+   "link": "https://arxiv.org/abs/2610.12789",
+   "summary": "arXiv:2610.12789v1 Announce Type: new Abstract: Self-evolving LLM agents typically improve how they act through accumulated experience, reflection, or skills. Yet even procedurally capable agents can fail when their beliefs about environment dynamics are incomplete, incorrect, or outdated. We study a complementary axis of self-evolution: evolving those beliefs during deployment. Such beliefs can support multiple tasks, but incorrect ones can also propagate across them. We introduce EvoBelief, a self-evolving world model that represents environment knowledge as falsifiable hypotheses. Unexpecte",
+   "ts": 1791777600,
+   "zh": "EvoBelief：可证伪世界模型助力智能体自进化",
+   "brief": "arXiv论文提出EvoBelief，用可证伪的世界模型帮助LLM智能体自我改进环境认知。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.12813",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+   "link": "https://arxiv.org/abs/2610.12813",
+   "summary": "arXiv:2610.12813v1 Announce Type: new Abstract: LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and security risks. Runtime guardrails should therefore make inspectable, reproducible, and deterministic allow or refuse decisions before potentially irreversible agent actions are executed. However, safety and security requirements are rarely complete before deployment, so guardrails need to keep adapting as new risks emerge. Existing adaptive guardrails learn from deployment experience, but they usually",
+   "ts": 1791777600,
+   "zh": "VEPA：面向LLM智能体护栏的可验证演化策略",
+   "brief": "arXiv论文提出VEPA，为操作敏感资源的LLM智能体提供可检查、可复现的运行时护栏。",
+   "why": "智能体安全护栏思路可借鉴到企业AI权限与合规管控。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.12822",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
+   "link": "https://arxiv.org/abs/2610.12822",
+   "summary": "arXiv:2610.12822v1 Announce Type: new Abstract: Multi-agent systems are increasingly used to solve coding tasks by coordinating agents that share code and plans. These agents are often optimized with reinforcement learning (RL) using automated evaluators, but bypassing evaluation can earn reward without producing a genuine solution. Prior work has largely treated reward hacking as a single-agent failure. In this work, we show that a reward-hacking strategy elicited in one agent can propagate to others and affect system coordination. Across four open-weight backbones, coding RL elicits and ampl",
+   "ts": 1791777600,
+   "zh": "多智能体编程系统中的奖励黑客可传播性",
+   "brief": "arXiv论文研究多智能体编程系统中，绕过评估获取奖励的行为会作为策略在智能体间传播。",
+   "why": "提醒企业多智能体协作需防评估作弊，影响AI代码质量管控。",
+   "score": 5
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
    "source": "aws-ml",
