@@ -1,10 +1,10 @@
 {
- "updated": 1791802784,
+ "updated": 1791839899,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 27,
+   "count": 25,
    "new": 0
   },
   "anthropic": {
@@ -28,7 +28,7 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "new": 0
   },
   "huggingface": {
@@ -40,14 +40,14 @@
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 11,
-   "new": 0
+   "count": 12,
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 3
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,62 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+   "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+   "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.",
+   "ts": 1791827542,
+   "zh": "AWS在东南亚多地上线OpenAI GPT模型",
+   "brief": "亚马逊Bedrock通过跨区域推理，在泰国、马来西亚、新加坡、印尼、台湾提供OpenAI GPT模型。",
+   "why": "东南亚布局的企业可合规就近调用GPT，降低延迟与数据出境顾虑。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+   "summary": "Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for llama.cpp, then extends the runtime with SemIf to return probabilities over declared options on CPU or GPU.",
+   "ts": 1791820306,
+   "zh": "用llama.cpp在SageMaker部署决策模型",
+   "brief": "AWS发布教程，用llama.cpp容器在SageMaker上部署可输出选项概率的决策模型。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+   "link": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+   "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment instead of assembling it.",
+   "ts": 1791820214,
+   "zh": "Ray LLM容器支持多节点大模型推理",
+   "brief": "AWS介绍在EKS上用Ray LLM容器跨两个GPU节点部署大模型，提供兼容OpenAI接口。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+   "link": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+   "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at […]",
+   "ts": 1791817225,
+   "zh": "英伟达开放Vera Rubin架构推动AI工厂",
+   "brief": "英伟达在OCP全球峰会宣布开放Vera Rubin架构，以开放标准帮助扩展AI基础设施。",
+   "why": "",
+   "score": 4
+  },
   {
    "id": "https://arxiv.org/abs/2610.12542",
    "source": "arxiv",
