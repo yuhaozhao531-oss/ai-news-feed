@@ -1,10 +1,10 @@
 {
- "updated": 1791839899,
+ "updated": 1791874292,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 25,
+   "count": 24,
    "new": 0
   },
   "anthropic": {
@@ -40,14 +40,14 @@
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 12,
+   "count": 13,
    "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+   "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+   "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments […]",
+   "ts": 1791867631,
+   "zh": "法国生态借英伟达实现规模化智能体计算",
+   "brief": "英伟达称法国企业正将智能体计算落地于航天、金融、公共部门和科研等领域。",
+   "why": "可作企业AI智能体跨行业落地的海外案例参考。",
+   "score": 7
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
    "source": "aws-ml",
