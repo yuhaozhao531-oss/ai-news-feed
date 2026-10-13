@@ -1,11 +1,11 @@
 {
- "updated": 1791910746,
+ "updated": 1791931875,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 22,
-   "new": 0
+   "count": 23,
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -17,37 +17,37 @@
    "name": "Anthropic 工程博客",
    "ok": true,
    "count": 1,
-   "new": 1
+   "new": 0
   },
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 5,
-   "new": 2
+   "count": 6,
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 14,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 4
+   "new": 2
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,58 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+   "link": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+   "summary": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resources and APIs. Amazon Bedrock AgentCore payments checks budgets, signs transactions, and retries requests without exposing wallet credentials to the agent runtime.",
+   "ts": 1791922233,
+   "zh": "AWS推出AI代理自动支付方案",
+   "brief": "AWS与Anchor Browser合作，让AI代理可自主支付x402保护的网络资源与API，AgentCore负责预算与签名。",
+   "why": "企业AI代理将能自主采购外部服务，需提前规划预算与权限管控。",
+   "score": 8
+  },
+  {
+   "id": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "summary": "",
+   "ts": 1791920587,
+   "zh": "谷歌DeepMind安全开发Gemini 4 Argon",
+   "brief": "谷歌DeepMind发布关于负责任、安全地开发Gemini 4 Argon的说明。",
+   "why": "头部模型迭代加速，企业选型需关注安全合规与版本节奏。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
+   "link": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
+   "summary": "Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pricing Offers individually. This post shows two ways to activate MPPO entitlements in AWS License Manager: a lightweight script for a one-time fix, and CDK automation for ongoing event-driven processing.",
+   "ts": 1791911845,
+   "zh": "Bedrock私有定价批量管理方案",
+   "brief": "AWS介绍用License Manager两种方式激活Marketplace私有定价权益，简化多账户模型访问。",
+   "why": "多账户企业可降低采购摩擦，利于规模化AI成本管控。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+   "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "summary": "",
+   "ts": 1791911148,
+   "zh": "LFM2.5-24B-A2B端侧私有代理",
+   "brief": "Hugging Face发布LFM2.5-24B-A2B，可在设备端快速运行私有AI代理。",
+   "why": "数据不出本地的端侧代理，契合中小企业隐私与成本诉求。",
+   "score": 7
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
    "source": "aws-ml",
@@ -166,6 +218,19 @@
    "brief": "英伟达发布RTX Spark超级芯片，最高128GB统一内存、1 petaflop AI算力，融合游戏、创作与个人AI超算。",
    "why": "端侧AI算力跃升，中小企业本地跑AI模型的门槛降低。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/index/higgsfield-longer-videos-voice",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Higgsfield takes AI video from 1 minute to over 10",
+   "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+   "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+   "ts": 1791892800,
+   "zh": "Higgsfield借GPT-6延长AI视频",
+   "brief": "Higgsfield用GPT-6 Astra将AI视频从1分钟延长至10分钟以上，并推出图像与语音功能。",
+   "why": "营销内容生产成本再降，企业视频素材制作门槛大幅降低。",
+   "score": 7
   },
   {
    "id": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
