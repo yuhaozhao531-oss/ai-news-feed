@@ -1,10 +1,10 @@
 {
- "updated": 1791874292,
+ "updated": 1791910746,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 24,
+   "count": 22,
    "new": 0
   },
   "anthropic": {
@@ -16,38 +16,38 @@
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 1,
+   "new": 1
   },
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 3,
-   "new": 0
+   "count": 5,
+   "new": 2
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 9,
+   "count": 8,
    "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 13,
+   "count": 14,
    "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 4
   },
   "qwen": {
    "name": "通义千问",
@@ -64,6 +64,110 @@
  },
  "items": [
   {
+   "id": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+   "summary": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage architecture and the results: 90% lower query cost, 93% fewer input tokens, and 75% lower latency than the initial baseline.",
+   "ts": 1791907411,
+   "zh": "Orca Security用Bedrock做自然语言安全查询",
+   "brief": "Orca Security基于Amazon Bedrock构建Discovery AI，把自然语言问题转成Sonar查询，查询成本降90%、输入token减93%、延迟降75%。",
+   "why": "安全运维可用自然语言查询，降本增效，是AI落地降本的好案例。",
+   "score": 8
+  },
+  {
+   "id": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Gemini 4 Argon for Robotics",
+   "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "summary": "",
+   "ts": 1791907318,
+   "zh": "谷歌DeepMind发布Gemini 4 Argon机器人版",
+   "brief": "谷歌DeepMind发布面向机器人方向的Gemini 4 Argon。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "summary": "",
+   "ts": 1791907312,
+   "zh": "Gemini 4 Argon：为最难问题而生",
+   "brief": "谷歌DeepMind发布Gemini 4 Argon，主打解决最困难的问题。",
+   "why": "新旗舰模型发布，需评估对企业AI应用选型的影响。",
+   "score": 7
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "summary": "TBD",
+   "ts": 1791907200,
+   "zh": "Gemini 4 Argon：为最难问题而生",
+   "brief": "谷歌AI发布Gemini 4 Argon，内容待定。",
+   "why": "",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+   "summary": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a curated knowledge base, reads error-message screenshots, and files Jira tickets. In its first three months it resolved 97.5% of channel queries with a 96% positive feedback rating.",
+   "ts": 1791906889,
+   "zh": "ShipStation用Bedrock AgentCore做AI IT台",
+   "brief": "ShipStation在Slack上用Bedrock AgentCore搭建AI IT助手Deckhand，能答常见IT问题、读报错截图、建Jira工单，三个月内解决97.5%的频道咨询。",
+   "why": "IT支持自动化落地范例，可显著降低内部服务人力成本。",
+   "score": 9
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
+   "summary": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measuring correctness and token cost per completed task. We show how to tune the trade-off per request and monitor it in production.",
+   "ts": 1791906740,
+   "zh": "在Bedrock上用Grok 4.7构建长任务智能体",
+   "brief": "Grok 4.7上线Amazon Bedrock，文章演示工具调用智能体在三种推理任务、四档推理强度下的正确率与token成本权衡。",
+   "why": "新模型上云，企业可评估长任务智能体的成本与效果。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/",
+   "summary": "AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Triton backend routing for FP8 quantization, and eliminating Triton JIT recompilation. Together they deliver up to 10% higher throughput and up to 9% faster Time to First Token on H200 GPUs.",
+   "ts": 1791904629,
+   "zh": "SageMaker上MoE内核工程优化",
+   "brief": "AWS工程师分享SageMaker上MoE模型内核优化，吞吐提升最高10%、时间缩短最高9%。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+   "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+   "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and […]",
+   "ts": 1791892849,
+   "zh": "英伟达RTX Spark：PC应用生态就绪",
+   "brief": "英伟达发布RTX Spark超级芯片，最高128GB统一内存、1 petaflop AI算力，融合游戏、创作与个人AI超算。",
+   "why": "端侧AI算力跃升，中小企业本地跑AI模型的门槛降低。",
+   "score": 6
+  },
+  {
    "id": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
    "source": "nvidia",
    "sourceName": "NVIDIA",
@@ -75,6 +179,19 @@
    "brief": "英伟达称法国企业正将智能体计算落地于航天、金融、公共部门和科研等领域。",
    "why": "可作企业AI智能体跨行业落地的海外案例参考。",
    "score": 7
+  },
+  {
+   "id": "https://www.anthropic.com/engineering/redesigning-source-control",
+   "source": "anthropic-eng",
+   "sourceName": "Anthropic 工程博客",
+   "title": "Redesigning source control at Anthropic",
+   "link": "https://www.anthropic.com/engineering/redesigning-source-control",
+   "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+   "ts": 1791849600,
+   "zh": "Anthropic重构自研源代码管理系统",
+   "brief": "Anthropic因每日合并量增长十倍，用五个月迁移到自研版本控制系统。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
