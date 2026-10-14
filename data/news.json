@@ -1,11 +1,11 @@
 {
- "updated": 1791931875,
+ "updated": 1791953998,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 23,
-   "new": 1
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,7 +22,7 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 6,
+   "count": 7,
    "new": 1
   },
   "google-ai": {
@@ -34,8 +34,8 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 8,
-   "new": 1
+   "count": 7,
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 2
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,24 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+   "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "ts": 1791943214,
+   "zh": "谷歌DeepMind与新加坡政府合作推出防诈骗AI工具",
+   "brief": "谷歌DeepMind与新加坡政府科技局合作，用轻量级端侧Gemma模型在私聊中拦截对话诈骗，数据不出云端。",
+   "why": "端侧AI落地政务场景，数据不出设备，可参考做企业合规与安全AI方案。",
+   "score": 8
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
    "source": "aws-ml",
