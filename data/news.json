@@ -1,17 +1,17 @@
 {
- "updated": 1791998268,
+ "updated": 1792014357,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 24,
-   "new": 2
+   "count": 25,
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 7,
-   "new": 0
+   "count": 8,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -22,7 +22,7 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 6,
+   "count": 5,
    "new": 0
   },
   "google-ai": {
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 7,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 4
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -142,6 +142,19 @@
    "score": 4
   },
   {
+   "id": "https://openai.com/index/sentinelone",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "SentinelOne cuts malware analysis from weeks to hours",
+   "link": "https://openai.com/index/sentinelone",
+   "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+   "ts": 1791979200,
+   "zh": "SentinelOne借助OpenAI将恶意软件分析从数周缩短至数小时",
+   "brief": "SentinelOne使用OpenAI Daybreak，将恶意软件分析时间从数周压缩到数小时，可调查更多威胁。",
+   "why": "安全团队用AI提效的落地案例，可讲AI在具体业务环节的ROI。",
+   "score": 8
+  },
+  {
    "id": "https://openai.com/index/third-moment-research",
    "source": "openai",
    "sourceName": "OpenAI",
@@ -218,6 +231,19 @@
    "brief": "Anthropic开设新加坡办公室，并与新加坡政府签署合作备忘录。",
    "why": "显示AI厂商加速亚太布局，企业可关注本地化服务与合规支持。",
    "score": 6
+  },
+  {
+   "id": "https://www.anthropic.com/news/2026-us-midterms",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Preparing for the 2026 US midterms",
+   "link": "https://www.anthropic.com/news/2026-us-midterms",
+   "summary": "Preparing for the 2026 US midterms",
+   "ts": 1791936000,
+   "zh": "Anthropic发布2026年美国中期选举准备措施",
+   "brief": "Anthropic发布针对2026年美国中期选举的相关准备措施。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
