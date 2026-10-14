@@ -1,17 +1,17 @@
 {
- "updated": 1791953998,
+ "updated": 1791979262,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 23,
-   "new": 0
+   "count": 22,
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 6,
-   "new": 0
+   "count": 7,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -23,7 +23,7 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 7,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -40,8 +40,8 @@
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 14,
-   "new": 0
+   "count": 16,
+   "new": 2
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -64,6 +64,32 @@
  },
  "items": [
   {
+   "id": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+   "link": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+   "summary": "Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety […]",
+   "ts": 1791957855,
+   "zh": "英伟达：英国从企业到地球级应用落地",
+   "brief": "英伟达称英国各行业正全面部署其全栈技术，并投入五年2.5亿美元推进相关计划。",
+   "why": "可讲AI落地已从试点走向规模化，中小企业需评估自身节奏。",
+   "score": 7
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+   "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+   "summary": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make […]",
+   "ts": 1791957628,
+   "zh": "欧洲多城部署英伟达AI代理优化城市运营",
+   "brief": "EMEA地区城市与软件、基础设施伙伴用英伟达加速计算构建物理AI代理，用于市政决策。",
+   "why": "说明AI代理已进入实体运营场景，可类比企业流程自动化。",
+   "score": 7
+  },
+  {
    "id": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
@@ -75,6 +101,32 @@
    "brief": "谷歌DeepMind与新加坡政府科技局合作，用轻量级端侧Gemma模型在私聊中拦截对话诈骗，数据不出云端。",
    "why": "端侧AI落地政务场景，数据不出设备，可参考做企业合规与安全AI方案。",
    "score": 8
+  },
+  {
+   "id": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "The EU’s next chapter in AI is agentic",
+   "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+   "ts": 1791936000,
+   "zh": "欧盟AI下一章：代理式AI加速普及",
+   "brief": "OpenAI发布分析，显示欧盟企业与小微企业代理式AI采用率上升，并指出深化应用的价值空间。",
+   "why": "可作欧洲企业AI采用率数据，支撑老板做投入决策参考。",
+   "score": 8
+  },
+  {
+   "id": "https://www.anthropic.com/news/singapore-office-opening",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+   "link": "https://www.anthropic.com/news/singapore-office-opening",
+   "summary": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+   "ts": 1791936000,
+   "zh": "Anthropic设新加坡办公室并与政府签约",
+   "brief": "Anthropic开设新加坡办公室，并与新加坡政府签署合作备忘录。",
+   "why": "显示AI厂商加速亚太布局，企业可关注本地化服务与合规支持。",
+   "score": 6
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
