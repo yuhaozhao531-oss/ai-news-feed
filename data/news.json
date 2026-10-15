@@ -1,17 +1,17 @@
 {
- "updated": 1792084029,
+ "updated": 1792099731,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 24,
-   "new": 1
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 7,
-   "new": 0
+   "count": 8,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -23,7 +23,7 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 6,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -34,14 +34,14 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 9,
+   "count": 11,
    "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 16,
-   "new": 2
+   "count": 17,
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -63,6 +63,45 @@
   }
  },
  "items": [
+  {
+   "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+   "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+   "summary": "",
+   "ts": 1792096441,
+   "zh": "Granite Switch 4.1：单端点提供对话、决策与语音",
+   "brief": "Hugging Face 发布 Granite Switch 4.1，通过单一端点提供对话、决策和语音能力。",
+   "why": "多能力合一的模型可降低企业集成与运维成本。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
+   "link": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+   "summary": "Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
+   "ts": 1792086215,
+   "zh": "Meta Muse Spark Open 上线 SageMaker JumpStart",
+   "brief": "Meta 面向编码优化的开放权重模型 Muse Spark Open 现已在 Amazon SageMaker JumpStart 提供，可部署到自有 AWS 账户端点。",
+   "why": "企业可在自有云账户内快速部署开源编码模型。",
+   "score": 7
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+   "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+   "summary": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and […]",
+   "ts": 1792083623,
+   "zh": "NVIDIA 发布 RTX Spark 新品",
+   "brief": "NVIDIA 宣布推出 RTX Spark，称其为面向创作者、玩家和 AI 代理打造的 Windows PC。",
+   "why": "",
+   "score": 2
+  },
   {
    "id": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
    "source": "deepmind",
@@ -283,6 +322,32 @@
    "brief": "Hugging Face宣布FLUX.3 Image Klein图像模型已支持Diffusers库。",
    "why": "",
    "score": 3
+  },
+  {
+   "id": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "An update on independent evaluators",
+   "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "summary": "An update on independent evaluators",
+   "ts": 1792022400,
+   "zh": "Anthropic 发布独立评估者更新",
+   "brief": "Anthropic 发布关于独立评估者的更新说明。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://huggingface.co/blog/meta-muse-spark-open",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+   "link": "https://huggingface.co/blog/meta-muse-spark-open",
+   "summary": "",
+   "ts": 1792022400,
+   "zh": "Meta 开源前沿多模态 MoE 模型 Muse Spark Open",
+   "brief": "Hugging Face 上线 Meta 的开放权重前沿多模态混合专家模型 Muse Spark Open。",
+   "why": "开源前沿多模态模型可降低企业自建 AI 门槛。",
+   "score": 8
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
