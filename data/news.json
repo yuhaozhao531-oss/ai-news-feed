@@ -1,11 +1,11 @@
 {
- "updated": 1792064285,
+ "updated": 1792084029,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 25,
-   "new": 0
+   "count": 24,
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,8 +22,8 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 5,
-   "new": 0
+   "count": 6,
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
@@ -34,8 +34,8 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 7,
-   "new": 0
+   "count": 9,
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -64,6 +64,71 @@
  },
  "items": [
   {
+   "id": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "ts": 1792080483,
+   "zh": "谷歌用Antigravity加速抗菌肽搜索",
+   "brief": "Google DeepMind发布用Antigravity for Science加速发现新型抗菌肽的研究进展。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Trust in Depth: Giving agents more autonomy without losing control",
+   "link": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+   "summary": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layered approach-scope, know, bound, observe, and prove-that lets agents act on their own when their actions can be verified, reserving human judgment for the decisions that need it.",
+   "ts": 1792076735,
+   "zh": "AWS发布Trust in Depth智能体信任框架",
+   "brief": "AWS提出scope、know、bound、observe、prove五层方法，让企业可控地给AI智能体放权。",
+   "why": "给老板讲清AI智能体如何既放权又不失控的落地框架。",
+   "score": 9
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+   "link": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+   "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized […]",
+   "ts": 1792076424,
+   "zh": "英伟达扩展Nemotron开源模型家族",
+   "brief": "英伟达发布1200亿参数开源模型Nemotron 3.5 Super VL及两款边缘端Bolt模型。",
+   "why": "开源大模型能力提升，企业私有化部署多一个选型。",
+   "score": 7
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+   "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts […]",
+   "ts": 1792069259,
+   "zh": "英伟达DLSS 4.5控制登陆GeForce NOW",
+   "brief": "GeForce NOW云游戏新增DLSS 4.5画质与性能控制选项，并上线Enshrouded 1.0。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Teaching students to think and learn through questions",
+   "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+   "ts": 1792069200,
+   "zh": "OpenAI教师节推教育者AI与学习模式",
+   "brief": "OpenAI推出巴西葡萄牙语版AI for Educators，并介绍Study Mode辅助教学。",
+   "why": "",
+   "score": 3
+  },
+  {
    "id": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
    "source": "nvidia",
    "sourceName": "NVIDIA",
@@ -75,6 +140,19 @@
    "brief": "英伟达通过开放学习资源、合作与算力，扩大欧洲科研社区对先进技术的使用。",
    "why": "",
    "score": 3
+  },
+  {
+   "id": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Apertus 1.5 Release Notes",
+   "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+   "summary": "",
+   "ts": 1792055325,
+   "zh": "Apertus 1.5发布说明",
+   "brief": "Hugging Face发布Apertus 1.5模型的更新说明。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
@@ -192,6 +270,19 @@
    "brief": "arXiv发布ACED-Bench，评估LLM智能体能否主动设计实验并基于因果证据行动。",
    "why": "",
    "score": 4
+  },
+  {
+   "id": "https://huggingface.co/blog/flux-3",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Welcome FLUX.3 Image Klein in Diffusers",
+   "link": "https://huggingface.co/blog/flux-3",
+   "summary": "",
+   "ts": 1792022400,
+   "zh": "FLUX.3 Image Klein接入Diffusers",
+   "brief": "Hugging Face宣布FLUX.3 Image Klein图像模型已支持Diffusers库。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
@@ -3923,110 +4014,6 @@
    "brief": "黄仁勋与Salesforce CEO同台，Salesforce发布基于英伟达Nemotron 3 Super的首个CRM推理模型Koa。",
    "why": "CRM等企业软件嵌入推理模型，预示业务系统AI化趋势。",
    "score": 8
-  },
-  {
-   "id": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-   "source": "deepmind",
-   "sourceName": "Google DeepMind",
-   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-   "summary": "",
-   "ts": 1789491957,
-   "zh": "谷歌DeepMind发布Gemini 3.8 Live",
-   "brief": "谷歌DeepMind推出Gemini 3.8 Live及3.8 Live Extended Thinking版本。",
-   "why": "新模型能力升级，企业AI应用选型需跟进。",
-   "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
-   "link": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
-   "summary": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers […]",
-   "ts": 1789491359,
-   "zh": "英伟达：从兆瓦到Token的AI工厂效率",
-   "brief": "英伟达介绍如何通过电力调度与优化提升AI工厂的Token产出效率。",
-   "why": "AI工厂成本与能效管理，关系企业算力投入回报。",
-   "score": 6
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
-   "link": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
-   "summary": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — […]",
-   "ts": 1789491340,
-   "zh": "英伟达在AI Infra峰会展示能效进展",
-   "brief": "英伟达在AI Infra峰会介绍Vera Rubin与DSX平台，优化AI工厂每瓦Token效率。",
-   "why": "算力能效提升降低企业AI使用成本。",
-   "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Your Agent Aced the Task. Will It Do It Again?",
-   "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-   "summary": "",
-   "ts": 1789488044,
-   "zh": "Hugging Face：智能体任务能否稳定复现",
-   "brief": "Hugging Face发文探讨AI智能体完成任务后能否稳定重复执行同一任务。",
-   "why": "智能体可靠性问题，关系企业自动化落地可行性。",
-   "score": 6
-  },
-  {
-   "id": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "AI for Societal Impact",
-   "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-   "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
-   "ts": 1789488000,
-   "zh": "谷歌AI社会影响案例合集",
-   "brief": "谷歌发布AI社会影响案例合集，展示专家与地方领导者如何用AI突破惠及大众。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "Building AI to accelerate science and improve lives",
-   "link": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-   "summary": "B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor",
-   "ts": 1789488000,
-   "zh": "谷歌用AI加速科研改善生活",
-   "brief": "谷歌发布视频素材，展示教师、学生、患者与医生等多元场景。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "AI for everyone in every language",
-   "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-   "summary": "Animation of several words in different languages slowly zooming past",
-   "ts": 1789488000,
-   "zh": "谷歌让AI覆盖每种语言",
-   "brief": "谷歌发布动画，展示多种语言词汇缓慢掠过画面。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "New insights from Google’s AI & Economy ATLAS",
-   "link": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-   "summary": "Text \"AI & Economy Atlas v1.0 2026\" with the Google G and a spinning globe illustration",
-   "ts": 1789477200,
-   "zh": "谷歌发布AI与经济ATLAS新洞察",
-   "brief": "谷歌发布AI与经济ATLAS v1.0 2026版，提供相关新洞察。",
-   "why": "可帮老板理解AI对经济和就业的结构性影响。",
-   "score": 7
   }
  ]
 }
