@@ -1,5 +1,5 @@
 {
- "updated": 1792014357,
+ "updated": 1792039812,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -10,8 +10,8 @@
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 8,
-   "new": 1
+   "count": 7,
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -58,11 +58,115 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.14115",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "The Silent Failures in Agentic Data Science",
+   "link": "https://arxiv.org/abs/2610.14115",
+   "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing preliminary insight in agentic DS capabilities. We argue that these evaluations overlook the fundamental principles of data science: methodological data science- a",
+   "ts": 1792036800,
+   "zh": "智能体数据科学的隐性失败研究",
+   "brief": "arXiv发布论文，研究数据科学智能体在任务建模到模型开发中的隐性失败问题。",
+   "why": "提醒企业：AI自动做数据分析仍不可靠，需人工复核。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.14118",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+   "link": "https://arxiv.org/abs/2610.14118",
+   "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed b",
+   "ts": 1792036800,
+   "zh": "ClawLoop：智能体自改进训练循环",
+   "brief": "arXiv提出ClawLoop方法，让智能体在沙箱环境中通过原生训练循环自我改进。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.14146",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+   "link": "https://arxiv.org/abs/2610.14146",
+   "summary": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline",
+   "ts": 1792036800,
+   "zh": "长周期终端基准2.0：衡量智能体持续进展",
+   "brief": "arXiv发布LHTB 2.0基准，用过程奖励衡量智能体在长流程任务中的持续进展。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.14180",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Unconstrained CTI-REALM with Open-Weights",
+   "link": "https://arxiv.org/abs/2610.14180",
+   "summary": "arXiv:2610.14180v1 Announce Type: new Abstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six models, nineteen open-weight and seven closed, under a common harness, scorer and panel of LLM judges. Our main finding is that an open-weight model can ma",
+   "ts": 1792036800,
+   "zh": "开源权重模型做网络安全智能体研究",
+   "brief": "arXiv研究在CTI-REALM任务上，开源权重模型与闭源前沿模型做安全智能体的取舍。",
+   "why": "企业做安全AI可考虑自托管开源模型，兼顾成本与审计。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.14186",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Visualizing the World Model in an Agent's Value Function",
+   "link": "https://arxiv.org/abs/2610.14186",
+   "summary": "arXiv:2610.14186v1 Announce Type: new Abstract: Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value function of a Proximal Policy Optimization agent forms a world model of the Crafter environment. Despite only being trained to optimize reward, we discover that the value function learns concepts such as the rules governing when a diamond is collectible, water and food having an impact on health, heuristi",
+   "ts": 1792036800,
+   "zh": "可视化智能体价值函数中的世界模型",
+   "brief": "arXiv用反事实干预方法，探究无模型强化学习的价值函数是否隐含环境模型。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.14209",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
+   "link": "https://arxiv.org/abs/2610.14209",
+   "summary": "arXiv:2610.14209v1 Announce Type: new Abstract: The most accurate agents executing user-provided tasks are driven by large, cloud-hosted models, which solve them by reading the private data of the user. Agents powered by models small enough to run on edge devices keep that data local, but yield far worse results. A third option is to have cloud models write a program that devices execute: the data stays local, but as the program is written before any data is seen, it fails whenever a step depends on interpreting content that appears only at run time. We explore an intermediate architecture, in",
+   "ts": 1792036800,
+   "zh": "小模型能否担任云端智能体程序解释器",
+   "brief": "arXiv研究本地小模型作为云端编写智能体程序解释器的可行性与隐私权衡。",
+   "why": "数据敏感企业可用本地小模型处理私有数据，降低泄露风险。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.14224",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+   "link": "https://arxiv.org/abs/2610.14224",
+   "summary": "arXiv:2610.14224v1 Announce Type: new Abstract: LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel",
+   "ts": 1792036800,
+   "zh": "Harness²：开放世界中的递归智能体框架",
+   "brief": "arXiv提出Harness²方法，在开放世界场景中递归自我改进智能体执行框架。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.14381",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence",
+   "link": "https://arxiv.org/abs/2610.14381",
+   "summary": "arXiv:2610.14381v1 Announce Type: new Abstract: Large language models are increasingly used as scientific assistants, yet we still lack reliable ways to evaluate whether they can investigate a system rather than merely answer a prompt. A useful evaluation must let agents choose experiments, interpret finite evidence, and make causal decisions, while keeping the environment coherent across repeated observations and interventions and preserving objective ground truth. We introduce ACED-BENCH (Active Causal Evidence and Decision Benchmark), a neuro-symbolic benchmark built around this requirement",
+   "ts": 1792036800,
+   "zh": "ACED-Bench：评估智能体获取因果证据能力",
+   "brief": "arXiv发布ACED-Bench，评估LLM智能体能否主动设计实验并基于因果证据行动。",
+   "why": "",
+   "score": 4
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
    "source": "aws-ml",
@@ -166,6 +270,19 @@
    "brief": "该AI实验室用GPT-6 Astra等模型构建可连续工作数天并持续改进的智能体。",
    "why": "展示智能体规模化潜力，可讲趋势。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/index/block-ai-powered-security",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Block is building AI-powered security with OpenAI technology",
+   "link": "https://openai.com/index/block-ai-powered-security",
+   "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+   "ts": 1791961200,
+   "zh": "Block用OpenAI技术构建AI安全能力",
+   "brief": "Block安全团队借助OpenAI技术，数分钟内完成威胁调查并生成补丁建议。",
+   "why": "案例说明AI可显著提速企业安全响应，值得对标。",
+   "score": 8
   },
   {
    "id": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
