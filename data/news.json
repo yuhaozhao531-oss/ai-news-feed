@@ -1,11 +1,11 @@
 {
- "updated": 1792039812,
+ "updated": 1792064285,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 25,
-   "new": 1
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -40,8 +40,8 @@
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 14,
-   "new": 0
+   "count": 16,
+   "new": 2
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -59,10 +59,36 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+   "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+   "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: […]",
+   "ts": 1792058412,
+   "zh": "英伟达扩大欧洲科研界先进技术开放资源",
+   "brief": "英伟达通过开放学习资源、合作与算力，扩大欧洲科研社区对先进技术的使用。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+   "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+   "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway […]",
+   "ts": 1792040412,
+   "zh": "北欧与英伟达展示区域算力投入成效",
+   "brief": "文章介绍北欧国家在先进计算上的投入，及其成为欧洲独角兽密度最高地区的情况。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://arxiv.org/abs/2610.14115",
    "source": "arxiv",
@@ -4000,19 +4026,6 @@
    "zh": "谷歌发布AI与经济ATLAS新洞察",
    "brief": "谷歌发布AI与经济ATLAS v1.0 2026版，提供相关新洞察。",
    "why": "可帮老板理解AI对经济和就业的结构性影响。",
-   "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
-   "link": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
-   "summary": "",
-   "ts": 1789462842,
-   "zh": "儿童医院用开源英伟达AI做心脏护理",
-   "brief": "一家大型儿童医院使用开源英伟达AI技术开展心脏护理。",
-   "why": "医疗AI落地案例，可作行业应用参考。",
    "score": 7
   }
  ]
