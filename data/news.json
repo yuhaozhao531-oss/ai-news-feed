@@ -1,10 +1,10 @@
 {
- "updated": 1792150308,
+ "updated": 1792169050,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 25,
+   "count": 24,
    "new": 0
   },
   "anthropic": {
@@ -28,26 +28,26 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 9,
-   "new": 0
+   "count": 10,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 16,
+   "count": 15,
    "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+   "summary": "Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. This post shows how to deploy Beam on AWS: start with an Amazon SageMaker JumpStart real-time endpoint, or use Amazon SageMaker HyperPod Inference with JumpStart, SGLang, or vLLM for Kubernetes-native control over distributed GPU infrastructure.",
+   "ts": 1792164190,
+   "zh": "AWS推出开源智能体编码模型Beam",
+   "brief": "Reflection AI的Beam开源权重模型发布，用于智能体编码和长周期任务，可在AWS SageMaker上部署。",
+   "why": "企业可自部署编码智能体，降低对闭源API依赖，需评估运维成本。",
+   "score": 7
+  },
   {
    "id": "https://arxiv.org/abs/2610.20665",
    "source": "arxiv",
@@ -179,6 +192,19 @@
    "brief": "Hugging Face发布2.8万亿token的印度语预训练数据及开放生成管线。",
    "why": "多语言AI能力提升，出海或本地化企业可关注。",
    "score": 5
+  },
+  {
+   "id": "https://huggingface.co/blog/reflection-beam",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "link": "https://huggingface.co/blog/reflection-beam",
+   "summary": "",
+   "ts": 1792108800,
+   "zh": "Hugging Face上线501B开源模型Beam",
+   "brief": "Hugging Face欢迎Beam，一个501B参数开源模型，可拥有、定制和扩展。",
+   "why": "超大开源模型可私有化定制，企业AI自主可控选项增加。",
+   "score": 8
   },
   {
    "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
@@ -4156,45 +4182,6 @@
    "zh": "OpenAI发布模型失准报告框架",
    "brief": "OpenAI公布追踪、调查和披露模型失准的框架，并附六份异常行为报告。",
    "why": "AI风险披露机制成形，企业选型与治理需关注。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Helping older adults use AI in everyday life",
-   "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-   "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-   "ts": 1789574400,
-   "zh": "OpenAI与AARP合作教老年人用AI",
-   "brief": "OpenAI与美国退休人员协会合作，在10个美国城市为1000名老年人提供免费ChatGPT实操培训。",
-   "why": "AI技能培训模式可借鉴，企业AI培训可参考。",
-   "score": 6
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-   "link": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-   "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. […]",
-   "ts": 1789570848,
-   "zh": "英伟达Vera Rubin NVL72首秀MLPerf推理",
-   "brief": "英伟达Vera Rubin NVL72在MLPerf Inference v6.1首次亮相并取得领先性能。",
-   "why": "推理性能提升直接影响企业AI算力成本与产出。",
-   "score": 6
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-   "link": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-   "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use […]",
-   "ts": 1789563633,
-   "zh": "Emerald AI、谷歌与英伟达成立AI能源联盟",
-   "brief": "三方发起AI能源管理联盟AEMA，推动灵活AI数据中心与电网协同。",
-   "why": "AI数据中心能耗与电力成本成企业基础设施关键变量。",
    "score": 7
   }
  ]
