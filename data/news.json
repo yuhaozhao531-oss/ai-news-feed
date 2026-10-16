@@ -1,11 +1,11 @@
 {
- "updated": 1792125531,
+ "updated": 1792150308,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 25,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 9,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -59,7 +59,7 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
@@ -4196,19 +4196,6 @@
    "brief": "三方发起AI能源管理联盟AEMA，推动灵活AI数据中心与电网协同。",
    "why": "AI数据中心能耗与电力成本成企业基础设施关键变量。",
    "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-   "link": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-   "summary": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the […]",
-   "ts": 1789534842,
-   "zh": "曼彻斯特大学用英伟达Earth-2预测空气污染",
-   "brief": "曼彻斯特大学利用英伟达Earth-2模型预测全英空气污染，替代昂贵传统化学模型。",
-   "why": "AI替代高成本传统计算的行业案例，可作落地参考。",
-   "score": 5
   }
  ]
 }
