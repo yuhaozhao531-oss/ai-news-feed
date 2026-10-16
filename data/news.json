@@ -1,11 +1,11 @@
 {
- "updated": 1792169050,
+ "updated": 1792185445,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 24,
-   "new": 0
+   "count": 25,
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 10,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+   "summary": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live production.",
+   "ts": 1792183696,
+   "zh": "AWS发布AI智能体生产级评估框架",
+   "brief": "AWS基于Amazon Bedrock AgentCore推出九阶段评估框架，可捕捉智能体全生命周期中的隐性质量衰退。",
+   "why": "智能体上线后质量会悄悄下滑，企业需建立评估机制而非只看延迟指标。",
+   "score": 8
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
    "source": "aws-ml",
@@ -205,6 +218,19 @@
    "brief": "Hugging Face欢迎Beam，一个501B参数开源模型，可拥有、定制和扩展。",
    "why": "超大开源模型可私有化定制，企业AI自主可控选项增加。",
    "score": 8
+  },
+  {
+   "id": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+   "ts": 1792108800,
+   "zh": "Stack Overflow智能体版靠ChatGPT插件用户翻三倍",
+   "brief": "两名工程师用Codex数周内做出Stack Overflow for Agents，ChatGPT插件带来最高10倍智能体创建增长。",
+   "why": "小团队借AI工具快速做产品并靠平台插件获客，值得中小企业参考。",
+   "score": 7
   },
   {
    "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
@@ -4169,19 +4195,6 @@
    "zh": "Anthropic推出生命科学验证计划",
    "brief": "Anthropic发布生命科学验证计划，面向生命科学领域的AI应用提供验证机制。",
    "why": "垂直行业合规验证需求上升，可作行业AI落地案例参考。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/model-misalignment-reporting-framework",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Our framework for reporting model misalignment",
-   "link": "https://openai.com/index/model-misalignment-reporting-framework",
-   "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-   "ts": 1789578000,
-   "zh": "OpenAI发布模型失准报告框架",
-   "brief": "OpenAI公布追踪、调查和披露模型失准的框架，并附六份异常行为报告。",
-   "why": "AI风险披露机制成形，企业选型与治理需关注。",
    "score": 7
   }
  ]
