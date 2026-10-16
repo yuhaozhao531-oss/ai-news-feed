@@ -1,17 +1,17 @@
 {
- "updated": 1792099731,
+ "updated": 1792125531,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 24,
-   "new": 0
+   "count": 25,
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 8,
-   "new": 1
+   "count": 7,
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 11,
-   "new": 2
+   "count": 9,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 17,
-   "new": 1
+   "count": 16,
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 1
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,127 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.20665",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+   "link": "https://arxiv.org/abs/2610.20665",
+   "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studi",
+   "ts": 1792123200,
+   "zh": "实时环境下的智能体评测与教学",
+   "brief": "arXiv发布RealtimeBench，含180个任务，评测智能体在实时变化环境中的表现。",
+   "why": "提醒老板：AI响应速度可能成为业务落地瓶颈。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.20675",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+   "link": "https://arxiv.org/abs/2610.20675",
+   "summary": "arXiv:2610.20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understanding agent performance requires linking execution conditions to outcomes, behavior, and resource use. We introduce AlphaDiana, a measurement system with modular interfaces for datasets, agents, environments, and scorers. It preserves harness-native control loops while controlling file reuse and memory retention separately. AlphaDiana supports macro analyses of complete agents and micro interventions",
+   "ts": 1792123200,
+   "zh": "AlphaDiana：可验证推理智能体测量系统",
+   "brief": "arXiv提出AlphaDiana，用于测量智能体在可验证推理任务中的执行条件与结果。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.20681",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+   "link": "https://arxiv.org/abs/2610.20681",
+   "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM reasoning with symbolic computation for inequality proving in Lean4. Lemma-level Monte Carlo Tree Search coordinates lemma construction, goal reformulation, and symbolic backend selection. Complementary sum-of-squares, Bernstein, and successive difference-substitution backends produce exact certificates for local Lean proof generation. The a",
+   "ts": 1792123200,
+   "zh": "IneqAgent：用符号计算证明不等式",
+   "brief": "arXiv发布IneqAgent，结合LLM推理与符号计算做形式化不等式证明。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.20780",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+   "link": "https://arxiv.org/abs/2610.20780",
+   "summary": "arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagnosing completed runs or repeatedly re-executing them to search for corrections does not provide a learned policy for intervening while execution is still in progress. We present Agent Runtime Inspection and Amendment (ARIA), a framework for learning when and how to repair ongoing multi-agent executions. Our key intuition is to turn execution-verified repairs into reusable supervision, moving repai",
+   "ts": 1792123200,
+   "zh": "ARIA：多智能体系统运行时检查与修正",
+   "brief": "arXiv提出ARIA，可在多智能体系统运行时检查并修正局部错误传播。",
+   "why": "多智能体协作出错可实时纠正，降低企业自动化风险。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.20786",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds",
+   "link": "https://arxiv.org/abs/2610.20786",
+   "summary": "arXiv:2610.20786v1 Announce Type: new Abstract: Multi-modal agents have made significant progress in interacting with open worlds. However, their ability to self-evolve remains limited. Supervised fine-tuning enables imitation but not active experience organization, while outcome-based reinforcement learning promotes exploration yet underuses intermediate trajectory information. Therefore, we propose EvolvingBrain, which uses an adaptive skill system as the brain for agent self-evolution, consisting of two following components. Stratified Skill Self-Evolution: extracts Procedural Patterns and ",
+   "ts": 1792123200,
+   "zh": "EvolvingBrain：开放世界多模态智能体自适应技能系统",
+   "brief": "arXiv提出EvolvingBrain，让多模态智能体在开放世界中自我进化技能。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.20809",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "A Self-Improving Agent that Grows its Own DSL: Oracle-Free Operator Induction for Exact Question Answering",
+   "link": "https://arxiv.org/abs/2610.20809",
+   "summary": "arXiv:2610.20809v1 Announce Type: new Abstract: A self-improving agent has to decide which new skills to keep, and in practice it keeps whatever earns a high reward, convinces a judge model, or compresses its library, even when the skill is wrong. That is fine until the answers have to be exactly right: over a table of transactions, a total is either right or wrong. We ask a harder question: can an agent grow what it can compute with no reward, no judge, and no answer key, and still be exactly right? A single frozen model runs two nested loops over a small, exact domain-specific language (DSL)",
+   "ts": 1792123200,
+   "zh": "自改进智能体自建DSL做精确问答",
+   "brief": "arXiv提出无预言机的算子归纳方法，让智能体自建领域语言实现精确问答。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.20845",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
+   "link": "https://arxiv.org/abs/2610.20845",
+   "summary": "arXiv:2610.20845v1 Announce Type: new Abstract: Skill-policy co-evolution, in which an agent's policy model and its skill bank improve each other during training, is a promising paradigm for self-improving agents. Current evaluations score the co-evolved policy on the final bank it trained with (the delivered bank). After deployment, however, skills may be rewritten, added or removed more frequently than the policy model is retrained, leaving the policy to operate on a drifted skill bank that neither the training objective nor existing evaluation protocols address. In this paper, we first esta",
+   "ts": 1792123200,
+   "zh": "自改进智能体的技能-策略共进化陷阱",
+   "brief": "arXiv研究技能与策略共同进化中的失败模式，指出评估方式存在缺陷。",
+   "why": "提示企业：AI自我进化方案存在隐性风险，需谨慎评估。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.20926",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
+   "link": "https://arxiv.org/abs/2610.20926",
+   "summary": "arXiv:2610.20926v1 Announce Type: new Abstract: Agent skills turn procedural knowledge into reusable artifacts, allowing LLM agents to accumulate and refine expertise through experience. Building on this, skill evolution iteratively improves skills using execution feedback. However, improvement may require several interdependent edits, so low-reward versions can still be worth developing. Requiring immediate reward gains can discard useful partial repairs before their benefits emerge. Non-elitist evolution allows new versions to receive further edits despite scoring below earlier ones. For age",
+   "ts": 1792123200,
+   "zh": "SkillNEO：智能体技能的非精英进化优化",
+   "brief": "arXiv提出SkillNEO，用非精英进化方法迭代优化智能体技能。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+   "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+   "summary": "",
+   "ts": 1792115087,
+   "zh": "印度语预训练扩展：2.8万亿token与开放数据管线",
+   "brief": "Hugging Face发布2.8万亿token的印度语预训练数据及开放生成管线。",
+   "why": "多语言AI能力提升，出海或本地化企业可关注。",
+   "score": 5
+  },
   {
    "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
    "source": "huggingface",
@@ -74,6 +191,19 @@
    "zh": "Granite Switch 4.1：单端点提供对话、决策与语音",
    "brief": "Hugging Face 发布 Granite Switch 4.1，通过单一端点提供对话、决策和语音能力。",
    "why": "多能力合一的模型可降低企业集成与运维成本。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+   "ts": 1792090800,
+   "zh": "OpenAI向学术研究实验室提供GPT-Rosalind",
+   "brief": "OpenAI推出Rosalind学术计划，为合格学术实验室提供GPT-Rosalind赞助访问。",
+   "why": "生命科学企业可关注学术合作与AI科研工具机会。",
    "score": 6
   },
   {
@@ -347,6 +477,19 @@
    "zh": "Meta 开源前沿多模态 MoE 模型 Muse Spark Open",
    "brief": "Hugging Face 上线 Meta 的开放权重前沿多模态混合专家模型 Muse Spark Open。",
    "why": "开源前沿多模态模型可降低企业自建 AI 门槛。",
+   "score": 8
+  },
+  {
+   "id": "https://openai.com/index/sullivan-cromwell",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "link": "https://openai.com/index/sullivan-cromwell",
+   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+   "ts": 1792022400,
+   "zh": "Sullivan & Cromwell用AI审查协议",
+   "brief": "律所与OpenAI合作开发Agreement Analyzer，用于识别合同草案中的问题。",
+   "why": "法律合同AI审查落地案例，可启发企业专业场景应用。",
    "score": 8
   },
   {
@@ -4066,19 +4209,6 @@
    "brief": "曼彻斯特大学利用英伟达Earth-2模型预测全英空气污染，替代昂贵传统化学模型。",
    "why": "AI替代高成本传统计算的行业案例，可作落地参考。",
    "score": 5
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
-   "link": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
-   "summary": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into […]",
-   "ts": 1789511074,
-   "zh": "黄仁勋在Dreamforce谈AI与CRM推理模型",
-   "brief": "黄仁勋与Salesforce CEO同台，Salesforce发布基于英伟达Nemotron 3 Super的首个CRM推理模型Koa。",
-   "why": "CRM等企业软件嵌入推理模型，预示业务系统AI化趋势。",
-   "score": 8
   }
  ]
 }
