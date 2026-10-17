@@ -1,10 +1,10 @@
 {
- "updated": 1792185445,
+ "updated": 1792211770,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 25,
+   "count": 26,
    "new": 1
   },
   "anthropic": {
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 1
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,7 +58,7 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
@@ -74,6 +74,19 @@
    "zh": "AWS发布AI智能体生产级评估框架",
    "brief": "AWS基于Amazon Bedrock AgentCore推出九阶段评估框架，可捕捉智能体全生命周期中的隐性质量衰退。",
    "why": "智能体上线后质量会悄悄下滑，企业需建立评估机制而非只看延迟指标。",
+   "score": 8
+  },
+  {
+   "id": "https://openai.com/index/itau-generative-ai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "link": "https://openai.com/index/itau-generative-ai",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "ts": 1792177200,
+   "zh": "Itaú银行如何为全部客户构建生成式AI",
+   "brief": "Itaú通过对话界面ia.i和治理平台IARA，在巴西高监管的金融业落地AI优先战略，覆盖客户与员工。",
+   "why": "金融等高监管行业如何兼顾AI落地与合规治理，可作标杆案例讲给老板。",
    "score": 8
   },
   {
@@ -4170,32 +4183,6 @@
    "brief": "Cooley基于ChatGPT Work打造GO Public，助律师更早发现问题。",
    "why": "专业服务机构AI落地案例，可讲行业应用。",
    "score": 8
-  },
-  {
-   "id": "https://openai.com/index/astra-for-law",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Introducing Astra for Law",
-   "link": "https://openai.com/index/astra-for-law",
-   "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-   "ts": 1789603200,
-   "zh": "OpenAI推出法律行业专用产品Astra",
-   "brief": "OpenAI发布面向法律行业的Astra，提供前沿智能、律所定制工作流、法律数据源接入及保密级管控。",
-   "why": "垂直行业AI方案成型，可参考其行业落地与合规管控思路。",
-   "score": 8
-  },
-  {
-   "id": "https://www.anthropic.com/news/life-sciences-verification-program",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Introducing the Life Sciences Verification Program",
-   "link": "https://www.anthropic.com/news/life-sciences-verification-program",
-   "summary": "Introducing the Life Sciences Verification Program",
-   "ts": 1789603200,
-   "zh": "Anthropic推出生命科学验证计划",
-   "brief": "Anthropic发布生命科学验证计划，面向生命科学领域的AI应用提供验证机制。",
-   "why": "垂直行业合规验证需求上升，可作行业AI落地案例参考。",
-   "score": 7
   }
  ]
 }
