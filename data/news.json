@@ -1,10 +1,10 @@
 {
- "updated": 1792211770,
+ "updated": 1792234306,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 26,
+   "count": 27,
    "new": 1
   },
   "anthropic": {
@@ -244,6 +244,19 @@
    "brief": "两名工程师用Codex数周内做出Stack Overflow for Agents，ChatGPT插件带来最高10倍智能体创建增长。",
    "why": "小团队借AI工具快速做产品并靠平台插件获客，值得中小企业参考。",
    "score": 7
+  },
+  {
+   "id": "https://openai.com/index/benefit-street-partners",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "link": "https://openai.com/index/benefit-street-partners",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "ts": 1792108800,
+   "zh": "Benefit Street Partners用Codex加速信贷分析",
+   "brief": "OpenAI案例：Anant Kumar用Codex做代码审查、比较贷款估值并分析信贷协议，加快回复速度。",
+   "why": "金融场景AI提效案例，可讲给老板看AI如何压缩专业分析周期。",
+   "score": 6
   },
   {
    "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
