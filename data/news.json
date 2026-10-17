@@ -1,11 +1,11 @@
 {
- "updated": 1792234306,
+ "updated": 1792251655,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 27,
-   "new": 1
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -4170,32 +4170,6 @@
    "brief": "谷歌介绍联合国系统数据共享平台的数据网页。",
    "why": "",
    "score": 3
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
-   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
-   "summary": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on […]",
-   "ts": 1789650055,
-   "zh": "Aniimo登陆GeForce NOW云游戏",
-   "brief": "Pawprint Studio的Aniimo首发上线GeForce NOW，007 First Light获路径追踪更新。",
-   "why": "",
-   "score": 1
-  },
-  {
-   "id": "https://openai.com/index/cooley-gopublic",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "How Cooley is accelerating IPO work with ChatGPT",
-   "link": "https://openai.com/index/cooley-gopublic",
-   "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-   "ts": 1789646400,
-   "zh": "Cooley用ChatGPT加速IPO工作",
-   "brief": "Cooley基于ChatGPT Work打造GO Public，助律师更早发现问题。",
-   "why": "专业服务机构AI落地案例，可讲行业应用。",
-   "score": 8
   }
  ]
 }
