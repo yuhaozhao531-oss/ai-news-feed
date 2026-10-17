@@ -1,5 +1,5 @@
 {
- "updated": 1792251655,
+ "updated": 1792269644,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -4157,19 +4157,6 @@
    "brief": "Anthropic宣布与埃森哲合作开展嵌入式评估。",
    "why": "咨询巨头联手AI厂商，企业落地服务模式参考。",
    "score": 7
-  },
-  {
-   "id": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "Making global data easier to explore",
-   "link": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-   "summary": "UN System Data Commons Data webpage",
-   "ts": 1789675200,
-   "zh": "谷歌让全球数据更易探索",
-   "brief": "谷歌介绍联合国系统数据共享平台的数据网页。",
-   "why": "",
-   "score": 3
   }
  ]
 }
