@@ -1,5 +1,5 @@
 {
- "updated": 1792269644,
+ "updated": 1792278634,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -34,14 +34,14 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 10,
+   "count": 9,
    "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 15,
-   "new": 0
+   "count": 16,
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+   "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+   "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]",
+   "ts": 1792270813,
+   "zh": "英伟达RTX Spark笔记本上市，起价2399美元",
+   "brief": "英伟达宣布RTX Spark笔记本开售，搭载Blackwell RTX显卡、最高128GB统一内存和完整AI平台，华硕、戴尔、惠普、联想、微软、微星等品牌推出。",
+   "why": "本地跑AI的终端门槛下降，可提示企业评估本地化AI部署与数据安全方案。",
+   "score": 6
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
    "source": "aws-ml",
