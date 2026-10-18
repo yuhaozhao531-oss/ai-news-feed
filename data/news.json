@@ -1,5 +1,5 @@
 {
- "updated": 1792338979,
+ "updated": 1792356639,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -10,8 +10,8 @@
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 7,
-   "new": 0
+   "count": 8,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://www.anthropic.com/news/public-benefit-fund",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Investing in the public benefit",
+   "link": "https://www.anthropic.com/news/public-benefit-fund",
+   "summary": "Investing in the public benefit",
+   "ts": 1792281600,
+   "zh": "Anthropic 发布公共利益投入相关公告",
+   "brief": "Anthropic 发布题为《投资于公共利益》的公告。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
    "source": "nvidia",
