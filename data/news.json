@@ -1,5 +1,5 @@
 {
- "updated": 1792322209,
+ "updated": 1792338979,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -4118,45 +4118,6 @@
    "brief": "Hugging Face推出tokenizers v1，涵盖编码、解码与扩展性实测。",
    "why": "",
    "score": 2
-  },
-  {
-   "id": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "New experts join Google’s AI & Economy team",
-   "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-   "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
-   "ts": 1789740000,
-   "zh": "新专家加入谷歌AI与经济团队",
-   "brief": "谷歌宣布新专家加入其AI与经济研究团队。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "Co-creating the future of fashion with Google",
-   "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-   "summary": "Jane Wade and Sergio Hudson",
-   "ts": 1789736400,
-   "zh": "谷歌与设计师共探时尚未来",
-   "brief": "谷歌发布与Jane Wade、Sergio Hudson合作探索时尚未来的内容。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://openai.com/index/australian-youth-safety-blueprint",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Introducing the Australian Youth Safety Blueprint",
-   "link": "https://openai.com/index/australian-youth-safety-blueprint",
-   "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-   "ts": 1789732800,
-   "zh": "OpenAI发布澳大利亚青年安全蓝图",
-   "brief": "OpenAI推出六支柱路线图，旨在让青少年更安全地使用AI。",
-   "why": "AI青少年安全合规，教育机构需关注。",
-   "score": 5
   }
  ]
 }
