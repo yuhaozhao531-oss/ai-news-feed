@@ -1,5 +1,5 @@
 {
- "updated": 1792278634,
+ "updated": 1792298480,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -41,7 +41,7 @@
    "name": "NVIDIA",
    "ok": true,
    "count": 16,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -4157,19 +4157,6 @@
    "brief": "OpenAI推出六支柱路线图，旨在让青少年更安全地使用AI。",
    "why": "AI青少年安全合规，教育机构需关注。",
    "score": 5
-  },
-  {
-   "id": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Partnering with Accenture on embedded evaluation",
-   "link": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-   "summary": "Partnering with Accenture on embedded evaluation",
-   "ts": 1789689600,
-   "zh": "Anthropic与埃森哲合作嵌入式评估",
-   "brief": "Anthropic宣布与埃森哲合作开展嵌入式评估。",
-   "why": "咨询巨头联手AI厂商，企业落地服务模式参考。",
-   "score": 7
   }
  ]
 }
