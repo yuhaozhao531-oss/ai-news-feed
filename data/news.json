@@ -1,10 +1,10 @@
 {
- "updated": 1792385382,
+ "updated": 1792416531,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 27,
+   "count": 26,
    "new": 0
   },
   "anthropic": {
@@ -34,13 +34,13 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 16,
+   "count": 15,
    "new": 0
   },
   "aws-ml": {
@@ -59,7 +59,7 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
