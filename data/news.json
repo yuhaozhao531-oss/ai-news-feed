@@ -1,5 +1,5 @@
 {
- "updated": 1792365534,
+ "updated": 1792385382,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -58,11 +58,115 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.22373",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+   "link": "https://arxiv.org/abs/2610.22373",
+   "summary": "arXiv:2610.22373v1 Announce Type: new Abstract: LLM-based agents are increasingly used as autonomous orchestrators in distributed and multi-agent systems, yet a control gap remains: no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles. Free-text overrides suffer from ambiguous interpretation due to lack of schema validation and from authority erosion as operator instructions lose influence within accumulating context. We propose Structured Authority Injection (SAI), a protocol that addresses these issues by routing operator correct",
+   "ts": 1792382400,
+   "zh": "结构化权威注入：用MCP覆盖实现人类对LLM智能体的持久控制",
+   "brief": "论文提出通过类型化MCP覆盖机制，让人类指令在智能体规划周期中持续生效。",
+   "why": "提示企业AI智能体需保留人工干预与审批通道，可作为治理话题素材。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.22408",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
+   "link": "https://arxiv.org/abs/2610.22408",
+   "summary": "arXiv:2610.22408v1 Announce Type: new Abstract: Long-horizon GUI agents rely on visual history to maintain task states, but retaining historical screenshots increases visual-token usage and inference costs, while textual summaries can discard critical state information, undermining long-horizon reliability. We propose ECHOES, which leverages training-time privileged information to guide textual history compression and strengthen long-horizon reasoning. Specifically, ECHOES adopts a Compression-Think-Action (CTA) format to recursively update a textual history state and reason. The same model, g",
+   "ts": 1792382400,
+   "zh": "ECHOES：用递归历史压缩与特权在线蒸馏扩展GUI智能体",
+   "brief": "论文提出压缩视觉历史并蒸馏状态信息，降低长任务GUI智能体的推理成本。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.22420",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Sensitivity Analysis of Decision Rules in an Agent-Based Agro-Ecological Model",
+   "link": "https://arxiv.org/abs/2610.22420",
+   "summary": "arXiv:2610.22420v1 Announce Type: new Abstract: Agent-based models are well-suited for modelling agro-ecological systems for decision-making, yet turning their simulations into actionable insight requires identifying which decisions actually drive the behaviours. In such a context, sensitivity analysis stumbles upon a structural feature of many complex systems: the parameters are not a flat vector but a decision tree in which many parameters appear only when a higher-level choice activates them. Classical global sensitivity analysis presupposes independent inputs over a fixed Cartesian product",
+   "ts": 1792382400,
+   "zh": "农业生态智能体模型的决策规则敏感性分析",
+   "brief": "论文对智能体农业生态模型中的决策规则做敏感性分析，识别关键决策因素。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.22426",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents",
+   "link": "https://arxiv.org/abs/2610.22426",
+   "summary": "arXiv:2610.22426v1 Announce Type: new Abstract: LLM agents are used to check records against an organization's requirements, for example whether a vulnerability report is ready for investigation. Requirements often allow several ways to be met, such as a severity rating with a curator-reviewed advisory or a published advisory link. Agents fail by accepting a report after a required check has failed, or by settling for a weaker conclusion without trying another way that could still succeed. We introduce PRIME (Precommitted Rules for Inference from Minimal Evidence). Before checking, it fixes ev",
+   "ts": 1792382400,
+   "zh": "PRIME：让LLM智能体给出可验证的证据推理",
+   "brief": "论文提出PRIME方法，使智能体按组织要求核查记录时给出可验证的证据依据。",
+   "why": "合规审查类AI应用的可信度问题，可作企业风控落地参考。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.22465",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Author-in-the-loop Agentic Reproducibility Auditing for a Machine Learning Conference",
+   "link": "https://arxiv.org/abs/2610.22465",
+   "summary": "arXiv:2610.22465v1 Announce Type: new Abstract: Reproducibility checks during peer review require a shared understanding of what authors' code is expected to reproduce. We present an author-in-the-loop collaborative audit that makes author declarations explicit inputs to an AI agent's investigation and assessment. A structured checklist records reproduction instructions and limitations; a two-stage workflow on GitHub connects agent checks to author clarification, revision, and agent reassessment. The agent separately assesses whether results have been reproduced and whether authors need to pro",
+   "ts": 1792382400,
+   "zh": "作者参与的智能体复现性审计：面向机器学习会议",
+   "brief": "论文提出让作者声明作为AI智能体审计输入的协作式复现性核查方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.22466",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+   "link": "https://arxiv.org/abs/2610.22466",
+   "summary": "arXiv:2610.22466v1 Announce Type: new Abstract: Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the search set. But how much of this gain reflects benchmark-specific overfitting or additional inference-time compute, and how much may generalize beyond the search set? In this work, we introduce Harness-Delta Attribution (HDA), an evaluation protocol that dissects an evolution",
+   "ts": 1792382400,
+   "zh": "Harness-Delta归因：拆解智能体框架演进的收益来源",
+   "brief": "论文提出归因方法，分析提示、工具与编排代码优化各自带来的性能提升。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.22469",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Testing the Planning Claims of LLM-Based Agents against Formal Semantics",
+   "link": "https://arxiv.org/abs/2610.22469",
+   "summary": "arXiv:2610.22469v1 Announce Type: new Abstract: LLM-based agents are increasingly credited with the competences of practical reasoning: planning, monitoring, and correcting their own actions. Their success is attributed to the prompting strategies and agent architectures built around the model, such as chain-of-thought, search-based prompting, self-refinement, reflection, critics and tool-using loops. Yet these claims are usually supported by end-to-end success rates, which show only whether a task was completed, or by LLM judges, which are not verifiers. We test LLM planning against formal se",
+   "ts": 1792382400,
+   "zh": "用形式语义检验LLM智能体的规划能力宣称",
+   "brief": "论文以形式语义为基准，检验LLM智能体在规划、监控与纠错上的实际能力。",
+   "why": "提醒老板别高估智能体自主规划能力，可作预期管理素材。",
+   "score": 4
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.22561",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "FRACTAL: A Self-Similar Multi-Agent Orchestration Architecture with Formal Communication, Convergence, and Depth Bounds",
+   "link": "https://arxiv.org/abs/2610.22561",
+   "summary": "arXiv:2610.22561v1 Announce Type: new Abstract: We present FRACTAL, a self-similar multi-agent architecture for recursive goal decomposition, in which the same five-component organizational pattern -- Orchestrator, Ensemble, Knowledge Ledger, Decision Maker, Meta-Observer -- recurs at every level of a decomposition tree. We make four formal contributions: (1) a communication bound showing intra-node cost is linear in ensemble size and round count (O(kr)) under a two-phase blind-proposal/stress-test protocol, versus quadratic cost for free-form debate, with an explicit, stated assumption on fix",
+   "ts": 1792382400,
+   "zh": "FRACTAL：自相似多智能体编排架构",
+   "brief": "论文提出递归目标分解的自相似多智能体架构，含通信、收敛与深度约束。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://www.anthropic.com/news/public-benefit-fund",
    "source": "anthropic",
