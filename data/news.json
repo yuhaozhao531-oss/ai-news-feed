@@ -1,28 +1,28 @@
 {
- "updated": 1792524015,
+ "updated": 1792540585,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 24,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 9,
-   "new": 2
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
    "ok": true,
    "count": 1,
-   "new": 1
+   "new": 0
   },
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 6,
+   "count": 5,
    "new": 0
   },
   "google-ai": {
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 15,
-   "new": 4
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 11
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+   "link": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
+   "summary": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.",
+   "ts": 1792530850,
+   "zh": "i14在AWS Trainium2上训练与部署Laplace 3B线性注意力模型",
+   "brief": "AWS介绍i14用原生PyTorch在Trainium2上训练并部署Laplace 3B线性注意力模型，其循环状态固定为每序列29.5MB，不随上下文增长。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
    "source": "huggingface",
