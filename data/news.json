@@ -1,11 +1,11 @@
 {
- "updated": 1792455898,
+ "updated": 1792485527,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 26,
-   "new": 1
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -40,14 +40,14 @@
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 17,
-   "new": 0
+   "count": 18,
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,24 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+   "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+   "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some […]",
+   "ts": 1792472400,
+   "zh": "西班牙初创企业借助巴塞罗那超算中心推进区域创新",
+   "brief": "巴塞罗那超算中心AI工厂加速器计划在试点后全面运营，为初创企业提供主权算力、技术支持和培训。",
+   "why": "展示政府主导的算力+培训扶持模式，可类比国内中小企业AI扶持政策。",
+   "score": 5
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
    "source": "aws-ml",
