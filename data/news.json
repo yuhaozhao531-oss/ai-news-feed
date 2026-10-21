@@ -1,17 +1,17 @@
 {
- "updated": 1792583916,
+ "updated": 1792603079,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 23,
-   "new": 0
+   "count": 27,
+   "new": 5
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 8,
-   "new": 0
+   "count": 9,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -28,20 +28,20 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 15,
-   "new": 1
+   "new": 3
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 10
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -63,6 +63,71 @@
   }
  },
  "items": [
+  {
+   "id": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+   "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+   "summary": "",
+   "ts": 1792598683,
+   "zh": "TorchNeuron性能分析（一）：AWS Trainium系统级剖析",
+   "brief": "Hugging Face发布博客，介绍在AWS Trainium上进行系统级性能分析的方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+   "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+   "summary": "",
+   "ts": 1792594698,
+   "zh": "Granite Speech 5.0：更准更快的转写、翻译与说话人归属",
+   "brief": "Hugging Face发布Granite Speech 5.0，提升语音转写、翻译和说话人归属的准确性与速度。",
+   "why": "语音转写与翻译能力升级，可评估用于会议记录、客服质检等场景。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+   "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+   "ts": 1792587600,
+   "zh": "ChatGPT广告扩展至26国，超10万广告主已使用",
+   "brief": "OpenAI称ChatGPT广告已覆盖26个新国家，累计超10万广告主使用该平台。",
+   "why": "AI对话入口成新投放渠道，企业需关注品牌曝光与获客方式变化。",
+   "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/nvidia/kumo-forecast",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+   "link": "https://huggingface.co/blog/nvidia/kumo-forecast",
+   "summary": "",
+   "ts": 1792587084,
+   "zh": "英伟达Kumo Forecast：预训练时序表示结合历史模式检索",
+   "brief": "Hugging Face介绍NVIDIA Kumo Forecast，将预训练时序表示与历史模式检索、可解释性结合。",
+   "why": "时序预测可用于销量、库存与需求预测，值得关注落地可能。",
+   "score": 5
+  },
+  {
+   "id": "https://openai.com/index/openai-models-google-cloud",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "OpenAI models are coming to Google Cloud",
+   "link": "https://openai.com/index/openai-models-google-cloud",
+   "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+   "ts": 1792584000,
+   "zh": "OpenAI模型将登陆Google Cloud",
+   "brief": "OpenAI与Google Cloud合作，前沿模型和Codex工作流将进入Gemini模型花园及云市场。",
+   "why": "多云可选降低单一供应商依赖，采购AI能力时议价空间更大。",
+   "score": 8
+  },
   {
    "id": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
    "source": "huggingface",
@@ -194,6 +259,45 @@
    "score": 4
   },
   {
+   "id": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+   "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+   "ts": 1792566000,
+   "zh": "Patch the Planet：用智能体协同发现关键漏洞",
+   "brief": "OpenAI推出Patch the Planet，连接安全研究员、维护者与响应者处理开源关键漏洞。",
+   "why": "开源漏洞响应提速，企业应关注自身软件供应链安全风险。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/building-chatgpt-ad-stack",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+   "link": "https://openai.com/index/building-chatgpt-ad-stack",
+   "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+   "ts": 1792566000,
+   "zh": "OpenAI如何构建ChatGPT广告系统保障信任与相关性",
+   "brief": "OpenAI介绍其基于大模型的广告系统，理解对话意图并将广告与回答分离。",
+   "why": "了解AI广告机制，有助于判断品牌投放与用户信任边界。",
+   "score": 5
+  },
+  {
+   "id": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+   "ts": 1792558200,
+   "zh": "用数千AI智能体在生物数据中发现新线索",
+   "brief": "OpenAI与PerturbAI、Scripps Research用分布式AI智能体分析数百万脑细胞数据寻找研究线索。",
+   "why": "展示AI智能体在科研中的规模化应用，可作AI落地案例参考。",
+   "score": 6
+  },
+  {
    "id": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
    "source": "google-ai",
    "sourceName": "Google AI",
@@ -309,6 +413,19 @@
    "brief": "论文指出多智能体在临床任务上的性能提升，不等于系统更可信。",
    "why": "提醒企业勿把多智能体效果提升等同于可靠性。",
    "score": 5
+  },
+  {
+   "id": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+   "link": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "summary": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.",
+   "ts": 1792540800,
+   "zh": "物理学家Christopher Stubbs加入Anthropic长期利益信托",
+   "brief": "哈佛前理学院院长、实验物理学家Christopher Stubbs加入Anthropic长期利益信托。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
@@ -4820,84 +4937,6 @@
    "brief": "英伟达发布DSX Ready，用于认证适配AI工厂的电力与冷却产品。",
    "why": "AI基建受电力冷却制约，重资产投入需提前规划。",
    "score": 6
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-   "link": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-   "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, […]",
-   "ts": 1790006446,
-   "zh": "英伟达：规模化物理AI需各层安全",
-   "brief": "英伟达称物理AI正从研究走向规模部署，2035年L3-5自动驾驶车将达4900万辆。",
-   "why": "机器人、自动驾驶落地加速，制造业老板需关注。",
-   "score": 6
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-   "link": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-   "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead […]",
-   "ts": 1790006410,
-   "zh": "埃及AI生态从赋能走向规模化生产",
-   "brief": "埃及AI开发者、初创与企业齐聚，展示跨行业AI应用已进入生产规模。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-   "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-   "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, […]",
-   "ts": 1790002294,
-   "zh": "英伟达：AI安全是工程问题",
-   "brief": "英伟达提出AI安全需明确需求、可执行控制、责任人和验证证据，覆盖智能体各层。",
-   "why": "给企业AI安全治理提供可落地框架思路。",
-   "score": 7
-  },
-  {
-   "id": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-   "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-   "summary": "",
-   "ts": 1789998274,
-   "zh": "像物理学家一样剪枝：块移除作为伊辛优化",
-   "brief": "研究者将大模型块移除剪枝问题建模为伊辛优化问题。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Advisory Group on Mathematics and Artificial Intelligence",
-   "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-   "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-   "ts": 1789992000,
-   "zh": "OpenAI成立数学与AI咨询小组",
-   "brief": "OpenAI与独立数学与AI咨询小组合作，指导新兴AI成果的评审与传播。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-   "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-   "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-   "ts": 1789992000,
-   "zh": "Higgsfield AI一天内上线GPT-6视频新功能",
-   "brief": "Higgsfield AI借助GPT-6 Astra，让小企业更易制作视频广告并加快新功能上市。",
-   "why": "小企业用AI做营销素材提速，可作落地案例。",
-   "score": 8
   }
  ]
 }
