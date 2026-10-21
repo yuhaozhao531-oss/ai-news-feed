@@ -1,17 +1,17 @@
 {
- "updated": 1792603079,
+ "updated": 1792619253,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 27,
-   "new": 5
+   "count": 29,
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 9,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -34,8 +34,8 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 15,
-   "new": 3
+   "count": 16,
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 3
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,84 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Adaptive agentic intelligence framework using Strands Agents",
+   "link": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
+   "summary": "The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of Things monitoring scenario.",
+   "ts": 1792617806,
+   "zh": "AWS发布自适应智能体框架AAIF",
+   "brief": "AWS介绍用Strands Agents构建的AAIF框架，本地小模型处理常规任务，复杂请求经Bedrock路由到云端模型。",
+   "why": "展示本地小模型+云端大模型的分层架构，可作企业降本落地参考。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Train Qwen3 on AWS Trainium with torchtitan",
+   "link": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
+   "summary": "Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformers v5 modeling backend, torchtitan's native Qwen3, and NKI mixture-of-experts kernels. The same torchrun launcher and config structure work unchanged across all three paths, including loading and saving published Hugging Face safetensors.",
+   "ts": 1792612822,
+   "zh": "在AWS Trainium上用torchtitan训练Qwen3",
+   "brief": "AWS介绍在单台trn2.48xlarge上通过三种方式用torchtitan训练Qwen3模型。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/",
+   "summary": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
+   "ts": 1792610390,
+   "zh": "美国饥饿组织用Amazon Quick连接数据与决策",
+   "brief": "非营利组织U.S. Hunger用Amazon Quick让领导层直接探索数据、共享KPI定义并研究政策问题。",
+   "why": "可作为企业用AI工具辅助管理层决策的落地案例参考。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/nvidia/kumo-relational",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+   "link": "https://huggingface.co/blog/nvidia/kumo-relational",
+   "summary": "",
+   "ts": 1792607190,
+   "zh": "英伟达Kumo关系模型无需训练超越监督学习",
+   "brief": "Hugging Face发布NVIDIA Kumo关系模型，称在关系数据上无需训练即优于监督机器学习。",
+   "why": "若成立可降低企业结构化数据建模门槛与成本。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+   "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+   "summary": "",
+   "ts": 1792604136,
+   "zh": "专用词表让小模型推理成本降77%",
+   "brief": "Hugging Face文章介绍在真实应用中通过定制小模型词表将推理成本降低77%。",
+   "why": "直接关系AI推理成本，可作企业降本增效的谈资。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/index/att-legal",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How AT&T is rethinking in-house legal work with OpenAI",
+   "link": "https://openai.com/index/att-legal",
+   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+   "ts": 1792602000,
+   "zh": "AT&T用OpenAI重塑内部法务工作",
+   "brief": "OpenAI介绍AT&T法务团队LegalEdge借助OpenAI提升法律知识获取效率，重构受理流程并扩展法律判断能力。",
+   "why": "大企业法务AI落地案例，可类比讲给中小企业管理层。",
+   "score": 8
+  },
   {
    "id": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
    "source": "huggingface",
@@ -426,6 +504,19 @@
    "brief": "哈佛前理学院院长、实验物理学家Christopher Stubbs加入Anthropic长期利益信托。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://openai.com/index/empowering-cyber-defenders",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+   "link": "https://openai.com/index/empowering-cyber-defenders",
+   "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+   "ts": 1792540800,
+   "zh": "OpenAI前沿AI民主治理蓝图第二部分",
+   "brief": "OpenAI发布赋能网络防御者的蓝图，涉及前沿AI、更强保障、网络安全现代化与公共机构韧性。",
+   "why": "涉及AI安全与合规政策方向，值得关注监管趋势。",
+   "score": 5
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
@@ -4924,19 +5015,6 @@
    "brief": "oMLX创建者兼维护者Jun Kim加入Hugging Face，支持MLX社区发展。",
    "why": "",
    "score": 2
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
-   "link": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-   "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing […]",
-   "ts": 1790013607,
-   "zh": "英伟达推出DSX Ready认证电力与冷却产品",
-   "brief": "英伟达发布DSX Ready，用于认证适配AI工厂的电力与冷却产品。",
-   "why": "AI基建受电力冷却制约，重资产投入需提前规划。",
-   "score": 6
   }
  ]
 }
