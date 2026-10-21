@@ -1,16 +1,16 @@
 {
- "updated": 1792540585,
+ "updated": 1792558625,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 24,
-   "new": 0
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 9,
+   "count": 8,
    "new": 0
   },
   "anthropic-eng": {
@@ -28,8 +28,8 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 1
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,128 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Southeast Asia’s digital economy to hit $368 billion",
+   "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+   "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
+   "ts": 1792555200,
+   "zh": "谷歌报告：东南亚数字经济将达3680亿美元",
+   "brief": "谷歌、淡马锡和贝恩发布2026年东南亚数字经济报告，主题为构建智能经济。",
+   "why": "出海东南亚的企业可据此判断当地数字化市场机会。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.26887",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+   "link": "https://arxiv.org/abs/2610.26887",
+   "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for Cowork Agents that combines verifiable task synthesis with long-horizon post-training. Using corpora",
+   "ts": 1792555200,
+   "zh": "Navalia：可验证任务合成训练协作智能体",
+   "brief": "论文提出通过可验证任务合成与长周期后训练，提升LLM智能体完成复杂协作任务的能力。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.26899",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
+   "link": "https://arxiv.org/abs/2610.26899",
+   "summary": "arXiv:2610.26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their applications in the construction industry, leading to more intelligent and efficient building processes. In particular, the rise of large language models in recent years has provided more possibilities for the transformation from traditional construction to smart construction. In this study, a large language model and r",
+   "ts": 1792555200,
+   "zh": "大模型与强化学习驱动的建筑施工进度自动化",
+   "brief": "论文探索用大模型和强化学习实现建筑施工的自主建造与进度更新。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.26913",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+   "link": "https://arxiv.org/abs/2610.26913",
+   "summary": "arXiv:2610.26913v1 Announce Type: new Abstract: The adoption of Large Language Models for radiology report structuring has been largely dominated by either proprietary cloud-based models or large open models requiring high-end GPUs for deployment, which is a critical bottleneck for clinical adoption in radiology workflows that demand data privacy and offline operation. To address this, we present MedPAO-Assist, an edge-deployable agentic framework that generates structured radiology reports directly from radiologist dictation and voice commands, requiring only $\\approx3.3$ GB peak RAM and achi",
+   "ts": 1792555200,
+   "zh": "MedPAO-Assist：可边缘部署的放射报告结构化智能体",
+   "brief": "论文提出可边缘部署、感知模态的智能体方案，用于放射科报告结构化，降低对高端GPU的依赖。",
+   "why": "医疗等受合规约束行业可关注低成本本地化部署路径。",
+   "score": 4
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.26924",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+   "link": "https://arxiv.org/abs/2610.26924",
+   "summary": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks directly from raw data often overlooks deeper questions that emerge through analysis and provides limited evidence for verification. To address these limitations, we introduce DataPraxis, an analytics task synthesis framework based on verified workspace evolution. The framework progre",
+   "ts": 1792555200,
+   "zh": "DataPraxis：通过工作区演化扩展分析任务",
+   "brief": "论文提出用可验证的工作区演化方法，规模化生成专业数据分析智能体的训练任务。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.26941",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+   "link": "https://arxiv.org/abs/2610.26941",
+   "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze five key challenges and discuss the concept and core characteristics of industrial agents. We then ",
+   "ts": 1792555200,
+   "zh": "工业智能体AI：面向智能制造的新一代LLM智能体",
+   "brief": "论文综述LLM驱动的智能体在智能制造中自主规划与执行的应用与挑战。",
+   "why": "制造业老板可了解智能体在产线场景的可行边界。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.26943",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+   "link": "https://arxiv.org/abs/2610.26943",
+   "summary": "arXiv:2610.26943v1 Announce Type: new Abstract: Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems (MASs) have shown growing potential in this domain by leveraging collaboration and verification among multiple LLM agents. However, existing evaluations primarily focus on the correctness of final answers in text-only settings, offering limited insight into multimodal reasoning capabilities, the rel",
+   "ts": 1792555200,
+   "zh": "MAMath-Bench：多模态多智能体数学推理评测",
+   "brief": "论文提出关注推理过程的多模态多智能体数学推理评测基准。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.26995",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+   "link": "https://arxiv.org/abs/2610.26995",
+   "summary": "arXiv:2610.26995v1 Announce Type: new Abstract: LLM-based agents increasingly rely on reusable skills. However, scaling skill libraries makes efficient and accurate skill use difficult. Full skill loading incurs high token and runtime overhead. In contrast, flat semantic retrieval treats skills as independent text entries, ignoring dependencies, execution order, state transitions, and data flow constraints. We propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM-based agents. SPEM maintains Atomic Skill Memory for individual skills and Skill-DA",
+   "ts": 1792555200,
+   "zh": "SPEM：面向LLM智能体的结构化程序记忆",
+   "brief": "论文提出结构化程序记忆方法，降低技能库扩展时的token与运行开销。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.27027",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+   "link": "https://arxiv.org/abs/2610.27027",
+   "summary": "arXiv:2610.27027v1 Announce Type: new Abstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not only on the conclusion, so whether collaboration reduces hallucination, and what decides when it does, has to be measured in the reasoning too. Yet most evaluations score only the final answer. We evaluate four systems (a single-LLM baseline and three multi-agent topologies) across four models and three clinical tasks, s",
+   "ts": 1792555200,
+   "zh": "多智能体协作能减少临床任务幻觉吗",
+   "brief": "论文指出多智能体在临床任务上的性能提升，不等于系统更可信。",
+   "why": "提醒企业勿把多智能体效果提升等同于可靠性。",
+   "score": 5
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
    "source": "aws-ml",
@@ -270,6 +387,19 @@
    "brief": "一位Schlotzsky's和Cinnabon加盟商将菜单改价时间缩短95%，并搭建可释放10万美元现金流的工作流。",
    "why": "典型中小企业AI落地案例，可直接用于向老板讲降本增效。",
    "score": 9
+  },
+  {
+   "id": "https://openai.com/index/terminal-x",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+   "link": "https://openai.com/index/terminal-x",
+   "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+   "ts": 1792479600,
+   "zh": "Terminal X用GPT-6.1匹配资深投资人判断88.6%",
+   "brief": "Terminal X的评估智能体按54项标准打分，用GPT-6.1后多发现25%偏离基金授权之处。",
+   "why": "金融等专业场景可参考AI评估替代人工审核的落地案例。",
+   "score": 7
   },
   {
    "id": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
@@ -4664,32 +4794,6 @@
    "brief": "OpenAI Academy推出面向员工、开发者、管理者、教师和学生的新学习路径。",
    "why": "企业AI培训可参考其课程体系与技能框架。",
    "score": 8
-  },
-  {
-   "id": "https://openai.com/index/v7",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
-   "link": "https://openai.com/index/v7",
-   "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-   "ts": 1789948800,
-   "zh": "V7用GPT-5.6将成本降78%并提准确率",
-   "brief": "V7利用GPT-5.6把企业零散文件转为可溯源上下文，完成复杂工作。",
-   "why": "降本增效的企业落地案例，适合讲ROI。",
-   "score": 9
-  },
-  {
-   "id": "https://huggingface.co/blog/tokenizers-v1",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "tokenizers v1: encode, decode and scaling, measured",
-   "link": "https://huggingface.co/blog/tokenizers-v1",
-   "summary": "",
-   "ts": 1789948800,
-   "zh": "Hugging Face发布tokenizers v1",
-   "brief": "Hugging Face推出tokenizers v1，涵盖编码、解码与扩展性实测。",
-   "why": "",
-   "score": 2
   }
  ]
 }
