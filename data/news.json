@@ -1,11 +1,11 @@
 {
- "updated": 1792558625,
+ "updated": 1792583916,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 24,
-   "new": 1
+   "count": 23,
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -29,19 +29,19 @@
    "name": "Google AI",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 15,
-   "new": 0
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 17,
-   "new": 0
+   "count": 18,
+   "new": 10
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -59,10 +59,140 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+   "link": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+   "summary": "",
+   "ts": 1792580382,
+   "zh": "Hugging Face推出仿真就绪3D资产开放库",
+   "brief": "Hugging Face发布SimReady Central，面向机器人与AI工厂的仿真就绪3D资产开放库。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+   "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+   "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows version arriving in December. Announcements include: […]",
+   "ts": 1792579837,
+   "zh": "英伟达在柏林GTC展示本地AI硬件全线",
+   "brief": "英伟达在GTC柏林展示本地AI硬件：RTX Spark、DGX Spark与DGX Station。",
+   "why": "本地部署AI硬件选项增多，可评估中小企业私有化落地路径。",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+   "link": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+   "summary": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demanding […]",
+   "ts": 1792579517,
+   "zh": "谷歌云与英伟达Vera Rubin基础设施正式可用",
+   "brief": "谷歌云与英伟达宣布Vera Rubin基础设施实例下月正式可用，并计划扩展至欧洲。",
+   "why": "云端训练推理算力供给与价格或变化，影响企业AI成本测算。",
+   "score": 7
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+   "link": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+   "summary": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for […]",
+   "ts": 1792578641,
+   "zh": "英伟达云伙伴在欧洲扩展主权AI云",
+   "brief": "英伟达欧洲云伙伴扩展面向安全AI智能体的主权、开放云基础设施。",
+   "why": "欧洲数据主权云选项增加，出海企业可关注合规部署。",
+   "score": 5
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+   "link": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+   "summary": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in […]",
+   "ts": 1792578640,
+   "zh": "欧洲工业龙头用英伟达重塑工程制造",
+   "brief": "欧洲工业企业采用CUDA-X、Omniverse及Cosmos、Nemotron开放模型于工程制造全流程。",
+   "why": "制造业AI落地标杆案例，可作行业说服素材。",
+   "score": 8
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+   "link": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+   "summary": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations […]",
+   "ts": 1792578625,
+   "zh": "英伟达cuDSS正式发布加速工程仿真",
+   "brief": "英伟达cuDSS正式可用，将工程与科学仿真关键计算迁移至GPU。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+   "link": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+   "summary": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models and data those agents depend on while running. Today, NVIDIA […]",
+   "ts": 1792578602,
+   "zh": "英伟达机密计算扩展支持安全部署智能体",
+   "brief": "英伟达发布OpenShell参考架构，扩展机密计算以安全规模化部署智能体。",
+   "why": "企业智能体安全合规基础设施参考，适合讲数据安全。",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+   "link": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+   "summary": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor what they do and […]",
+   "ts": 1792577401,
+   "zh": "英伟达Agent Toolkit扩展接入企业数据",
+   "brief": "开源英伟达Agent Toolkit新增工具，支持用企业数据定制、控制与监控智能体。",
+   "why": "企业智能体落地工具链更新，可讲知识库与权限管控。",
+   "score": 7
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+   "link": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+   "summary": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking […]",
+   "ts": 1792576807,
+   "zh": "英伟达开放模型推进欧洲行业主权智能",
+   "brief": "英伟达扩展语言、机器人、生物、量子领域开放模型，含Nemotron 3.5 Super VL。",
+   "why": "开放模型增多，降低企业本地化与行业定制门槛。",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+   "link": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+   "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100 sessions on agentic AI, robotics, […]",
+   "ts": 1792575016,
+   "zh": "GTC柏林2026：黄仁勋主题演讲实录",
+   "brief": "GTC柏林为期三天、超100场会议，黄仁勋发表主题演讲。",
+   "why": "",
+   "score": 4
+  },
   {
    "id": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
    "source": "google-ai",
@@ -374,6 +504,19 @@
    "brief": "Hugging Face发布ALTK-Evolve，通过学习记忆在客服任务τ²-bench排行榜上超越前沿模型。",
    "why": "提示中小企业可用记忆增强方案低成本提升客服AI效果。",
    "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
+   "link": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
+   "summary": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera CPUs to build the next wave of infrastructure. Their momentum reflects rapid advancements in agentic computing. Agents do more than generate answers: they retrieve information, run software tools, execute code and evaluate results. Each step depends on fast CPU processing. Vera accelerates that […]",
+   "ts": 1792492211,
+   "zh": "欧洲企业采用英伟达Vera CPU建本地基础设施",
+   "brief": "Nebius与Nscale等伙伴采用英伟达Vera CPU构建新一代智能体计算基础设施。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://openai.com/index/ted-taylor-restaurant",
@@ -4754,45 +4897,6 @@
    "zh": "Higgsfield AI一天内上线GPT-6视频新功能",
    "brief": "Higgsfield AI借助GPT-6 Astra，让小企业更易制作视频广告并加快新功能上市。",
    "why": "小企业用AI做营销素材提速，可作落地案例。",
-   "score": 8
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "5 Companies Using NVIDIA AI for Clean Energy",
-   "link": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
-   "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception […]",
-   "ts": 1789984835,
-   "zh": "英伟达展示五家企业用AI推动清洁能源",
-   "brief": "纽约气候周上，英伟达介绍五家利用其AI技术加速清洁能源落地的企业。",
-   "why": "AI在能源等实体行业的落地案例，可作行业应用素材。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/building-standards-next-phase-ai",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Building standards for the next phase of AI",
-   "link": "https://openai.com/index/building-standards-next-phase-ai",
-   "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-   "ts": 1789984800,
-   "zh": "OpenAI呼吁建立全球AI标准框架",
-   "brief": "OpenAI发文提出全球AI标准路径，呼吁协调评估、报告与治理以提升安全。",
-   "why": "AI合规治理风向，影响企业AI使用规范预期。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Expanding OpenAI Academy with new learning paths",
-   "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-   "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-   "ts": 1789974000,
-   "zh": "OpenAI Academy新增多条学习路径",
-   "brief": "OpenAI Academy推出面向员工、开发者、管理者、教师和学生的新学习路径。",
-   "why": "企业AI培训可参考其课程体系与技能框架。",
    "score": 8
   }
  ]
