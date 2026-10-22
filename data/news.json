@@ -1,11 +1,11 @@
 {
- "updated": 1792645050,
+ "updated": 1792670434,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 30,
-   "new": 2
+   "count": 28,
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -35,19 +35,19 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 15,
-   "new": 0
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 6
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 2
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,97 @@
   }
  },
  "items": [
+  {
+   "id": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Ensemble forecasting with IBM Granite time-series models",
+   "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "summary": "",
+   "ts": 1792655491,
+   "zh": "IBM Granite时序模型集成预测方法",
+   "brief": "Hugging Face介绍用IBM Granite时序模型做集成预测的方法。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+   "link": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+   "summary": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF […]",
+   "ts": 1792645256,
+   "zh": "欧洲金融机构采用开放模型构建自有智能",
+   "brief": "GTC柏林上银行、支付与金融数据商展示基于NVIDIA算力和开放权重模型的生产级智能应用。",
+   "why": "金融业用开放模型自建智能的落地样本，可作行业案例讲给老板。",
+   "score": 8
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+   "link": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+   "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open […]",
+   "ts": 1792645227,
+   "zh": "NVIDIA Cosmos开放世界模型训练新工具",
+   "brief": "NVIDIA扩展Cosmos平台，新增训练工具、仿真检查点和数据工厂蓝图。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/dsx-power/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+   "link": "https://blogs.nvidia.com/blog/dsx-power/",
+   "summary": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion […]",
+   "ts": 1792645225,
+   "zh": "企业用NVIDIA DSX破解电力瓶颈",
+   "brief": "企业基于NVIDIA DSX AI工厂平台统一规划电网与AI工厂，应对电力瓶颈。",
+   "why": "提示AI落地中电力与基础设施成本已成关键约束。",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+   "link": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+   "summary": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open […]",
+   "ts": 1792645223,
+   "zh": "NVIDIA助力欧洲零售数字化与实体运营",
+   "brief": "欧洲零售商在电商与仓储场景用开放模型和物理智能，某平台推理成本降90%。",
+   "why": "零售降本90%的案例适合讲AI投入产出比。",
+   "score": 8
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+   "link": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+   "summary": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a […]",
+   "ts": 1792645219,
+   "zh": "欧洲机构部署NVIDIA Earth-2天气模型",
+   "brief": "能源、保险、运输等行业用Earth-2开放模型做实际天气与气候预测。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+   "link": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+   "summary": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, […]",
+   "ts": 1792645202,
+   "zh": "NVIDIA开放模型推动欧洲公共部门项目",
+   "brief": "政府用开放模型适配本地语言与公共服务，并在自有基础设施上运行。",
+   "why": "数据主权与自主可控思路可类比企业私有化部署。",
+   "score": 6
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/",
    "source": "aws-ml",
@@ -5002,19 +5093,6 @@
    "brief": "英伟达发布Isaac ROS 5.0，提供GPU加速的物理AI模型与工具，支持机器人感知推理行动。",
    "why": "偏开发者技术，与多数中小企业关联弱。",
    "score": 3
-  },
-  {
-   "id": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-   "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-   "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-   "ts": 1790078400,
-   "zh": "Parallel用GPT-6 Astra将研究时间与成本减半",
-   "brief": "OpenAI称Parallel的智能体用GPT-6 Astra做劳动力市场数据研究，时间和成本均减半。",
-   "why": "AI做研究降本50%，可作企业提效案例讲给老板听。",
-   "score": 9
   }
  ]
 }
