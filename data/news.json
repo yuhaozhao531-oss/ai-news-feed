@@ -1,11 +1,11 @@
 {
- "updated": 1792670434,
+ "updated": 1792689371,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 28,
-   "new": 0
+   "count": 29,
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,8 +22,8 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 5,
-   "new": 0
+   "count": 6,
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
@@ -41,13 +41,13 @@
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 6
+   "new": 2
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 2
   },
   "qwen": {
    "name": "通义千问",
@@ -64,6 +64,84 @@
  },
  "items": [
   {
+   "id": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/",
+   "summary": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
+   "ts": 1792686606,
+   "zh": "SageMaker TTS自动扩缩容阈值实测方法",
+   "brief": "AWS发文介绍在SageMaker AI部署Kokoro-82M语音模型，用实测数据推导自动扩缩容策略。",
+   "why": "做AI语音客服的企业可参考如何避免GPU浪费和延迟超标。",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Rescale built an AI triage agent with Strands Agents and AI-DLC",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+   "summary": "Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization.",
+   "ts": 1792686357,
+   "zh": "Rescale用Strands Agents构建AI分诊代理",
+   "brief": "Rescale基于AWS的AI-DLC框架、Strands Agents和Bedrock，数周内建成测试分诊智能体。",
+   "why": "展示企业用AI代理改造研发流程的落地路径，可作案例讲。",
+   "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+   "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "summary": "",
+   "ts": 1792685491,
+   "zh": "OlmoEarth v1.3发布全球地表嵌入模型",
+   "brief": "Hugging Face发布OlmoEarth v1.3，提供覆盖全球的高质量地表嵌入向量。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+   "link": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+   "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast […]",
+   "ts": 1792681202,
+   "zh": "英伟达推出Minerva AI工厂可观测平台",
+   "brief": "英伟达发布AIOps平台Minerva，整合基础设施与AI负载遥测数据并输出可执行洞察。",
+   "why": "大规模跑AI的企业可关注AI基础设施运维与稳定性。",
+   "score": 6
+  },
+  {
+   "id": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "ts": 1792679424,
+   "zh": "DeepMind发布全球森林类型地图",
+   "brief": "谷歌DeepMind发布全球地图，将每10米地块归类为不同森林类型。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+   "summary": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in […]",
+   "ts": 1792674020,
+   "zh": "《使命召唤》新作登陆GeForce NOW",
+   "brief": "英伟达宣布《使命召唤：现代战争4》发售即上线GeForce NOW云游戏。",
+   "why": "",
+   "score": 1
+  },
+  {
    "id": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
    "source": "huggingface",
    "sourceName": "Hugging Face",
@@ -75,6 +153,19 @@
    "brief": "Hugging Face介绍用IBM Granite时序模型做集成预测的方法。",
    "why": "",
    "score": 3
+  },
+  {
+   "id": "https://openai.com/index/forward-deployed-engineering-means",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "What FDE means at OpenAI",
+   "link": "https://openai.com/index/forward-deployed-engineering-means",
+   "summary": "What forward deployed engineering means at OpenAI",
+   "ts": 1792648800,
+   "zh": "OpenAI解读前置部署工程师角色",
+   "brief": "OpenAI发文解释其“前置部署工程师”（FDE）岗位的含义与职责。",
+   "why": "企业引入AI时可参考这种驻场交付模式。",
+   "score": 5
   },
   {
    "id": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
@@ -153,6 +244,19 @@
    "brief": "政府用开放模型适配本地语言与公共服务，并在自有基础设施上运行。",
    "why": "数据主权与自主可控思路可类比企业私有化部署。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+   "ts": 1792627200,
+   "zh": "Uber向3万员工全面部署ChatGPT企业版",
+   "brief": "Uber将ChatGPT Work推广至超3万名员工，用于调研、数据分析、做演示和复杂流程。",
+   "why": "大企业全员AI落地的标杆案例，适合给老板讲。",
+   "score": 9
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/",
@@ -5080,19 +5184,6 @@
    "brief": "Anthropic最强Opus模型Claude Opus 5.5在Amazon Bedrock和AWS上的Claude平台可用。",
    "why": "企业级智能体与长任务能力升级，选型参考。",
    "score": 8
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-   "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-   "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at […]",
-   "ts": 1790078441,
-   "zh": "英伟达Isaac ROS 5.0推进机器人开发",
-   "brief": "英伟达发布Isaac ROS 5.0，提供GPU加速的物理AI模型与工具，支持机器人感知推理行动。",
-   "why": "偏开发者技术，与多数中小企业关联弱。",
-   "score": 3
   }
  ]
 }
