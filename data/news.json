@@ -1,17 +1,17 @@
 {
- "updated": 1792689371,
+ "updated": 1792705318,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
-   "count": 29,
-   "new": 2
+   "count": 30,
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 6,
-   "new": 0
+   "count": 7,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -23,7 +23,7 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 6,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -35,19 +35,19 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 15,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 2
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 2
+   "new": 6
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,97 @@
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/index/decisions-api",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Build more responsive apps with the Decisions API",
+   "link": "https://openai.com/index/decisions-api",
+   "summary": "Fast, focused, low-cost decisions for any application.",
+   "ts": 1792695600,
+   "zh": "OpenAI推出Decisions API提升应用响应速度",
+   "brief": "OpenAI发布Decisions API，为应用提供快速、专注、低成本决策能力。",
+   "why": "低延迟低成本决策接口，适合客服、审批等高频业务场景。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Amazon Polly delivers a major upgrade to its Generative engine",
+   "link": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
+   "summary": "The Amazon Polly Generative engine gets a major upgrade: more expressive, more accurate speech with low latency, plus 14 new voices across 9 locales and general availability of Hindi and Finnish. This drop-in upgrade requires no code changes and is now generally available in production.",
+   "ts": 1792692395,
+   "zh": "Amazon Polly生成式引擎重大升级",
+   "brief": "Polly生成式引擎升级，语音更自然准确、延迟更低，新增9语种14种声音。",
+   "why": "无需改代码即可升级，做多语种客服和培训音频成本更低。",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How IskayPet unified corporate knowledge with Amazon Bedrock Managed Knowledge Bases",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases/",
+   "summary": "Learn how IskayPet, a leading pet care company in Iberia, built a multilingual corporate knowledge assistant on Amazon Bedrock Managed Knowledge Bases. The assistant answers employee questions across retail, veterinary, onboarding, and procurement in four languages and three countries, with no RAG infrastructure to manage.",
+   "ts": 1792692113,
+   "zh": "IskayPet用Bedrock构建企业知识助手",
+   "brief": "IskayPet基于Amazon Bedrock托管知识库搭建多语言企业知识助手，覆盖四语三国。",
+   "why": "中小企业可参考的低门槛知识库落地案例，适合做内容素材。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+   "link": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+   "summary": "Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed execution, fault recovery, and checkpoint storage.",
+   "ts": 1792692004,
+   "zh": "SageMaker AI推出免GPU管理的模型定制",
+   "brief": "SageMaker AI无服务器模型定制新增训练会话功能并正式可用。",
+   "why": "降低模型微调门槛，但偏技术细节，老板关注度有限。",
+   "score": 4
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+   "link": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+   "summary": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming.",
+   "ts": 1792692001,
+   "zh": "SageMaker训练会话API支持自写训练循环",
+   "brief": "SageMaker训练会话API允许用Python脚本自写LLM训练循环，由服务管理GPU。",
+   "why": "纯开发者细节，对企业决策者参考价值低。",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Deploy AI in a HIPAA-eligible environment with Amazon Quick",
+   "link": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+   "summary": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents in a healthcare environment.",
+   "ts": 1792691302,
+   "zh": "Amazon Quick推出HIPAA合规部署指南",
+   "brief": "介绍HIPAA适用范围、PHI在Quick中的流转及合规部署AI代理的步骤。",
+   "why": "医疗等强监管行业上AI的合规参考，适合合规话题内容。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai/",
+   "summary": "Voice agents often wait for an agent's full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it, and how to get that audio back to a browser over Server-Sent Events or a unified binary transport.",
+   "ts": 1792691158,
+   "zh": "用Kokoro TTS在SageMaker流式输出语音",
+   "brief": "介绍将每句话流式送入Kokoro-82M模型合成语音，降低语音代理延迟。",
+   "why": "语音客服体验优化思路，偏技术实现细节。",
+   "score": 3
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/",
    "source": "aws-ml",
@@ -257,6 +348,19 @@
    "brief": "Uber将ChatGPT Work推广至超3万名员工，用于调研、数据分析、做演示和复杂流程。",
    "why": "大企业全员AI落地的标杆案例，适合给老板讲。",
    "score": 9
+  },
+  {
+   "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "summary": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
+   "ts": 1792627200,
+   "zh": "Anthropic将Agent Skills捐赠给基金会",
+   "brief": "Anthropic把Agent Skills开放标准捐给Agentic AI Foundation，已有70多个平台接入。",
+   "why": "智能体标准趋于统一，企业选型时互操作性风险下降。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/",
@@ -5132,58 +5236,6 @@
    "brief": "Anthropic称Claude发现一种具有类CRISPR重复序列的新型酶系统。",
    "why": "AI用于科研发现的案例，可讲AI创新潜力。",
    "score": 6
-  },
-  {
-   "id": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Better prompt caching for GPT-6",
-   "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-   "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-   "ts": 1790110800,
-   "zh": "GPT-6提示缓存能力升级",
-   "brief": "GPT-6改进提示缓存，提升命中率，新增诊断、断点与成本延迟控制。",
-   "why": "直接降低API调用成本，影响企业AI预算。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-   "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
-   "ts": 1790100622,
-   "zh": "GPT-6 Sol与Luna上线亚马逊Bedrock",
-   "brief": "GPT-6 Sol和GPT-6 Luna在Amazon Bedrock正式可用，可按任务匹配智能与效率。",
-   "why": "企业可在既有云平台选型，降低采购门槛。",
-   "score": 8
-  },
-  {
-   "id": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Introducing GPT-6 Sol and Luna",
-   "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-   "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-   "ts": 1790100000,
-   "zh": "OpenAI发布GPT-6 Sol与Luna",
-   "brief": "OpenAI推出GPT-6 Sol和Luna两款模型，以不同能力与成本组合服务日常工作。",
-   "why": "新模型分层定价，企业选型与成本控制关键。",
-   "score": 9
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Claude Opus 5.5 is now available on AWS",
-   "link": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
-   "summary": "Claude Opus 5.5, Anthropic's most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what's new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock.",
-   "ts": 1790098081,
-   "zh": "Claude Opus 5.5上线AWS",
-   "brief": "Anthropic最强Opus模型Claude Opus 5.5在Amazon Bedrock和AWS上的Claude平台可用。",
-   "why": "企业级智能体与长任务能力升级，选型参考。",
-   "score": 8
   }
  ]
 }
