@@ -1,16 +1,16 @@
 {
- "updated": 1792705318,
+ "updated": 1792731556,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 1
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 7,
+   "count": 8,
    "new": 1
   },
   "anthropic-eng": {
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 15,
-   "new": 0
+   "count": 16,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 6
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,140 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.28698",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+   "link": "https://arxiv.org/abs/2610.28698",
+   "summary": "arXiv:2610.28698v1 Announce Type: new Abstract: Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours",
+   "ts": 1792728000,
+   "zh": "游戏世界中的扩展：面向具身智能体的持续预训练",
+   "brief": "arXiv新论文研究在多样虚拟世界中对具身智能体进行持续预训练，检验数据与模型规模扩展是否在虚拟环境中同样有效。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.28763",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+   "link": "https://arxiv.org/abs/2610.28763",
+   "summary": "arXiv:2610.28763v1 Announce Type: new Abstract: Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11 domains. Rather than ranking agents on a leaderboard, Agent4Sci asks what kinds of progress agents can make on these tasks under in-th",
+   "ts": 1792728000,
+   "zh": "自动化科研ML：前沿智能体能否攀登科学高峰",
+   "brief": "arXiv论文提出Agent基准，测试前沿编程智能体能否端到端改进科学模型，而不仅是常规机器学习工程。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.28815",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
+   "link": "https://arxiv.org/abs/2610.28815",
+   "summary": "arXiv:2610.28815v1 Announce Type: new Abstract: Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as evolving evidence. While more evolution tasks should intuitively improve performance, our preliminary study reveals a paradoxical failure mode: the performance of existing methods degrades as the task pool expands. Our further analysis demonstrates that this degradation stems from suboptimal evidence selection during optimization, as different evidence combinations lead to substantially different evolution outcomes. To a",
+   "ts": 1792728000,
+   "zh": "智能体框架进化：用更多任务打造更好执行框架",
+   "brief": "arXiv论文发现进化任务增多反而可能降低效果，并提出基于连续规模竞赛的智能体框架进化方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.28891",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Fig: Automated Multiagent Behavior Elicitor",
+   "link": "https://arxiv.org/abs/2610.28891",
+   "summary": "arXiv:2610.28891v1 Announce Type: new Abstract: Many social evaluations for multiagent systems study behaviors as they emerge from environments instead of systematically intervening in the environment to elicit such behaviors. We introduce Fig (Finding Interactions in Games), an agentic system that performs targeted elicitation interventions on game environments. It takes a natural language behavior description, decomposes it into sub-behaviors, generates new social games or selects existing ones, and executes single or combined interventions to the games' engine, opponents, instructions, and ",
+   "ts": 1792728000,
+   "zh": "Fig：自动化多智能体行为诱导系统",
+   "brief": "arXiv论文提出Fig系统，通过主动干预游戏环境来系统性地诱导多智能体行为，而非仅观察自然涌现行为。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.28905",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
+   "link": "https://arxiv.org/abs/2610.28905",
+   "summary": "arXiv:2610.28905v1 Announce Type: new Abstract: Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usually discard those states and make agents communicate only after decoding text. We ask whether one independent diffusion trajectory can pass a compact hidden message into another and, crucially, whether the receiver uses what that message means. In Hidden Messages, a sender compresses its denoising state into four signed dense vectors; the receiver consumes them while retaining its own context, canvas, and trajectory. Removing a me",
+   "ts": 1792728000,
+   "zh": "扩散语言模型智能体间的隐式通信",
+   "brief": "arXiv论文发现扩散语言模型的中间连续状态可在智能体间传递信息，为多智能体通信提供新路径。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.28909",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+   "link": "https://arxiv.org/abs/2610.28909",
+   "summary": "arXiv:2610.28909v1 Announce Type: new Abstract: Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use. Almost all production systems are built on autoregressive (AR) language models and inherit left-to-right decoding in planning and long-form writing. We present DiffResearch, an open multi-agent deep research framework that places a diffusion language model (dLLM) at the core of every stage, and measure how a diffusion backbone changes latency and report quality. Holding the agentic scaffold, retrieval co",
+   "ts": 1792728000,
+   "zh": "DiffResearch：用扩散语言模型加速深度研究",
+   "brief": "arXiv论文提出DiffResearch，用扩散语言模型替代自回归模型来降低深度研究系统的端到端延迟。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.28914",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "D-Skill: Distilling Teacher Knowledge through Agent Skills",
+   "link": "https://arxiv.org/abs/2610.28914",
+   "summary": "arXiv:2610.28914v1 Announce Type: new Abstract: Frontier language-model agents excel at complex tasks, but high inference costs make transferring their capabilities to smaller models essential. Traditional knowledge distillation achieves this through parameter updates, requiring access to the student's weights and additional training compute while encoding the transferred knowledge implicitly in the parameters. We introduce D-Skill, a framework that treats the teacher as a black box and distills its behavioral advantage into an interpretable natural-language skill by analyzing paired rollouts ",
+   "ts": 1792728000,
+   "zh": "D-Skill：通过智能体技能蒸馏教师知识",
+   "brief": "arXiv论文提出D-Skill方法，无需访问学生模型参数，通过智能体技能将大模型能力蒸馏到小模型。",
+   "why": "可降低企业部署AI智能体的推理成本，值得关注。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.28934",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Back Up Before You Regret: Measuring Backup Awareness and Automating Backup in Coding Agents",
+   "link": "https://arxiv.org/abs/2610.28934",
+   "summary": "arXiv:2610.28934v1 Announce Type: new Abstract: Coding agents now complete tasks autonomously, modifying real-world state such as artifacts, software environments, and configurations along the way. Yet they show limited backup awareness: recognizing that an action will modify state that may later be needed, and preserving it beforehand. To evaluate backup awareness, we introduce RegretBench, a benchmark of 205 executable tasks grounded in regret moments reported on platforms such as X.com, GitHub, and Stack Overflow, where users explicitly regretted not preserving state they later needed. Acro",
+   "ts": 1792728000,
+   "zh": "编码智能体备份意识测量与自动备份",
+   "brief": "arXiv论文测量编码智能体对状态修改的备份意识不足，并提出自动化备份方案以减少不可逆操作风险。",
+   "why": "企业用AI写代码需关注误改生产环境的风险管控。",
+   "score": 5
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Kazakhstan Expands Compute for Its AI Future",
+   "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+   "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. Read All NVIDIA in Europe […]",
+   "ts": 1792720813,
+   "zh": "哈萨克斯坦扩大算力布局AI未来",
+   "brief": "英伟达介绍哈萨克斯坦AI生态从基础设施规划转向部署，覆盖算力、模型到应用全栈的多项公告。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+   "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "summary": "",
+   "ts": 1792707874,
+   "zh": "把数据库评分变成强化学习奖励：ThinkingBox智能体后训练",
+   "brief": "Hugging Face博客介绍ThinkingBox方法，将数据库评分转化为强化学习奖励，用于智能体后训练。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://openai.com/index/decisions-api",
    "source": "openai",
@@ -361,6 +491,19 @@
    "brief": "Anthropic把Agent Skills开放标准捐给Agentic AI Foundation，已有70多个平台接入。",
    "why": "智能体标准趋于统一，企业选型时互操作性风险下降。",
    "score": 7
+  },
+  {
+   "id": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Open call for guest investigators in the life sciences",
+   "link": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+   "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+   "ts": 1792627200,
+   "zh": "Anthropic公开招募生命科学领域客座研究员",
+   "brief": "Anthropic宣布面向生命科学界公开招募，邀请申请者参与其特别合作项目。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/",
@@ -906,6 +1049,19 @@
    "zh": "Smartsheet MCP登陆AWS，让AI代理接入工作管理数据",
    "brief": "AWS介绍Smartsheet MCP服务器在AWS上的两种接入方式：面向业务团队的Amazon Quick和面向开发者的Kiro。",
    "why": "说明AI代理可直接读写企业项目管理数据，是落地场景参考。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Workflow context for AI agents with Smartsheet MCP on AWS",
+   "link": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+   "summary": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.",
+   "ts": 1792519147,
+   "zh": "AWS上通过Smartsheet MCP为AI智能体提供工作流上下文",
+   "brief": "AWS博客介绍Smartsheet MCP服务器，让AI智能体读写实时数据，并给出面向业务团队和开发者的两种接入方式。",
+   "why": "中小企业可用现成SaaS数据打通AI智能体，落地门槛低。",
    "score": 6
   },
   {
@@ -5171,71 +5327,6 @@
    "brief": "OpenAI推出MentalHealthBench，用专家标准评估AI在真实心理健康对话中的有用性与安全性。",
    "why": "AI安全合规信号，涉及客服与员工关怀场景风险。",
    "score": 5
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
-   "link": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-   "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region […]",
-   "ts": 1790130622,
-   "zh": "英伟达新加坡AI日展示东南亚AI进展",
-   "brief": "英伟达9月22-23日在新加坡举办AI Day，提供实操培训、专家课程与高性能计算工具。",
-   "why": "东南亚AI培训与生态活动，可参考做企业培训选题。",
-   "score": 5
-  },
-  {
-   "id": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-   "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-   "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-   "ts": 1790128800,
-   "zh": "ChatGPT广告扩展至东南亚和台湾",
-   "brief": "ChatGPT Ads扩展至东南亚与台湾，符合条件的企业可在60多个国家触达用户。",
-   "why": "新增AI广告投放渠道，中小企业获客可关注。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/airbnb-gpt-6-astra",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-   "link": "https://openai.com/index/airbnb-gpt-6-astra",
-   "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-   "ts": 1790125200,
-   "zh": "Airbnb扩大使用GPT-6 Astra等前沿模型",
-   "brief": "Airbnb扩大对GPT-6 Astra及OpenAI前沿模型的访问，用于修bug、设计系统和加快交付。",
-   "why": "知名企业研发提效案例，可讲AI对工程团队价值。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-   "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-   "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-   "ts": 1790121600,
-   "zh": "Grab与OpenAI在东南亚推广AI技能",
-   "brief": "双方推出GO Forward with AI项目，帮助东南亚3万名合作伙伴掌握实用AI技能。",
-   "why": "大规模企业AI培训案例，直接对标培训业务。",
-   "score": 9
-  },
-  {
-   "id": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-   "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-   "summary": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-   "ts": 1790121600,
-   "zh": "Claude发现类CRISPR新型酶系统",
-   "brief": "Anthropic称Claude发现一种具有类CRISPR重复序列的新型酶系统。",
-   "why": "AI用于科研发现的案例，可讲AI创新潜力。",
-   "score": 6
   }
  ]
 }
