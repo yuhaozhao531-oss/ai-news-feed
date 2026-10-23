@@ -1,5 +1,5 @@
 {
- "updated": 1792775632,
+ "updated": 1792790921,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 17,
-   "new": 2
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+   "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+   "summary": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
+   "ts": 1792777734,
+   "zh": "SageMaker AI 多轮强化学习实操指南",
+   "brief": "AWS 发布在 SageMaker AI 上做多轮强化学习的实操教程，以 Wordle 为例走通全流程。",
+   "why": "展示多步任务训练新范式，可作企业 AI 能力升级的科普素材。",
+   "score": 6
+  },
   {
    "id": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
    "source": "openai",
@@ -127,6 +140,19 @@
    "brief": "Hugging Face发布LitPivot，通过文献图景中的动态情境化来发展研究想法。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Securing our frontier model training environment",
+   "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+   "ts": 1792749600,
+   "zh": "OpenAI 强化前沿模型训练环境安全",
+   "brief": "OpenAI 说明如何加强前沿模型训练与评估的隔离，含离线环境与高算力红队测试。",
+   "why": "提示企业关注 AI 安全与合规，可作为治理话题切入。",
+   "score": 5
   },
   {
    "id": "https://arxiv.org/abs/2610.28698",
@@ -5223,71 +5249,6 @@
    "brief": "Remedy新作CONTROL Resonant在GeForce NOW云游戏平台首发上线，并推出会员捆绑包。",
    "why": "",
    "score": 1
-  },
-  {
-   "id": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-   "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-   "summary": "",
-   "ts": 1790188900,
-   "zh": "用NVIDIA Warp和MjWarp加速机器人仿真",
-   "brief": "Hugging Face介绍如何用NVIDIA Warp与MjWarp加速机器人仿真与学习工作流。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
-   "summary": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazon Bedrock AgentCore. Using Model Context Protocol (MCP), HAL delivers governed knowledge inside the tools teams already use, with no AWS credentials on the client and security anchored in Microsoft Entra ID.",
-   "ts": 1790188869,
-   "zh": "HEMA用MCP和Bedrock打造内部AI助手",
-   "brief": "荷兰百年零售商HEMA基于Amazon Bedrock AgentCore构建内部AI助手HAL，用MCP协议在现有工具中提供受管控知识。",
-   "why": "示范中小企业如何用AI助手打通内部知识，降低员工查找成本。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Agentic conversational video intelligence built on AWS",
-   "link": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
-   "summary": "Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orchestrates Amazon Bedrock, Amazon Rekognition, and Amazon Transcribe at runtime, deciding which service to call so you can ask natural language questions about your videos and get answers in seconds.",
-   "ts": 1790187714,
-   "zh": "基于AWS构建对话式视频智能方案",
-   "brief": "AWS发布教程，用Strands Agents SDK智能体调度Bedrock、Rekognition和Transcribe，实现自然语言视频问答。",
-   "why": "展示视频内容可被AI检索问答，适合媒体、安防、培训场景。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Use open weight models as your AI coding agent with Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
-   "summary": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant. Learn how to configure multi-model workflows, match the right model to each task, and keep your data in your own AWS account with no infrastructure to manage.",
-   "ts": 1790187464,
-   "zh": "用Bedrock开源权重模型做AI编程助手",
-   "brief": "AWS介绍将开源终端编程智能体OpenCode与Bedrock开源权重模型搭配，实现按量付费、数据留在自有账户的编程助手。",
-   "why": "给企业一个可控成本、数据不出境的AI编程落地选项。",
-   "score": 7
-  },
-  {
-   "id": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "Google Beam expands with new regions, partners, and customers",
-   "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-   "summary": "Google Beam promotional animation",
-   "ts": 1790186400,
-   "zh": "Google Beam扩展新地区、伙伴与客户",
-   "brief": "Google宣布Beam产品扩展至新地区，并新增合作伙伴与客户。",
-   "why": "",
-   "score": 3
   }
  ]
 }
