@@ -1,5 +1,5 @@
 {
- "updated": 1792857704,
+ "updated": 1792875316,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5157,58 +5157,6 @@
    "zh": "Wayfair用OpenAI提升目录准确率与客服速度",
    "brief": "Wayfair使用OpenAI模型自动化工单分流并优化数百万商品属性，提升电商客服与产品目录准确性。",
    "why": "大型电商AI落地实证，可作为向老板展示降本增效的标杆案例。",
-   "score": 8
-  },
-  {
-   "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "source": "deepmind",
-   "sourceName": "Google DeepMind",
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "summary": "",
-   "ts": 1790266839,
-   "zh": "谷歌发布Gemini 3.8 Live与实时虚拟形象",
-   "brief": "Google DeepMind发布Gemini 3.8 Live，新增Live Avatar实时虚拟形象能力。",
-   "why": "实时多模态交互升级，可评估用于客服与培训场景。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
-   "link": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
-   "summary": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn how to deploy it to Amazon SageMaker AI real-time and asynchronous endpoints for word-level, speaker-labeled transcription, plus the production details that matter: the GPU AMI pin, scaling, and cost controls.",
-   "ts": 1790266812,
-   "zh": "SageMaker上WhisperX说话人转录",
-   "brief": "AWS发布WhisperX深度学习容器，集成强制对齐与说话人分离，可部署实时和异步端点。",
-   "why": "会议、客服录音自动转写分角色，企业知识沉淀可用。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
-   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
-   "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the agent using Amazon Bedrock AgentCore Gateway and MCP, while line-of-business accounts expose their data as MCP servers with secure cross-account access and fine-grained authorization.",
-   "ts": 1790266367,
-   "zh": "用AgentCore Gateway构建多账户AI代理",
-   "brief": "AWS介绍用Bedrock AgentCore Gateway和MCP构建多账户架构，各团队数据留在自己账户内统一查询。",
-   "why": "解决数据隔离与统一问数的矛盾，适合集团型客户。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Aderant builds intelligent ticket triage with Amazon Nova",
-   "link": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
-   "summary": "Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classification, routing, and knowledge enrichment for its cloud operations team.",
-   "ts": 1790266006,
-   "zh": "Aderant用Amazon Nova做工单智能分诊",
-   "brief": "Aderant基于Bedrock上的Nova Lite构建工单分诊系统，自动完成上下文收集、分类、路由和知识补充。",
-   "why": "IT运维工单自动化是中小企业易见效的AI落地场景。",
    "score": 8
   }
  ]
