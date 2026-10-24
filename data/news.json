@@ -1,5 +1,5 @@
 {
- "updated": 1792840261,
+ "updated": 1792857704,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5210,45 +5210,6 @@
    "brief": "Aderant基于Bedrock上的Nova Lite构建工单分诊系统，自动完成上下文收集、分类、路由和知识补充。",
    "why": "IT运维工单自动化是中小企业易见效的AI落地场景。",
    "score": 8
-  },
-  {
-   "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-   "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-   "summary": "",
-   "ts": 1790258937,
-   "zh": "LFM2.5-VL-DSpark加速视觉语言模型",
-   "brief": "Hugging Face介绍LFM2.5-VL-DSpark，用于加速视觉语言模型推理。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-   "link": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-   "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google […]",
-   "ts": 1790258450,
-   "zh": "英伟达：开放科学助力应对下一次疫情",
-   "brief": "英伟达加入联盟，呼吁用开放科学和前期冠状病毒研究为下一次大流行做准备。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-   "summary": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive […]",
-   "ts": 1790254836,
-   "zh": "CONTROL Resonant登陆GeForce NOW",
-   "brief": "Remedy新作CONTROL Resonant在GeForce NOW云游戏平台首发上线，并推出会员捆绑包。",
-   "why": "",
-   "score": 1
   }
  ]
 }
