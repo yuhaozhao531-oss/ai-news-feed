@@ -1,5 +1,5 @@
 {
- "updated": 1792928428,
+ "updated": 1792945790,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5067,84 +5067,6 @@
    "brief": "Proaction 借助 Codex、GPT-Live-1 和 GPT-6 Astra，更快构建和销售车队管理方案，销售提升 60%。",
    "why": "中小企业可参考 AI 提效销售的落地路径。",
    "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
-   "link": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
-   "summary": "Learn how to scale Mixture-of-Experts (MoE) reinforcement learning on Amazon EKS using Elastic Fabric Adapter (EFA) and DeepEP. This post presents an architecture that combines Amazon EKS, EFA, and Amazon S3 and increased aggregate reinforcement learning rollout throughput by 40% for large-scale RLHF and GRPO training.",
-   "ts": 1790353790,
-   "zh": "EKS 上 MoE 强化学习吞吐提升 40%",
-   "brief": "介绍在 Amazon EKS 上用 EFA 和 DeepEP 扩展 MoE 强化学习，聚合 rollout 吞吐提升 40%。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-   "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-   "summary": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference.",
-   "ts": 1790353087,
-   "zh": "SageMaker HyperPod 加速多模态 RL 训练",
-   "brief": "讲解在 SageMaker HyperPod 上运行 SkyRL 框架，用 GRPO 后训练 Qwen3-VL-8B 视觉语言模型。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
-   "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accuracy while streaming responses in real time.",
-   "ts": 1790352922,
-   "zh": "NarrateAI：Bedrock上的LLM质量保障方案",
-   "brief": "AWS介绍NarrateAI在Amazon Bedrock上实现生产级LLM质量保障的五种技术，数值准确率约99%。",
-   "why": "企业上LLM最怕答错，可讲质量保障与准确率如何落地。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
-   "link": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
-   "summary": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and clone a voice from a short reference clip. Cross-lingual cloning preserves the speaker's identity across languages.",
-   "ts": 1790352586,
-   "zh": "SageMaker部署Qwen3-TTS实时语音克隆",
-   "brief": "AWS介绍在SageMaker JumpStart部署Qwen3-TTS-1.7B语音合成模型，支持短音频跨语言克隆音色。",
-   "why": "客服、培训语音场景可低成本定制音色，值得关注。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "How Datacor built self-service rental analytics with Amazon Quick Sight",
-   "link": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
-   "summary": "Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an automated cross-cloud data pipeline and multi-tenant row-level security.",
-   "ts": 1790351682,
-   "zh": "Datacor用Quick Sight做自助租赁分析",
-   "brief": "Datacor将Quick Sight仪表盘和自然语言查询嵌入TrackAbout平台，实现跨云数据管道与多租户行级安全。",
-   "why": "中小企业可参考：把BI和自然语言问数嵌入自有产品。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
-   "link": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
-   "summary": "Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. This post shares the architecture and validation results from a cross-Region training run, where a remote cluster matched a co-located cluster's throughput after a brief NeuralCache warmup.",
-   "ts": 1790351384,
-   "zh": "SageMaker HyperPod跨区域训练方案",
-   "brief": "AWS与Qumulo展示跨区域训练架构，远程集群吞吐量可匹配同地集群。",
-   "why": "数据合规要求数据不出境时，跨区训练是可行路径。",
-   "score": 6
   }
  ]
 }
