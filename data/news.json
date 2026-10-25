@@ -1,5 +1,5 @@
 {
- "updated": 1792884021,
+ "updated": 1792903851,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5145,19 +5145,6 @@
    "brief": "AWS与Qumulo展示跨区域训练架构，远程集群吞吐量可匹配同地集群。",
    "why": "数据合规要求数据不出境时，跨区训练是可行路径。",
    "score": 6
-  },
-  {
-   "id": "https://openai.com/index/wayfair",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-   "link": "https://openai.com/index/wayfair",
-   "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-   "ts": 1790294400,
-   "zh": "Wayfair用OpenAI提升目录准确率与客服速度",
-   "brief": "Wayfair使用OpenAI模型自动化工单分流并优化数百万商品属性，提升电商客服与产品目录准确性。",
-   "why": "大型电商AI落地实证，可作为向老板展示降本增效的标杆案例。",
-   "score": 8
   }
  ]
 }
