@@ -1,5 +1,5 @@
 {
- "updated": 1792945790,
+ "updated": 1792961745,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5054,19 +5054,6 @@
    "brief": "Hugging Face宣布将RL Environments引入其模型与数据集托管平台。",
    "why": "偏开发者工具，与中小企业老板关联弱。",
    "score": 3
-  },
-  {
-   "id": "https://openai.com/index/proaction",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-   "link": "https://openai.com/index/proaction",
-   "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-   "ts": 1790362800,
-   "zh": "Proaction 用 Codex 提升销售 60%",
-   "brief": "Proaction 借助 Codex、GPT-Live-1 和 GPT-6 Astra，更快构建和销售车队管理方案，销售提升 60%。",
-   "why": "中小企业可参考 AI 提效销售的落地路径。",
-   "score": 7
   }
  ]
 }
