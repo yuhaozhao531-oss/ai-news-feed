@@ -1,17 +1,17 @@
 {
- "updated": 1793020372,
+ "updated": 1793046810,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 4
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 7,
-   "new": 0
+   "count": 8,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -28,8 +28,8 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 3
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,97 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+   "link": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
+   "summary": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
+   "ts": 1793037418,
+   "zh": "SageMaker SDK v3 边缘视觉全机队生命周期方案",
+   "brief": "AWS 发布参考架构，用 SageMaker SDK v3 为每台摄像头训练、质检、编译并版本化模型。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
+   "summary": "Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for OpenAI models on Amazon Bedrock lets your agent remember, cutting input cost and latency without resending the same tools, instructions, and history every turn.",
+   "ts": 1793035640,
+   "zh": "Bedrock 上 OpenAI 模型的提示缓存模式",
+   "brief": "介绍在 Amazon Bedrock 上为 OpenAI 模型启用提示缓存，降低智能体输入成本与延迟。",
+   "why": "智能体反复读上下文成本高，缓存可直接降本，值得给老板讲。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+   "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as a single CDK application.",
+   "ts": 1793034914,
+   "zh": "用 CDK 构建 Bedrock 知识库智能检索",
+   "brief": "AWS 发布用 CDK 搭建企业级智能检索的方案，含路由、引用回答与七层可观测性。",
+   "why": "企业知识库问答落地的可参考架构，适合做方案讲解素材。",
+   "score": 7
+  },
+  {
+   "id": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Our newest AI Quest: Mapping the human brain",
+   "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+   "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+   "ts": 1793030400,
+   "zh": "谷歌推出新 AI Quest：绘制人脑图谱",
+   "brief": "谷歌发布名为 Mapping the human brain 的 AI Quest 互动学习内容。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "ChatGPT’s expanding world of work",
+   "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+   "ts": 1793008800,
+   "zh": "ChatGPT 工作场景使用数据报告",
+   "brief": "OpenAI 发布 Signals 数据，覆盖近 100 个国家、165 项工作活动的使用情况。",
+   "why": "可用来向老板说明 AI 在各岗位的真实渗透趋势。",
+   "score": 8
+  },
+  {
+   "id": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+   "ts": 1792998000,
+   "zh": "Fanatics 用 OpenAI 优化球迷购物体验",
+   "brief": "Fanatics 用 Shop the Look 帮球迷搭配球衣，约 3 万件 MLB 商品测试互动率提升 10%。",
+   "why": "零售 AI 落地有量化效果，适合做案例分享。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/index/openai-cut-incident-investigation",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+   "link": "https://openai.com/index/openai-cut-incident-investigation",
+   "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+   "ts": 1792998000,
+   "zh": "OpenAI 用 Codex 将事故排查缩至分钟级",
+   "brief": "OpenAI 工程师用 Codex Ultrafast 在数分钟内完成事故调查与安全分析。",
+   "why": "",
+   "score": 4
+  },
   {
    "id": "https://arxiv.org/abs/2610.31701",
    "source": "arxiv",
@@ -166,6 +257,32 @@
    "brief": "arXiv新论文发现LLM智能体在重复多方谈判中易被操纵，仅识别可信方不足以达成一致。",
    "why": "企业用AI代理谈判或采购前需评估其被操纵风险。",
    "score": 4
+  },
+  {
+   "id": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Introducing GPT-6.1 Terra",
+   "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "summary": "Bringing fast and capable computer use to everyone",
+   "ts": 1792972800,
+   "zh": "OpenAI 发布 GPT-6.1 Terra",
+   "brief": "OpenAI 推出 GPT-6.1 Terra，主打面向所有人的快速计算机操作能力。",
+   "why": "新模型能力升级，直接影响企业选型与自动化场景。",
+   "score": 9
+  },
+  {
+   "id": "https://www.anthropic.com/news/s1-sec",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "link": "https://www.anthropic.com/news/s1-sec",
+   "summary": "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "ts": 1792972800,
+   "zh": "Anthropic 向 SEC 提交 IPO 招股书",
+   "brief": "Anthropic 已向美国 SEC 提交 S-1 文件，拟启动首次公开募股。",
+   "why": "头部 AI 公司上市，影响企业供应商稳定性与长期合作判断。",
+   "score": 8
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
