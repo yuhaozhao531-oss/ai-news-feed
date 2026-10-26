@@ -1,5 +1,5 @@
 {
- "updated": 1792970341,
+ "updated": 1792990521,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -10,7 +10,7 @@
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 8,
+   "count": 7,
    "new": 0
   },
   "anthropic-eng": {
@@ -58,11 +58,115 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.31701",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+   "link": "https://arxiv.org/abs/2610.31701",
+   "summary": "arXiv:2610.31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed. Yet the process often remains manual, making it difficult to compare opportunities, value continuity, and evaluate tradeoffs among growth, balance, capacity, and feasibility. We present a production decisi",
+   "ts": 1792987200,
+   "zh": "权衡感知的区域设计：企业客户分配多目标决策系统",
+   "brief": "arXiv新论文提出面向B2B销售区域划分的多目标决策系统，用于决定哪些客户由哪些销售覆盖。",
+   "why": "销售区域与客户分配直接影响获客成本和人效，可作AI优化销售组织的案例。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.31789",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+   "link": "https://arxiv.org/abs/2610.31789",
+   "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory. This limits autonomous learning, forcing agents to repeatedly rediscover solutions rather than retain and reuse knowledge from prior executions. We introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to ",
+   "ts": 1792987200,
+   "zh": "Phronix：以能力为中心的智能体学习范式",
+   "brief": "arXiv新论文提出面向科学计算智能体的能力中心学习范式，强调智能体效果依赖外围框架。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.31810",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+   "link": "https://arxiv.org/abs/2610.31810",
+   "summary": "arXiv:2610.31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version. Starting from the LaTeX source, PaperFormalizer transcribes the paper into a dependency graph of statements, audits each statement in natural language for faithfulness, ambiguity and correctness, and then formalizes and proves the statements in Lean against Mathlib, optional domain ",
+   "ts": 1792987200,
+   "zh": "PaperFormalizer：作者参与的论文Lean形式化工具",
+   "brief": "arXiv新论文提出基于Lean的智能体流水线，帮助作者发现并补全论文证明中的漏洞。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.31846",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+   "link": "https://arxiv.org/abs/2610.31846",
+   "summary": "arXiv:2610.31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited context, while full-parameter fine-tuning is expensive and can interfere with existing capabilities. We introduce Self-Direction, a mechanism for agents to learn from mistakes that combines the benefits of temporary in-context retries and policy updates. When an agent fails a task, it reflects on its ow",
+   "ts": 1792987200,
+   "zh": "别忘刚学的：自我修复让智能体错误变经验",
+   "brief": "arXiv新论文提出自我导向修复方法，使智能体能跨会话保留错误教训而非临时反思。",
+   "why": "智能体持续学习能力提升，是企业长期部署AI员工的技术基础。",
+   "score": 4
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.31882",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+   "link": "https://arxiv.org/abs/2610.31882",
+   "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA) tools such as Cadence Virtuoso/Spectre, Calibre, Cadence EMX, and Ansys HFSS to design RF and mmWave modules. We validate the framework through the agentic design of a 240-251 GHz sub-THz transmitter in a 90 nm SiGe BiCMOS process. The agent semi-autonomously designed the sub-blocks including a 60 G",
+   "ts": 1792987200,
+   "zh": "TACS-RF：工具驱动的射频毫米波电路智能体综合",
+   "brief": "arXiv新论文展示LLM编码智能体直接驱动EDA工具完成射频与毫米波模块电路设计。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.31916",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+   "link": "https://arxiv.org/abs/2610.31916",
+   "summary": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from language-model behavior. Checkpoint state, permission to dispatch, evidence of an external effect and permission to reconcile are distinct obligations. We present a finite conformance study that checks these obligations through histories scored against a provider effect ledger hidden from the recovering application. A prospe",
+   "ts": 1792987200,
+   "zh": "重试许可：AI智能体工作流的授权与恢复研究",
+   "brief": "arXiv新论文研究工具型AI智能体在执行关键动作时权限变化与结果不确定下的恢复决策。",
+   "why": "涉及AI执行权限与审计，为企业智能体合规落地提供参考。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.31918",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
+   "link": "https://arxiv.org/abs/2610.31918",
+   "summary": "arXiv:2610.31918v1 Announce Type: new Abstract: Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have proven effective, we argue that this distinction is inherently hierarchical: the policy that induces an interaction history need not be the same as the policy that generates the token prefix of the current action. We introduce a hierarchical agent distillation framework that formalizes these two levels of on-policiness and enables explicit con",
+   "ts": 1792987200,
+   "zh": "超越同策略与异策略：LLM智能体蒸馏该跟谁学",
+   "brief": "arXiv新论文讨论交互式LLM智能体蒸馏中，应跟随教师示范还是学生自身经验。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.31971",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+   "link": "https://arxiv.org/abs/2610.31971",
+   "summary": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-agent systems address this challenge through explicit trust and reputation models, whereas existing work on LLM negotiation largely treats trust as an emergent phenomenon. We investigate whether LLM agents can form useful trust estimates from prior interactions and leverage them to improve future negotiation outcomes. We",
+   "ts": 1792987200,
+   "zh": "信任不够：多方LLM谈判中的信任与共识差距",
+   "brief": "arXiv新论文发现LLM智能体在重复多方谈判中易被操纵，仅识别可信方不足以达成一致。",
+   "why": "企业用AI代理谈判或采购前需评估其被操纵风险。",
+   "score": 4
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
    "source": "aws-ml",
