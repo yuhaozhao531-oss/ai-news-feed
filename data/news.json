@@ -1,17 +1,17 @@
 {
- "updated": 1793114666,
+ "updated": 1793139639,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 3
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 8,
-   "new": 0
+   "count": 9,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -22,32 +22,32 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 6,
-   "new": 0
+   "count": 4,
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 17,
-   "new": 0
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 4
   },
   "qwen": {
    "name": "通义千问",
@@ -64,6 +64,97 @@
  },
  "items": [
   {
+   "id": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+   "link": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+   "summary": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what's possible in customer experience.",
+   "ts": 1793124192,
+   "zh": "AWS获评2026 Gartner联络中心魔力象限领导者",
+   "brief": "AWS在2026年Gartner联络中心即服务（CCaaS）魔力象限中被评为领导者。",
+   "why": "客服中心上云选型可参考，AI客服是中小企业落地切入点。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Build specialized multimodal models with LFM3",
+   "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "summary": "",
+   "ts": 1793121412,
+   "zh": "Hugging Face推出LFM3多模态专用模型",
+   "brief": "Hugging Face发布LFM3，用于构建专用多模态模型。",
+   "why": "",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+   "link": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+   "summary": "Seekable OCI (SOCI) indexing for Amazon SageMaker AI training and processing jobs takes full container image download off the critical path. SageMaker AI lazy-loads your image to start containers in seconds instead of minutes, with no changes to your job definition. See the benchmarks and how to adopt it.",
+   "ts": 1793120439,
+   "zh": "SageMaker推出SOCI镜像加速训练任务",
+   "brief": "SageMaker AI训练与处理任务支持SOCI索引，容器镜像懒加载，启动从分钟级降至秒级。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+   "summary": "Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting cost by 86% across 11 image-quality attributes.",
+   "ts": 1793119982,
+   "zh": "Bedrock案例：修正评估偏差提升模型准确率",
+   "brief": "Property Finder发现96.8%视觉AI评估标签沿用旧模型，重建真实标注后选出更准更省的模型。",
+   "why": "提醒老板：AI评估数据可能有偏差，选型前先校准。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+   "link": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+   "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost.",
+   "ts": 1793119855,
+   "zh": "Exowatt用SageMaker定制模型超越前沿模型",
+   "brief": "Exowatt用SageMaker无服务器模型定制，构建边缘与云端微调流水线，准确率更高且成本低至49倍。",
+   "why": "小模型微调可超通用大模型且更省钱，中小企业可参考。",
+   "score": 8
+  },
+  {
+   "id": "https://huggingface.co/blog/allenai/novelty-bench",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Can we trust LLMs to judge whether a research idea is novel?",
+   "link": "https://huggingface.co/blog/allenai/novelty-bench",
+   "summary": "",
+   "ts": 1793117562,
+   "zh": "研究：LLM能否判断研究想法的新颖性",
+   "brief": "Hugging Face发布关于用大模型评判研究想法新颖性的讨论。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Genie 4: A new generation of world simulation",
+   "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "ts": 1793116898,
+   "zh": "DeepMind发布Genie 4世界模型",
+   "brief": "DeepMind推出Genie 4世界模型，实现实时模拟中前所未有的真实感。",
+   "why": "",
+   "score": 5
+  },
+  {
    "id": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
    "source": "nvidia",
    "sourceName": "NVIDIA",
@@ -75,6 +166,19 @@
    "brief": "英伟达介绍AI帮助研究人员处理海量数据、加快痴呆症发现节奏。",
    "why": "",
    "score": 3
+  },
+  {
+   "id": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+   "ts": 1793084400,
+   "zh": "OpenAI与Oracle扩大合作接入ChatGPT",
+   "brief": "双方扩大合作，将Oracle业务应用与AI智能体接入ChatGPT，并支持Oracle新产品。",
+   "why": "企业软件与ChatGPT打通，老板需关注现有系统集成路径。",
+   "score": 7
   },
   {
    "id": "https://arxiv.org/abs/2610.33112",
@@ -179,6 +283,32 @@
    "brief": "比较企业工作流智能体的全局编排与逐步交互两种模式的效果差距。",
    "why": "为企业工作流智能体的架构选型提供参考。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/index/check-point-daybreak",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "link": "https://openai.com/index/check-point-daybreak",
+   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+   "ts": 1793059200,
+   "zh": "Check Point用Daybreak加速漏洞研究",
+   "brief": "Check Point借助OpenAI Daybreak加快安全防护研究，更快将漏洞情报转为客户防御。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://www.anthropic.com/research/early-progress-drug-development",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Early progress on accelerating drug development with Claude",
+   "link": "https://www.anthropic.com/research/early-progress-drug-development",
+   "summary": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+   "ts": 1793059200,
+   "zh": "Anthropic：用Claude加速药物研发早期进展",
+   "brief": "Anthropic与六家新药研发机构建立深度研究合作，探索用Claude加速药物开发。",
+   "why": "",
+   "score": 4
   },
   {
    "id": "https://openai.com/index/greptile-code-review-codex-astra",
@@ -673,6 +803,19 @@
    "brief": "Hugging Face发布查询工具，用于查看模型是否可在AWS Trainium上运行。",
    "why": "",
    "score": 3
+  },
+  {
+   "id": "https://openai.com/index/anima",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+   "link": "https://openai.com/index/anima",
+   "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+   "ts": 1792713600,
+   "zh": "Anima用GPT-6将诊所电话等待降75%",
+   "brief": "Anima借助GPT-6和GPT-Live扩展护理团队能力，将诊所电话等待时间缩短75%。",
+   "why": "客服场景AI降本增效的量化案例，适合给老板讲ROI。",
+   "score": 8
   },
   {
    "id": "https://huggingface.co/blog/microsoft/thinkingbox-training",
