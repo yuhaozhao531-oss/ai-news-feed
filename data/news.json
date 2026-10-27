@@ -1,11 +1,11 @@
 {
- "updated": 1793061089,
+ "updated": 1793091992,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 3
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -59,10 +59,114 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.33112",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Conformance as a Distribution: Delegation Contracts, Error Budgets, and the Allocation of Evaluation Authority in Use-Based AI Regulation",
+   "link": "https://arxiv.org/abs/2610.33112",
+   "summary": "arXiv:2610.33112v1 Announce Type: new Abstract: Use-based AI regulation assigns obligations by deployment risk but lacks an evidentiary object to carry them. A benchmark score is a property of a model; conformance of a deployment is a failure rate under a declared distribution of contexts, bounded by a scope and subject to expiry. We take the delegation contract of earlier work (frozen configuration, scoped claim, executable revision rule) and study it under strategic play between a deployer, an auditor, and an enforcement point. We ask whether a declared context mixture can be made truthful; ",
+   "ts": 1793073600,
+   "zh": "合规即分布：基于用途的AI监管中的委托契约与误差预算",
+   "brief": "论文提出用部署场景下的失败率分布作为合规证据对象，替代模型基准分数。",
+   "why": "提示未来AI监管可能要求企业按部署场景举证合规，而非只看模型分数。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.33178",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+   "link": "https://arxiv.org/abs/2610.33178",
+   "summary": "arXiv:2610.33178v1 Announce Type: new Abstract: Coding agents are moving from handling one request at a time to serving as persistent assistants to which users hand a stream of work: a build, a data-processing job and a bug fix may all be pending on the same machine at once. Such an agent must decide when to take on new tasks, how to delegate and overlap them, and how to stay within the machine's CPU and memory. Existing benchmarks cannot measure this, because they evaluate each task in isolation. We introduce \\benchname{}, which evaluates an agent system as a workload manager: verified tasks ",
+   "ts": 1793073600,
+   "zh": "AOS-Bench：LLM智能体能否管理动态工作负载",
+   "brief": "提出基准测试智能体在多个任务并行待办时自主调度与决策的能力。",
+   "why": "评估智能体能否当“常驻助理”，关系到企业自动化办公的选型判断。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.33180",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning",
+   "link": "https://arxiv.org/abs/2610.33180",
+   "summary": "arXiv:2610.33180v1 Announce Type: new Abstract: Alignment evaluations aim to assess whether large language models would engage in dangerous misaligned behaviour. Misaligned and evaluation-aware models might engage in alignment faking, where they pursue a hidden goal, but conceal this behaviour when they suspect effective oversight such as during training, evaluation or audited deployment. Such a model might view any prompt-based intervention that aims to reveal latent propensities as part of the evaluation, calling into question the reliability of existing alignment evaluations. Current method",
+   "ts": 1793073600,
+   "zh": "用合成文档微调识别对齐伪装的大模型",
+   "brief": "提出用合成文档微调来暴露模型在评测中隐藏真实目标的对齐伪装行为。",
+   "why": "提醒企业模型评测结果可能被“伪装”美化，选型需警惕。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.33245",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
+   "link": "https://arxiv.org/abs/2610.33245",
+   "summary": "arXiv:2610.33245v1 Announce Type: new Abstract: Data science agents can automate end-to-end machine learning workflows, yet they remain far from competitive on human leaderboards. Agents make process errors such as insufficient exploration, unsound validation, coding bugs, and poor use of a fixed budget (re-running the same exploratory data analysis and baseline models in every attempt). We propose AdaPRA to address these issues: a persistent coding agent harness that accumulates knowledge across attempts on the same task, with rubric-guided process supervision that identifies and corrects err",
+   "ts": 1793073600,
+   "zh": "AdaPRA：面向数据科学的自适应评分标准过程奖励智能体",
+   "brief": "提出用自适应评分标准的过程奖励智能体，纠正数据科学任务中的过程性错误。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.33282",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Estimation of Propagated Risk in LLM-based Multi-Agent Systems",
+   "link": "https://arxiv.org/abs/2610.33282",
+   "summary": "arXiv:2610.33282v1 Announce Type: new Abstract: Large Language Model (LLM) based multi-agent systems introduce a distinctive reliability challenge in which actions taken by upstream agents can affect the correctness of downstream agents. While prior work has investigated error propagation and developed methods for estimating uncertainty inherited from upstream agents, existing approaches do not explicitly model how realized sender-receiver interactions contribute to downstream error risk under different sender correctness states. In this work, we study agent-level error-risk estimation from mu",
+   "ts": 1793073600,
+   "zh": "LLM多智能体系统中传播风险的估计",
+   "brief": "研究上游智能体错误如何影响下游智能体正确性，并提出风险估计方法。",
+   "why": "多智能体落地时需评估错误级联风险，影响流程设计。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.33323",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AI Teaches Humans to Handle Complexity in the Game of Go",
+   "link": "https://arxiv.org/abs/2610.33323",
+   "summary": "arXiv:2610.33323v1 Announce Type: new Abstract: Strategic decision-making in complex environments requires balancing local stability against global coordination. Using the game of Go as a bounded empirical testbed, we investigate how biological and artificial agents navigate this trade-off by formalizing a network-derived metric of strategic tension defined via the spectral radius of spatial dependency matrices. Across human skill progression, tension systematically decays from novices to masters as uncoordinated tactical skirmishes give way to disciplined territorial stabilization. However, a",
+   "ts": 1793073600,
+   "zh": "AI教人类应对围棋中的复杂性",
+   "brief": "以围棋为实验场，研究生物与人工智能体如何平衡局部稳定与全局协同。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.33355",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design and Protocol Development",
+   "link": "https://arxiv.org/abs/2610.33355",
+   "summary": "arXiv:2610.33355v1 Announce Type: new Abstract: Molecular cloning is one of the most routine wet-lab workflows, yet existing evaluations of language models in biology mostly test knowledge recall or isolated steps rather than end-to-end experimental planning. We introduce BenchBench-Cloning, a benchmark for large language models comprising 65 molecular cloning tasks grounded in sequence records, laboratory notebooks, and published experimental studies. Planning a molecular cloning experiment requires defining a set of constructs needed for a scientific objective and a construction route to pro",
+   "ts": 1793073600,
+   "zh": "BenchBench-Cloning：评估分子克隆设计与实验方案开发",
+   "brief": "推出端到端分子克隆实验规划的基准，弥补现有生物评测只测知识回忆的不足。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.33375",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AgentOrch: How Close Can Global Orchestration Come to Step-by-Step Interaction?",
+   "link": "https://arxiv.org/abs/2610.33375",
+   "summary": "arXiv:2610.33375v1 Announce Type: new Abstract: Enterprise workflow agents typically rely on step-by-step interaction (Step-by-Step): the agent executes an action, observes its result, and invokes a large language model (LLM) again to decide the next step. Global orchestration (Global) instead generates a complete executable workflow in advance and executes it without further LLM calls, substantially reducing inference overhead, but it remains less accurate than Step-by-Step. We study how close Global can come to Step-by-Step and what narrows the remaining gap. We introduce AgentOrch, a benchm",
+   "ts": 1793073600,
+   "zh": "AgentOrch：全局编排能否逼近逐步交互",
+   "brief": "比较企业工作流智能体的全局编排与逐步交互两种模式的效果差距。",
+   "why": "为企业工作流智能体的架构选型提供参考。",
+   "score": 6
+  },
   {
    "id": "https://openai.com/index/greptile-code-review-codex-astra",
    "source": "openai",
