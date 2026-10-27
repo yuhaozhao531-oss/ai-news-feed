@@ -1,22 +1,22 @@
 {
- "updated": 1793046810,
+ "updated": 1793061089,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 4
+   "new": 3
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 8,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
    "ok": true,
-   "count": 1,
+   "count": 0,
    "new": 0
   },
   "deepmind": {
@@ -29,7 +29,7 @@
    "name": "Google AI",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/index/greptile-code-review-codex-astra",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "link": "https://openai.com/index/greptile-code-review-codex-astra",
+   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+   "ts": 1793052000,
+   "zh": "Greptile用GPT-6 Astra扩展缺陷检测",
+   "brief": "Greptile借助GPT-6 Astra测试用户工作流，用Daybreak加强安全，用Codex减少返工。",
+   "why": "展示AI编程工具从代码审查走向工作流测试，可作研发提效案例。",
+   "score": 6
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
    "source": "aws-ml",
@@ -114,6 +127,32 @@
    "brief": "谷歌发布名为 Mapping the human brain 的 AI Quest 互动学习内容。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Working with academic communities to build scientific understanding",
+   "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+   "ts": 1793025000,
+   "zh": "OpenAI与学术界共建科学理解",
+   "brief": "OpenAI公布在Kakeya猜想、指数时间假设和量子色动力学上的模型结果及验证方式。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+   "ts": 1793022300,
+   "zh": "GPT-6.1 Sol助CodeRabbit强化代码安全",
+   "brief": "CodeRabbit用GPT-6.1 Sol排查复杂代码库安全风险，安全智能体协助审查发现与修复建议。",
+   "why": "说明AI可承担代码安全审查，适合讲研发与安全降本。",
+   "score": 6
   },
   {
    "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
