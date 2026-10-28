@@ -1,5 +1,5 @@
 {
- "updated": 1793166663,
+ "updated": 1793192715,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -11,7 +11,7 @@
    "name": "Anthropic",
    "ok": true,
    "count": 8,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -59,10 +59,23 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Legora is building the agentic operating system for legal work",
+   "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+   "ts": 1793179800,
+   "zh": "Legora用OpenAI打造法律智能体操作系统",
+   "brief": "Legora介绍如何用OpenAI模型、ChatGPT和Codex加速法律工作流、扩展合同分析。",
+   "why": "法律行业AI落地案例，可类比讲给老板：专业服务如何用AI提效。",
+   "score": 6
+  },
   {
    "id": "https://arxiv.org/abs/2610.36077",
    "source": "arxiv",
@@ -5639,32 +5652,6 @@
    "brief": "讲解用 CloudFormation 和 Terraform 管理 Textract 自定义查询适配器，含跨账户发布与安全控制。",
    "why": "",
    "score": 4
-  },
-  {
-   "id": "https://huggingface.co/blog/Hcompany/holo4",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Holo4: powering generalist computer-use agents",
-   "link": "https://huggingface.co/blog/Hcompany/holo4",
-   "summary": "",
-   "ts": 1790588645,
-   "zh": "Holo4：驱动通用计算机操作智能体",
-   "brief": "Hugging Face 发布 Holo4，用于驱动通用型计算机操作智能体。",
-   "why": "",
-   "score": 5
-  },
-  {
-   "id": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-   "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-   "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-   "ts": 1790578800,
-   "zh": "OpenAI 扩大与 Lenfest 研究所合作",
-   "brief": "OpenAI 追加 500 万美元资金及最高 500 万美元软件额度，扩展 Lenfest AI 合作与奖学金项目。",
-   "why": "",
-   "score": 3
   }
  ]
 }
