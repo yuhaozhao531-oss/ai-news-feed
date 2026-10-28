@@ -1,16 +1,16 @@
 {
- "updated": 1793139639,
+ "updated": 1793166663,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 3
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 9,
+   "count": 8,
    "new": 1
   },
   "anthropic-eng": {
@@ -22,8 +22,8 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 4,
-   "new": 1
+   "count": 3,
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 17,
-   "new": 2
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 4
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,114 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.36077",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+   "link": "https://arxiv.org/abs/2610.36077",
+   "summary": "arXiv:2610.36077v1 Announce Type: new Abstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self-improvement framework coupling world generation with",
+   "ts": 1793160000,
+   "zh": "多模态智能体递归自我改进框架",
+   "brief": "arXiv发布论文，提出多模态智能体能力驱动的递归自我改进方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.36100",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
+   "link": "https://arxiv.org/abs/2610.36100",
+   "summary": "arXiv:2610.36100v1 Announce Type: new Abstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirements. We introduce CohortFlow, a steerable agent that represents natural language corrections as localized updates to a structured cohort specification and reconciles them with a persistent execution graph. Explicitly recorded semantic dependencies enable affected computations to be selectively invalidated while preserving valid prior results. On 100 scenarios derived from clinical-trial eligibility c",
+   "ts": 1793160000,
+   "zh": "可调控临床队列筛选智能体CohortFlow",
+   "brief": "arXiv发布论文，提出支持局部语义修正的可调控临床队列筛选智能体。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.36169",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule",
+   "link": "https://arxiv.org/abs/2610.36169",
+   "summary": "arXiv:2610.36169v1 Announce Type: new Abstract: A retrieval-augmented language model answers from two sources, the retrieved context and its own knowledge, and the two disagree whenever the context is incomplete or wrong. Existing methods settle the disagreement with a rule fixed at design time: follow the context, amplify it in proportion to how far it moves the model, or trust the model's memory. Each rule is confidently wrong in some deployment. In a decision-theoretic model of two sources, the score of any fixed rule is linear in the share of reliable contexts while the best attainable sco",
+   "ts": 1793160000,
+   "zh": "知识冲突处理需先验而非固定规则",
+   "brief": "arXiv论文指出检索增强模型知识冲突不应靠设计时固定规则解决。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.36188",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
+   "link": "https://arxiv.org/abs/2610.36188",
+   "summary": "arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-specific skills must evolve with changing code structures, implementation conventions, and maintenance requirements. Pull requests (PRs) provide a natural source of such knowledge by recording how repositories evolve through implementation and review. Meanwhile, new PRs must follow repository-specific implementation patterns, modify related c",
+   "ts": 1793160000,
+   "zh": "技能梦境：通过PR流演化仓库技能",
+   "brief": "arXiv论文提出利用拉取请求流演化代码仓库专用技能库的方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.36308",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "When Retrieval Is Not Enough: Obsolete Facts in Agent Memory",
+   "link": "https://arxiv.org/abs/2610.36308",
+   "summary": "arXiv:2610.36308v1 Announce Type: new Abstract: Memory-agent benchmarks often collapse retrieval and answer generation into one score, making it hard to tell whether a failure comes from missing an update or from not using an update that was already retrieved. We examine this distinction on the single-hop FactConsolidation task of MemoryAgentBench. With Qwen2.5-7B-Instruct on 6K-history BM25 accuracy drops from 45% to 32% when the retrieved evidence budget grows from 64 to 512 tokens, even though a gold-assisted post-hoc audit finds the newest statement in every retrieved set. Most of the erro",
+   "ts": 1793160000,
+   "zh": "智能体记忆中的过时事实问题",
+   "brief": "arXiv论文区分智能体记忆失败源于未更新还是未使用已检索更新。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.36325",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis",
+   "link": "https://arxiv.org/abs/2610.36325",
+   "summary": "arXiv:2610.36325v1 Announce Type: new Abstract: Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inconsistent reasoning. Large Language Models (LLMs) have recently shown promising capabilities in medical question answering and clinical reasoning; however, even when achieving competitive performance on medical benchmarks, they often rely on pattern recognition learned from training data rather than grounded clinical evidence, and can generate plausible ",
+   "ts": 1793160000,
+   "zh": "本体引导多智能体可解释鉴别诊断",
+   "brief": "arXiv论文提出本体引导的多智能体推理方法用于可解释鉴别诊断。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.36329",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Plenty of Room in the Middle: Revealing Opportunities on a GPU Cluster via Fine-Grained Monitoring",
+   "link": "https://arxiv.org/abs/2610.36329",
+   "summary": "arXiv:2610.36329v1 Announce Type: new Abstract: GPU clusters have become essential computing resources for AI and scientific research in academia and industry. However, their high cost and growing demand often result in long queueing delays. While previous monitoring efforts have operated at second- or minute-level frequencies, they primarily informed job-level scheduling for clusters and lacked the detail needed to optimize GPU-level utilization. This paper presents an in-depth study of a university research GPU cluster, analyzing resource usage at 100 ms intervals. We have developed a lightw",
+   "ts": 1793160000,
+   "zh": "GPU集群细粒度监控揭示闲置机会",
+   "brief": "arXiv论文通过细粒度监控揭示GPU集群中可被利用的空闲资源。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.36335",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning",
+   "link": "https://arxiv.org/abs/2610.36335",
+   "summary": "arXiv:2610.36335v1 Announce Type: new Abstract: Large language models (LLMs) perform well across many real-world tasks but remain prone to hallucination, limiting their reliability in domains such as biomedicine and healthcare, where answers must be grounded in established knowledge. Retrieval-augmented generation (RAG) mitigates this problem by incorporating external information, but often overlooks logical relationships and relies heavily on the LLM's own reasoning, which can compromise answer faithfulness. We propose OA-RAG, an agent that integrates formal reasoning with LLM reasoning, draw",
+   "ts": 1793160000,
+   "zh": "基于本体的智能体RAG提升推理忠实度",
+   "brief": "arXiv论文提出OA-RAG方法，用本体增强检索智能体以减少幻觉。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
    "source": "aws-ml",
@@ -166,6 +270,19 @@
    "brief": "英伟达介绍AI帮助研究人员处理海量数据、加快痴呆症发现节奏。",
    "why": "",
    "score": 3
+  },
+  {
+   "id": "https://openai.com/index/retell-ai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "link": "https://openai.com/index/retell-ai",
+   "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+   "ts": 1793113200,
+   "zh": "Retell用OpenAI模型支撑亿级月通话",
+   "brief": "OpenAI称Retell基于其模型实现月均1亿次通话，人均年收入160万美元。",
+   "why": "语音客服智能体已规模化商用，可作企业落地案例参考。",
+   "score": 8
   },
   {
    "id": "https://openai.com/index/oracle-apps-in-chatgpt",
@@ -309,6 +426,19 @@
    "brief": "Anthropic与六家新药研发机构建立深度研究合作，探索用Claude加速药物开发。",
    "why": "",
    "score": 4
+  },
+  {
+   "id": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+   "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "summary": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
+   "ts": 1793059200,
+   "zh": "Anthropic与GSA合作扩展政府市场",
+   "brief": "Anthropic扩大与GSA合作，政府客户享Claude企业版及API四折优惠。",
+   "why": "大模型厂商降价进政府市场，预示企业采购成本与合规趋势。",
+   "score": 7
   },
   {
    "id": "https://openai.com/index/greptile-code-review-codex-astra",
@@ -5534,45 +5664,6 @@
    "zh": "OpenAI 扩大与 Lenfest 研究所合作",
    "brief": "OpenAI 追加 500 万美元资金及最高 500 万美元软件额度，扩展 Lenfest AI 合作与奖学金项目。",
    "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://openai.com/form/codex-originals",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Are you a Codex Original?",
-   "link": "https://openai.com/form/codex-originals",
-   "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-   "ts": 1790553600,
-   "zh": "OpenAI 征集 Codex 用户故事",
-   "brief": "OpenAI 征集使用 Codex 的开发者、研究者与创作者的真实项目故事，用于 Codex Originals 项目。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://openai.com/index/basis-tax-workbook-with-astra",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-   "link": "https://openai.com/index/basis-tax-workbook-with-astra",
-   "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-   "ts": 1790553600,
-   "zh": "Basis 用 GPT-6 Astra 两倍速完成税务表",
-   "brief": "Basis 称 GPT-6 Astra 完成 50 页税务工作簿的速度是 GPT-5.6 Sol 的两倍，意图理解更强。",
-   "why": "财务、税务等专业场景 AI 效率提升，可作落地案例参考。",
-   "score": 7
-  },
-  {
-   "id": "https://huggingface.co/blog/rl-environments",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Welcome RL Environments to the hub",
-   "link": "https://huggingface.co/blog/rl-environments",
-   "summary": "",
-   "ts": 1790553600,
-   "zh": "Hugging Face上线强化学习环境库",
-   "brief": "Hugging Face宣布将RL Environments引入其模型与数据集托管平台。",
-   "why": "偏开发者工具，与中小企业老板关联弱。",
    "score": 3
   }
  ]
