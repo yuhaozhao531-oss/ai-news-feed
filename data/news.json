@@ -1,17 +1,17 @@
 {
- "updated": 1793218823,
+ "updated": 1793235678,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -23,7 +23,7 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 4,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 17,
-   "new": 1
+   "count": 15,
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -140,6 +140,19 @@
    "brief": "NVIDIA发布可提示、可适配的多语言智能转写模型Nemotron 3.5与Granary v2。",
    "why": "多语言转写可用于会议记录等场景，值得关注。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+   "ts": 1793193300,
+   "zh": "OpenAI与ServiceNow扩大企业工作流合作",
+   "brief": "双方扩大合作，将OpenAI模型和智能体接入ServiceNow，并将ServiceNow工作流接入ChatGPT和Codex。",
+   "why": "主流AI与企业IT系统深度打通，是老板评估AI落地路径的重要信号。",
+   "score": 8
   },
   {
    "id": "https://openai.com/index/the-future-of-the-firm",
@@ -281,6 +294,19 @@
    "ts": 1793160000,
    "zh": "基于本体的智能体RAG提升推理忠实度",
    "brief": "arXiv论文提出OA-RAG方法，用本体增强检索智能体以减少幻觉。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "AI for Science expands to foundations and research institutions",
+   "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+   "summary": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.",
+   "ts": 1793145600,
+   "zh": "Anthropic科学AI计划扩展至基金会与科研机构",
+   "brief": "Anthropic宣布AI for Science项目扩展，与全球20家科学基金会、研究机构和研究团队建立合作。",
    "why": "",
    "score": 3
   },
@@ -5626,32 +5652,6 @@
    "brief": "arXiv指出LLM智能体存在目标完成后仍持续行动等执行控制失效，并提出不确定性感知的全局控制架构。",
    "why": "",
    "score": 4
-  },
-  {
-   "id": "https://openai.com/index/introducing-dots",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Introducing dots",
-   "link": "https://openai.com/index/introducing-dots",
-   "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-   "ts": 1790640000,
-   "zh": "OpenAI 推出 dots 主动式助手",
-   "brief": "OpenAI 发布 dots，一种可跨复杂项目和日常任务持续推进工作的主动式助手，用户可保持控制。",
-   "why": "主动式 AI 助手或改变企业任务协作与流程自动化方式。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Grok 4.7 is now available on Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
-   "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.",
-   "ts": 1790633596,
-   "zh": "Grok 4.7上线亚马逊Bedrock",
-   "brief": "xAI的Grok 4.7在Amazon Bedrock上线，支持50万token上下文和四档推理强度。",
-   "why": "企业可在AWS上直接调用前沿模型，选型多一个选项。",
-   "score": 8
   }
  ]
 }
