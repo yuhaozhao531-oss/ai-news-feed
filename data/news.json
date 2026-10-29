@@ -1,17 +1,17 @@
 {
- "updated": 1793235678,
+ "updated": 1793268386,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 1
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 8,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -34,7 +34,7 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 15,
+   "count": 14,
    "new": 0
   },
   "nvidia": {
@@ -58,7 +58,7 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
@@ -5522,136 +5522,6 @@
    "brief": "Hugging Face发布研究，提出针对MCP智能体的来源感知验证，强调不仅要核实事实还要核实信息来源。",
    "why": "企业部署AI智能体时，来源可追溯是合规与可信的关键。",
    "score": 6
-  },
-  {
-   "id": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Introducing GPT-6.1 Sol",
-   "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-   "ts": 1790676000,
-   "zh": "OpenAI 发布 GPT-6.1 Sol",
-   "brief": "OpenAI 推出 GPT-6.1 Sol，面向编码、电脑操作和专业工作，API 输入输出价格为 Astra 标准价的五分之一。",
-   "why": "价格大降且能力接近旗舰，企业可重新评估 AI 成本预算。",
-   "score": 9
-  },
-  {
-   "id": "https://openai.com/index/devday-2026-recap",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "DevDay 2026 Recap",
-   "link": "https://openai.com/index/devday-2026-recap",
-   "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-   "ts": 1790676000,
-   "zh": "OpenAI DevDay 2026 回顾",
-   "brief": "OpenAI 汇总 DevDay 2026 的 20 多项发布，涵盖 GPT-6 Astra、ChatGPT、Codex、API、安全及开发者新工具。",
-   "why": "一次看清 OpenAI 全线更新，便于判断企业该跟进哪些能力。",
-   "score": 8
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.30291",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
-   "link": "https://arxiv.org/abs/2609.30291",
-   "summary": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and symbolic AI, and to integrate AI and systems engineering. We present a comprehensive framework for the design and evaluation of autonomous systems, based on a generic agent architecture that characterizes their behavior as the composition of cognitive functions organized around a long-term memory containing the agent's ev",
-   "ts": 1790654400,
-   "zh": "自主系统：从认知到集体智能",
-   "brief": "arXiv发布综述文章，探讨自主系统作为AI发展终极阶段，需连接主义与符号主义AI结合。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.30325",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
-   "link": "https://arxiv.org/abs/2609.30325",
-   "summary": "arXiv:2609.30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability; as those benchmarks saturate, the real barrier to deployment is a special case of alignment: scope adherence. We introduce ScopeBench, a benchmark of 30 dead-end agentic security tasks in which the stated objective is reachable only by violating the stated scope. Each task appears under two conditi",
-   "ts": 1790654400,
-   "zh": "ScopeBench：目标压力下智能体是否守边界",
-   "brief": "arXiv提出ScopeBench基准，测试渗透测试智能体在目标压力下是否遵守客户授权范围。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.30328",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
-   "link": "https://arxiv.org/abs/2609.30328",
-   "summary": "arXiv:2609.30328v1 Announce Type: new Abstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent verification, which decomposes a judgment into checkable claims and verifies each against evidence, is a promising response and works well when the evidence is a set of retrieved documents. We argue such methods require two things of their evidence: it must be independent of the answer under review, and it must differ b",
-   "ts": 1790654400,
-   "zh": "多智能体代码评审何时真正有依据",
-   "brief": "arXiv提出两种无标签度量方法，让评审模型在证据不足时拒绝给出判断。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.30341",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-   "link": "https://arxiv.org/abs/2609.30341",
-   "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructures. This article presents an architectural mediation approach based on the Model Context Protocol (MCP), implemented through the Eunomia Agent, to enable controlled interaction between large language model (LLM) agents and data space services. The proposed mediation layer translates data space capabil",
-   "ts": 1790654400,
-   "zh": "用MCP桥接LLM智能体与数据空间",
-   "brief": "arXiv提出基于模型上下文协议的架构中介方案，解决智能体与主权数据空间的集成难题。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.30383",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
-   "link": "https://arxiv.org/abs/2609.30383",
-   "summary": "arXiv:2609.30383v1 Announce Type: new Abstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specific task. Skill-based agent systems therefore enable flexible reuse of third-party capabilities, but the openness of this skill ecosystem also opens up a new attack surface. Prior work has focused on vulnerabilities within individual skills, but little attention has been paid to risks that arise from interactions across skills. In this paper, we introduce skill cascading",
-   "ts": 1790654400,
-   "zh": "技能级联攻击：技能型智能体系统风险",
-   "brief": "arXiv揭示技能型智能体系统存在技能级联攻击，可组合多个技能造成危害。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.30563",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Thinking Less to Simulate Better: Intuitive Prompting Improves LLM Agents Simulating Individual Social Media Reactions, Including Unfamiliar Content",
-   "link": "https://arxiv.org/abs/2609.30563",
-   "summary": "arXiv:2609.30563v1 Announce Type: new Abstract: Platform policies are increasingly tested on artificial users, making agent fidelity important. Yet convincing fake profiles could also manipulate perceived public opinion before elections. Validation has concentrated on agreement with human behaviour and has paid little attention to whether an agent behaves in line with the profile it was given. The present study profiled eight Serbian participants through a questionnaire, a deep interview, and a written self-presentation, recorded their reactions to sixty-eight social media posts, and asked fou",
-   "ts": 1790654400,
-   "zh": "直觉提示提升LLM智能体社媒模拟保真度",
-   "brief": "arXiv发现直觉式提示可提升LLM智能体模拟个人社交媒体反应的准确性。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.30571",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "HARDEN: Constrained Evolutionary Search for Harder, Answer-Preserving Evaluation Cases",
-   "link": "https://arxiv.org/abs/2609.30571",
-   "summary": "arXiv:2609.30571v1 Announce Type: new Abstract: Language models are often evaluated on curated benchmarks that underrepresent the complexity of enterprise deployments. We introduce HARDEN, a constrained evolutionary search method to adapt the input of existing evaluation cases into more challenging variants while keeping their expected outputs fixed. HARDEN searches along generated domain-specific complexity axes while enforcing feasibility constraints such as preserving task semantics, realism, and execution validity. Across FinQA, PubMedQA, and ContractNLI and three Qwen3.5 model scales (35B",
-   "ts": 1790654400,
-   "zh": "HARDEN：生成更难且保留答案的评测用例",
-   "brief": "arXiv提出约束进化搜索方法HARDEN，将现有评测用例改造得更难但答案不变。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.30662",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "LLM Parkinsonism: Executive-Control Failure, Token-Inefficient Persistence, and an Uncertainty-Aware Global Executive Control Architecture for Autonomous Language-Model Agents",
-   "link": "https://arxiv.org/abs/2609.30662",
-   "summary": "arXiv:2609.30662v1 Announce Type: new Abstract: Large language models (LLMs) can plan, use tools, write code, and execute long-horizon workflows, yet strong local competence does not guarantee project-level executive control. Agents may continue acting after the original objective is satisfied, producing low-value refinements, repeated verification, and repairs to self-created complexity. We use LLM Parkinsonism as a narrowly defined, non-clinical metaphor for this pattern of persistent action despite diminishing task-level value. We argue that the problem is not explained by autoregressive ne",
-   "ts": 1790654400,
-   "zh": "LLM帕金森症：执行控制失效与治理架构",
-   "brief": "arXiv指出LLM智能体存在目标完成后仍持续行动等执行控制失效，并提出不确定性感知的全局控制架构。",
-   "why": "",
-   "score": 4
   }
  ]
 }
