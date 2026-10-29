@@ -1,11 +1,11 @@
 {
- "updated": 1793268386,
+ "updated": 1793298680,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 3
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,7 +22,7 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 4,
+   "count": 3,
    "new": 0
   },
   "google-ai": {
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 14,
-   "new": 0
+   "count": 17,
+   "new": 4
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 5
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,175 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Building intent-driven UI testing with Amazon Nova Act",
+   "link": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/",
+   "summary": "Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.",
+   "ts": 1793298027,
+   "zh": "用Amazon Nova Act构建意图驱动UI测试",
+   "brief": "Epsilon团队基于Nova Act与Bedrock AgentCore浏览器工具，用自然语言编写并运行UI测试。",
+   "why": "展示AI代理替代人工测试的落地方式，可作企业降本案例。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/",
+   "summary": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
+   "ts": 1793297657,
+   "zh": "用Kiro打造可复用的PHP转Java迁移引擎",
+   "brief": "介绍基于Kiro的八阶段迁移流程，以原PHP应用为规范并验证结果。",
+   "why": "老系统迁移是中小企业常见痛点，可讲AI改造存量系统。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/index/updated-model-spec",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "link": "https://openai.com/index/updated-model-spec",
+   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+   "ts": 1793293200,
+   "zh": "OpenAI发布更新版模型规范",
+   "brief": "新版Model Spec提出五项核心价值，引导AI具备判断力并忠于人类意图。",
+   "why": "AI行为准则影响企业使用边界，可讲合规与治理。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+   "link": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/",
+   "summary": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.",
+   "ts": 1793293137,
+   "zh": "AWS Batch配额管理共享SageMaker训练GPU",
+   "brief": "新调度能力可按团队划分GPU配额、自动借出闲置算力并优先运行高优任务。",
+   "why": "GPU成本分摊与共享，适合讲AI算力降本。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+   "summary": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
+   "ts": 1793292892,
+   "zh": "MoEngage用AgentCore Gateway将400个API转为代理工具",
+   "brief": "MoEngage把7个区域的约400个私有REST API转为带权限的代理工具。",
+   "why": "企业存量系统接AI的典型路径，落地参考价值高。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+   "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+   "summary": "NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo and vLLM.",
+   "ts": 1793290268,
+   "zh": "在EKS与SageMaker HyperPod部署NVIDIA Nemotron",
+   "brief": "介绍120B参数混合专家模型Nemotron 3.5 Super VL及其在AWS上的部署方式。",
+   "why": "偏技术部署细节，老板关注度有限。",
+   "score": 4
+  },
+  {
+   "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Granite Switch 4.1.1 — Update models like you update software",
+   "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+   "summary": "",
+   "ts": 1793281027,
+   "zh": "Granite Switch 4.1.1：像更新软件一样更新模型",
+   "brief": "发布Granite Switch 4.1.1，主打模型可像软件一样更新迭代。",
+   "why": "模型可维护性提升，可讲AI资产长期运营。",
+   "score": 5
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+   "summary": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts and punk fantasy to the cloud. There’s also something on the horizon for adventurers: World of Warcraft: Forever arrives Wednesday, […]",
+   "ts": 1793278816,
+   "zh": "GeForce NOW本周上线《Phantom Blade Zero》",
+   "brief": "云游戏平台GeForce NOW本周新增《Phantom Blade Zero》等游戏。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How we detect frontier model misalignment",
+   "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+   "ts": 1793264400,
+   "zh": "OpenAI如何检测前沿模型失准",
+   "brief": "OpenAI采用分层监控检测前沿模型失准与代理越权行为，便于及时干预。",
+   "why": "AI代理失控风险，可讲企业上线AI的监控机制。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/ropes-gray-ai-diligence",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Ropes & Gray is developing AI for transactional diligence",
+   "link": "https://openai.com/index/ropes-gray-ai-diligence",
+   "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+   "ts": 1793257200,
+   "zh": "Ropes & Gray用AI做交易尽职调查",
+   "brief": "律所Ropes & Gray用OpenAI开发交易尽调AI，律师审阅分组文档与报告后再建议客户。",
+   "why": "专业服务AI落地案例，可讲人机协作模式。",
+   "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/announcing-project-protostar",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+   "link": "https://huggingface.co/blog/announcing-project-protostar",
+   "summary": "",
+   "ts": 1793232000,
+   "zh": "Project ProtoStar：让公共资助科研AI就绪",
+   "brief": "Hugging Face宣布Project ProtoStar项目，推动公共资助科学数据与模型AI可用。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://huggingface.co/blog/mistral-large4",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+   "link": "https://huggingface.co/blog/mistral-large4",
+   "summary": "",
+   "ts": 1793232000,
+   "zh": "Mistral Large 4上线Hugging Face",
+   "brief": "Hugging Face欢迎Mistral Large 4模型上线。",
+   "why": "新模型可选，可讲企业模型选型。",
+   "score": 5
+  },
+  {
+   "id": "https://huggingface.co/blog/anydecisionmodel",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+   "link": "https://huggingface.co/blog/anydecisionmodel",
+   "summary": "",
+   "ts": 1793232000,
+   "zh": "Hugging Face推出苹果平台语音与决策开源模型",
+   "brief": "Hugging Face发布AnySpeechRecognizer与AnyDecisionModel两个开源模型，面向苹果平台上的语音识别与决策任务。",
+   "why": "",
+   "score": 4
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
    "source": "aws-ml",
@@ -5444,84 +5613,6 @@
    "brief": "AWS 宣布 GPT-6.1 Sol 在 Amazon Bedrock 全面可用，强化编码、电脑操作与专业工作负载的推理能力。",
    "why": "企业可在 AWS 上直接调用新模型，评估现有 AI 应用升级路径。",
    "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Prompt engineering fundamentals for Amazon Quick",
-   "link": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
-   "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusable frameworks (specificity, context-setting, few-shot examples, and the CRISPE framework) for consistent, high-quality results across Amazon Quick.",
-   "ts": 1790699277,
-   "zh": "Amazon Quick 提示词工程基础指南",
-   "brief": "AWS 发布 Amazon Quick 提示词工程系列第一篇，介绍具体化、上下文设定、少样本示例与 CRISPE 框架等基础原则。",
-   "why": "可作企业 AI 培训素材，帮员工写出更稳定的提示词。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Prompt engineering by Quick component: Patterns and pitfalls",
-   "link": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls/",
-   "summary": "Part 2 of our Amazon Quick prompt engineering series goes component by component. Learn the prompt patterns that get the best results from Amazon Quick Research, Quick Flows, Quick Sight, chat agents, and action integrations, plus the common pitfalls to avoid.",
-   "ts": 1790699253,
-   "zh": "Amazon Quick 各组件提示词模式与陷阱",
-   "brief": "系列第二篇按 Quick Research、Flows、Sight、聊天代理和操作集成逐组件讲解提示词模式与常见陷阱。",
-   "why": "适合做分场景提示词培训，降低企业落地试错成本。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
-   "summary": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platform on AWS that uses AI agents to extract and verify contract fields, then answers aggregate and single-contract questions through Amazon Quick analytics.",
-   "ts": 1790698464,
-   "zh": "用 Quick 与 Bedrock 构建合同智能平台",
-   "brief": "AWS 分享基于 Quick 和 Bedrock AgentCore 的合同智能平台，用 AI 代理提取并核验合同字段，回答单份与汇总问题。",
-   "why": "合同审查是中小企业高频场景，可作落地案例讲解。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "How Condé Nast built multimodal video discovery with Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
-   "summary": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Generative AI Innovation Center, they built a multimodal video discovery solution on Amazon Bedrock and Amazon OpenSearch Service that cut discovery time to under 2 minutes.",
-   "ts": 1790697317,
-   "zh": "康泰纳仕用Bedrock构建多模态视频检索",
-   "brief": "康泰纳仕编辑此前检索14万条视频库平均耗时250分钟，与AWS生成式AI创新中心合作，基于Amazon Bedrock和OpenSearch构建多模态视频发现方案。",
-   "why": "内容型企业可参考：多模态检索能大幅压缩素材查找人力成本。",
-   "score": 8
-  },
-  {
-   "id": "https://huggingface.co/blog/nvidia/kumo-tabular",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-   "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
-   "summary": "",
-   "ts": 1790695838,
-   "zh": "英伟达Kumo Tabular刷新表格预测精度效率",
-   "brief": "Hugging Face发布NVIDIA Kumo Tabular，称其在表格预测任务上同时提升准确率与效率。",
-   "why": "表格数据是企业最常见场景，可关注其落地成本与效果。",
-   "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-   "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-   "summary": "",
-   "ts": 1790687220,
-   "zh": "面向MCP智能体的来源感知验证方法",
-   "brief": "Hugging Face发布研究，提出针对MCP智能体的来源感知验证，强调不仅要核实事实还要核实信息来源。",
-   "why": "企业部署AI智能体时，来源可追溯是合规与可信的关键。",
-   "score": 6
   }
  ]
 }
