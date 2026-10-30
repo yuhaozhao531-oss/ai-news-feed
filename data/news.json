@@ -1,5 +1,5 @@
 {
- "updated": 1793383421,
+ "updated": 1793399185,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -35,19 +35,19 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 16,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 2
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+   "link": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+   "summary": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
+   "ts": 1793396403,
+   "zh": "Bedrock AgentCore 支持实时预览编码代理生成的网页",
+   "brief": "AWS 介绍 AgentCore 会话端点，可为每个运行时会话提供带认证的 URL，转发 HTTP 请求和 WebSocket 连接。",
+   "why": "开发者工具细节，与中小企业老板决策关联弱。",
+   "score": 3
+  },
   {
    "id": "https://huggingface.co/blog/nvidia/nemotron-halloween",
    "source": "huggingface",
@@ -116,6 +129,19 @@
    "score": 2
   },
   {
+   "id": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Making it easier for websites to express AI training preferences",
+   "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+   "ts": 1793352600,
+   "zh": "OpenAI 支持网站通过 robots.txt 表达 AI 训练偏好",
+   "brief": "OpenAI 将遵循共享的 robots.txt 信号，让网站运营方向参与方传达 AI 训练偏好。",
+   "why": "内容版权与数据合规信号，企业需关注自有内容被训练的政策走向。",
+   "score": 7
+  },
+  {
    "id": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
    "source": "openai",
    "sourceName": "OpenAI",
@@ -126,6 +152,19 @@
    "zh": "OpenAI发布社区安全报告并加强青少年保护",
    "brief": "OpenAI强化ChatGPT暴力预防措施，提前干预并承诺公开安全报告。",
    "why": "AI安全合规动向，涉及企业使用AI的风险管理。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/fair-use-benefits-everyone",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Fair use benefits everyone",
+   "link": "https://openai.com/index/fair-use-benefits-everyone",
+   "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+   "ts": 1793318400,
+   "zh": "OpenAI 发文主张合理使用惠及所有人",
+   "brief": "OpenAI 摘录创作者、学者、无障碍倡导者及法律专家法庭意见，论述合理使用如何支持 AI 训练与创新。",
+   "why": "反映 AI 训练版权争议走向，影响企业内容与数据合规预期。",
    "score": 6
   },
   {
@@ -5444,19 +5483,6 @@
    "brief": "社交俱乐部The Den用ChatGPT Work将拨款申请从3天缩至2小时，酒牌材料从4天缩至3小时。",
    "why": "中小企业用AI提效的具体案例，适合做老板易懂的落地故事。",
    "score": 8
-  },
-  {
-   "id": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-   "source": "deepmind",
-   "sourceName": "Google DeepMind",
-   "title": "Gemini 4 Argon: our next era of frontier intelligence",
-   "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-   "summary": "",
-   "ts": 1790798505,
-   "zh": "Gemini 4 Argon：下一代前沿智能",
-   "brief": "Google DeepMind 发布 Gemini 4 Argon，称其为新一代前沿智能。",
-   "why": "",
-   "score": 3
   }
  ]
 }
