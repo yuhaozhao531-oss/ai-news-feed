@@ -1,11 +1,11 @@
 {
- "updated": 1793399185,
+ "updated": 1793425951,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -58,11 +58,128 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.37786",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+   "link": "https://arxiv.org/abs/2610.37786",
+   "summary": "arXiv:2610.37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites. Capture-and-replay preserves observations, with interaction coverage constrained by captured content and replay capabilities. We present WebAnything, a fully automated framework that reconstructs source-grounded, reusable Web environments from real URLs without per-site manual implementation or repair after i",
+   "ts": 1793419200,
+   "zh": "WebAnything：从真实网页构建可扩展智能体环境",
+   "brief": "arXiv新论文提出从真实网站捕获构建可执行、可重置的网页智能体训练环境。",
+   "why": "网页智能体训练环境标准化，预示企业自动化测试与部署门槛下降。",
+   "score": 4
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.37809",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+   "link": "https://arxiv.org/abs/2610.37809",
+   "summary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can be wrong as well: it can miss errors, and it can flag correct answers and push the agent into \"fixing\" them. Whether a curated ontology is worth its cost as such a judge, and how it compares with an ontology an LLM writes or a schema mined from the data, is unknown. We make the checker itself the object of study. Across curated, LLM-generat",
+   "ts": 1793419200,
+   "zh": "本体能否校验LLM智能体？三类本体对比研究",
+   "brief": "论文比较人工、LLM生成与数据推导本体作为知识图谱智能体校验器的可靠性。",
+   "why": "提示企业知识库问答不能盲信自动校验，需人工复核机制。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.37830",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+   "link": "https://arxiv.org/abs/2610.37830",
+   "summary": "arXiv:2610.37830v1 Announce Type: new Abstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters most for smart contracts, the programs behind Web3 applications that move money on a blockchain and cannot be fixed once deployed. We ask how to check whether an AI-written contract behaves as it should, and where the requested behavior gets lost. We design an evaluation built on execution rather than opinion. We replay the same transactions on an AI-written contract and on the original it should",
+   "ts": 1793419200,
+   "zh": "智能合约生成中意图丢失的测量方法",
+   "brief": "论文提出衡量AI智能体将自然语言需求转为智能合约时意图偏差的方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.37849",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
+   "link": "https://arxiv.org/abs/2610.37849",
+   "summary": "arXiv:2610.37849v1 Announce Type: new Abstract: AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them. We propose a behavioural test: a partner that uses a code reacts to the exact wording of a message, whereas an uninvolved agent placed in its seat does not. Partner--Outsider Positive Listening (PoPLi) is the difference between the two agents in how much their action changes when the message is reworded with its meaning kept, and it is computed after the fact by replaying logged prompts. In a simula",
+   "ts": 1793419200,
+   "zh": "通过伙伴-外部者正向监听检测AI智能体暗中串谋",
+   "brief": "论文提出行为测试方法，检测AI智能体用看似正常的消息进行隐蔽协同。",
+   "why": "多智能体部署需关注串谋风险，合规与审计要提前设计。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.37851",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Evaluating and improving AI agents for sequencing protocol understanding",
+   "link": "https://arxiv.org/abs/2610.37851",
+   "summary": "arXiv:2610.37851v1 Announce Type: new Abstract: Existing scientific-agent benchmarks rarely evaluate whether agents can reconstruct the exact molecular structures and generation workflows specified by sequencing protocols, a capability critical for analyzing customized sequencing assays. We introduce LibStructBench, a document-grounded benchmark for reconstructing sequencing-library structures and molecular workflows. Our experiments show that frontier agents often produce approximately correct reconstructions but remain unreliable at exact reconstruction, particularly in molecular-state repre",
+   "ts": 1793419200,
+   "zh": "评估与改进AI智能体对测序流程的理解",
+   "brief": "论文发布新基准，评估智能体能否还原测序方案指定的分子结构与生成流程。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.37859",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
+   "link": "https://arxiv.org/abs/2610.37859",
+   "summary": "arXiv:2610.37859v1 Announce Type: new Abstract: Language-model agents differ fundamentally from prior intelligent systems in their ability to learn from natural language in context. This capability enables agents to iteratively refine their answers in response to feedback, a prevalent mode of operation in modern agentic workflows. However, the community primarily ranks models by metrics such as Pass@1 or Pass@K, which cannot capture how they utilize feedback on prior attempts. We introduce Seq@K, a natural evaluation protocol that measures whether a model can solve a problem within K sequentia",
+   "ts": 1793419200,
+   "zh": "Seq@K：评估语言模型在序列反馈下的表现",
+   "brief": "论文提出基准，考察语言模型智能体根据自然语言反馈迭代改进答案的能力。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.37905",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "FilingLoop: Evaluating and Evolving LLM Agents for Corporate Disclosure Review and Revision",
+   "link": "https://arxiv.org/abs/2610.37905",
+   "summary": "arXiv:2610.37905v1 Announce Type: new Abstract: Public disclosure repositories such as SEC EDGAR support informed investment through web access to corporate filings. Supporting their review with language model agents requires discovering unstated deficiencies across related documents, acquiring missing company facts, and verifying that requested revisions satisfy evidence-backed requirements. Existing financial question-answering evaluations provide limited evidence of these interactive capabilities. We introduce \\textbf{FilingLoop}, an interactive benchmark and a self-evolving agent framework",
+   "ts": 1793419200,
+   "zh": "FilingLoop：评估与进化企业披露文件审查智能体",
+   "brief": "论文构建基准，让LLM智能体审查并修订SEC EDGAR企业披露文件中的隐含缺陷。",
+   "why": "文档审查类智能体有企业合规落地参考价值。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.37919",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World",
+   "link": "https://arxiv.org/abs/2610.37919",
+   "summary": "arXiv:2610.37919v1 Announce Type: new Abstract: Large language model agents are increasingly used for scientific discovery. However, existing benchmarks mix law inference with programming, score data fitting instead of prediction on unseen inputs, and do not separate empirical evidence from pretrained priors. We introduce SciGame, a controlled benchmark that converts scientific literature into structured scientific cards. Each card yields a pair of Original and dimensionally consistent Counterfactual environments with the same task interface. SciGame contains a Historical collection of canonic",
+   "ts": 1793419200,
+   "zh": "SciGame：让智能体在真实与反事实世界玩科学发现游戏",
+   "brief": "论文提出科学发现基准，分离经验证据与预训练知识，考察智能体预测能力。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+   "link": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/",
+   "summary": "This post presents a five-stage operating model for managing Amazon Bedrock cost: attribute every dollar to an owner, make every request observable, enforce budgets, optimize platform defaults, and operate a review cadence. Written for FinOps and platform engineering teams.",
+   "ts": 1793400144,
+   "zh": "Amazon Bedrock成本端到端管理：FinOps操作手册",
+   "brief": "AWS发布五阶段Bedrock成本管理模型：归属到人、请求可观测、预算管控、平台默认优化、定期复盘。",
+   "why": "可直接借鉴做企业AI成本治理与FinOps培训内容。",
+   "score": 8
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
    "source": "aws-ml",
@@ -5353,136 +5470,6 @@
    "brief": "英伟达发文称每兆瓦AI工厂成本约6000万美元，并从产能收益等三方面解析其投资回报逻辑。",
    "why": "可帮老板理解算力投入的成本与回报结构。",
    "score": 6
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.38288",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
-   "link": "https://arxiv.org/abs/2609.38288",
-   "summary": "arXiv:2609.38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for supervision. Accordingly, we synthesize long-horizon improve",
-   "ts": 1790827200,
-   "zh": "AREX-2：长周期反思任务提升智能体自进化",
-   "brief": "arXiv新论文提出AREX-2，通过长周期反思任务增强LLM智能体在测试时迭代优化解的能力。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.38294",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
-   "link": "https://arxiv.org/abs/2609.38294",
-   "summary": "arXiv:2609.38294v1 Announce Type: new Abstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency. Existing methods for workflow generation typically optimize accuracy alone or a weighted sum of objectives, so each trained generator commits to one fixed trade-off and must be retrained from scratch when preferences change. To alleviate this, we propose MoFlow, which generates workflows optimized across varied preferences. Specifically, MoFlow formulates workflow generation as a multi-objective Mar",
-   "ts": 1790827200,
-   "zh": "MoFlow：多目标智能体工作流生成",
-   "brief": "arXiv新论文提出MoFlow，联合优化智能体工作流的准确率、成本、延迟、鲁棒性等多目标。",
-   "why": "多目标工作流优化思路可启发企业AI流程的成本与效果平衡。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.38296",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "AI Agents are Vulnerable to Radicalization",
-   "link": "https://arxiv.org/abs/2609.38296",
-   "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the",
-   "ts": 1790827200,
-   "zh": "AI智能体易受极端化影响",
-   "brief": "arXiv新论文模拟两个LLM智能体对话，发现目标智能体可被另一智能体操纵信念走向极端化。",
-   "why": "提示企业部署多智能体系统时需关注内容安全与信念操纵风险。",
-   "score": 6
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.38369",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Can an AI Agent Rediscover a Blaschke-Curve Invariant?",
-   "link": "https://arxiv.org/abs/2609.38369",
-   "summary": "arXiv:2609.38369v1 Announce Type: new Abstract: We study generalized Blaschke curves as a controlled environment for AI-assisted mathematical rediscovery. For one fixed degree-four Blaschke product, an agent receives numerical coordinates of the six pair-lines determined by each of 80 boundary configurations. The target theorem is withheld from the task instructions. The saved research log reports rejected geometric hypotheses and a homogeneous cubic fitted to polygon sides. Its frozen coefficients predict 480 lines from 80 unseen parameter values, with a recorded RMS scale-free residual of $8",
-   "ts": 1790827200,
-   "zh": "AI智能体能否重新发现Blaschke曲线不变量",
-   "brief": "arXiv新论文用广义Blaschke曲线作为受控环境，测试AI智能体辅助数学再发现的能力。",
-   "why": "",
-   "score": 1
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.38372",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Self-Evolving Harness on Multiple Tasks with the Agent as Its Own Optimizer",
-   "link": "https://arxiv.org/abs/2609.38372",
-   "summary": "arXiv:2609.38372v1 Announce Type: new Abstract: A harness is the code around a language-model agent that organizes prompts, calls tools, manages context, and controls execution. As models grow stronger, recent work has begun to let agents improve their own harnesses, a line of work known as self-evolving harnesses. In most existing methods, a separate proposer running on a human-designed harness modifies the solver's harness, and a separate harness is evolved for each benchmark. Real-world tasks come from many domains, so both the evolution and the evaluation of a harness should cover a divers",
-   "ts": 1790827200,
-   "zh": "智能体自我优化实现多任务自进化框架",
-   "brief": "arXiv新论文研究让智能体作为自身优化器，自动改进组织提示、工具调用与上下文的harness代码。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.38397",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "SimTrace: Grounded Multimodal User Trajectories Generation for Online User Modeling",
-   "link": "https://arxiv.org/abs/2609.38397",
-   "summary": "arXiv:2609.38397v1 Announce Type: new Abstract: Virtual clients offer a cost-effective approach to support applications such as A/B testing, recommender system development, and interface evaluation. However, building them requires access to large-scale, semantically faithful, fine-grained online user trajectories. These data are difficult to obtain because proprietary logs are subject to privacy restrictions and small businesses often lack sufficient traffic. Consequently, existing public datasets either abstract away fine-grained user interaction details or preserve rich context but remain pl",
-   "ts": 1790827200,
-   "zh": "SimTrace：面向在线用户建模的多模态轨迹生成",
-   "brief": "arXiv新论文提出SimTrace，生成有依据的多模态用户轨迹，用于虚拟客户与在线用户建模。",
-   "why": "虚拟用户模拟可用于企业A/B测试与产品界面评估，降低调研成本。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.38411",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "A Competing-Hazards Systematization of Loss of Control in Autonomous Agents",
-   "link": "https://arxiv.org/abs/2609.38411",
-   "summary": "arXiv:2609.38411v1 Announce Type: new Abstract: Leading AI developers have reported agents acting beyond their approved limits, which a United Nations panel described as an early warning of loss of human control. Yet incident reports and agent-safety evaluations describe these events differently, making it difficult to compare failures, trace risk across attempts, or separate agent behavior from the environment's role in allowing an out-of-scope action to succeed. To address this gap, we introduce a common framework in which each attempt ends in approved completion, safe stopping, scope escape",
-   "ts": 1790827200,
-   "zh": "自主智能体失控的竞争风险系统化分析",
-   "brief": "arXiv新论文用竞争风险框架系统化分析自主智能体失控事件，统一事故报告与安全评估的描述。",
-   "why": "为企业AI治理与失控风险识别提供框架参考。",
-   "score": 6
-  },
-  {
-   "id": "https://arxiv.org/abs/2609.38445",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "AIM: Agentic Idea Management for Automated Research",
-   "link": "https://arxiv.org/abs/2609.38445",
-   "summary": "arXiv:2609.38445v1 Announce Type: new Abstract: Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organizing evolving research ideas, selecting promising directions, and maintaining alignment between ideas and their implementations. To address these challenges, we introduce the Agentic Idea Manager (AIM), a fully autonomous framework for managing and exploring research directions in idea-driven automated research. Inspired by Bayesian optimization, AIM u",
-   "ts": 1790827200,
-   "zh": "AIM：面向自动化研究的智能体创意管理",
-   "brief": "arXiv新论文提出AIM，区分创意驱动与方案驱动搜索，解决研究创意组织与方向选择等挑战。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://www.anthropic.com/news/barclays-scales-claude",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Barclays scales Claude to upgrade operations and improve client experience",
-   "link": "https://www.anthropic.com/news/barclays-scales-claude",
-   "summary": "Barclays scales Claude to upgrade operations and improve client experience",
-   "ts": 1790812800,
-   "zh": "巴克莱银行规模化部署Claude升级运营",
-   "brief": "Anthropic发布案例，巴克莱银行规模化应用Claude以升级运营并改善客户体验。",
-   "why": "金融巨头落地案例可作企业AI咨询的标杆参考，增强老板信心。",
-   "score": 9
-  },
-  {
-   "id": "https://openai.com/index/the-den-family-social",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-   "link": "https://openai.com/index/the-den-family-social",
-   "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-   "ts": 1790812800,
-   "zh": "The Den用ChatGPT Work每周省10-15小时",
-   "brief": "社交俱乐部The Den用ChatGPT Work将拨款申请从3天缩至2小时，酒牌材料从4天缩至3小时。",
-   "why": "中小企业用AI提效的具体案例，适合做老板易懂的落地故事。",
-   "score": 8
   }
  ]
 }
