@@ -1,5 +1,5 @@
 {
- "updated": 1793474453,
+ "updated": 1793491851,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -10,7 +10,7 @@
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 8,
+   "count": 7,
    "new": 0
   },
   "anthropic-eng": {
@@ -5262,71 +5262,6 @@
    "brief": "arXiv 论文提出 GAVA，让具身智能体在用户纠正可能错误时选择接受、拒绝、查看或询问。",
    "why": "",
    "score": 2
-  },
-  {
-   "id": "https://openai.com/index/chatham-financial",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Chatham scales its capital markets expertise with OpenAI",
-   "link": "https://openai.com/index/chatham-financial",
-   "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-   "ts": 1790899200,
-   "zh": "Chatham 用 OpenAI 改造资本市场业务",
-   "brief": "Chatham Financial 用 Codex 和 GPT-5.6 构建技术并重构流程，将交易验证从 30 分钟缩短到 4 分钟以内。",
-   "why": "典型企业落地案例，效率提升数据可直接引用。",
-   "score": 9
-  },
-  {
-   "id": "https://www.anthropic.com/news/claude-frontier-academy",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-   "link": "https://www.anthropic.com/news/claude-frontier-academy",
-   "summary": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-   "ts": 1790899200,
-   "zh": "Anthropic 投 1 亿美元培训万名工程师",
-   "brief": "Anthropic 投入 1 亿美元培训 1 万名工程师，以缓解企业 AI 人才缺口。",
-   "why": "AI 人才培训是刚需，利好培训业务定位。",
-   "score": 9
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-   "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-   "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]",
-   "ts": 1790898253,
-   "zh": "英伟达GPU加速OpenAI GPT-6 Astra Ultrafast",
-   "brief": "OpenAI API及ChatGPT Work、Codex用户现可用GPT-6 Astra Ultrafast，基于英伟达Blackwell GPU，推理优化带来最高8倍速度提升。",
-   "why": "新模型速度大幅提升，企业可评估AI应用响应效率与成本优化空间。",
-   "score": 9
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
-   "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from weeks to minutes.",
-   "ts": 1790892374,
-   "zh": "AWS用AgentCore多智能体自动化云迁移",
-   "brief": "AWS专业服务基于Bedrock AgentCore构建多智能体框架，自动完成云迁移的发现、IaC生成、治理与迁移后运维。",
-   "why": "展示智能体替代人工流程的落地范式，可作企业AI自动化案例讲解。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Serve live, governed data in AI-built apps with Amazon Quick",
-   "link": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
-   "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person viewing the app, so row-level and column-level security apply per reader. Learn how to build, publish, and share a live-data app using natural language.",
-   "ts": 1790884146,
-   "zh": "Amazon Quick支持AI应用实时查询治理数据",
-   "brief": "Amazon Quick新增Live Data in Apps，AI构建的应用可实时查询Quick Sight数据集，并按查看者应用行列级权限。",
-   "why": "解决AI应用数据权限与实时性痛点，适合讲企业数据安全落地。",
-   "score": 8
   }
  ]
 }
