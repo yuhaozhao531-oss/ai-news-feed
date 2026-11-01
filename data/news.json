@@ -1,5 +1,5 @@
 {
- "updated": 1793513818,
+ "updated": 1793540302,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5132,19 +5132,6 @@
    "brief": "谷歌发布视频，汇总 2026 年 9 月宣布的最新 AI 动态。",
    "why": "",
    "score": 3
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-   "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-   "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, […]",
-   "ts": 1790946039,
-   "zh": "英伟达 DGX Spark 64GB 支持本地 AI",
-   "brief": "英伟达宣布本月推出 64GB 统一内存的 DGX Spark，让开发者能在本地运行更强的开源模型和 AI 代理。",
-   "why": "本地跑模型门槛降低，涉及数据安全与成本。",
-   "score": 7
   }
  ]
 }
