@@ -1,5 +1,5 @@
 {
- "updated": 1793562271,
+ "updated": 1793580529,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -34,7 +34,7 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 16,
+   "count": 15,
    "new": 0
   },
   "nvidia": {
