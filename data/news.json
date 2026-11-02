@@ -1,5 +1,5 @@
 {
- "updated": 1793580529,
+ "updated": 1793618412,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -22,8 +22,8 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 3,
-   "new": 0
+   "count": 4,
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
@@ -244,6 +244,19 @@
    "brief": "英伟达介绍AI智能体在搜寻地外文明信号研究中的应用进展。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Speeding up planning decisions with AI",
+   "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+   "ts": 1793369910,
+   "zh": "DeepMind与英国政府合作加速规划审批",
+   "brief": "Google DeepMind与英国政府合作，用AI缩短规划评估所需时间。",
+   "why": "AI进入政府审批场景，预示合规与政务流程类AI机会。",
+   "score": 6
   },
   {
    "id": "https://openai.com/index/helping-websites-express-ai-training-preferences",
