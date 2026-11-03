@@ -1,11 +1,11 @@
 {
- "updated": 1793688912,
+ "updated": 1793725665,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 4
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,8 +22,8 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 4,
-   "new": 0
+   "count": 5,
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 12,
-   "new": 0
+   "count": 13,
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 2
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 6
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,153 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "ts": 1793725309,
+   "zh": "Google Antigravity 智能体化学信息学",
+   "brief": "Google DeepMind 介绍用 Antigravity 与化学信息学技能加速药物发现、化合物检索与分子设计。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Bring structured and unstructured data together with Amazon Quick",
+   "link": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/",
+   "summary": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.",
+   "ts": 1793724569,
+   "zh": "Amazon Quick 打通结构化与非结构化数据",
+   "brief": "AWS 介绍将 S3 作为知识库、构建 Space 与自定义聊天代理，统一查询两类数据。",
+   "why": "企业可用一个对话入口查遍业务数据，值得向老板演示落地路径。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway",
+   "link": "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/",
+   "summary": "Learn how to configure Amazon Bedrock AgentCore Gateway for an on-behalf-of (OBO) token exchange with Microsoft Entra ID, so an AI agent can call the ServiceNow REST API while preserving the calling user's identity. AgentCore Gateway performs the exchange natively, with no interceptor Lambda or custom code.",
+   "ts": 1793724460,
+   "zh": "ServiceNow 代用户令牌交换接入 AgentCore",
+   "brief": "AWS 讲解配置 Bedrock AgentCore Gateway 与 Entra ID 的 OBO 令牌交换，保留调用者身份。",
+   "why": "解决 AI 代理访问企业系统时的权限与身份合规问题。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Gen Digital built Norton Revamp’s AI-curated News Engine with Amazon Bedrock AgentCore Web Search",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/",
+   "summary": "Gen Digital built Norton Revamp, a generative AI-powered professional reputation management platform, with an AI-curated News Engine grounded by Web Search on Amazon Bedrock AgentCore. See how the Gen team delivers real-time, cited content suggestions, goal setting, and news feeds with zero data egress and Norton-grade privacy.",
+   "ts": 1793724200,
+   "zh": "Gen Digital 用 AgentCore 建新闻引擎",
+   "brief": "Gen Digital 基于 Bedrock AgentCore Web Search 构建带引用的实时新闻推荐引擎。",
+   "why": "真实企业案例，可讲 AI 如何做实时内容与声誉管理。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/",
+   "summary": "Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands Agents agent on Amazon Bedrock AgentCore. Business meaning, join paths, and access control all live in Postgres, with GRANT and row-level security enforcing what each agent can read.",
+   "ts": 1793724073,
+   "zh": "EDB Postgres 构建智能体语义层",
+   "brief": "AWS 介绍在 EDB Postgres AI 中建受治理语义层，由 AgentCore 上的代理查询并受权限控制。",
+   "why": "语义层加行级权限是企业数据供 AI 使用的关键治理范式。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Building ultra-low-latency voice AI applications on AWS",
+   "link": "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/",
+   "summary": "Learn how Cartesia, an AWS Partner, uses purpose-built State Space Models and AWS infrastructure to deliver sub-100ms text-to-speech and speech-to-text at global scale, and how to deploy its Sonic model on Amazon SageMaker AI or self-managed Amazon EC2 GPU instances.",
+   "ts": 1793724054,
+   "zh": "AWS 上构建超低延迟语音 AI",
+   "brief": "AWS 介绍合作伙伴 Cartesia 用状态空间模型实现百毫秒内语音转写与合成及部署方式。",
+   "why": "语音客服等场景的延迟门槛有了参考方案。",
+   "score": 5
+  },
+  {
+   "id": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Palette: teaching a small model to build decks in your design language",
+   "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+   "summary": "",
+   "ts": 1793723736,
+   "zh": "Palette：教小模型按品牌设计做幻灯片",
+   "brief": "Hugging Face 发布 Palette，用小型模型按企业设计语言自动生成演示文稿。",
+   "why": "小模型做品牌化文档生成，成本低、易内部落地。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing India-based inference for Kimi K3 on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
+   "summary": "Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions. This post explains the global and geographic cross-Region inference options and shares example code for reading and understanding Indic-language documents with Kimi K3.",
+   "ts": 1793723574,
+   "zh": "Kimi K3 在 Amazon Bedrock 印度推理",
+   "brief": "Bedrock 为 Kimi K3 提供印度境内推理，数据处理留在孟买和海得拉巴区域。",
+   "why": "数据本地化合规选项，出海或跨国企业需关注。",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+   "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+   "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor […]",
+   "ts": 1793721645,
+   "zh": "AI 正改变半导体晶圆厂工作方式",
+   "brief": "NVIDIA 称芯片需求上升、工艺更复杂，工程师借助 AI 理解工艺变化与缺陷根因。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://openai.com/index/heimstaden",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Heimstaden is changing residential real estate management with AI",
+   "link": "https://openai.com/index/heimstaden",
+   "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+   "ts": 1793692800,
+   "zh": "Heimstaden 用 AI 改造房产管理",
+   "brief": "OpenAI 案例：Heimstaden 用 ChatGPT Enterprise 与 Codex 改造物业管理、降本并赋能员工。",
+   "why": "欧洲房产企业的降本案例，可类比讲给传统行业老板。",
+   "score": 8
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+   "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+   "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments […]",
+   "ts": 1793689212,
+   "zh": "全球城市用 NVIDIA 物理与智能体 AI",
+   "brief": "NVIDIA 介绍城市用物理与智能体 AI 将摄像头、传感器数据转为规划与公共服务行动。",
+   "why": "",
+   "score": 4
+  },
   {
    "id": "https://arxiv.org/abs/2610.41172",
    "source": "arxiv",
@@ -164,6 +307,19 @@
    "ts": 1793682000,
    "zh": "具身记忆研究：过去如何影响行动",
    "brief": "arXiv论文综述具身AI中的记忆机制，探讨历史经验如何影响智能体行动。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://huggingface.co/blog/transformers-mic",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Transformers Model Integration Contracts",
+   "link": "https://huggingface.co/blog/transformers-mic",
+   "summary": "",
+   "ts": 1793664000,
+   "zh": "Transformers 模型集成契约",
+   "brief": "Hugging Face 发布 Transformers 模型集成契约文档，规范模型接入方式。",
    "why": "",
    "score": 2
   },
