@@ -1,11 +1,11 @@
 {
- "updated": 1793655891,
+ "updated": 1793688912,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 3
+   "new": 4
   },
   "anthropic": {
    "name": "Anthropic",
@@ -29,12 +29,12 @@
    "name": "Google AI",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 15,
+   "count": 12,
    "new": 0
   },
   "nvidia": {
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 4
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,141 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2610.41172",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses",
+   "link": "https://arxiv.org/abs/2610.41172",
+   "summary": "arXiv:2610.41172v1 Announce Type: cross Abstract: Retrieval-augmented generation is becoming agentic. A search harness writes queries, reads results, reformulates, and decides when to stop. This largely solves accuracy: a harness with only BM25/grep and MiniMax M3 answers 85% of BrowseComp-Plus and 91% on multi-hop FRAMES in our runs, without compiled or vector indexes. It exposes a context problem: an undisciplined loop repeats queries, rereads documents, and fills the window with unused passages. The missing layer is knowledge compilation: a configurable ingestion pipeline where LLMs enrich ",
+   "ts": 1793682000,
+   "zh": "上下文即基础设施：智能体系统的知识编译",
+   "brief": "arXiv论文提出把检索上下文当作基础设施，用知识编译方式为智能体系统组织检索内容。",
+   "why": "提示企业知识库建设思路：不是堆文档，而是为AI编译可用知识。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.41272",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "ANGLER: Verifier-Grounded Benchmarking with an Adaptive Attacker for Web Agents",
+   "link": "https://arxiv.org/abs/2610.41272",
+   "summary": "arXiv:2610.41272v1 Announce Type: cross Abstract: Web agents are increasingly deployed to complete tasks autonomously on real websites, where adversarially injected content can induce them to perform unauthorized actions. Existing evaluations primarily use fixed attacks or focus on a single attack type, and evaluate attacks at the text level rather than through real state changes, thus underestimating how vulnerable agents are to diverse attacks. To address the gap, we introduce REEF, a benchmark of red-teaming executable environments with faithful verification for measuring the security vulne",
+   "ts": 1793682000,
+   "zh": "ANGLER：面向网页智能体的自适应攻击评测",
+   "brief": "arXiv论文提出带自适应攻击者的验证器基准，评测网页智能体抵御恶意注入内容的能力。",
+   "why": "企业部署网页自动化智能体前，需评估其被恶意内容诱导的风险。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.41291",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+   "link": "https://arxiv.org/abs/2610.41291",
+   "summary": "arXiv:2610.41291v1 Announce Type: cross Abstract: Long-horizon LLM agents play an important role in solving complex and sustained tasks, with ever-growing interaction contexts. However, these accumulated contexts will raise substantial computational cost and obscure key decision-relevant evidence. Existing methods typically train external compressors or context-management agents to rewrite context as shorter hard-token sequences, but such external selection may not align with the LLM's evolving representation and is necessarily lossy. In this paper, we introduce Agentic Soft-Token Compression ",
+   "ts": 1793682000,
+   "zh": "长任务智能体的模型内上下文压缩方法",
+   "brief": "arXiv论文提出用智能体软令牌在模型内部压缩上下文，降低长任务智能体的计算成本。",
+   "why": "长流程AI应用成本与稳定性问题，是落地时的实际考量。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.41304",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "ART of PIV: Agentic Real-Time Particle Image Velocimetry for Active Flow Control",
+   "link": "https://arxiv.org/abs/2610.41304",
+   "summary": "arXiv:2610.41304v1 Announce Type: cross Abstract: Particle image velocimetry (PIV) measures fluid motion from images of tracer particles, but its accuracy depends on choices throughout the estimation pipeline, including image preprocessing, flow estimation, and postprocessing. These choices are typically left to expert tuning, and a fixed configuration can become less accurate as conditions change. This matters especially when PIV supplies feedback for real-time control, where measurements must be both accurate and fast, and flow conditions vary. We introduce ART of PIV -- short for Agentic Re",
+   "ts": 1793682000,
+   "zh": "PIV的智能体实时粒子图像测速",
+   "brief": "arXiv论文提出面向主动流动控制的智能体实时粒子图像测速方法。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.41401",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "When Safety Checks Become Privacy Risks: A Privacy-Preserving Paradigm for LLM Agent Safety Auditing",
+   "link": "https://arxiv.org/abs/2610.41401",
+   "summary": "arXiv:2610.41401v1 Announce Type: cross Abstract: Large language model agents interact with online services through tool calls that may access private data or perform sensitive actions. Specialized providers can supply and maintain pre-execution safety auditing capabilities for agent operators. However, sending task descriptions, call arguments, and interaction histories to an external auditor may expose sensitive user information. In this work, we propose a paradigm for privacy-preserving safety auditing that separates delegated audit computation from plaintext access and execution authority.",
+   "ts": 1793682000,
+   "zh": "安全审计变隐私风险：LLM智能体审计新范式",
+   "brief": "arXiv论文指出智能体安全审计可能泄露隐私，提出隐私保护的安全审计范式。",
+   "why": "企业引入第三方AI安全审计服务时需关注数据隐私边界。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.41435",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "BlindToChange: AI Agents Can Find Changes When Asked But Do They Look When Needed?",
+   "link": "https://arxiv.org/abs/2610.41435",
+   "summary": "arXiv:2610.41435v1 Announce Type: cross Abstract: Given that AI agents can search the web broadly and deeply in real time, it is tempting to conclude that their outputs account for recent world events. We show that this conclusion does not hold in practice. While agents can search and easily find recent changes, the correctness of their responses depends on whether they search and what they search for. Popular agentic search benchmarks like BrowseComp cannot expose failures wherein agents do not recognize their own assumptions that should be verified, since these benchmarks explicitly state wh",
+   "ts": 1793682000,
+   "zh": "AI智能体能否主动发现变化？",
+   "brief": "arXiv论文发现AI智能体被要求时能找到信息变化，但不会主动去查看。",
+   "why": "提醒老板：AI联网不等于自动掌握最新动态，需明确触发机制。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.41482",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents",
+   "link": "https://arxiv.org/abs/2610.41482",
+   "summary": "arXiv:2610.41482v1 Announce Type: cross Abstract: Recursive textual memory can carry earlier errors into later updates, yet task performance alone does not establish memory reliability. We define self-consistency bias as the persistence of incorrect claims already present in the incoming memory. We present KEEPER, a comparative analysis of four auxiliary objectives along information-content and update-sensitivity axes within a shared recursive interface, examining how supervision targets relate to agent performance. Among evaluated conditions, reward-related prediction achieve the highest task",
+   "ts": 1793682000,
+   "zh": "KEEPER：长任务智能体的可控文本记忆",
+   "brief": "arXiv论文提出学习控制充分的文本记忆，缓解长任务智能体记忆中的错误累积。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://arxiv.org/abs/2610.41688",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "When the Past Shapes Action: Understanding Embodied Memory",
+   "link": "https://arxiv.org/abs/2610.41688",
+   "summary": "arXiv:2610.41688v1 Announce Type: cross Abstract: Recent advances in generative foundation models have expanded the capabilities of embodied AI, enabling increasingly general navigation, manipulation, and long-horizon task execution. However, effective interaction with dynamic environments requires more than only strong perception and reasoning: agents must act with partial knowledge and retain, retrieve, and update information from past observations, actions, and experiences. This survey examines embodied memory as a mechanism for preserving decision-relevant information beyond the current ob",
+   "ts": 1793682000,
+   "zh": "具身记忆研究：过去如何影响行动",
+   "brief": "arXiv论文综述具身AI中的记忆机制，探讨历史经验如何影响智能体行动。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Rewarding defenders with bigger bug bounties",
+   "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+   "ts": 1793642400,
+   "zh": "OpenAI提高安全漏洞赏金奖励",
+   "brief": "OpenAI提高安全漏洞赏金金额，并新增报告质量、忠诚度和专项活动奖金。",
+   "why": "反映AI厂商对安全投入加码，企业选型可关注供应商安全机制。",
+   "score": 4
+  },
+  {
+   "id": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+   "ts": 1793642400,
+   "zh": "OpenAI筹备下一轮安全加固冲刺",
+   "brief": "OpenAI与Cathedral Systems合作筹备内部安全冲刺，用AI测试和强化防御。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
    "source": "google-ai",
@@ -129,6 +259,19 @@
    "score": 9
   },
   {
+   "id": "https://openai.com/index/scaling-git-at-openai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Scaling Git at OpenAI",
+   "link": "https://openai.com/index/scaling-git-at-openai",
+   "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+   "ts": 1793633400,
+   "zh": "OpenAI如何为Codex规模扩展Git",
+   "brief": "OpenAI介绍自研Git兼容后端Pando，支撑Codex带来的大规模开发需求。",
+   "why": "",
+   "score": 3
+  },
+  {
    "id": "https://openai.com/index/grid-protectors-program",
    "source": "openai",
    "sourceName": "OpenAI",
@@ -166,6 +309,19 @@
    "brief": "Qodo将企业知识与编码规范引入Codex，帮助开发者在提PR前发现P0问题。",
    "why": "研发团队AI落地案例，可讲企业知识注入AI工具。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/index/dan-driscoll-joins-openai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+   "link": "https://openai.com/index/dan-driscoll-joins-openai",
+   "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+   "ts": 1793577600,
+   "zh": "OpenAI任命国家安全现代化高级顾问",
+   "brief": "OpenAI任命Dan Driscoll为国家安全现代化高级顾问，负责负责任AI与网络韧性事务。",
+   "why": "显示AI与国家安全政策结合趋紧，关注合规风向。",
+   "score": 4
   },
   {
    "id": "https://arxiv.org/abs/2610.37786",
@@ -5158,19 +5314,6 @@
    "brief": "arXiv论文介绍校园本地部署的CourseChat多课程RAG辅导系统，分析软硬件权衡。",
    "why": "企业可参考本地部署RAG保护教材与对话数据，兼顾成本与隐私。",
    "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/microsoft/thinkingbox",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "The Agent Said It Was Done. The Database Disagreed.",
-   "link": "https://huggingface.co/blog/microsoft/thinkingbox",
-   "summary": "",
-   "ts": 1791068208,
-   "zh": "智能体说完成了，数据库却不同意",
-   "brief": "Hugging Face发文探讨AI智能体声称任务完成但数据库状态不符的问题。",
-   "why": "提醒企业：AI智能体落地需验证机制，别轻信其自我报告。",
-   "score": 7
   }
  ]
 }
