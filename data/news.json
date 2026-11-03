@@ -1,11 +1,11 @@
 {
- "updated": 1793725665,
+ "updated": 1793748488,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 1
+   "new": 4
   },
   "anthropic": {
    "name": "Anthropic",
@@ -23,7 +23,7 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 5,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 13,
+   "count": 14,
    "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 2
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 6
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://huggingface.co/blog/allenai/statebench",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "StateBench: Testing how language models track state changes over long documents",
+   "link": "https://huggingface.co/blog/allenai/statebench",
+   "summary": "",
+   "ts": 1793726121,
+   "zh": "StateBench：测试语言模型长文档状态追踪",
+   "brief": "Hugging Face发布StateBench，评测语言模型在长文档中追踪状态变化的能力。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
    "source": "deepmind",
@@ -181,6 +194,19 @@
    "score": 4
   },
   {
+   "id": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Accelerating engineering for the physical world",
+   "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+   "ts": 1793707200,
+   "zh": "OpenAI：加速物理世界工程研发",
+   "brief": "OpenAI介绍ChatGPT和Codex如何帮助工程师加速CAD、PCB设计、仿真等物理世界工作流。",
+   "why": "制造业/硬件企业可关注AI辅助研发设计的落地路径。",
+   "score": 7
+  },
+  {
    "id": "https://openai.com/index/heimstaden",
    "source": "openai",
    "sourceName": "OpenAI",
@@ -191,6 +217,19 @@
    "zh": "Heimstaden 用 AI 改造房产管理",
    "brief": "OpenAI 案例：Heimstaden 用 ChatGPT Enterprise 与 Codex 改造物业管理、降本并赋能员工。",
    "why": "欧洲房产企业的降本案例，可类比讲给传统行业老板。",
+   "score": 8
+  },
+  {
+   "id": "https://openai.com/index/cisco-cyber",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "link": "https://openai.com/index/cisco-cyber",
+   "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+   "ts": 1793692800,
+   "zh": "思科用OpenAI模型实现机器速度防御",
+   "brief": "思科结合网络智能与OpenAI模型强化企业安全，构建更具适应性的防御体系。",
+   "why": "企业安全运维是AI落地典型场景，可作案例讲给老板。",
    "score": 8
   },
   {
@@ -320,6 +359,32 @@
    "ts": 1793664000,
    "zh": "Transformers 模型集成契约",
    "brief": "Hugging Face 发布 Transformers 模型集成契约文档，规范模型接入方式。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+   "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+   "ts": 1793664000,
+   "zh": "OpenAI任命Jill Hazelbaker为首席企业事务官",
+   "brief": "Jill Hazelbaker将加入OpenAI任首席企业事务官，负责全球传播与公司定位。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://huggingface.co/blog/cwe-bench",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "CWE-bench v2: More coverage, quality, and transparency",
+   "link": "https://huggingface.co/blog/cwe-bench",
+   "summary": "",
+   "ts": 1793664000,
+   "zh": "CWE-bench v2：覆盖更广、质量更高",
+   "brief": "Hugging Face发布CWE-bench v2，提升漏洞评测基准的覆盖范围、质量与透明度。",
    "why": "",
    "score": 2
   },
@@ -907,6 +972,19 @@
    "brief": "Credit Saison的ChatGPT企业版试点实现954%投资回报率，并推广至全公司。",
    "why": "高ROI企业案例，适合说服老板投入AI。",
    "score": 9
+  },
+  {
+   "id": "https://openai.com/ads/customers/evernote",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Evernote turns AI-driven discovery into paid subscriptions",
+   "link": "https://openai.com/ads/customers/evernote",
+   "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+   "ts": 1793216449,
+   "zh": "Evernote用ChatGPT广告转化付费订阅",
+   "brief": "Evernote通过ChatGPT广告推广笔记应用，并追踪免费试用转付费订阅的效果。",
+   "why": "展示AI平台广告投放获客的新渠道，可讲给市场负责人。",
+   "score": 6
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
