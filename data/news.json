@@ -1,5 +1,5 @@
 {
- "updated": 1793812781,
+ "updated": 1793835878,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 13,
-   "new": 0
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 4
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,32 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Use decision models with Amazon Bedrock AgentCore Evaluations",
+   "link": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/",
+   "summary": "Some agent-evaluation questions are narrow and repeatable, and decision models answer exactly that kind of question. This post shows how to connect two decision models, Jev and Strands Decider, to Amazon Bedrock AgentCore Evaluations through code-based evaluators, and how to validate a decision-model check before you gate a release on it.",
+   "ts": 1793817996,
+   "zh": "用决策模型配合Bedrock AgentCore评估",
+   "brief": "AWS介绍如何通过代码评估器把Jev和Strands Decider两个决策模型接入Amazon Bedrock AgentCore Evaluations，并验证决策模式。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+   "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+   "summary": "",
+   "ts": 1793814610,
+   "zh": "Dharma字段提取器：文档转结构化JSON",
+   "brief": "Hugging Face发布Dharma Field Extractor，可将任意文档输入并输出结构化JSON字段。",
+   "why": "文档自动结构化是中小企业AI落地的高频场景，可作案例讲解。",
+   "score": 6
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters/",
    "source": "aws-ml",
@@ -129,6 +155,19 @@
    "score": 6
   },
   {
+   "id": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "A thousand fewer paths to root",
+   "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+   "ts": 1793779200,
+   "zh": "OpenAI自动发现并修复948个Linux内核漏洞",
+   "brief": "OpenAI构建自主流水线，发现、验证并生成948个Linux内核本地提权漏洞的补丁。",
+   "why": "展示AI自主完成安全审计的工程能力，可讲AI替代高技能岗位。",
+   "score": 7
+  },
+  {
    "id": "https://openai.com/index/daybreak-red-aws-govcloud",
    "source": "openai",
    "sourceName": "OpenAI",
@@ -140,6 +179,19 @@
    "brief": "Daybreak Red 通过 Amazon Bedrock 向获批客户在 AWS GovCloud（美东）提供 GPT-5.6 Cyber，用于授权网络安全工作。",
    "why": "面向政府与合规场景，提示AI在受监管行业的落地路径。",
    "score": 5
+  },
+  {
+   "id": "https://openai.com/index/devrev-enterprise-self-service",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "link": "https://openai.com/index/devrev-enterprise-self-service",
+   "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+   "ts": 1793750400,
+   "zh": "DevRev用GPT-6.1 Sol实现自主自助服务",
+   "brief": "DevRev用GPT-6.1 Sol驱动Computer和Operator，在推理、速度与成本间平衡企业服务。",
+   "why": "企业客服自助化的落地案例，可讲AI降本与选型权衡。",
+   "score": 8
   },
   {
    "id": "https://huggingface.co/blog/allenai/statebench",
@@ -5392,45 +5444,6 @@
    "brief": "Anthropic宣布扩大其Cyber Verification Program网络验证计划。",
    "why": "",
    "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Introducing GLM 5.3 on Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-   "summary": "GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent.",
-   "ts": 1791242717,
-   "zh": "GLM 5.3 上线 Amazon Bedrock",
-   "brief": "智谱 GLM 5.3 在 Amazon Bedrock 上线，753B 参数 MoE 模型，面向编程与长周期智能体任务。",
-   "why": "企业可在 AWS 上直接调用国产大模型，多一个合规选型。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
-   "summary": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.",
-   "ts": 1791221120,
-   "zh": "Claude Opus 5.5与Sonnet 5.5上线AWS GovCloud",
-   "brief": "Anthropic的Claude Opus 5.5和Sonnet 5.5在AWS GovCloud区域通过Amazon Bedrock提供，可配合Claude Code用于受监管及ITAR工作负载。",
-   "why": "受监管行业（政府、国防、金融）也能合规用上顶级AI模型，打开新客户群。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
-   "link": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
-   "summary": "Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking. Describe what you want, and your agent generates executable SageMaker Python SDK v3 code to benchmark, recommend, and compare deployments.",
-   "ts": 1791220999,
-   "zh": "SageMaker推出AI推理优化Agent技能",
-   "brief": "AWS通过Agent Toolkit发布aws-ai-ml技能，让Kiro、Claude Code、Codex等编码Agent具备生成式AI推理优化与基准测试能力。",
-   "why": "开发团队可用AI自动调优推理成本，间接降低企业AI运行开销。",
-   "score": 5
   }
  ]
 }
