@@ -1,5 +1,5 @@
 {
- "updated": 1793861769,
+ "updated": 1793899643,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -23,25 +23,25 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 5,
-   "new": 0
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 13,
-   "new": 0
+   "count": 14,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 10,
-   "new": 0
+   "count": 11,
+   "new": 3
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -59,10 +59,75 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "summary": "",
+   "ts": 1793898316,
+   "zh": "Gemini Omni 1.2 Flash：更快更省，支持更长片段",
+   "brief": "Google DeepMind 发布 Gemini Omni 1.2 Flash，主打快速、低成本与更长视频片段处理。",
+   "why": "多模态模型降价提速，企业做视频/内容自动化成本更低。",
+   "score": 7
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "summary": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+   "ts": 1793898000,
+   "zh": "Gemini Omni 1.2 Flash 官方宣传图发布",
+   "brief": "Google AI 发布 Gemini Omni 1.2 Flash 宣传图，配以蜂巢、动物对话、鱿鱼等图像。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+   "link": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+   "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers. […]",
+   "ts": 1793894405,
+   "zh": "NVIDIA 工程师谈开源模型如何让 AI 变简单",
+   "brief": "NVIDIA 介绍其深度学习产品研究工程师 Chris Alexiuk 推广开源大模型应用的故事。",
+   "why": "开源模型降低企业自建 AI 门槛，可作选型参考。",
+   "score": 5
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+   "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+   "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. […]",
+   "ts": 1793894400,
+   "zh": "NVIDIA 全栈协同设计应对 AI 内存挑战",
+   "brief": "NVIDIA 称模型变大、上下文变长推高 GPU 显存压力，且供应紧张、价格上涨。",
+   "why": "算力与显存成本上涨，企业需提前评估 AI 基础设施预算。",
+   "score": 7
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+   "summary": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions […]",
+   "ts": 1793887234,
+   "zh": "《霍格沃茨之遗》获 DLSS 5 升级",
+   "brief": "GeForce NOW 上《霍格沃茨之遗》获 DLSS 5 与 3D 神经渲染升级，《魔兽世界》新章节上线。",
+   "why": "",
+   "score": 1
+  },
   {
    "id": "https://arxiv.org/abs/2611.05390",
    "source": "arxiv",
@@ -166,6 +231,32 @@
    "brief": "arXiv论文提出用一次推理完成广告与自然内容联合整页排序的方法。",
    "why": "",
    "score": 1
+  },
+  {
+   "id": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Setting a new standard for responsible AI infrastructure",
+   "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+   "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+   "ts": 1793844000,
+   "zh": "OpenAI 发布负责任 AI 基础设施新标准",
+   "brief": "OpenAI 推出国家社区契约与算力园区政策蓝图，旨在保护本地资源、创造就业。",
+   "why": "AI 基建政策风向，涉及合规与地方关系，值得关注。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/phonon-tts",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "link": "https://huggingface.co/blog/phonon-tts",
+   "summary": "",
+   "ts": 1793836800,
+   "zh": "Phonon TTS：端侧高质量语音合成登顶榜单",
+   "brief": "Hugging Face 介绍 Phonon TTS，可在设备端运行并刷新语音合成基准测试成绩。",
+   "why": "端侧语音方案可降低企业客服/培训语音应用成本与隐私风险。",
+   "score": 6
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/",
@@ -5418,123 +5509,6 @@
    "brief": "AWS介绍用OpenClaw在Bedrock AgentCore上构建能跨对话积累上下文的个人助手。",
    "why": "展示企业AI助手如何把一次性对话变成可检索的持久知识。",
    "score": 7
-  },
-  {
-   "id": "https://openai.com/index/atlassian-partnership",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-   "link": "https://openai.com/index/atlassian-partnership",
-   "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-   "ts": 1791302400,
-   "zh": "Atlassian与OpenAI扩大合作打通企业知识",
-   "brief": "双方扩大合作，将前沿模型与企业知识连接，帮助团队规划、构建和交付工作。",
-   "why": "企业知识库与AI结合是落地重点，可作标杆案例讲给老板。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
-   "link": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
-   "summary": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessment: what it is, how it improves enterprise-wide risk management, and how ISO/IEC 42005:2025 codifies best practices for conducting and documenting these assessments.",
-   "ts": 1791302008,
-   "zh": "AWS 谈 ISO/IEC 42005:2025 责任 AI 治理",
-   "brief": "AWS 介绍其工具如何帮助客户对齐责任 AI 国际标准，并解析 AI 系统影响评估。",
-   "why": "做 AI 治理咨询可引用国际标准，作为合规服务切入点。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Best practices for Amazon SageMaker HyperPod administration and governance",
-   "link": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
-   "summary": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams how to design infrastructure boundaries, govern access, allocate shared capacity, and operate HyperPod consistently across the organization, project, cluster, and workload control layers.",
-   "ts": 1791301823,
-   "zh": "SageMaker HyperPod 管理与治理最佳实践",
-   "brief": "AWS 发布在 Unified Studio 中管理 HyperPod 集群、权限与共享容量的实践指南。",
-   "why": "纯平台运维细节，中小企业老板基本用不上。",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio",
-   "link": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
-   "summary": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools.",
-   "ts": 1791301622,
-   "zh": "SageMaker Studio 可直接管理 HyperPod Spaces",
-   "brief": "数据科学家现可在 SageMaker Studio 中直接创建、启停 HyperPod EKS 上的 Spaces。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic",
-   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
-   "summary": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travelers change seats, check delays, and ask policy questions by voice, while the agent reaches your backend through MCP tools and confirms every change before it writes.",
-   "ts": 1791301542,
-   "zh": "用 Bedrock AgentCore 搭建语音旅行助手",
-   "brief": "AWS 演示用 Bedrock AgentCore、Nova Sonic 和知识库为航司 App 构建语音客服。",
-   "why": "可作为企业语音客服 AI 落地的参考案例。",
-   "score": 6
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-   "link": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-   "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with […]",
-   "ts": 1791291619,
-   "zh": "电信运营商为何押注开源模型做 AI",
-   "brief": "NVIDIA 称电信运营商基于信任、可控与定制需求，正用开源模型构建 AI 战略。",
-   "why": "说明开源模型在企业关键业务中的可行性，可作选型论据。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/jump-trading",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "How Jump Trading is scaling quant research with ChatGPT",
-   "link": "https://openai.com/index/jump-trading",
-   "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-   "ts": 1791288000,
-   "zh": "Jump Trading如何用ChatGPT扩展量化研究",
-   "brief": "OpenAI发布案例，介绍Jump Trading用ChatGPT结合多数据源与人工审核扩展量化研究。",
-   "why": "金融企业用AI做研究的落地案例，适合讲给老板听。",
-   "score": 8
-  },
-  {
-   "id": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Sharing AI progress in mathematics",
-   "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-   "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-   "ts": 1791288000,
-   "zh": "OpenAI分享数学领域AI研究进展",
-   "brief": "OpenAI公布内部前沿模型解决数学开放问题的结果，并在GitHub公开Lean证明形式化。",
-   "why": "展示前沿模型科研能力边界，可作AI能力趋势素材。",
-   "score": 5
-  },
-  {
-   "id": "https://openai.com/index/advancing-computer-use-with-ironclad",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Advancing computer use with Ironclad",
-   "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
-   "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-   "ts": 1791280800,
-   "zh": "OpenAI与Ironclad推进合同流程AI代理",
-   "brief": "OpenAI与Ironclad合作训练和评估AI代理处理复杂合同工作流，推进专业场景的计算机使用。",
-   "why": "合同等专业流程自动化是中小企业可参考的AI落地场景。",
-   "score": 8
   }
  ]
 }
