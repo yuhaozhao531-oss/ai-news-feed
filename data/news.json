@@ -1,11 +1,11 @@
 {
- "updated": 1793922075,
+ "updated": 1793948165,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 4
   },
   "anthropic": {
    "name": "Anthropic",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 13,
-   "new": 1
+   "count": 12,
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 12,
-   "new": 1
+   "count": 11,
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 2
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,114 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2611.06962",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+   "link": "https://arxiv.org/abs/2611.06962",
+   "summary": "arXiv:2611.06962v1 Announce Type: new Abstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional analysis it rests on, has been autoformalized by AI agents. A machine-checked proof certifies only the formal statement it proves, so the remaining human task is to confirm that each formal statement says what was intended. We organize the library around this task: a reviewer compares the formal statem",
+   "ts": 1793941200,
+   "zh": "AI时代反问题的形式化：可能、陷阱与邀请",
+   "brief": "arXiv发布论文，介绍Lean库AutoIP，将经典线性正则化理论形式化。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.06989",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+   "link": "https://arxiv.org/abs/2611.06989",
+   "summary": "arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period. The business question (what did this order, claim, or case cost in AI?) cannot be answered from billing data, because providers never see enterprise transaction boundaries. The FinOps Open Cost and Usage Specification (FOCUS) gives billing data one schema across providers but remains settlement-grai",
+   "ts": 1793941200,
+   "zh": "双账本模型：多智能体AI系统的交易级成本核算",
+   "brief": "arXiv论文提出双账本模型，按交易粒度核算跨云、跨模型的多智能体AI成本。",
+   "why": "AI成本核算颗粒度问题，直接关系企业AI投入的财务可见性。",
+   "score": 7
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.06995",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
+   "link": "https://arxiv.org/abs/2611.06995",
+   "summary": "arXiv:2611.06995v1 Announce Type: new Abstract: Artificial intelligence (AI) systems have ushered in a new age of proof abundance, but helping humans understand these proofs requires new attention to the differences in how AI agents and humans pursue a proof-making task. We present \"simulated collaboration\", a methodology that allows us to examine two key questions: (1) the relative attention AI agents pay to surface syntax or, conversely, deeper underlying semantics, and (2) how and where AI agent preferences for what to do next diverge from human preferences. On a set of nine major human col",
+   "ts": 1793941200,
+   "zh": "自主AI智能体在证明形式化中系统性偏离人类偏好",
+   "brief": "arXiv研究比较AI智能体与人类在证明构建任务中的行为差异。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.06996",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
+   "link": "https://arxiv.org/abs/2611.06996",
+   "summary": "arXiv:2611.06996v1 Announce Type: new Abstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or measured. We empirically characterize the Trust Responsive Authorization Policy (TRAP), which maps an Authorization Readiness Score (ARS), a weighted combination of runtime trust, operational stability, and contextual risk, onto discrete authorization levels through an asymmetric rule: escalation requires consecutive observations above a band edge plus a margin, while a sharp drop in readiness restricts authority at once",
+   "ts": 1793941200,
+   "zh": "面向智能体AI的信任响应式运行时授权",
+   "brief": "arXiv论文实证刻画TRAP授权策略，将智能体运行时状态映射为操作权限。",
+   "why": "智能体权限管控机制，对企业AI治理与风控有参考价值。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.07048",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
+   "link": "https://arxiv.org/abs/2611.07048",
+   "summary": "arXiv:2611.07048v1 Announce Type: new Abstract: Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, how quickly could they improve, and how can that improvement remain safe? We develop a theoretical framework comparing Darwinian, Lamarckian, and agent-directed evolution following environmental change. Darwinian evolution relies on natural selection, Lamarckian evolution adds inherited learning, and a",
+   "ts": 1793941200,
+   "zh": "适应之适应：AI中的达尔文、拉马克与智能体导向演化",
+   "brief": "arXiv论文探讨AI智能体自我修改与评估行为带来的演化路径问题。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.07051",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Closed-Loop Agent Evaluation: Layered Measurement and Self-Calibration",
+   "link": "https://arxiv.org/abs/2611.07051",
+   "summary": "arXiv:2611.07051v1 Announce Type: new Abstract: Once an agent is live, teams want to know whether it is doing its job, not just whether it throws errors. Yet most evaluation is one-off: a benchmark run, a look at traces, a single score. Its conclusions neither check themselves nor reach the agent. We propose closed-loop evaluation, an evaluation method for deployed agents. It models evaluation as performance estimation under biased raters and censored outcomes, and it requires every level's conclusion to trace back to atomic data and to be computed by versioned rules. The method covers four le",
+   "ts": 1793941200,
+   "zh": "闭环智能体评估：分层测量与自校准",
+   "brief": "arXiv论文提出智能体上线后的分层评估与自校准方法，替代一次性评测。",
+   "why": "解决企业AI上线后“是否真在干活”的持续评估难题。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.07066",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Cooperative Multi-Agent Reinforcement Learning via Epigraph-Form Guided Exploration",
+   "link": "https://arxiv.org/abs/2611.07066",
+   "summary": "arXiv:2611.07066v1 Announce Type: new Abstract: Discovering cooperative behavior in multi-agent reinforcement learning (MARL) is challenging due to the combinatorial complexity of joint state-action spaces, which hinders the emergence of coordinated behaviors from trial-and-error alone. Intrinsic rewards are often used to aid discovery, but naively combining them with team objectives can distort the learning signal, compromising task performance. In this paper, we propose EFXPLORER, a constrained exploration framework that maximizes exploration objectives subject to a constraint that preserves",
+   "ts": 1793941200,
+   "zh": "基于上镜图引导探索的合作多智能体强化学习",
+   "brief": "arXiv论文用上镜图形式引导探索，提升多智能体强化学习的协作行为发现。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.07073",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "When Verification Is Not Agreement: Cross-Agent LLM-to-Dafny Formalization",
+   "link": "https://arxiv.org/abs/2611.07073",
+   "summary": "arXiv:2611.07073v1 Announce Type: new Abstract: A verified Dafny postcondition certifies that a formula holds, but it does not guarantee that the result was reached through genuine independent reasoning. We introduce a cross-agent formalization protocol where a Specifier model translates clinical trial criteria into a Dafny predicate, and an Implementer model writes an operational method checked against it. A same-model control establishes that even with no capability gap, independent re-extraction from identical text agrees only 59.3% of the time. Evaluating four model configurations on 96 cl",
+   "ts": 1793941200,
+   "zh": "验证不等于共识：跨智能体LLM到Dafny形式化",
+   "brief": "arXiv论文提出跨智能体形式化协议，用Specifier模型翻译临床文本并验证。",
+   "why": "",
+   "score": 2
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/",
    "source": "aws-ml",
@@ -88,6 +192,19 @@
    "brief": "NVIDIA 称 Agent 任务在 GPU 推理与 CPU 执行间切换，Vera 面向 AI 工厂的 CPU 需求。",
    "why": "提示企业评估 Agent 部署时需关注 CPU 配套，而非只买 GPU。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/index/cultfit-builds-with-codex",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Cult.fit builds operational muscle with Codex",
+   "link": "https://openai.com/index/cultfit-builds-with-codex",
+   "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+   "ts": 1793908800,
+   "zh": "Cult.fit用Codex打造运营能力",
+   "brief": "OpenAI案例：Cult.fit用Codex帮助各部门构建工具、加快工作节奏。",
+   "why": "企业跨部门用AI编程工具提效的落地案例，可作培训素材。",
+   "score": 7
   },
   {
    "id": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
@@ -140,6 +257,19 @@
    "brief": "Google AI 发布 Gemini Omni 1.2 Flash 宣传图，配以蜂巢、动物对话、鱿鱼等图像。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Australian universities are creating AI-native graduates",
+   "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+   "ts": 1793898000,
+   "zh": "澳大利亚高校培养AI原生毕业生",
+   "brief": "OpenAI称澳多所高校扩大ChatGPT使用，将AI引入教学以备战AI职场。",
+   "why": "预示未来员工AI素养基线提升，影响企业招聘与培训预期。",
+   "score": 6
   },
   {
    "id": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
@@ -324,6 +454,19 @@
    "score": 6
   },
   {
+   "id": "https://openai.com/ads/customers/flipsnack",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Flipsnack grows product signups with conversion optimization",
+   "link": "https://openai.com/ads/customers/flipsnack",
+   "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+   "ts": 1793839515,
+   "zh": "Flipsnack用转化优化提升产品注册",
+   "brief": "OpenAI案例：Flipsnack用ChatGPT广告聚焦试用转化，注册增长且单注册成本下降。",
+   "why": "AI广告投放降本获客的案例，可讲给关注增长的老板。",
+   "score": 5
+  },
+  {
    "id": "https://huggingface.co/blog/phonon-tts",
    "source": "huggingface",
    "sourceName": "Hugging Face",
@@ -335,6 +478,19 @@
    "brief": "Hugging Face 介绍 Phonon TTS，可在设备端运行并刷新语音合成基准测试成绩。",
    "why": "端侧语音方案可降低企业客服/培训语音应用成本与隐私风险。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/index/franklin-templeton",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Franklin Templeton uses OpenAI to support investment research",
+   "link": "https://openai.com/index/franklin-templeton",
+   "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+   "ts": 1793836800,
+   "zh": "富兰克林邓普顿用OpenAI支持投资研究",
+   "brief": "OpenAI案例：该机构从股票研究入手，开发AI工作流辅助组合经理比较观点、评估风险。",
+   "why": "金融企业AI工作流落地样本，适合讲AI如何嵌入专业岗位。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/",
@@ -5431,136 +5587,6 @@
    "brief": "丽笙与埃森哲合作，用 OpenAI 技术构建 ChatGPT 插件，帮助旅客在规划行程时查找、比较和预订酒店。",
    "why": "酒店业AI获客案例，可讲行业落地思路。",
    "score": 6
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.06910",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
-   "link": "https://arxiv.org/abs/2610.06910",
-   "summary": "arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly from sparse user queries often forces coding agents to make underspecified assumptions, yielding incompl",
-   "ts": 1791345600,
-   "zh": "GAMEGO：用合成轨迹训练游戏开发智能体",
-   "brief": "arXiv新论文提出GAMEGO方法，用锚定真实资产的合成轨迹训练游戏开发AI智能体。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.06914",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
-   "link": "https://arxiv.org/abs/2610.06914",
-   "summary": "arXiv:2610.06914v1 Announce Type: new Abstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while ",
-   "ts": 1791345600,
-   "zh": "Text2Dashboard：企业数据自然语言生成仪表盘",
-   "brief": "arXiv论文提出面向企业数据、由自然语言生成可审查仪表盘的受治理智能体架构。",
-   "why": "展示企业数据分析智能体的可控落地思路，可作案例讲。",
-   "score": 6
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.06923",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
-   "link": "https://arxiv.org/abs/2610.06923",
-   "summary": "arXiv:2610.06923v1 Announce Type: new Abstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable functions through a conversational interface. A large-language-model controller maps clinical inten",
-   "ts": 1791345600,
-   "zh": "RadOnc-Agent：放疗全流程LLM编排框架",
-   "brief": "arXiv论文提出用LLM编排放疗护理路径各阶段AI工作流的框架。",
-   "why": "垂直医疗行业AI流程整合案例，可类比其他行业。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.06964",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Principles that Guide, Actions that Inform: Agent Evolution via Knowledge Abstraction",
-   "link": "https://arxiv.org/abs/2610.06964",
-   "summary": "arXiv:2610.06964v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in interactive environments, yet their ability to continually evolve from experience remains limited. Although fine-tuning enables adaptation, its dependence on parameter access and high computational costs restrict its flexibility, especially for large-scale and closed-source LLMs. External memory offers an alternative by allowing agents to accumulate experience without modifying model parameters. However, existing methods mainly focus on experience representation and organi",
-   "ts": 1791345600,
-   "zh": "智能体进化：通过知识抽象实现经验学习",
-   "brief": "arXiv论文提出让LLM智能体通过知识抽象从经验中持续进化的方法。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.06971",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems",
-   "link": "https://arxiv.org/abs/2610.06971",
-   "summary": "arXiv:2610.06971v1 Announce Type: new Abstract: Traditional data pipelines are notoriously brittle, often failing due to upstream schema drift, API contract changes, or website DOM modifications. Present observability tools only raise alerts but for human engineers, resulting in a high Mean Time to Repair (MTTR) and operational fatigue. In this paper we propose AegisFlow (Agentic Engine for Intelligent Self-healing and Graph-driven Operations for Workload remediation), a novel agentic framework that closes the loop between detection and resolution. AegisFlow uses a Watchdog agent to collect ru",
-   "ts": 1791345600,
-   "zh": "AegisFlow：脆弱数据生态的自愈多智能体框架",
-   "brief": "arXiv论文提出多智能体框架，自动修复数据管道因模式漂移等导致的故障。",
-   "why": "数据管道自愈能力对企业IT运维降本有参考价值。",
-   "score": 6
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.06986",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "EPOCH: Reliable Discovery through Evidence-Governed Search",
-   "link": "https://arxiv.org/abs/2610.06986",
-   "summary": "arXiv:2610.06986v1 Announce Type: new Abstract: AI research agents are increasingly used to search over programs, mathematical constructions, and proofs. However, existing systems typically optimize evaluator feedback without adequately governing how that feedback is interpreted, challenged, and reused. As a result, promising but fragile candidates can be promoted as discoveries, while benchmark improvements, finite certificates, and theorem-level claims are too easily conflated. We introduce EPOCH, an evidence-governed architecture designed to close this gap. EPOCH implements an evidence-gove",
-   "ts": 1791345600,
-   "zh": "EPOCH：证据治理的可靠发现搜索",
-   "brief": "arXiv论文提出通过证据治理机制提升AI研究智能体搜索可靠性的方法。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.07004",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Topology-Consistent Task Planning over Cellular Workflow Complexes for LLM-based Agents",
-   "link": "https://arxiv.org/abs/2610.07004",
-   "summary": "arXiv:2610.07004v1 Announce Type: new Abstract: Task planning for LLM agents requires workflows that satisfy both user intent and complex sub-task dependencies. While existing planners work well for sequential or directed acyclic graph (DAG)-like structures, they struggle with workflow patterns such as verification-correction loops, convergent branch merging, and reusable intermediate states that arise naturally in real-world tool orchestration. We present TopoPlanner, a topology-consistent planning framework that lifts tool dependency graphs into cellular workflow complexes and uses them as t",
-   "ts": 1791345600,
-   "zh": "面向LLM智能体的蜂窝工作流拓扑一致规划",
-   "brief": "arXiv论文提出在蜂窝工作流复合体上做拓扑一致任务规划的方法。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.07026",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Offline AI Modules: Voice-First Offline Architecture, Hardware Reference Stack, Quantization and Benchmarking",
-   "link": "https://arxiv.org/abs/2610.07026",
-   "summary": "arXiv:2610.07026v1 Announce Type: new Abstract: The Offline AI Modules workstream enables practical, low-power, and community-accessible deployment of voice-first AI systems that operate fully offline. Designed for African language communities where speech is the dominant mode of interaction and internet connectivity is unreliable or absent, the workstream delivers three reinforcing components: a modular voice-first offline architecture, a low-cost hardware reference bill of materials, and a reproducible quantization and a reproducible quantization and benchmarking pipeline for instruction-tun",
-   "ts": 1791345600,
-   "zh": "离线AI模块：语音优先离线架构与量化基准",
-   "brief": "arXiv论文介绍可完全离线运行的语音优先AI模块架构、硬件栈与量化基准。",
-   "why": "离线部署方案对数据敏感或网络差的企业有参考。",
-   "score": 4
-  },
-  {
-   "id": "https://openai.com/index/gpt-6-for-everyone",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "GPT-6 and Intelligent UI for everyone",
-   "link": "https://openai.com/index/gpt-6-for-everyone",
-   "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-   "ts": 1791331200,
-   "zh": "GPT-6 与智能界面全球上线",
-   "brief": "GPT-6 在全球 ChatGPT 中推出，配合 Intelligent UI，提供更快响应、可视化与可交互体验。",
-   "why": "模型能力升级，需评估对现有AI方案的影响。",
-   "score": 8
-  },
-  {
-   "id": "https://www.anthropic.com/claude-haiku-5-5",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Introducing Claude Haiku 5.5",
-   "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "summary": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.",
-   "ts": 1791331200,
-   "zh": "Anthropic发布Claude Haiku 5.5",
-   "brief": "Claude Haiku 5.5是Anthropic最快最强的小模型，面向摘要、子智能体和浏览器使用等高并发场景。",
-   "why": "小模型适合企业高并发低成本场景，值得评估替换方案。",
-   "score": 8
   }
  ]
 }
