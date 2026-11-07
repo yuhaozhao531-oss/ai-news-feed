@@ -1,5 +1,5 @@
 {
- "updated": 1794031660,
+ "updated": 1794057183,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5483,45 +5483,6 @@
    "brief": "OpenAI 介绍 Oracle 在招聘、工程和运营中用 ChatGPT 与 Codex 把专家经验变成可复用工作流。",
    "why": "大企业落地样板，可作培训中讲 AI 提效的现成案例。",
    "score": 8
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
-   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
-   "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through […]",
-   "ts": 1791464446,
-   "zh": "GeForce NOW 上线《战争机器：E-Day》",
-   "brief": "英伟达云游戏平台 GeForce NOW 本周上线《战争机器：E-Day》，并预告 Fire TV 将支持购买会员。",
-   "why": "",
-   "score": 1
-  },
-  {
-   "id": "https://openai.com/index/pollo-ai",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-   "link": "https://openai.com/index/pollo-ai",
-   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-   "ts": 1791460800,
-   "zh": "Pollo AI 用 OpenAI 模型生成广告素材",
-   "brief": "Pollo AI 借助 GPT-5.6、GPT-6 Astra 和 GPT-Image-2.5，把创意想法转成图像和电影级视频广告。",
-   "why": "营销素材生成案例，可讲 AI 如何压缩创意制作成本。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/legalon-halves-codex-costs",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "LegalOn halves Codex costs while maintaining development speed",
-   "link": "https://openai.com/index/legalon-halves-codex-costs",
-   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-   "ts": 1791460800,
-   "zh": "LegalOn用Codex成本降65%且不降开发速度",
-   "brief": "LegalOn通过按任务匹配不同模型并管理预算，把Codex日均成本估算降低65%。",
-   "why": "给老板讲AI降本：模型分级调度是可直接抄的做法。",
-   "score": 9
   }
  ]
 }
