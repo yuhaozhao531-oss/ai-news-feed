@@ -1,5 +1,5 @@
 {
- "updated": 1794057183,
+ "updated": 1794079708,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5444,45 +5444,6 @@
    "brief": "英伟达介绍开发者结合前沿AI模型与Omniverse库，把仿真想法变成可运行应用。",
    "why": "制造业/工程类企业可关注仿真与数字孪生的落地路径。",
    "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
-   "link": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
-   "summary": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay BlockRun for model inference one request at a time over x402, cutting the work of adding x402 payment support from months to days.",
-   "ts": 1791484409,
-   "zh": "Bedrock AgentCore 推出按次付费功能",
-   "brief": "AWS 发布 Bedrock AgentCore payments，让 AI 智能体按需付费调用服务，并由基础设施强制消费限额。",
-   "why": "智能体自动付费有了合规管控方案，可评估企业自动化采购场景。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
-   "link": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
-   "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback.",
-   "ts": 1791476404,
-   "zh": "SageMaker HyperPod 多团队共享 GPU 集群方案",
-   "brief": "AWS 发布参考架构，用 IAM、命名空间和任务治理实现多团队安全共享一个 HyperPod 集群。",
-   "why": "GPU 成本高，多团队共享与成本分摊方案对降本有直接参考价值。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/oracle",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-   "link": "https://openai.com/index/oracle",
-   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-   "ts": 1791475200,
-   "zh": "Oracle 用 ChatGPT 和 Codex 提效案例",
-   "brief": "OpenAI 介绍 Oracle 在招聘、工程和运营中用 ChatGPT 与 Codex 把专家经验变成可复用工作流。",
-   "why": "大企业落地样板，可作培训中讲 AI 提效的现成案例。",
-   "score": 8
   }
  ]
 }
