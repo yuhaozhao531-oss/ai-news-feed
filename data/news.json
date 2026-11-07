@@ -1,11 +1,11 @@
 {
- "updated": 1794006860,
+ "updated": 1794031660,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -17,7 +17,7 @@
    "name": "Anthropic 工程博客",
    "ok": true,
    "count": 1,
-   "new": 1
+   "new": 0
   },
   "deepmind": {
    "name": "Google DeepMind",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 7
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,7 +58,7 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
@@ -5522,71 +5522,6 @@
    "brief": "LegalOn通过按任务匹配不同模型并管理预算，把Codex日均成本估算降低65%。",
    "why": "给老板讲AI降本：模型分级调度是可直接抄的做法。",
    "score": 9
-  },
-  {
-   "id": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Disrupting AI-enabled “false front” operations",
-   "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-   "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-   "ts": 1791417600,
-   "zh": "OpenAI 打击 AI 虚假媒体影响行动",
-   "brief": "OpenAI 封禁两个利用假记者和智库身份传播地缘政治信息的 AI 影响行动。",
-   "why": "提示企业使用 AI 生成内容的合规与声誉风险。",
-   "score": 6
-  },
-  {
-   "id": "https://www.anthropic.com/news/genesis-mission-commitment",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Building on our commitment to American scientific discovery",
-   "link": "https://www.anthropic.com/news/genesis-mission-commitment",
-   "summary": "Building on our commitment to American scientific discovery",
-   "ts": 1791417600,
-   "zh": "Anthropic 重申支持美国科学发现",
-   "brief": "Anthropic 发文重申其支持美国科学发现的承诺，未披露具体新举措。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://www.anthropic.com/news/2026-usage-policy-update",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "2026 Usage Policy update",
-   "link": "https://www.anthropic.com/news/2026-usage-policy-update",
-   "summary": "2026 Usage Policy update",
-   "ts": 1791417600,
-   "zh": "Anthropic 发布 2026 使用政策更新",
-   "brief": "Anthropic 公布 2026 年使用政策更新，涉及平台允许与禁止的使用范围。",
-   "why": "企业采购 AI 前需核对使用政策，避免合规踩线。",
-   "score": 7
-  },
-  {
-   "id": "https://www.anthropic.com/news/anthropic-cyber-mission",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Introducing the Anthropic Cyber Mission",
-   "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
-   "summary": "Introducing the Anthropic Cyber Mission",
-   "ts": 1791417600,
-   "zh": "Anthropic推出网络安全使命计划",
-   "brief": "Anthropic发布Cyber Mission，聚焦网络安全方向的AI相关工作。",
-   "why": "安全合规是中小企业上AI的顾虑，可作话题切入。",
-   "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/building-with-ml-intern",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "The model that didn't exist, so you made it yourself",
-   "link": "https://huggingface.co/blog/building-with-ml-intern",
-   "summary": "",
-   "ts": 1791417600,
-   "zh": "Hugging Face：不存在的模型，就自己造一个",
-   "brief": "Hugging Face发布内容，讲述当所需模型不存在时自行构建的做法。",
-   "why": "",
-   "score": 3
   }
  ]
 }
