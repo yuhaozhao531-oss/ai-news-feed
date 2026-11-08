@@ -1,5 +1,5 @@
 {
- "updated": 1794133796,
+ "updated": 1794160658,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -41,7 +41,7 @@
    "name": "NVIDIA",
    "ok": true,
    "count": 12,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -5275,45 +5275,6 @@
    "brief": "Anthropic称非法蒸馏可让开发者复制前沿模型能力，已将该类蒸馏发生率降低90%以上。",
    "why": "提示企业使用第三方模型时的合规与知识产权风险。",
    "score": 5
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "ICYMI: What landed for AI builders in September 2026",
-   "link": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
-   "summary": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.",
-   "ts": 1791560319,
-   "zh": "AWS九月AI构建者更新汇总",
-   "brief": "AWS回顾9月Bedrock、AgentCore与Strands更新：更多模型选择、更快无服务器智能体与自动知识库同步。",
-   "why": "了解云厂商AI工具迭代节奏，判断企业智能体落地成本与可行性。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
-   "summary": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: controlling tool sprawl, exposing schema-based reads, and treating context as the real bottleneck, plus how it runs on Amazon Bedrock at scale.",
-   "ts": 1791560102,
-   "zh": "Postman如何用Bedrock支撑4000万开发者",
-   "brief": "Postman与AWS分享Agent Mode架构：控制工具泛滥、基于schema读取、把上下文当瓶颈。",
-   "why": "大规模AI智能体工程化案例，可作企业落地架构参考。",
-   "score": 8
-  },
-  {
-   "id": "https://huggingface.co/blog/allenai/impactful-scheduling",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Impactful scheduling for GPU clusters",
-   "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
-   "summary": "",
-   "ts": 1791559229,
-   "zh": "GPU集群的高效调度方法",
-   "brief": "Hugging Face发布关于GPU集群调度优化的技术文章。",
-   "why": "",
-   "score": 2
   }
  ]
 }
