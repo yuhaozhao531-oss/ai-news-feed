@@ -1,5 +1,5 @@
 {
- "updated": 1794079708,
+ "updated": 1794098559,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5431,19 +5431,6 @@
    "brief": "arXiv论文发布StoreBench，一个用于评估和训练自主运营智能体的直播电商动态环境。",
    "why": "电商企业可关注AI运营智能体的评测与训练方向。",
    "score": 5
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-   "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-   "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through […]",
-   "ts": 1791493595,
-   "zh": "英伟达Omniverse：开发者用前沿AI智能体做仿真",
-   "brief": "英伟达介绍开发者结合前沿AI模型与Omniverse库，把仿真想法变成可运行应用。",
-   "why": "制造业/工程类企业可关注仿真与数字孪生的落地路径。",
-   "score": 6
   }
  ]
 }
