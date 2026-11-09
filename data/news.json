@@ -1,17 +1,17 @@
 {
- "updated": 1794206756,
+ "updated": 1794253995,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 3,
-   "new": 0
+   "count": 4,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -28,26 +28,26 @@
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 13,
-   "new": 0
+   "count": 14,
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 16,
-   "new": 4
+   "count": 18,
+   "new": 2
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 3
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,123 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Pluggable Agentic AI Framework: A seven-layer composable enterprise agentic AI reference architecture on Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
+   "summary": "A seven-layer composable reference architecture for taking enterprise agentic AI from prototype to production on Amazon Bedrock AgentCore. Each layer has a stable contract, so you can swap technologies at any layer without redesigning the rest of the stack.",
+   "ts": 1794251154,
+   "zh": "AWS发布七层企业智能体参考架构",
+   "brief": "AWS在Bedrock AgentCore上发布七层可组合的企业智能体AI参考架构，各层接口稳定可替换。",
+   "why": "给企业一个可落地的智能体架构蓝图，便于评估技术选型与避免重复建设。",
+   "score": 8
+  },
+  {
+   "id": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "ChatGPT Enterprise now available in AWS Marketplace",
+   "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+   "ts": 1794250800,
+   "zh": "ChatGPT企业版上线AWS Marketplace",
+   "brief": "ChatGPT企业版现可通过AWS Marketplace采购，复用企业已有的AWS采购与账单流程。",
+   "why": "采购流程简化，降低企业引入AI工具的合规与财务门槛。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/",
+   "summary": "CrossnoKaye brought physical AI to heavy industry with Amazon Bedrock AgentCore. Its ATLAS platform and AURA agentic system ground AI reasoning in live plant data and run verifiable Python in isolated AgentCore sandboxes, giving plant engineers checkable, math-backed answers instead of model guesses.",
+   "ts": 1794250543,
+   "zh": "CrossnoKaye用AgentCore落地工业物理AI",
+   "brief": "CrossnoKaye基于Bedrock AgentCore构建ATLAS平台与AURA智能体系统，用实时工厂数据支撑可验证的推理。",
+   "why": "重工业AI落地案例，说明AI可给出可核查的工程答案而非猜测。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Professional work deserves professional tools. Meet AWS Quick.",
+   "link": "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/",
+   "summary": "Introducing AWS Quick, formerly Amazon Quick, and the debut of our first brand campaign celebrating teams who keep business moving. AWS Quick is the AI workspace built only for work, where teams use AI agents to research, analyze, and act across the data and applications they already rely on.",
+   "ts": 1794249810,
+   "zh": "AWS推出AI工作空间AWS Quick",
+   "brief": "AWS将Amazon Quick更名为AWS Quick，定位为专为工作打造的AI工作空间，团队可用智能体研究分析并行动。",
+   "why": "大厂加码企业AI办公入口，老板需关注与现有办公工具的整合。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+   "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+   "summary": "",
+   "ts": 1794236757,
+   "zh": "英伟达发布日本金融合成人物数据集",
+   "brief": "Hugging Face发布Nemotron-Personas-Finance-Japan合成数据集，覆盖日本人口统计与金融场景。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+   "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+   "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in […]",
+   "ts": 1794232801,
+   "zh": "英伟达展示机器人仿真精细操作训练",
+   "brief": "在CoRL上，英伟达及伙伴展示用仿真训练机器人完成齿轮对齐、接线等精细操作任务。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+   "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+   "summary": "",
+   "ts": 1794227669,
+   "zh": "Hugging Face谈如何留住专家人才",
+   "brief": "Hugging Face发文探讨企业与专家合作伙伴关系及留住人才的方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+   "link": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+   "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with […]",
+   "ts": 1794211253,
+   "zh": "英伟达宣布投资韩国AI初创企业",
+   "brief": "韩国科技部与英伟达举办AI初创合作论坛，英伟达宣布对韩国初创企业的新投资计划。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://openai.com/index/kuken",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Kuken Industries searches 70 years of drawings in minutes",
+   "link": "https://openai.com/index/kuken",
+   "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+   "ts": 1794211200,
+   "zh": "Kuken用OpenAI几分钟检索70年图纸",
+   "brief": "Kuken Industries用OpenAI API检索70年冷却塔图纸，维修找图从近1小时降至4.5分钟。",
+   "why": "典型降本增效案例，可直接用于向老板讲AI投资回报。",
+   "score": 9
+  },
   {
    "id": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
    "source": "nvidia",
@@ -114,6 +231,19 @@
    "brief": "英伟达发布针对SK电讯、LG AI研究院、Upstage等韩国开源模型的Dynamo优化部署配方。",
    "why": "开源模型生产部署成本与门槛下降信号",
    "score": 5
+  },
+  {
+   "id": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "summary": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
+   "ts": 1794182400,
+   "zh": "Anthropic发布Claude Fable与Mythos 5.2",
+   "brief": "Anthropic发布面向高难度技术工作的Claude Fable 5.2与Mythos 5.2，称在编程、金融与科学领域创下新标杆。",
+   "why": "新模型能力升级，影响企业AI工具选型与复杂任务自动化边界。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
