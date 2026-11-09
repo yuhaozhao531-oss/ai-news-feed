@@ -1,5 +1,5 @@
 {
- "updated": 1794175976,
+ "updated": 1794206756,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -10,7 +10,7 @@
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 4,
+   "count": 3,
    "new": 0
   },
   "anthropic-eng": {
@@ -40,8 +40,8 @@
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 12,
-   "new": 0
+   "count": 16,
+   "new": 4
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -63,6 +63,58 @@
   }
  },
  "items": [
+  {
+   "id": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+   "link": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+   "summary": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advances Semiconductor Engineering With […]",
+   "ts": 1794200440,
+   "zh": "英伟达助韩国制造业推进物理AI",
+   "brief": "英伟达称正帮助韩国推进物理AI生态，将加速计算、AI与仿真用于半导体制造、机器人和自动驾驶。",
+   "why": "制造业+机器人AI落地路径，可作中小企业智能化参考案例",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+   "link": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+   "summary": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key […]",
+   "ts": 1794200439,
+   "zh": "现代汽车等用英伟达方案做安全智能体",
+   "brief": "现代汽车集团探索英伟达NemoClaw蓝图与OpenShell运行时，AIM Intelligence将Starfort平台与OpenShell集成以支持安全AI。",
+   "why": "智能体安全是企业上AI的关键顾虑，可作落地话题",
+   "score": 7
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+   "link": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+   "summary": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes […]",
+   "ts": 1794200404,
+   "zh": "英伟达与韩国扩大主权AI合作",
+   "brief": "英伟达与韩国科技信息通信部扩大主权AI合作，覆盖AI芯片、数据中心、人才、初创、模型、智能体与安全。",
+   "why": "国家层面AI基建与人才政策，可类比讲企业AI布局",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+   "link": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+   "summary": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing […]",
+   "ts": 1794200400,
+   "zh": "英伟达为韩国开源模型提供部署方案",
+   "brief": "英伟达发布针对SK电讯、LG AI研究院、Upstage等韩国开源模型的Dynamo优化部署配方。",
+   "why": "开源模型生产部署成本与门槛下降信号",
+   "score": 5
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
    "source": "aws-ml",
