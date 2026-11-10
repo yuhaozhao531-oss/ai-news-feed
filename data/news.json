@@ -1,5 +1,5 @@
 {
- "updated": 1794281834,
+ "updated": 1794322729,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -10,8 +10,8 @@
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -22,14 +22,14 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 5,
-   "new": 0
+   "count": 6,
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 4,
+   "new": 2
   },
   "huggingface": {
    "name": "Hugging Face",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 4
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -64,6 +64,71 @@
  },
  "items": [
   {
+   "id": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+   "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+   "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+   "ts": 1794319200,
+   "zh": "谷歌与Adobe整合创意与办公工具",
+   "brief": "谷歌与Adobe宣布整合，可在Drive中编辑PDF，并在Gemini中使用Adobe AI。",
+   "why": "办公套件AI化加速，企业选型时需评估现有工具链的兼容性。",
+   "score": 6
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Google Cloud launches Gemini for healthcare.",
+   "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+   "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+   "ts": 1794315600,
+   "zh": "谷歌云推出医疗版Gemini",
+   "brief": "谷歌云发布面向医疗行业的Gemini，用于统一临床数据并自动化工作流。",
+   "why": "垂直行业AI方案落地，医疗相关企业可参考其流程自动化思路。",
+   "score": 7
+  },
+  {
+   "id": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "ts": 1794312148,
+   "zh": "DeepMind发布AlphaProof Code验证工具",
+   "brief": "AlphaProof Code用Lean编写三百万行证明，验证Signal核心加密代码。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Helping caregivers use AI in everyday life",
+   "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+   "ts": 1794312000,
+   "zh": "OpenAI为照护者提供免费AI培训",
+   "brief": "OpenAI Academy在美国五城为照护者举办免费ChatGPT实操工作坊。",
+   "why": "企业培训可借鉴其场景化、实操式AI素养课程设计。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Closing the AI guidance gap in education",
+   "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+   "ts": 1794301200,
+   "zh": "OpenAI发布教育AI应用指引研究",
+   "brief": "OpenAI联合ThinkYoung发布研究，分享欧洲教育合作中教师AI素养经验。",
+   "why": "企业内训可参考其AI素养与自主学习框架。",
+   "score": 5
+  },
+  {
    "id": "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/",
    "source": "aws-ml",
    "sourceName": "AWS 机器学习",
@@ -75,6 +140,19 @@
    "brief": "AWS 介绍 Quick 中智能体与技能如何配合，把状态更新、发布说明、建单等重复任务编码化，并支持团队共享技能。",
    "why": "提示企业可把重复性流程固化为可复用的 AI 技能，降低落地门槛。",
    "score": 6
+  },
+  {
+   "id": "https://www.anthropic.com/news/roadshow-launch",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Anthropic launches roadshow for proposed initial public offering",
+   "link": "https://www.anthropic.com/news/roadshow-launch",
+   "summary": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+   "ts": 1794268800,
+   "zh": "Anthropic启动IPO路演",
+   "brief": "Anthropic PBC启动A类普通股拟首次公开募股的路演。",
+   "why": "头部AI公司资本化，预示企业AI供应商格局与投入将持续扩大。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
