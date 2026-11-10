@@ -1,5 +1,5 @@
 {
- "updated": 1794322729,
+ "updated": 1794345614,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -11,7 +11,7 @@
    "name": "Anthropic",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -22,32 +22,32 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 6,
-   "new": 1
+   "count": 7,
+   "new": 2
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 4,
-   "new": 2
+   "count": 5,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 14,
-   "new": 0
+   "count": 15,
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 3
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,84 @@
   }
  },
  "items": [
+  {
+   "id": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Gemini Intelligence: New features, on more devices",
+   "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+   "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+   "ts": 1794337200,
+   "zh": "Gemini Intelligence 登陆更多设备",
+   "brief": "谷歌宣布 Gemini Intelligence 新功能扩展至更多设备。",
+   "why": "员工日常设备上的AI助手能力升级，影响办公效率与工具选型。",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+   "summary": "Learn how Trovata built autonomous treasury agents on Amazon Bedrock and Amazon Bedrock AgentCore, using an RBAC-secured architecture for bank-branded AI deployment and agentic workflows that move corporate treasury from manual operations to real-time decision-making at enterprise scale.",
+   "ts": 1794334268,
+   "zh": "Trovata 在 Bedrock 上构建自主资金代理",
+   "brief": "Trovata 基于 Amazon Bedrock 与 AgentCore 构建自主资金管理代理，采用 RBAC 安全架构。",
+   "why": "财务资金管理可自动化的落地样板，适合讲给老板听。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How TCS built an agentic test orchestrator with Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/",
+   "summary": "Tata Consultancy Services (TCS) built an agentic test orchestrator on Amazon Bedrock AgentCore that turns requirements into executable, governed tests for its Banking, Financial Services, and Insurance (BFSI) clients. Learn how specialized agents, per-tenant isolation, and workload-aware execution cut testing effort by 88% in an internal benchmark.",
+   "ts": 1794329983,
+   "zh": "TCS 用 AgentCore 构建智能测试编排器",
+   "brief": "TCS 基于 Amazon Bedrock AgentCore 构建代理式测试编排器，服务金融保险客户。",
+   "why": "测试环节AI化案例，可类比中小企业研发提效路径。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Amazon Bedrock tokenomics data lake",
+   "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake/",
+   "summary": "Running Amazon Bedrock across many accounts shows you the bill but not what happened inside each call. This post builds a centralized observability data lake that aggregates Bedrock invocation logs from every linked account into one queryable table, so you can see prompts, token counts, model choice, and per-invocation cost across your organization.",
+   "ts": 1794329796,
+   "zh": "Bedrock 令牌用量数据湖方案",
+   "brief": "介绍如何汇总多账号 Bedrock 调用日志，构建可查询的集中观测数据湖。",
+   "why": "AI成本与用量可观测，直接对应老板关心的AI投入产出。",
+   "score": 6
+  },
+  {
+   "id": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Gemini 4 Carbon is now available",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "summary": "",
+   "ts": 1794326627,
+   "zh": "Gemini 4 Carbon 现已发布",
+   "brief": "谷歌 DeepMind 宣布 Gemini 4 Carbon 模型可用。",
+   "why": "新模型发布，需评估能力与成本是否值得企业跟进。",
+   "score": 6
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+   "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+   "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA […]",
+   "ts": 1794326403,
+   "zh": "英伟达捐赠 OpenShell 扩展开源承诺",
+   "brief": "英伟达在 KubeCon 宣布捐赠 OpenShell 并推出新AI基础设施。",
+   "why": "AI基础设施生态动向，偏技术，老板关注度有限。",
+   "score": 3
+  },
   {
    "id": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
    "source": "google-ai",
@@ -116,6 +194,19 @@
    "score": 6
   },
   {
+   "id": "https://openai.com/index/introducing-businesses-chatgpt",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Introducing Businesses in ChatGPT",
+   "link": "https://openai.com/index/introducing-businesses-chatgpt",
+   "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+   "ts": 1794304800,
+   "zh": "ChatGPT 推出企业商家功能",
+   "brief": "OpenAI 上线 Businesses in ChatGPT，可管理企业信息并获取洞察。",
+   "why": "企业可在ChatGPT内被客户发现，影响获客与品牌曝光。",
+   "score": 7
+  },
+  {
    "id": "https://openai.com/index/closing-ai-guidance-gap-education",
    "source": "openai",
    "sourceName": "OpenAI",
@@ -127,6 +218,19 @@
    "brief": "OpenAI联合ThinkYoung发布研究，分享欧洲教育合作中教师AI素养经验。",
    "why": "企业内训可参考其AI素养与自主学习框架。",
    "score": 5
+  },
+  {
+   "id": "https://openai.com/index/ai-effect-on-freelance-work",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Work at the Frontier: AI’s effect on freelance work",
+   "link": "https://openai.com/index/ai-effect-on-freelance-work",
+   "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+   "ts": 1794294000,
+   "zh": "OpenAI 研究：AI 对自由职业的影响",
+   "brief": "OpenAI 与 Upwork 研究显示AI相关项目预算与工时增加、技能需求变化。",
+   "why": "用工与人才结构变化的一手数据，适合HR与老板参考。",
+   "score": 8
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/",
@@ -153,6 +257,32 @@
    "brief": "Anthropic PBC启动A类普通股拟首次公开募股的路演。",
    "why": "头部AI公司资本化，预示企业AI供应商格局与投入将持续扩大。",
    "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/hub-gcp-marketplace",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+   "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+   "summary": "",
+   "ts": 1794268800,
+   "zh": "Hugging Face 支持谷歌云账户付费",
+   "brief": "Hugging Face Hub 现可用 Google Cloud 账户支付。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://huggingface.co/blog/decision",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Decision Models in Hugging Face",
+   "link": "https://huggingface.co/blog/decision",
+   "summary": "",
+   "ts": 1794268800,
+   "zh": "Hugging Face 上线决策模型",
+   "brief": "Hugging Face 推出 Decision Models 相关功能。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
@@ -192,6 +322,19 @@
    "brief": "120B 参数多模态视觉语言模型 Nemotron 3.5 Super VL 在 SageMaker JumpStart 上线，支持文本、图像、视频推理。",
    "why": "文档智能与多模态智能体有了新部署选项，可评估场景。",
    "score": 5
+  },
+  {
+   "id": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "ts": 1794253907,
+   "zh": "Gemini Robotics 2.5 提升真实世界灵巧性",
+   "brief": "谷歌 DeepMind 发布视觉-语言-动作模型 Gemini Robotics 2.5，提升机器人灵巧度与安全性。",
+   "why": "机器人方向前沿，多数中小企业短期难落地。",
+   "score": 4
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
