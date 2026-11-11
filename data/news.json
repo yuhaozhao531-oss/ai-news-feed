@@ -1,16 +1,16 @@
 {
- "updated": 1794345614,
+ "updated": 1794379005,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 3
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "new": 0
   },
   "anthropic-eng": {
@@ -23,19 +23,19 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 7,
-   "new": 2
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
    "count": 5,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 15,
-   "new": 2
+   "count": 16,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -58,11 +58,206 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+   "ts": 1794441600,
+   "zh": "OpenAI对话律所CEO谈AI重塑法律业务",
+   "brief": "OpenAI发布与Gilbert+Tobin律所合伙人兼CEO Sam Nickless的对话，谈AI如何改变法律业务。",
+   "why": "律所是知识密集型行业样板，可类比讲专业服务机构如何用AI重构业务。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "ts": 1794384000,
+   "zh": "ChatGPT Plus向退伍军人免费提供一年",
+   "brief": "OpenAI称已有超2万名退伍军人及转业军人领取免费一年ChatGPT Plus，用于准备平民职业。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://huggingface.co/blog/qvac/botpsy",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "link": "https://huggingface.co/blog/qvac/botpsy",
+   "summary": "",
+   "ts": 1794373276,
+   "zh": "BotPsy：端侧十亿参数以下智能助手",
+   "brief": "Hugging Face发布BotPsy，一个基于十亿参数以下智能体语言模型的端侧个人助理。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.12933",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+   "link": "https://arxiv.org/abs/2611.12933",
+   "summary": "arXiv:2611.12933v1 Announce Type: new Abstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lower this barrier, although sustained operation on physical instruments remains largely unexplored. Here, using coding-agent infrastructure grounded in validated scientific methods, we demonstrate autonomous synchrotron X-ray experiments on nanoparticle superlattices under evolving, human-defined objectives. Complete human-agent and agent-agent transcripts enable an audit that reconstructs decision prove",
+   "ts": 1794373200,
+   "zh": "可审计人机团队用于自主X射线实验",
+   "brief": "arXiv新论文提出可审计的人机协作团队框架，用于自主X射线实验的闭环运行。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.12934",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+   "link": "https://arxiv.org/abs/2611.12934",
+   "summary": "arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inputs, leaving out the raw multi-sensor archives where such analysis begins. We introduce EarthRecord, a benchmark built on the raw record of 56 sites: four decades of Landsat, MODIS, VIIRS, and Sentinel-2 data, with cloud masking and ",
+   "ts": 1794373200,
+   "zh": "EarthRecord：多模态智能体分析四十年卫星影像",
+   "brief": "arXiv论文提出EarthRecord，用多模态智能体将四十年卫星影像转化为土地变化分析。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.12941",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AI Governance Should Prioritize Control and Knowledge Boundaries Over Limiting Intelligence",
+   "link": "https://arxiv.org/abs/2611.12941",
+   "summary": "arXiv:2611.12941v1 Announce Type: new Abstract: The rapid proliferation of autonomously acting AI agents makes the governance of agentic systems urgent. We propose the competence circuit, summarized as IKC + KC + C, that decomposes an agent's real-world impact into three pathways: intelligence-mediated discovery, procedural know-how, and direct control. Using the canonical fast-takeoff debate as a stress test, we formalize the conditions for intelligence-mediated fast takeoff as a conjunction jointly sufficient for fast catastrophic supremacy, showing that most rely on rapid knowledge acquisit",
+   "ts": 1794373200,
+   "zh": "AI治理应优先管控制与知识边界而非限制智能",
+   "brief": "arXiv论文提出“能力回路”框架，主张AI智能体治理应聚焦控制与知识边界而非限制智能水平。",
+   "why": "给企业AI治理与风险边界提供思路，可用于合规话题内容。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.12953",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Agent Architecture Cost-Success Trade-offs: A Controlled Evaluation across Enterprise-Style SOPs",
+   "link": "https://arxiv.org/abs/2611.12953",
+   "summary": "arXiv:2611.12953v1 Announce Type: new Abstract: Enterprises increasingly use large language model agents to execute standard operating procedures (SOPs): long, branching, tool-intensive workflows. Yet there is little controlled evidence for choosing among competing agentic architectures. Holding the model, tasks, and tools fixed and varying only the architecture, we compare four designs (a function-calling single agent, a skill-augmented agent, centralized multi-agent orchestration, and a triage swarm; eight arms) across 13 enterprise SOPs, and introduce a skill-definition quality rubric to bu",
+   "ts": 1794373200,
+   "zh": "企业SOP场景下智能体架构成本与成功率权衡",
+   "brief": "arXiv论文在统一条件下对比多种LLM智能体架构执行企业式SOP流程的成本与成功率。",
+   "why": "直接回答企业选哪种Agent架构更划算，适合做落地选型内容。",
+   "score": 8
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.12958",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Embodied Science Agents: Making Embodied Experimental Design Learnable",
+   "link": "https://arxiv.org/abs/2611.12958",
+   "summary": "arXiv:2611.12958v1 Announce Type: new Abstract: Recent advances in large models have accelerated AI for Science toward agentic science, where AI agents autonomously conduct scientific discovery. Realising this vision requires closing the loop between computational reasoning and physical experimentation, positioning self-driving laboratories (SDLs) as critical enablers. However, existing SDLs exhibit a fundamental paradox: foundation model integration has increased linguistic sophistication while severing physical grounding. By treating models as disembodied planners that output symbolic workfl",
+   "ts": 1794373200,
+   "zh": "具身科学智能体：让具身实验设计可学习",
+   "brief": "arXiv论文探讨具身科学智能体，打通计算推理与物理实验闭环，使实验设计可学习。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.12959",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Monitoring One Channel Is Not Communication Control: Causal Evidence for Adaptive Reallocation of Joint Message--Route Codes",
+   "link": "https://arxiv.org/abs/2611.12959",
+   "summary": "arXiv:2611.12959v1 Announce Type: new Abstract: Monitoring a visible channel can change how learned agents communicate without removing why communication is useful. We test this distinction in an end-to-end game where a sender and receiver learn a discrete protocol and route policy without communication supervision. In two independent 20-seed batches, 20/20 and 19/20 protocols form. Online partial coverage increases shadow-route share over no monitoring by .701 [.574,.826] and .575 [.412,.737], while task accuracy remains .905/.913 and signed frozen message contribution remains .592/.563. Comp",
+   "ts": 1794373200,
+   "zh": "监控单一信道不等于通信控制",
+   "brief": "arXiv论文通过因果实验证明，监控可见信道会改变智能体通信方式，但不消除通信价值。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.12966",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "BuySideFlow: A Point-in-Time Benchmark for LLM Agents in Investment Research",
+   "link": "https://arxiv.org/abs/2611.12966",
+   "summary": "arXiv:2611.12966v1 Announce Type: new Abstract: Large language models (LLMs) can generate SQL and SQL--Python workflows for investment research, but ensuring point-in-time (PIT) validity remains challenging. Agents must enforce disclosure cutoffs and select the appropriate historical states and record versions throughout data retrieval and financial analysis. We introduce \\textsc{BuySideFlow}, a benchmark of 408 practitioner-derived Chinese-language tasks spanning equities, funds, fixed income, and macroeconomics over a fixed snapshot from a licensed production financial database. We provide e",
+   "ts": 1794373200,
+   "zh": "BuySideFlow：投资研究LLM智能体的时点基准",
+   "brief": "arXiv论文发布BuySideFlow基准，评估LLM智能体在投资研究中保证信息时点有效性的能力。",
+   "why": "金融投资场景的AI可靠性评测，可作行业落地案例参考。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.13006",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Seeing Is Not Believing: Counterfactual Lesion Erasure Teaches a Small Medical Vision-Language Agent to Report Only What the Image Shows",
+   "link": "https://arxiv.org/abs/2611.13006",
+   "summary": "arXiv:2611.13006v1 Announce Type: new Abstract: Medical vision-language models (VLMs) often report a finding because the question names it; standard benchmarks miss this. From public segmentation datasets we build counterfactual views without manual annotation: the lesion erased by inpainting, a same-shape control edit elsewhere, and unedited lesion-free images. The evidence sensitivity gap (ESG) is the rate of absent-or-refer answers after erasure minus the rate after the control edit; it is zero for a model that ignores the image or reacts to both edits alike. MedScope-4B (Qwen3.5-4B, LoRA, ",
+   "ts": 1794373200,
+   "zh": "反事实病灶擦除让小医疗视觉模型只报所见",
+   "brief": "arXiv论文用反事实病灶擦除方法训练小型医疗视觉语言智能体，只报告图像中真实存在的内容。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+   "link": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+   "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+   "ts": 1794366020,
+   "zh": "英伟达：AI助回收企业把混合废料变可用材料",
+   "brief": "英伟达介绍视觉AI与机器人从混合可回收物传送带上分拣可回收材料，减少数千吨填埋。",
+   "why": "制造业与循环经济AI落地案例，可讲AI在实体产线的降本增效。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
+   "summary": "Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock. Learn how to get started through the OpenAI-compatible Chat Completions, Responses, and Converse APIs, optimize inference with explicit prompt caching, and use the model as a coding assistant in OpenCode.",
+   "ts": 1794359239,
+   "zh": "Kimi K3.1 Pro 上线 Amazon Bedrock",
+   "brief": "Moonshot AI 的 Kimi K3.1 Pro 现已在 Amazon Bedrock 上提供，支持兼容 OpenAI 的接口与提示缓存。",
+   "why": "国产模型进入主流云平台，企业选型多一个低成本可选项。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/",
+   "summary": "The Web Search API in Amazon Bedrock AgentCore gives agents current, cited web results signed with the AWS credentials they already use. In this post, build a daily dependency watcher as a LangGraph graph that researches package ecosystems in parallel, keeps its rules in code, and checks every finding against its cited sources.",
+   "ts": 1794353645,
+   "zh": "用 LangGraph 与 AgentCore 搭建依赖监控",
+   "brief": "介绍用 LangGraph 图结构配合 AgentCore 网页搜索 API，构建每日依赖包监控代理。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+   "link": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
+   "summary": "When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows how to evaluate agents on Amazon Bedrock AgentCore with built-in, DeepEval, and AutoEval evaluators, and how to match each behavior that matters to the right evaluator at the right level.",
+   "ts": 1794350103,
+   "zh": "Agent 评估实战：AgentCore 三种评估器",
+   "brief": "介绍在 Amazon Bedrock AgentCore 上用内置、DeepEval 和 AutoEval 评估器评测智能体表现。",
+   "why": "企业上线 AI 代理前如何验收效果，可作方法论参考。",
+   "score": 6
+  },
   {
    "id": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
    "source": "google-ai",
@@ -283,6 +478,19 @@
    "brief": "Hugging Face 推出 Decision Models 相关功能。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://openai.com/index/cogent-security",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "link": "https://openai.com/index/cogent-security",
+   "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "ts": 1794268800,
+   "zh": "Cogent 与 OpenAI 共建企业网络防御",
+   "brief": "Cogent 结合 OpenAI 模型与企业上下文，用智能体自动修复安全漏洞。",
+   "why": "安全运维是 AI 落地高频场景，可作行业案例讲给老板。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
@@ -5639,123 +5847,6 @@
    "brief": "英伟达在OCP全球峰会宣布开放Vera Rubin架构，以开放标准帮助扩展AI基础设施。",
    "why": "",
    "score": 4
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.12542",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
-   "link": "https://arxiv.org/abs/2610.12542",
-   "summary": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart list scheduler with no search tree as the control; and a textbook-UCT MCTS arm as a registered follo",
-   "ts": 1791777600,
-   "zh": "等预算下MCTS与随机重启调度对比研究",
-   "brief": "arXiv论文在同等搜索预算下比较蒙特卡洛树搜索与随机重启列表调度在DAG工作流上的表现。",
-   "why": "",
-   "score": 1
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.12593",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
-   "link": "https://arxiv.org/abs/2610.12593",
-   "summary": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning value for the current task agent. Existing methods increasingly incorporate environment feedback, data validation, or learner failures, but still face a feedback-to-decision gap: observed weaknesses do not directly specify how future synthesis should change, or whether they can be represented by the ",
-   "ts": 1791777600,
-   "zh": "智能体数据合成：演化生成空间闭环学习",
-   "brief": "arXiv论文提出通过演化生成空间进行智能体数据合成，实现闭环学习以提升交互能力。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.12596",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
-   "link": "https://arxiv.org/abs/2610.12596",
-   "summary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human ",
-   "ts": 1791777600,
-   "zh": "SpireBench：用杀戮尖塔评测智能体长程策略",
-   "brief": "arXiv发布SpireBench基准，用游戏《杀戮尖塔》评测智能体模型的长程战略推理能力。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.12598",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
-   "link": "https://arxiv.org/abs/2610.12598",
-   "summary": "arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investigate whether the current policy can judge its own trajectories and use these judgments to improve task performance without a separately trained reward model. To this end, we introduce Behavioral Self-Rewarding (BSR), a reward-refinement method that reuses the policy to compare observable debugging b",
-   "ts": 1791777600,
-   "zh": "超越二元奖励：SWE智能体的行为自奖励",
-   "brief": "arXiv论文提出行为自奖励方法，改进软件工程智能体强化学习中二元奖励区分度不足的问题。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.12655",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
-   "link": "https://arxiv.org/abs/2610.12655",
-   "summary": "arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet clarification is useful only when the agent can turn the answer into better decisions. As training changes how the agent handles incomplete information and uses additional answers, the same clarification can become more or less useful. We introduce CLEAT (CLarification through valuE-guided Agent co-",
-   "ts": 1791777600,
-   "zh": "CLEAT：交互智能体的价值引导澄清学习",
-   "brief": "arXiv论文提出CLEAT方法，让交互智能体通过澄清提问对齐用户未明说的目标与约束。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.12789",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
-   "link": "https://arxiv.org/abs/2610.12789",
-   "summary": "arXiv:2610.12789v1 Announce Type: new Abstract: Self-evolving LLM agents typically improve how they act through accumulated experience, reflection, or skills. Yet even procedurally capable agents can fail when their beliefs about environment dynamics are incomplete, incorrect, or outdated. We study a complementary axis of self-evolution: evolving those beliefs during deployment. Such beliefs can support multiple tasks, but incorrect ones can also propagate across them. We introduce EvoBelief, a self-evolving world model that represents environment knowledge as falsifiable hypotheses. Unexpecte",
-   "ts": 1791777600,
-   "zh": "EvoBelief：可证伪世界模型助力智能体自进化",
-   "brief": "arXiv论文提出EvoBelief，用可证伪的世界模型帮助LLM智能体自我改进环境认知。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.12813",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
-   "link": "https://arxiv.org/abs/2610.12813",
-   "summary": "arXiv:2610.12813v1 Announce Type: new Abstract: LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and security risks. Runtime guardrails should therefore make inspectable, reproducible, and deterministic allow or refuse decisions before potentially irreversible agent actions are executed. However, safety and security requirements are rarely complete before deployment, so guardrails need to keep adapting as new risks emerge. Existing adaptive guardrails learn from deployment experience, but they usually",
-   "ts": 1791777600,
-   "zh": "VEPA：面向LLM智能体护栏的可验证演化策略",
-   "brief": "arXiv论文提出VEPA，为操作敏感资源的LLM智能体提供可检查、可复现的运行时护栏。",
-   "why": "智能体安全护栏思路可借鉴到企业AI权限与合规管控。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.12822",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
-   "link": "https://arxiv.org/abs/2610.12822",
-   "summary": "arXiv:2610.12822v1 Announce Type: new Abstract: Multi-agent systems are increasingly used to solve coding tasks by coordinating agents that share code and plans. These agents are often optimized with reinforcement learning (RL) using automated evaluators, but bypassing evaluation can earn reward without producing a genuine solution. Prior work has largely treated reward hacking as a single-agent failure. In this work, we show that a reward-hacking strategy elicited in one agent can propagate to others and affect system coordination. Across four open-weight backbones, coding RL elicits and ampl",
-   "ts": 1791777600,
-   "zh": "多智能体编程系统中的奖励黑客可传播性",
-   "brief": "arXiv论文研究多智能体编程系统中，绕过评估获取奖励的行为会作为策略在智能体间传播。",
-   "why": "提醒企业多智能体协作需防评估作弊，影响AI代码质量管控。",
-   "score": 5
-  },
-  {
-   "id": "https://www.anthropic.com/news/distillation-defenses",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Strengthening our defenses against distillation attacks",
-   "link": "https://www.anthropic.com/news/distillation-defenses",
-   "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-   "ts": 1791763200,
-   "zh": "Anthropic加强防御蒸馏攻击",
-   "brief": "Anthropic称非法蒸馏可让开发者复制前沿模型能力，已将该类蒸馏发生率降低90%以上。",
-   "why": "提示企业使用第三方模型时的合规与知识产权风险。",
-   "score": 5
   }
  ]
 }
