@@ -1,11 +1,11 @@
 {
- "updated": 1794444490,
+ "updated": 1794482740,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 1
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
@@ -29,7 +29,7 @@
    "name": "Google AI",
    "ok": true,
    "count": 8,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 9
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,37 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Holiday Extras is rethinking what it can build with Codex",
+   "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+   "ts": 1794475800,
+   "zh": "Holiday Extras 用 Codex 重构应用开发",
+   "brief": "OpenAI 发文介绍 Holiday Extras 使用 Codex 将客户专业知识转化为应用，提升预订转化率。",
+   "why": "案例说明AI编程工具可直接拉动业务转化，可作老板落地参考。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+   "summary": "Learn how Java developers can build production-ready autonomous AI agents using Amazon Bedrock and Spring AI. This post walks through tool calling, conversation memory, resilience patterns, and multi-agent orchestration, then deploys the agent to AWS with Amazon Bedrock AgentCore.",
+   "ts": 1794446303,
+   "zh": "用 Amazon Bedrock 与 Spring AI 构建自主智能体",
+   "brief": "AWS 博客讲解 Java 开发者如何用 Bedrock 和 Spring AI 构建生产级自主 AI 智能体并部署。",
+   "why": "偏开发者技术细节，对老板决策价值有限。",
+   "score": 3
+  },
   {
    "id": "https://openai.com/index/gilbert-tobin-sam-nickless",
    "source": "openai",
@@ -75,6 +101,19 @@
    "brief": "OpenAI发布与Gilbert+Tobin律所合伙人兼CEO Sam Nickless的对话，谈AI如何改变法律业务。",
    "why": "律所是知识密集型行业样板，可类比讲专业服务机构如何用AI重构业务。",
    "score": 7
+  },
+  {
+   "id": "https://openai.com/index/children-first-declaration",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Supporting research on AI and children’s safety",
+   "link": "https://openai.com/index/children-first-declaration",
+   "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+   "ts": 1794441600,
+   "zh": "OpenAI 投入200万美元研究AI与儿童安全",
+   "brief": "OpenAI 承诺投入200万美元支持AI与儿童安全研究，开发衡量风险与机会的共享工具。",
+   "why": "AI合规与安全议题升温，提示企业关注未成年人相关风险。",
+   "score": 6
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
@@ -6002,19 +6041,6 @@
    "zh": "Higgsfield借GPT-6延长AI视频",
    "brief": "Higgsfield用GPT-6 Astra将AI视频从1分钟延长至10分钟以上，并推出图像与语音功能。",
    "why": "营销内容生产成本再降，企业视频素材制作门槛大幅降低。",
-   "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-   "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-   "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments […]",
-   "ts": 1791867631,
-   "zh": "法国生态借英伟达实现规模化智能体计算",
-   "brief": "英伟达称法国企业正将智能体计算落地于航天、金融、公共部门和科研等领域。",
-   "why": "可作企业AI智能体跨行业落地的海外案例参考。",
    "score": 7
   }
  ]
