@@ -1,5 +1,5 @@
 {
- "updated": 1794417230,
+ "updated": 1794444490,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -23,19 +23,19 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 7,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 7,
-   "new": 2
+   "count": 8,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 17,
-   "new": 1
+   "count": 14,
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 9
   },
   "qwen": {
    "name": "通义千问",
@@ -75,6 +75,136 @@
    "brief": "OpenAI发布与Gilbert+Tobin律所合伙人兼CEO Sam Nickless的对话，谈AI如何改变法律业务。",
    "why": "律所是知识密集型行业样板，可类比讲专业服务机构如何用AI重构业务。",
    "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "OpenAI Codex on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+   "summary": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+   "ts": 1794440147,
+   "zh": "OpenAI Codex 登陆 Amazon Bedrock 企业指南",
+   "brief": "AWS 发布企业指南，介绍在 Bedrock 上部署 OpenAI Codex 的接入、治理与成本决策。",
+   "why": "多模型选型与治理成本是老板关心的落地决策点。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Semantic diffing of formal policies with anti-unification",
+   "link": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+   "summary": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+   "ts": 1794439983,
+   "zh": "用反合一实现正式策略的语义差异比对",
+   "brief": "AWS 介绍开源反合一引擎，计算两份正式策略的符号化语义差异，只暴露实质分歧。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+   "link": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+   "summary": "Silent data corruption is a GPU fault that returns wrong but plausible numbers with no error, quietly poisoning distributed training. This post adds three checks to a PyTorch DDP loop to detect it, localize the faulty node on Amazon SageMaker HyperPod, and hand the node to automatic recovery for replacement.",
+   "ts": 1794439803,
+   "zh": "SageMaker HyperPod 静默数据损坏检测与恢复",
+   "brief": "AWS 介绍在 PyTorch DDP 中加入三项检查，检测 GPU 静默数据损坏并自动恢复节点。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+   "summary": "Today we're announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in applications, agent loops, and data pipelines.",
+   "ts": 1794438796,
+   "zh": "Bedrock AgentCore 推出 Web 搜索 API",
+   "brief": "AWS 发布 AgentCore Web Search API，一次签名调用即可联网搜索，无需网关或创建资源。",
+   "why": "降低企业智能体联网检索的开发门槛。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "ICYMI: What landed for AI builders in October 2026",
+   "link": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+   "summary": "A recap of the major Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from October 2026: new models to match each task, updates that keep agents available and grounded, and clearer cost reporting for AI builders.",
+   "ts": 1794436000,
+   "zh": "2026年10月 AI 构建者更新回顾",
+   "brief": "AWS 回顾 10 月 Bedrock、AgentCore 与 Strands 更新：新模型、智能体可用性与成本报告。",
+   "why": "可作月度 AI 平台动态素材。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "The attendee’s guide to the AWS re:Invent 2026 AI/ML track",
+   "link": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track/",
+   "summary": "AWS re:Invent 2026 includes more than 140 AI/ML track sessions. This attendee's guide helps you find the breakouts, chalk talks, workshops, and builders' sessions that fit your role and goals, spanning AI chips, models and inference, agents, agent trust, and sustainability, so you can build a smarter re:Invent schedule.",
+   "ts": 1794431159,
+   "zh": "AWS re:Invent 2026 AI/ML 参会指南",
+   "brief": "AWS 介绍 re:Invent 2026 超 140 场 AI/ML 分会，按角色推荐议程。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Automating AWS Agent Registry updates with push-based architecture",
+   "link": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+   "summary": "This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.",
+   "ts": 1794430368,
+   "zh": "用推送架构自动更新 AWS Agent 注册表",
+   "brief": "AWS 展示用 CloudTrail、EventBridge、Lambda 与 AgentCore Identity 事件驱动更新 MCP 工具元数据。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
+   "summary": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
+   "ts": 1794429945,
+   "zh": "DXC 在 Bedrock 上构建多模型 AI 底座",
+   "brief": "DXC 介绍在 Bedrock 上构建受治理的多模型底座 DCX OASIS，服务 70 国受监管客户。",
+   "why": "受监管行业多模型治理的可参考案例。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Accelerating generative AI delivery with reusable assets",
+   "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
+   "summary": "Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh.",
+   "ts": 1794424761,
+   "zh": "用可复用资产加速生成式 AI 交付",
+   "brief": "AWS 开放 23 个生产级开源可复用资产目录，含 RAG、文档处理与智能体脚手架。",
+   "why": "可降低企业 AI 项目重复建设成本。",
+   "score": 7
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+   "ts": 1794420000,
+   "zh": "Gemini Decisions API 发布",
+   "brief": "谷歌发布 Gemini Decisions API，由 Gemini Decision 模型提供快速、校准的多模态决策。",
+   "why": "",
+   "score": 5
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/",
@@ -322,6 +452,19 @@
    "brief": "Hugging Face发布关于多向量嵌入模型Token池化感知训练的技术内容。",
    "why": "",
    "score": 2
+  },
+  {
+   "id": "https://openai.com/index/jiostar-vijay-seshadri",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "link": "https://openai.com/index/jiostar-vijay-seshadri",
+   "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+   "ts": 1794355200,
+   "zh": "JioStar 架构师谈 5 亿用户规模 AI 发现",
+   "brief": "JioStar 首席架构师分享 5 亿用户规模下 AI 发现的评测、护栏与生产化经验。",
+   "why": "大规模 AI 上线的评测与护栏经验可借鉴。",
+   "score": 7
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/",
@@ -5872,45 +6015,6 @@
    "zh": "法国生态借英伟达实现规模化智能体计算",
    "brief": "英伟达称法国企业正将智能体计算落地于航天、金融、公共部门和科研等领域。",
    "why": "可作企业AI智能体跨行业落地的海外案例参考。",
-   "score": 7
-  },
-  {
-   "id": "https://www.anthropic.com/engineering/redesigning-source-control",
-   "source": "anthropic-eng",
-   "sourceName": "Anthropic 工程博客",
-   "title": "Redesigning source control at Anthropic",
-   "link": "https://www.anthropic.com/engineering/redesigning-source-control",
-   "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
-   "ts": 1791849600,
-   "zh": "Anthropic重构自研源代码管理系统",
-   "brief": "Anthropic因每日合并量增长十倍，用五个月迁移到自研版本控制系统。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://www.anthropic.com/research/redesigning-source-control",
-   "source": "anthropic-eng",
-   "sourceName": "Anthropic 工程博客",
-   "title": "Redesigning source control at Anthropic",
-   "link": "https://www.anthropic.com/research/redesigning-source-control",
-   "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
-   "ts": 1791849600,
-   "zh": "Anthropic重构源码控制系统",
-   "brief": "Anthropic称每日合并量增长十倍以上后源码控制成瓶颈，五个月内迁移到自研版本控制系统。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
-   "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-   "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.",
-   "ts": 1791827542,
-   "zh": "AWS在东南亚多地上线OpenAI GPT模型",
-   "brief": "亚马逊Bedrock通过跨区域推理，在泰国、马来西亚、新加坡、印尼、台湾提供OpenAI GPT模型。",
-   "why": "东南亚布局的企业可合规就近调用GPT，降低延迟与数据出境顾虑。",
    "score": 7
   }
  ]
