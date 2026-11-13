@@ -1,11 +1,11 @@
 {
- "updated": 1794534801,
+ "updated": 1794568116,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -6002,71 +6002,6 @@
    "zh": "SentinelOne借助OpenAI将恶意软件分析从数周缩短至数小时",
    "brief": "SentinelOne使用OpenAI Daybreak，将恶意软件分析时间从数周压缩到数小时，可调查更多威胁。",
    "why": "安全团队用AI提效的落地案例，可讲AI在具体业务环节的ROI。",
-   "score": 8
-  },
-  {
-   "id": "https://openai.com/index/third-moment-research",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-   "link": "https://openai.com/index/third-moment-research",
-   "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-   "ts": 1791961200,
-   "zh": "Third Moment Research运行万个智能体36小时",
-   "brief": "该AI实验室用GPT-6 Astra等模型构建可连续工作数天并持续改进的智能体。",
-   "why": "展示智能体规模化潜力，可讲趋势。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/block-ai-powered-security",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "How Block is building AI-powered security with OpenAI technology",
-   "link": "https://openai.com/index/block-ai-powered-security",
-   "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-   "ts": 1791961200,
-   "zh": "Block用OpenAI技术构建AI安全能力",
-   "brief": "Block安全团队借助OpenAI技术，数分钟内完成威胁调查并生成补丁建议。",
-   "why": "案例说明AI可显著提速企业安全响应，值得对标。",
-   "score": 8
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
-   "link": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-   "summary": "Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety […]",
-   "ts": 1791957855,
-   "zh": "英伟达：英国从企业到地球级应用落地",
-   "brief": "英伟达称英国各行业正全面部署其全栈技术，并投入五年2.5亿美元推进相关计划。",
-   "why": "可讲AI落地已从试点走向规模化，中小企业需评估自身节奏。",
-   "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-   "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-   "summary": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make […]",
-   "ts": 1791957628,
-   "zh": "欧洲多城部署英伟达AI代理优化城市运营",
-   "brief": "EMEA地区城市与软件、基础设施伙伴用英伟达加速计算构建物理AI代理，用于市政决策。",
-   "why": "说明AI代理已进入实体运营场景，可类比企业流程自动化。",
-   "score": 7
-  },
-  {
-   "id": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "source": "deepmind",
-   "sourceName": "Google DeepMind",
-   "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
-   "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "ts": 1791943214,
-   "zh": "谷歌DeepMind与新加坡政府合作推出防诈骗AI工具",
-   "brief": "谷歌DeepMind与新加坡政府科技局合作，用轻量级端侧Gemma模型在私聊中拦截对话诈骗，数据不出云端。",
-   "why": "端侧AI落地政务场景，数据不出设备，可参考做企业合规与安全AI方案。",
    "score": 8
   }
  ]
