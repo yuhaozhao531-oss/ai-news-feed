@@ -1,11 +1,11 @@
 {
- "updated": 1794568116,
+ "updated": 1794599292,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -16,14 +16,14 @@
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
    "ok": true,
-   "count": 1,
-   "new": 0
+   "count": 2,
+   "new": 1
   },
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
@@ -34,20 +34,20 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 15,
-   "new": 0
+   "count": 16,
+   "new": 3
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 3
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,123 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+   "link": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+   "summary": "Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC2 Spot GPU instances, and an Amazon SQS-based retry architecture to achieve 70% cost savings while maintaining SLA commitments across European Regions.",
+   "ts": 1794598535,
+   "zh": "AssemblyAI用EC2 Spot降低语音转写成本",
+   "brief": "AWS博客介绍AssemblyAI用ECS、Spot GPU实例和SQS重试架构，在欧洲区域实现70%成本节省并维持SLA。",
+   "why": "示范AI推理降本70%的工程路径，可作企业算力成本优化案例。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/",
+   "summary": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. This post shows how to attribute per-user Bedrock costs for AI developer and productivity tools using IAM Identity Center, session tags, and CUR 2.0, and how to enforce per-user usage limits.",
+   "ts": 1794595442,
+   "zh": "Bedrock推出零埋点AI成本归因方案",
+   "brief": "AWS介绍Bedrock内置成本归因，可将每次推理调用追溯到发起调用的IAM主体，并按用户分摊费用。",
+   "why": "解决企业AI工具按人分摊成本难题，适合讲AI投入产出管理。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+   "summary": "Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift.",
+   "ts": 1794592875,
+   "zh": "用SageMaker HyperPod数据捕获建改进闭环",
+   "brief": "AWS介绍HyperPod Data Capture将线上推理输入输出存入S3，并以客服路由为例做盲点发现与微调。",
+   "why": "给出模型持续迭代闭环的落地范式，适合讲AI运营机制。",
+   "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "summary": "",
+   "ts": 1794592839,
+   "zh": "用SimReady资产搭建机器人抓取仿真",
+   "brief": "Hugging Face发布教程，介绍如何用SimReady资产构建机器人抓取放置仿真。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://huggingface.co/blog/allenai/xybench",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "XYBench: Helping with the problem behind the question",
+   "link": "https://huggingface.co/blog/allenai/xybench",
+   "summary": "",
+   "ts": 1794589355,
+   "zh": "XYBench：关注问题背后的问题",
+   "brief": "Hugging Face发布XYBench相关文章，讨论问题背后的问题。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://openai.com/index/introducing-chatgpt-wallet",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Introducing ChatGPT Wallet",
+   "link": "https://openai.com/index/introducing-chatgpt-wallet",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+   "ts": 1794582000,
+   "zh": "OpenAI推出ChatGPT钱包",
+   "brief": "OpenAI发布ChatGPT Wallet，让ChatGPT Work、Codex等中的智能体在用户批准下完成购买并沿用现有卡片保护。",
+   "why": "AI智能体开始能直接下单付款，企业需关注支付授权与风控。",
+   "score": 8
+  },
+  {
+   "id": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "summary": "",
+   "ts": 1794578722,
+   "zh": "llama.cpp发布v1.0.0版本",
+   "brief": "Hugging Face发布llama.cpp v1.0.0，称其为本地AI生态提供更强基础。",
+   "why": "本地部署工具进入1.0，私有化AI方案成熟度提升。",
+   "score": 5
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+   "link": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+   "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI […]",
+   "ts": 1794574842,
+   "zh": "英伟达：AI帮医疗团队更快匹配正确诊疗",
+   "brief": "NVIDIA介绍AI在儿科研究、智慧医院、临床试验匹配和放射科支持等场景中减少常规事务耗时。",
+   "why": "医疗AI落地案例，可类比讲行业AI提效路径。",
+   "score": 6
+  },
+  {
+   "id": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+   "source": "anthropic-eng",
+   "sourceName": "Anthropic 工程博客",
+   "title": "Building strong safety evaluations",
+   "link": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+   "summary": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+   "ts": 1794528000,
+   "zh": "Anthropic分享构建强安全评估的建议",
+   "brief": "Anthropic工程博客基于自身经验，给出设计、运行和报告安全评估的建议。",
+   "why": "企业选型AI模型时可参考其安全评估方法。",
+   "score": 6
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
    "source": "aws-ml",
@@ -894,6 +1011,19 @@
    "brief": "OpenAI Academy在美国五城为照护者举办免费ChatGPT实操工作坊。",
    "why": "企业培训可借鉴其场景化、实操式AI素养课程设计。",
    "score": 6
+  },
+  {
+   "id": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Opening the datasets behind our AI weather models",
+   "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+   "ts": 1794309184,
+   "zh": "DeepMind开放AI气象模型数据集",
+   "brief": "Google DeepMind开放其AI气象模型背后的基础降水与地球静止卫星数据集。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://openai.com/index/introducing-businesses-chatgpt",
@@ -5911,97 +6041,6 @@
    "zh": "Sullivan & Cromwell用AI审查协议",
    "brief": "律所与OpenAI合作开发Agreement Analyzer，用于识别合同草案中的问题。",
    "why": "法律合同AI审查落地案例，可启发企业专业场景应用。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
-   "summary": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validates, and learns from business documents with minimal human intervention, automatically handling new document formats without manual template configuration.",
-   "ts": 1791995047,
-   "zh": "用Bedrock AgentCore构建自改进文档处理",
-   "brief": "AWS介绍用Amazon Bedrock AgentCore搭建智能文档处理系统，可分类、提取、校验并自动适应新格式。",
-   "why": "文档自动化落地案例，可讲给老板降本增效。",
-   "score": 8
-  },
-  {
-   "id": "https://huggingface.co/blog/allenai/hiro-acev2",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-   "link": "https://huggingface.co/blog/allenai/hiro-acev2",
-   "summary": "",
-   "ts": 1791994362,
-   "zh": "HiRO-ACEv2：低成本模拟3公里极端天气",
-   "brief": "Hugging Face发布HiRO-ACEv2，以更低成本实现3公里分辨率极端天气模拟。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Generate presentations with Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
-   "summary": "This post walks you through building an AI agent system with Amazon Bedrock AgentCore that automates PowerPoint presentation creation from enterprise documents. A supervisor agent, Retrieval Augmented Generation, and Amazon Bedrock Guardrails generate grounded presentations in under 90 seconds.",
-   "ts": 1791986323,
-   "zh": "用Bedrock AgentCore自动生成演示文稿",
-   "brief": "AWS演示用AgentCore搭建智能体系统，从企业文档自动生成PPT，90秒内完成。",
-   "why": "办公自动化案例，适合讲AI提效场景。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
-   "summary": "Learn how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock that autonomously investigates and safely remediates cloud security findings from CNAPP and cloud-native sources. The approach drove a 90%+ reduction in critical cloud exposure in 90 days with zero production issues.",
-   "ts": 1791986013,
-   "zh": "Tamnoon用Bedrock打造AI云安全修复",
-   "brief": "Tamnoon基于Amazon Bedrock构建智能体Tami，自动调查并修复云安全风险，90天关键暴露降90%。",
-   "why": "安全+AI落地案例，可讲ROI与合规。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Deploy and evaluate models with Amazon SageMaker JumpStart",
-   "link": "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/",
-   "summary": "Learn how to deploy an available model from Amazon SageMaker JumpStart, run a lightweight and repeatable performance test using the SageMaker Python SDK, and delete the endpoint when testing is complete.",
-   "ts": 1791983676,
-   "zh": "用SageMaker JumpStart部署与评估模型",
-   "brief": "AWS介绍用SageMaker JumpStart部署模型、跑性能测试并在完成后删除端点。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://openai.com/index/amp-beyond-coding",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Amp puts AI agents to work beyond code with OpenAI models",
-   "link": "https://openai.com/index/amp-beyond-coding",
-   "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-   "ts": 1791979200,
-   "zh": "Amp用OpenAI模型让智能体超越编码",
-   "brief": "Amp展示用GPT-6 Astra等OpenAI模型，将AI智能体能力拓展到编码之外。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://openai.com/index/sentinelone",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "SentinelOne cuts malware analysis from weeks to hours",
-   "link": "https://openai.com/index/sentinelone",
-   "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-   "ts": 1791979200,
-   "zh": "SentinelOne借助OpenAI将恶意软件分析从数周缩短至数小时",
-   "brief": "SentinelOne使用OpenAI Daybreak，将恶意软件分析时间从数周压缩到数小时，可调查更多威胁。",
-   "why": "安全团队用AI提效的落地案例，可讲AI在具体业务环节的ROI。",
    "score": 8
   }
  ]
