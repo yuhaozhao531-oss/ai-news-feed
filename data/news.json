@@ -1,11 +1,11 @@
 {
- "updated": 1794619714,
+ "updated": 1794652571,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 1
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 4
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,115 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2611.14654",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+   "link": "https://arxiv.org/abs/2611.14654",
+   "summary": "arXiv:2611.14654v1 Announce Type: new Abstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work cleans the history at a fixed world, where showing a corrected step and saying it is done move together. We ask whether the same correct content helps or hurts depending on how the history states it and what the world holds. We freeze an agent mid-task with its exact world state, edit the history or the world, and let",
+   "ts": 1794632400,
+   "zh": "清理智能体历史记录在世界仍存错误时有害",
+   "brief": "arXiv新论文指出，工具型语言模型智能体会累积自身错误历史，压缩或修复历史时需考虑错误在现实中的残留影响。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.14681",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Together Compiler: Continual Compilation for AI Inference",
+   "link": "https://arxiv.org/abs/2611.14681",
+   "summary": "arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited for agent hill-climbing. Existing systems struggle with continual compilation due to a tradeoff between measurement throughput and fidelity. Many systems use agents to optimize individual kernels from",
+   "ts": 1794632400,
+   "zh": "Together编译器：面向AI推理的持续编译",
+   "brief": "Together AI发布持续编译方案，应对模型频繁更新、架构多样和流量分布变化带来的推理优化挑战。",
+   "why": "模型迭代加快，推理成本优化成为企业选型AI服务商的隐性成本项。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.14765",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+   "link": "https://arxiv.org/abs/2611.14765",
+   "summary": "arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Each data estate combines relational databases, a document store, and a data catalog, paired with evaluation tasks and executable gold programs. First, given a scenario and target complexity dimensions, SynthCorp synthesizes reusable event types and compiles each into a program ove",
+   "ts": 1794632400,
+   "zh": "SynthCorp：数据智能体基准生成平台",
+   "brief": "提出SynthCorp平台，通过模拟业务事件生成可定制的企业数据环境和数据智能体评测基准。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.14781",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+   "link": "https://arxiv.org/abs/2611.14781",
+   "summary": "arXiv:2611.14781v1 Announce Type: new Abstract: Agents that perform state estimation using pretrained perception models, e.g., Vision-Language Models (VLMs), face the fundamental challenge that predictions are uncertain. Still, most approaches determinize these predictions into a single best-guess state and make decisions as if it were ground truth. This is brittle because when the guess is wrong, the agent's decisions may be unsafe or infeasible. At the other extreme, maintaining a full probability distribution over symbolic states is often intractable. We propose a middle path, drawing on th",
+   "ts": 1794632400,
+   "zh": "基于预训练感知的鲁棒任务状态估计",
+   "brief": "研究利用VLM等预训练感知模型做状态估计时，如何应对预测不确定性而非简单取单一最优猜测。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.14846",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Open Challenges and Opportunities in Human-Agent Systems",
+   "link": "https://arxiv.org/abs/2611.14846",
+   "summary": "arXiv:2611.14846v1 Announce Type: new Abstract: Agentic AI systems increasingly undertake extended tasks and act on people's behalf, making human-agent interaction central to their effectiveness. Successful interaction requires understanding human perspectives, coordinating complementary capabilities, and maintaining productive relationships within socio-technical environments. This paper examines how foundations developed by the Autonomous Agents and Multi-Agent Systems (AAMAS) community inform these demands. We consider interactions ranging from individual human-agent partnerships to teams a",
+   "ts": 1794632400,
+   "zh": "人机智能体系统的开放挑战与机遇",
+   "brief": "综述智能体AI承担长任务并代人行事后，人机交互在理解人类视角与能力协同上的开放问题。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.14889",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Can an AI Agent Be Epistemically Akratic? Higher-Order Evidence & the Limits of Self-Correction",
+   "link": "https://arxiv.org/abs/2611.14889",
+   "summary": "arXiv:2611.14889v1 Announce Type: new Abstract: When we judge that our reasoning was defective, it seems plausible that we should abandon the conclusion it produced. This thought has special force for AI agents built to assess and correct their own work. Yet obeying such judgments can make an agent worse at distinguishing sound reasoning from defective reasoning. An AI agent may rely on information about its reasoning when deciding which conclusions to keep, while the part that judges whether those conclusions are justified cannot use that information. The agent can then exercise an epistemic ",
+   "ts": 1794632400,
+   "zh": "AI智能体能否在认知上意志薄弱？",
+   "brief": "论文探讨AI智能体依据高阶证据自我纠错时的哲学与工程边界，指出盲从自我判断可能适得其反。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.14924",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Edge-Native Multimodal RAG: Hardware-Aware Quantization and Architectural Optimization for Consumer GPUs",
+   "link": "https://arxiv.org/abs/2611.14924",
+   "summary": "arXiv:2611.14924v1 Announce Type: new Abstract: Deployment of retrieval-augmented generation (RAG) for Edge-AI is constrained by memory and bandwidth limitations. A standard 7B parameter model consumes 14 GB Video Random Access Memory (VRAM) in half-precision (FP16), precluding co-location of vector indices and Key-Value (KV) caches. This paper presents an engineering integration and empirical evaluation of a multimodal RAG framework optimized for consumer-grade Turing hardware (e.g., NVIDIA Tesla T4). Our system-level analysis identifies a critical trade-off: while generative pre-trained tran",
+   "ts": 1794632400,
+   "zh": "边缘原生多模态RAG：面向消费级GPU的优化",
+   "brief": "研究在消费级GPU上部署多模态RAG的硬件感知量化与架构优化，缓解显存与带宽限制。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.14949",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
+   "link": "https://arxiv.org/abs/2611.14949",
+   "summary": "arXiv:2611.14949v1 Announce Type: new Abstract: Identifying and solving partial differential equations (PDEs) from sampled solution data often requires substantial expert effort in equation discovery, coefficient estimation, and numerical solver configuration, especially under noise and distribution shifts. Can large language model (LLM) agents automate this workflow accurately and efficiently? To investigate this question, we introduce \\bench{}, a benchmark of 1,001 cases spanning 42 equation templates, including both classical and fractional PDEs. It provides three evaluation settings: Full ",
+   "ts": 1794632400,
+   "zh": "RSI-PDEbench：自改进智能体求解PDE基准",
+   "brief": "发布用于评估自改进智能体在偏微分方程识别与求解能力的基准，覆盖噪声与分布偏移场景。",
+   "why": "",
+   "score": 1
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
    "source": "aws-ml",
@@ -5912,149 +6016,6 @@
    "brief": "OpenAI推出巴西葡萄牙语版AI for Educators，并介绍Study Mode辅助教学。",
    "why": "",
    "score": 3
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-   "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-   "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: […]",
-   "ts": 1792058412,
-   "zh": "英伟达扩大欧洲科研界先进技术开放资源",
-   "brief": "英伟达通过开放学习资源、合作与算力，扩大欧洲科研社区对先进技术的使用。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Apertus 1.5 Release Notes",
-   "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-   "summary": "",
-   "ts": 1792055325,
-   "zh": "Apertus 1.5发布说明",
-   "brief": "Hugging Face发布Apertus 1.5模型的更新说明。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
-   "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-   "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway […]",
-   "ts": 1792040412,
-   "zh": "北欧与英伟达展示区域算力投入成效",
-   "brief": "文章介绍北欧国家在先进计算上的投入，及其成为欧洲独角兽密度最高地区的情况。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.14115",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "The Silent Failures in Agentic Data Science",
-   "link": "https://arxiv.org/abs/2610.14115",
-   "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing preliminary insight in agentic DS capabilities. We argue that these evaluations overlook the fundamental principles of data science: methodological data science- a",
-   "ts": 1792036800,
-   "zh": "智能体数据科学的隐性失败研究",
-   "brief": "arXiv发布论文，研究数据科学智能体在任务建模到模型开发中的隐性失败问题。",
-   "why": "提醒企业：AI自动做数据分析仍不可靠，需人工复核。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.14118",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
-   "link": "https://arxiv.org/abs/2610.14118",
-   "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed b",
-   "ts": 1792036800,
-   "zh": "ClawLoop：智能体自改进训练循环",
-   "brief": "arXiv提出ClawLoop方法，让智能体在沙箱环境中通过原生训练循环自我改进。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.14146",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
-   "link": "https://arxiv.org/abs/2610.14146",
-   "summary": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline",
-   "ts": 1792036800,
-   "zh": "长周期终端基准2.0：衡量智能体持续进展",
-   "brief": "arXiv发布LHTB 2.0基准，用过程奖励衡量智能体在长流程任务中的持续进展。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.14180",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Unconstrained CTI-REALM with Open-Weights",
-   "link": "https://arxiv.org/abs/2610.14180",
-   "summary": "arXiv:2610.14180v1 Announce Type: new Abstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six models, nineteen open-weight and seven closed, under a common harness, scorer and panel of LLM judges. Our main finding is that an open-weight model can ma",
-   "ts": 1792036800,
-   "zh": "开源权重模型做网络安全智能体研究",
-   "brief": "arXiv研究在CTI-REALM任务上，开源权重模型与闭源前沿模型做安全智能体的取舍。",
-   "why": "企业做安全AI可考虑自托管开源模型，兼顾成本与审计。",
-   "score": 6
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.14186",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Visualizing the World Model in an Agent's Value Function",
-   "link": "https://arxiv.org/abs/2610.14186",
-   "summary": "arXiv:2610.14186v1 Announce Type: new Abstract: Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value function of a Proximal Policy Optimization agent forms a world model of the Crafter environment. Despite only being trained to optimize reward, we discover that the value function learns concepts such as the rules governing when a diamond is collectible, water and food having an impact on health, heuristi",
-   "ts": 1792036800,
-   "zh": "可视化智能体价值函数中的世界模型",
-   "brief": "arXiv用反事实干预方法，探究无模型强化学习的价值函数是否隐含环境模型。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.14209",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
-   "link": "https://arxiv.org/abs/2610.14209",
-   "summary": "arXiv:2610.14209v1 Announce Type: new Abstract: The most accurate agents executing user-provided tasks are driven by large, cloud-hosted models, which solve them by reading the private data of the user. Agents powered by models small enough to run on edge devices keep that data local, but yield far worse results. A third option is to have cloud models write a program that devices execute: the data stays local, but as the program is written before any data is seen, it fails whenever a step depends on interpreting content that appears only at run time. We explore an intermediate architecture, in",
-   "ts": 1792036800,
-   "zh": "小模型能否担任云端智能体程序解释器",
-   "brief": "arXiv研究本地小模型作为云端编写智能体程序解释器的可行性与隐私权衡。",
-   "why": "数据敏感企业可用本地小模型处理私有数据，降低泄露风险。",
-   "score": 6
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.14224",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Harness^2: Recursive Agent Harnessing for an Open World",
-   "link": "https://arxiv.org/abs/2610.14224",
-   "summary": "arXiv:2610.14224v1 Announce Type: new Abstract: LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel",
-   "ts": 1792036800,
-   "zh": "Harness²：开放世界中的递归智能体框架",
-   "brief": "arXiv提出Harness²方法，在开放世界场景中递归自我改进智能体执行框架。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.14381",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence",
-   "link": "https://arxiv.org/abs/2610.14381",
-   "summary": "arXiv:2610.14381v1 Announce Type: new Abstract: Large language models are increasingly used as scientific assistants, yet we still lack reliable ways to evaluate whether they can investigate a system rather than merely answer a prompt. A useful evaluation must let agents choose experiments, interpret finite evidence, and make causal decisions, while keeping the environment coherent across repeated observations and interventions and preserving objective ground truth. We introduce ACED-BENCH (Active Causal Evidence and Decision Benchmark), a neuro-symbolic benchmark built around this requirement",
-   "ts": 1792036800,
-   "zh": "ACED-Bench：评估智能体获取因果证据能力",
-   "brief": "arXiv发布ACED-Bench，评估LLM智能体能否主动设计实验并基于因果证据行动。",
-   "why": "",
-   "score": 4
   }
  ]
 }
