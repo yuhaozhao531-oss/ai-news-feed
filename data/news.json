@@ -1,5 +1,5 @@
 {
- "updated": 1794599292,
+ "updated": 1794619714,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -17,13 +17,13 @@
    "name": "Anthropic 工程博客",
    "ok": true,
    "count": 2,
-   "new": 1
+   "new": 0
   },
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
    "count": 8,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -35,19 +35,19 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 16,
-   "new": 3
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 4
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,58 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+   "link": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+   "summary": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 minutes.",
+   "ts": 1794612129,
+   "zh": "GS Caltex用SageMaker Canvas落地生产MLOps",
+   "brief": "GS Caltex将SageMaker Canvas接入SageMaker Pipelines，让工艺工程师的无代码模型进入生产，部署时间从约一周缩短到几小时。",
+   "why": "示范无代码AI如何让业务人员自建模型并快速上线，适合讲AI落地路径。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+   "link": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+   "summary": "Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model group against single-model baselines.",
+   "ts": 1794609012,
+   "zh": "Bedrock上用NeMo Switchyard路由编码代理请求",
+   "brief": "介绍用AWS CDK在Amazon Bedrock部署LiteLLM与NVIDIA NeMo Switchyard路由插件，按每个已解决任务成本评估模型路由。",
+   "why": "提示企业AI成本应按任务结果而非token计价，影响AI预算评估思路。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+   "link": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/",
+   "summary": "Amazon Bedrock AgentCore runtime V2 snapshots your initialized environment and restores it for each new session, so session start no longer grows with image size. This post explains how V2 starts a session, how to measure session start time, and four patterns to keep work off the first request.",
+   "ts": 1794607359,
+   "zh": "AgentCore运行时快速会话启动架构模式",
+   "brief": "介绍Bedrock AgentCore运行时V2通过快照恢复初始化环境，使会话启动时间不再随镜像大小增长，并给出四种架构模式。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+   "link": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/",
+   "summary": "Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post covers asynchronous inference, multi-GPU parallelism, bringing your own MSAs for accuracy and privacy, and scaling to zero to reduce cost.",
+   "ts": 1794606820,
+   "zh": "SageMaker JumpStart上线OpenFold3预览版",
+   "brief": "可在自有AWS账户从SageMaker JumpStart部署OpenFold3-preview，预测蛋白质、DNA、RNA及配体复合物的三维结构。",
+   "why": "",
+   "score": 2
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
    "source": "aws-ml",
@@ -166,6 +218,19 @@
    "brief": "NVIDIA介绍AI在儿科研究、智慧医院、临床试验匹配和放射科支持等场景中减少常规事务耗时。",
    "why": "医疗AI落地案例，可类比讲行业AI提效路径。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/business/customer-stories/shield",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "link": "https://openai.com/business/customer-stories/shield",
+   "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "ts": 1794556800,
+   "zh": "Shield用OpenAI代理协助技术人员交接旧系统",
+   "brief": "Shield利用OpenAI让Forge代理在旧门户系统中操作，帮助IT技术人员交接工作，专注需要判断的问题。",
+   "why": "展示AI代理接手重复性系统操作的落地案例，可作企业流程自动化参考。",
+   "score": 7
   },
   {
    "id": "https://www.anthropic.com/research/building-strong-safety-evaluations",
@@ -5990,58 +6055,6 @@
    "brief": "arXiv发布ACED-Bench，评估LLM智能体能否主动设计实验并基于因果证据行动。",
    "why": "",
    "score": 4
-  },
-  {
-   "id": "https://huggingface.co/blog/flux-3",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Welcome FLUX.3 Image Klein in Diffusers",
-   "link": "https://huggingface.co/blog/flux-3",
-   "summary": "",
-   "ts": 1792022400,
-   "zh": "FLUX.3 Image Klein接入Diffusers",
-   "brief": "Hugging Face宣布FLUX.3 Image Klein图像模型已支持Diffusers库。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "An update on independent evaluators",
-   "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-   "summary": "An update on independent evaluators",
-   "ts": 1792022400,
-   "zh": "Anthropic 发布独立评估者更新",
-   "brief": "Anthropic 发布关于独立评估者的更新说明。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://huggingface.co/blog/meta-muse-spark-open",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-   "link": "https://huggingface.co/blog/meta-muse-spark-open",
-   "summary": "",
-   "ts": 1792022400,
-   "zh": "Meta 开源前沿多模态 MoE 模型 Muse Spark Open",
-   "brief": "Hugging Face 上线 Meta 的开放权重前沿多模态混合专家模型 Muse Spark Open。",
-   "why": "开源前沿多模态模型可降低企业自建 AI 门槛。",
-   "score": 8
-  },
-  {
-   "id": "https://openai.com/index/sullivan-cromwell",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-   "link": "https://openai.com/index/sullivan-cromwell",
-   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-   "ts": 1792022400,
-   "zh": "Sullivan & Cromwell用AI审查协议",
-   "brief": "律所与OpenAI合作开发Agreement Analyzer，用于识别合同草案中的问题。",
-   "why": "法律合同AI审查落地案例，可启发企业专业场景应用。",
-   "score": 8
   }
  ]
 }
