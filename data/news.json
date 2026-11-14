@@ -1,5 +1,5 @@
 {
- "updated": 1794652571,
+ "updated": 1794679958,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -59,7 +59,7 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
@@ -5925,97 +5925,6 @@
    "brief": "OpenAI推出Rosalind学术计划，为合格学术实验室提供GPT-Rosalind赞助访问。",
    "why": "生命科学企业可关注学术合作与AI科研工具机会。",
    "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
-   "link": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
-   "summary": "Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
-   "ts": 1792086215,
-   "zh": "Meta Muse Spark Open 上线 SageMaker JumpStart",
-   "brief": "Meta 面向编码优化的开放权重模型 Muse Spark Open 现已在 Amazon SageMaker JumpStart 提供，可部署到自有 AWS 账户端点。",
-   "why": "企业可在自有云账户内快速部署开源编码模型。",
-   "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-   "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-   "summary": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and […]",
-   "ts": 1792083623,
-   "zh": "NVIDIA 发布 RTX Spark 新品",
-   "brief": "NVIDIA 宣布推出 RTX Spark，称其为面向创作者、玩家和 AI 代理打造的 Windows PC。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "source": "deepmind",
-   "sourceName": "Google DeepMind",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "ts": 1792080483,
-   "zh": "谷歌用Antigravity加速抗菌肽搜索",
-   "brief": "Google DeepMind发布用Antigravity for Science加速发现新型抗菌肽的研究进展。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Trust in Depth: Giving agents more autonomy without losing control",
-   "link": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
-   "summary": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layered approach-scope, know, bound, observe, and prove-that lets agents act on their own when their actions can be verified, reserving human judgment for the decisions that need it.",
-   "ts": 1792076735,
-   "zh": "AWS发布Trust in Depth智能体信任框架",
-   "brief": "AWS提出scope、know、bound、observe、prove五层方法，让企业可控地给AI智能体放权。",
-   "why": "给老板讲清AI智能体如何既放权又不失控的落地框架。",
-   "score": 9
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-   "link": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-   "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized […]",
-   "ts": 1792076424,
-   "zh": "英伟达扩展Nemotron开源模型家族",
-   "brief": "英伟达发布1200亿参数开源模型Nemotron 3.5 Super VL及两款边缘端Bolt模型。",
-   "why": "开源大模型能力提升，企业私有化部署多一个选型。",
-   "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-   "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts […]",
-   "ts": 1792069259,
-   "zh": "英伟达DLSS 4.5控制登陆GeForce NOW",
-   "brief": "GeForce NOW云游戏新增DLSS 4.5画质与性能控制选项，并上线Enshrouded 1.0。",
-   "why": "",
-   "score": 1
-  },
-  {
-   "id": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Teaching students to think and learn through questions",
-   "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-   "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-   "ts": 1792069200,
-   "zh": "OpenAI教师节推教育者AI与学习模式",
-   "brief": "OpenAI推出巴西葡萄牙语版AI for Educators，并介绍Study Mode辅助教学。",
-   "why": "",
-   "score": 3
   }
  ]
 }
