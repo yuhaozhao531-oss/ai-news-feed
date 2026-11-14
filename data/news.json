@@ -1,5 +1,5 @@
 {
- "updated": 1794679958,
+ "updated": 1794695484,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5898,32 +5898,6 @@
    "zh": "Benefit Street Partners用Codex加速信贷分析",
    "brief": "OpenAI案例：Anant Kumar用Codex做代码审查、比较贷款估值并分析信贷协议，加快回复速度。",
    "why": "金融场景AI提效案例，可讲给老板看AI如何压缩专业分析周期。",
-   "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-   "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-   "summary": "",
-   "ts": 1792096441,
-   "zh": "Granite Switch 4.1：单端点提供对话、决策与语音",
-   "brief": "Hugging Face 发布 Granite Switch 4.1，通过单一端点提供对话、决策和语音能力。",
-   "why": "多能力合一的模型可降低企业集成与运维成本。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Bringing GPT-Rosalind to academic research labs",
-   "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-   "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-   "ts": 1792090800,
-   "zh": "OpenAI向学术研究实验室提供GPT-Rosalind",
-   "brief": "OpenAI推出Rosalind学术计划，为合格学术实验室提供GPT-Rosalind赞助访问。",
-   "why": "生命科学企业可关注学术合作与AI科研工具机会。",
    "score": 6
   }
  ]
