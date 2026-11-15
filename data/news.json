@@ -1,11 +1,11 @@
 {
- "updated": 1794759897,
+ "updated": 1794783281,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
@@ -63,6 +63,32 @@
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "A step toward defining the Standard Model on a lattice",
+   "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "ts": 1794780001,
+   "zh": "OpenAI：格点标准模型的非微扰定义探索",
+   "brief": "OpenAI发布研究，探索标准模型的候选非微扰格点定义，称GPT-6 Astra协助将想法转化为详细证明。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://openai.com/index/our-new-blog-for-science",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Our new blog for science",
+   "link": "https://openai.com/index/our-new-blog-for-science",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "ts": 1794780000,
+   "zh": "OpenAI推出科学博客",
+   "brief": "OpenAI上线科学博客，分享AI推动科学发现的新成果、实用方法和研究者亲述。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://arxiv.org/abs/2611.14654",
    "source": "arxiv",
@@ -5704,32 +5730,6 @@
    "brief": "英伟达宣布RTX Spark笔记本开售，搭载Blackwell RTX显卡、最高128GB统一内存和完整AI平台，华硕、戴尔、惠普、联想、微软、微星等品牌推出。",
    "why": "本地跑AI的终端门槛下降，可提示企业评估本地化AI部署与数据安全方案。",
    "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
-   "summary": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live production.",
-   "ts": 1792183696,
-   "zh": "AWS发布AI智能体生产级评估框架",
-   "brief": "AWS基于Amazon Bedrock AgentCore推出九阶段评估框架，可捕捉智能体全生命周期中的隐性质量衰退。",
-   "why": "智能体上线后质量会悄悄下滑，企业需建立评估机制而非只看延迟指标。",
-   "score": 8
-  },
-  {
-   "id": "https://openai.com/index/itau-generative-ai",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "How Itaú is building generative AI for its entire customer base",
-   "link": "https://openai.com/index/itau-generative-ai",
-   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-   "ts": 1792177200,
-   "zh": "Itaú银行如何为全部客户构建生成式AI",
-   "brief": "Itaú通过对话界面ia.i和治理平台IARA，在巴西高监管的金融业落地AI优先战略，覆盖客户与员工。",
-   "why": "金融等高监管行业如何兼顾AI落地与合规治理，可作标杆案例讲给老板。",
-   "score": 8
   }
  ]
 }
