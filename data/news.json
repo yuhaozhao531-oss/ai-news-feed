@@ -1,5 +1,5 @@
 {
- "updated": 1794695484,
+ "updated": 1794724989,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -58,7 +58,7 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
@@ -5743,162 +5743,6 @@
    "brief": "Reflection AI的Beam开源权重模型发布，用于智能体编码和长周期任务，可在AWS SageMaker上部署。",
    "why": "企业可自部署编码智能体，降低对闭源API依赖，需评估运维成本。",
    "score": 7
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.20665",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-   "link": "https://arxiv.org/abs/2610.20665",
-   "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studi",
-   "ts": 1792123200,
-   "zh": "实时环境下的智能体评测与教学",
-   "brief": "arXiv发布RealtimeBench，含180个任务，评测智能体在实时变化环境中的表现。",
-   "why": "提醒老板：AI响应速度可能成为业务落地瓶颈。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.20675",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
-   "link": "https://arxiv.org/abs/2610.20675",
-   "summary": "arXiv:2610.20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understanding agent performance requires linking execution conditions to outcomes, behavior, and resource use. We introduce AlphaDiana, a measurement system with modular interfaces for datasets, agents, environments, and scorers. It preserves harness-native control loops while controlling file reuse and memory retention separately. AlphaDiana supports macro analyses of complete agents and micro interventions",
-   "ts": 1792123200,
-   "zh": "AlphaDiana：可验证推理智能体测量系统",
-   "brief": "arXiv提出AlphaDiana，用于测量智能体在可验证推理任务中的执行条件与结果。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.20681",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-   "link": "https://arxiv.org/abs/2610.20681",
-   "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM reasoning with symbolic computation for inequality proving in Lean4. Lemma-level Monte Carlo Tree Search coordinates lemma construction, goal reformulation, and symbolic backend selection. Complementary sum-of-squares, Bernstein, and successive difference-substitution backends produce exact certificates for local Lean proof generation. The a",
-   "ts": 1792123200,
-   "zh": "IneqAgent：用符号计算证明不等式",
-   "brief": "arXiv发布IneqAgent，结合LLM推理与符号计算做形式化不等式证明。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.20780",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
-   "link": "https://arxiv.org/abs/2610.20780",
-   "summary": "arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagnosing completed runs or repeatedly re-executing them to search for corrections does not provide a learned policy for intervening while execution is still in progress. We present Agent Runtime Inspection and Amendment (ARIA), a framework for learning when and how to repair ongoing multi-agent executions. Our key intuition is to turn execution-verified repairs into reusable supervision, moving repai",
-   "ts": 1792123200,
-   "zh": "ARIA：多智能体系统运行时检查与修正",
-   "brief": "arXiv提出ARIA，可在多智能体系统运行时检查并修正局部错误传播。",
-   "why": "多智能体协作出错可实时纠正，降低企业自动化风险。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.20786",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds",
-   "link": "https://arxiv.org/abs/2610.20786",
-   "summary": "arXiv:2610.20786v1 Announce Type: new Abstract: Multi-modal agents have made significant progress in interacting with open worlds. However, their ability to self-evolve remains limited. Supervised fine-tuning enables imitation but not active experience organization, while outcome-based reinforcement learning promotes exploration yet underuses intermediate trajectory information. Therefore, we propose EvolvingBrain, which uses an adaptive skill system as the brain for agent self-evolution, consisting of two following components. Stratified Skill Self-Evolution: extracts Procedural Patterns and ",
-   "ts": 1792123200,
-   "zh": "EvolvingBrain：开放世界多模态智能体自适应技能系统",
-   "brief": "arXiv提出EvolvingBrain，让多模态智能体在开放世界中自我进化技能。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.20809",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "A Self-Improving Agent that Grows its Own DSL: Oracle-Free Operator Induction for Exact Question Answering",
-   "link": "https://arxiv.org/abs/2610.20809",
-   "summary": "arXiv:2610.20809v1 Announce Type: new Abstract: A self-improving agent has to decide which new skills to keep, and in practice it keeps whatever earns a high reward, convinces a judge model, or compresses its library, even when the skill is wrong. That is fine until the answers have to be exactly right: over a table of transactions, a total is either right or wrong. We ask a harder question: can an agent grow what it can compute with no reward, no judge, and no answer key, and still be exactly right? A single frozen model runs two nested loops over a small, exact domain-specific language (DSL)",
-   "ts": 1792123200,
-   "zh": "自改进智能体自建DSL做精确问答",
-   "brief": "arXiv提出无预言机的算子归纳方法，让智能体自建领域语言实现精确问答。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.20845",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
-   "link": "https://arxiv.org/abs/2610.20845",
-   "summary": "arXiv:2610.20845v1 Announce Type: new Abstract: Skill-policy co-evolution, in which an agent's policy model and its skill bank improve each other during training, is a promising paradigm for self-improving agents. Current evaluations score the co-evolved policy on the final bank it trained with (the delivered bank). After deployment, however, skills may be rewritten, added or removed more frequently than the policy model is retrained, leaving the policy to operate on a drifted skill bank that neither the training objective nor existing evaluation protocols address. In this paper, we first esta",
-   "ts": 1792123200,
-   "zh": "自改进智能体的技能-策略共进化陷阱",
-   "brief": "arXiv研究技能与策略共同进化中的失败模式，指出评估方式存在缺陷。",
-   "why": "提示企业：AI自我进化方案存在隐性风险，需谨慎评估。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.20926",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
-   "link": "https://arxiv.org/abs/2610.20926",
-   "summary": "arXiv:2610.20926v1 Announce Type: new Abstract: Agent skills turn procedural knowledge into reusable artifacts, allowing LLM agents to accumulate and refine expertise through experience. Building on this, skill evolution iteratively improves skills using execution feedback. However, improvement may require several interdependent edits, so low-reward versions can still be worth developing. Requiring immediate reward gains can discard useful partial repairs before their benefits emerge. Non-elitist evolution allows new versions to receive further edits despite scoring below earlier ones. For age",
-   "ts": 1792123200,
-   "zh": "SkillNEO：智能体技能的非精英进化优化",
-   "brief": "arXiv提出SkillNEO，用非精英进化方法迭代优化智能体技能。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-   "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-   "summary": "",
-   "ts": 1792115087,
-   "zh": "印度语预训练扩展：2.8万亿token与开放数据管线",
-   "brief": "Hugging Face发布2.8万亿token的印度语预训练数据及开放生成管线。",
-   "why": "多语言AI能力提升，出海或本地化企业可关注。",
-   "score": 5
-  },
-  {
-   "id": "https://huggingface.co/blog/reflection-beam",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-   "link": "https://huggingface.co/blog/reflection-beam",
-   "summary": "",
-   "ts": 1792108800,
-   "zh": "Hugging Face上线501B开源模型Beam",
-   "brief": "Hugging Face欢迎Beam，一个501B参数开源模型，可拥有、定制和扩展。",
-   "why": "超大开源模型可私有化定制，企业AI自主可控选项增加。",
-   "score": 8
-  },
-  {
-   "id": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-   "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-   "ts": 1792108800,
-   "zh": "Stack Overflow智能体版靠ChatGPT插件用户翻三倍",
-   "brief": "两名工程师用Codex数周内做出Stack Overflow for Agents，ChatGPT插件带来最高10倍智能体创建增长。",
-   "why": "小团队借AI工具快速做产品并靠平台插件获客，值得中小企业参考。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/benefit-street-partners",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Benefit Street Partners answers questions faster with Codex",
-   "link": "https://openai.com/index/benefit-street-partners",
-   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-   "ts": 1792108800,
-   "zh": "Benefit Street Partners用Codex加速信贷分析",
-   "brief": "OpenAI案例：Anant Kumar用Codex做代码审查、比较贷款估值并分析信贷协议，加快回复速度。",
-   "why": "金融场景AI提效案例，可讲给老板看AI如何压缩专业分析周期。",
-   "score": 6
   }
  ]
 }
