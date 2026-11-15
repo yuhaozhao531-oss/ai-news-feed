@@ -1,5 +1,5 @@
 {
- "updated": 1794724989,
+ "updated": 1794759897,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -5730,19 +5730,6 @@
    "brief": "Itaú通过对话界面ia.i和治理平台IARA，在巴西高监管的金融业落地AI优先战略，覆盖客户与员工。",
    "why": "金融等高监管行业如何兼顾AI落地与合规治理，可作标杆案例讲给老板。",
    "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
-   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
-   "summary": "Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. This post shows how to deploy Beam on AWS: start with an Amazon SageMaker JumpStart real-time endpoint, or use Amazon SageMaker HyperPod Inference with JumpStart, SGLang, or vLLM for Kubernetes-native control over distributed GPU infrastructure.",
-   "ts": 1792164190,
-   "zh": "AWS推出开源智能体编码模型Beam",
-   "brief": "Reflection AI的Beam开源权重模型发布，用于智能体编码和长周期任务，可在AWS SageMaker上部署。",
-   "why": "企业可自部署编码智能体，降低对闭源API依赖，需评估运维成本。",
-   "score": 7
   }
  ]
 }
