@@ -1,11 +1,11 @@
 {
- "updated": 1794783281,
+ "updated": 1794811280,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
@@ -41,7 +41,7 @@
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -58,11 +58,128 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2611.17338",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+   "link": "https://arxiv.org/abs/2611.17338",
+   "summary": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.186 to +0.230 at perfect resolution to losses of -0.176 to -0.181 at the lowest tested reliability. Paired targeted interventions show that false-drop causes significantly greater degradation than false-keep, while a non-deleting baseline can still fail when incorrect labels steer ",
+   "ts": 1794805200,
+   "zh": "LLM智能体何时该遗忘？记忆过滤的风险",
+   "brief": "论文指出，当解析器出错并删掉查询关键事实时，LLM记忆系统的硬过滤会降低下游准确率。",
+   "why": "提醒企业：AI知识库自动清理可能误删关键信息，需保留人工复核。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.17501",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+   "link": "https://arxiv.org/abs/2611.17501",
+   "summary": "arXiv:2611.17501v1 Announce Type: new Abstract: Recommendation and Ranking (R&R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequently tolerate quantization-induced accuracy drops of 1% or more, production-grade R&R models enforce a stringent launch bar: model quality must remain within a 0.01% Normalized Entropy (NE) margin relative to the baseline, which commonly uses FP16 or FP32. This tight constraint has historically hindered the adoption of aggressive quantiz",
+   "ts": 1794805200,
+   "zh": "面向推荐排序模型的微缩放量化格式",
+   "brief": "研究针对数字广告推荐排序模型，用微缩放量化格式在保持精度的同时提升推理吞吐。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.17515",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+   "link": "https://arxiv.org/abs/2611.17515",
+   "summary": "arXiv:2611.17515v1 Announce Type: new Abstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simulations, the agent is asked to collude on the price of silver by a counterparty. We draw from behavioral economics to vary the counterparty's requests across four categorical frames: gain, loss, blame and credit. We also add pressure from the agent's management, as well as endorsement by another defen",
+   "ts": 1794805200,
+   "zh": "长周期LLM智能体的合谋行为与框架效应",
+   "brief": "研究将Gemma 3 12B置于白银定盘价诉讼模拟中，测试得失框架是否诱导市场操纵行为。",
+   "why": "提示企业用AI做定价、竞价类决策时需设合规护栏。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.17539",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+   "link": "https://arxiv.org/abs/2611.17539",
+   "summary": "arXiv:2611.17539v1 Announce Type: new Abstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifiable agentic search problem: candidate structures can be assessed during inference through forward-simulated profile agreement and during evaluation through structural matching to a known reference. To benchmark progress, we introduce pXRD-Bench, a suite of 200 simulated single-phase problems spanning in-distribution structure determinatio",
+   "ts": 1794805200,
+   "zh": "可验证pXRD：LLM智能体解析晶体结构",
+   "brief": "将粉末X射线衍射结构解析建模为可验证的智能体搜索问题，由LLM智能体自主求解。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.17610",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+   "link": "https://arxiv.org/abs/2611.17610",
+   "summary": "arXiv:2611.17610v1 Announce Type: new Abstract: Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories. Against baselines with a single pass (Category A), multi-agent accuracy differences are negative overall and near zero when omitting the largest contribut",
+   "ts": 1794805200,
+   "zh": "多智能体LLM：协作、集成与推理算力辨析",
+   "brief": "论文指出多智能体评测常混淆协作与采样、算力因素，并综合九项实证评估加以拆解。",
+   "why": "帮企业判断多智能体方案是否真比单模型加算力更值。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.17621",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+   "link": "https://arxiv.org/abs/2611.17621",
+   "summary": "arXiv:2611.17621v1 Announce Type: new Abstract: Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels. Each kernel is paired with test cases whose data types and tensor shapes are collected from re",
+   "ts": 1794805200,
+   "zh": "AscendGYM：昇腾NPU内核优化基准",
+   "brief": "发布面向昇腾NPU真实负载的成本感知内核优化基准，侧重智能体优化现有内核的能力。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.17632",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Generated Evaluation Suites as Diversity-Driven Search for Real Agent Regressions",
+   "link": "https://arxiv.org/abs/2611.17632",
+   "summary": "arXiv:2611.17632v1 Announce Type: new Abstract: Generating an evaluation suite from an agent's specification is diversity-driven search: a generator fills a descriptor space (requirements $\\times$ personas $\\times$ scenario kinds), and the suite it emits is an archive, then scored like a benchmark by its mean pass rate, which throws away the search's product. We inject 7 controlled defects into a $\\tau^2$-bench agent across two domains. Coverage yields a ceiling: if a defect's traced footprint holds $b$ scenarios that pass at baseline, it can itself contribute at most $b/N$ to a suite of $N$. ",
+   "ts": 1794805200,
+   "zh": "生成式评测集：搜索智能体真实回归问题",
+   "brief": "提出按需求、角色、场景维度生成评测套件，用于发现智能体的真实回归问题。",
+   "why": "为企业AI应用上线前的测试验收提供方法参考。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.17639",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "What LLM Agents See and What Users Say",
+   "link": "https://arxiv.org/abs/2611.17639",
+   "summary": "arXiv:2611.17639v1 Announce Type: new Abstract: Before an LLM agent cancels a reservation or deletes a folder for a user, what stops it from acting on a false assumption: what its tools show, or what the user says? In this work, we study this gap with presupposition theory from linguistics: an agent may act only if each claim behind the act (e.g., one reservation fits the name) is seen to hold, answered by the user, or disclosed while the act can be undone. A simple bound shows that when lookups cannot tell one record from two, any agent acts without asking first as often with two records as w",
+   "ts": 1794805200,
+   "zh": "LLM智能体看到什么与用户说了什么",
+   "brief": "借助语言学预设理论，研究智能体执行取消预订等操作时更依赖工具信息还是用户表述。",
+   "why": "提示企业设计AI操作确认机制，避免误执行。",
+   "score": 5
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+   "link": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+   "summary": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai […]",
+   "ts": 1794787228,
+   "zh": "英伟达首尔AI日聚焦物理AI与智能体",
+   "brief": "英伟达在首尔举办AI Day，超2000人参加，聚焦物理AI与AI智能体及韩国生态。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://openai.com/index/step-toward-defining-the-standard-model",
    "source": "openai",
