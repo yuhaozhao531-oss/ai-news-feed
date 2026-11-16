@@ -1,11 +1,11 @@
 {
- "updated": 1794811280,
+ "updated": 1794857999,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 8
   },
   "anthropic": {
    "name": "Anthropic",
@@ -29,25 +29,25 @@
    "name": "Google AI",
    "ok": true,
    "count": 9,
-   "new": 0
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 16,
-   "new": 0
+   "count": 17,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 1
+   "new": 6
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 7
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,283 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/",
+   "summary": "MoEngage built Merlin AI, a set of AI agents on Amazon Bedrock and Amazon Bedrock AgentCore that let marketing and product teams draft, analyze, and adjust campaigns from a single conversation. Learn how MoEngage turned its existing APIs into MCP tools and kept each tenant's data isolated while giving agents secure access to live platform data.",
+   "ts": 1794852967,
+   "zh": "MoEngage基于Bedrock AgentCore构建营销智能体",
+   "brief": "MoEngage用Amazon Bedrock与AgentCore打造Merlin AI，营销和产品团队可在单一对话中起草、分析并调整营销活动。",
+   "why": "营销场景智能体落地样板，可讲客服营销一体化怎么起步。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform",
+   "link": "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/",
+   "summary": "Legacy mainframe Assembler applications are costly to maintain and hard to staff. This post presents a multi-stage, AI-powered methodology using Amazon Bedrock, Kiro IDE, and AWS Transform to extract business rules, convert Assembler through an intermediate COBOL stage, and deploy modernized Java Spring Boot applications on AWS.",
+   "ts": 1794850169,
+   "zh": "用Bedrock与AWS Transform将大型机汇编迁移至Java",
+   "brief": "AWS介绍多阶段AI方法，用Bedrock、Kiro IDE和AWS Transform提取业务规则，经COBOL中转迁移为Java。",
+   "why": "老系统改造成本与人才断层是老板痛点，可作降本案例。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
+   "summary": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn millions of controlled manufacturing documents into grounded, cited answers.",
+   "ts": 1794848651,
+   "zh": "诺和诺德用AgentCore改造生产流程文档",
+   "brief": "诺和诺德平板团队基于AgentCore构建流程智能助手，用Neptune知识图谱加OpenSearch混合检索处理海量受控文档。",
+   "why": "制药巨头知识库落地案例，适合讲企业知识管理AI化。",
+   "score": 8
+  },
+  {
+   "id": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Broadening access to AI for scientists",
+   "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "ts": 1794848400,
+   "zh": "OpenAI向20万科研人员免费开放前沿模型",
+   "brief": "OpenAI扩大ChatGPT学术研究者计划，向全球20万名研究者免费提供前沿模型访问。",
+   "why": "与中小企业无直接关系，但可谈AI资源向科研倾斜趋势。",
+   "score": 3
+  },
+  {
+   "id": "https://openai.com/index/strengthening-online-child-safety",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "link": "https://openai.com/index/strengthening-online-child-safety",
+   "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+   "ts": 1794848400,
+   "zh": "OpenAI推出打击网络儿童性剥削新工具",
+   "brief": "OpenAI发布新工具、实操指南与合作计划，用于预防、检测和应对网络儿童性剥削与虐待。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
+   "link": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
+   "summary": "Amazon Bedrock Managed Knowledge Base now supports tabular search, so agentic retrieval can answer questions over CSV, XLSX, and XLS files. It looks up values and runs calculations across every relevant row, then combines the results with facts from related documents to answer multi-step analytical questions.",
+   "ts": 1794845536,
+   "zh": "Bedrock知识库新增表格搜索能力",
+   "brief": "Amazon Bedrock托管知识库支持对CSV、XLSX、XLS表格检索，可跨行查值计算并结合文档回答多步分析问题。",
+   "why": "企业大量数据在Excel里，这条直接打开报表问答场景。",
+   "score": 8
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/lambda-photonics/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+   "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+   "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
+   "ts": 1794844851,
+   "zh": "Lambda用英伟达光子技术提升AI工厂效率",
+   "brief": "云服务商Lambda采用英伟达共封装光学交换机连接GB300 NVL72集群，提升AI训练网络效率与韧性。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+   "link": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+   "summary": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on familiar workflows […]",
+   "ts": 1794844847,
+   "zh": "英伟达扩展Slurm支持量子计算进超算",
+   "brief": "英伟达扩展Slurm调度以支持量子处理器，全球近30个超算中心正部署50多台量子处理器。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+   "link": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+   "summary": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic […]",
+   "ts": 1794844825,
+   "zh": "英伟达Vera Rubin首秀横扫MLPerf基准",
+   "brief": "Vera Rubin平台在MLPerf首次亮相，横扫全部训练基准，并在端点提交中性能领先10倍以上。",
+   "why": "反映算力迭代速度，可讲模型能力与成本走向。",
+   "score": 4
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+   "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+   "summary": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries […]",
+   "ts": 1794844816,
+   "zh": "英伟达CUDA-X库为智能体提供科研工具",
+   "brief": "英伟达扩展cuPhoton、cuPotential、cuSpa等CUDA-X库，帮助研究者加速天体物理、材料与生物数据分析。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/20-years-cuda/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+   "link": "https://blogs.nvidia.com/blog/20-years-cuda/",
+   "summary": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers […]",
+   "ts": 1794844811,
+   "zh": "CUDA二十周年：GPU计算改变科学计算",
+   "brief": "英伟达在SC26纪念CUDA二十周年，回顾GPU计算成为现代科学与AI基础的发展历程。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/rubin-hpc/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+   "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
+   "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
+   "ts": 1794844801,
+   "zh": "英伟达发布Rubin HPC GPU加速科研智能体",
+   "brief": "英伟达在SC26发布Vera Rubin平台新GPU Rubin HPC，面向科学、工程与分析工作负载的仿真与数据处理。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
+   "link": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/",
+   "summary": "With Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail matches by meaning rather than keyword, which can block more than you intend. This post presents eight best practices for writing a topic precisely enough that the guardrail blocks what you mean and passes what you don't.",
+   "ts": 1794844081,
+   "zh": "Amazon Bedrock Guardrails 拒绝主题编写最佳实践",
+   "brief": "AWS 发布博客，介绍在 Bedrock Guardrails 中用自然语言描述拒绝主题的八条编写最佳实践。",
+   "why": "企业做内容安全过滤时，主题描述过宽会误伤正常业务，值得关注。",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Customize answers per tenant in Amazon Bedrock Managed Knowledge Base",
+   "link": "https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/",
+   "summary": "Retrieval instructions in Amazon Bedrock Managed Knowledge Base set the voice, format, retrieval guidance, and answer policy for each tenant on shared knowledge bases. This post shows how to give each tenant its own answers, keep tenant data apart with metadata filters, scope access with IAM tags, and roll out changes one tenant at a time.",
+   "ts": 1794843988,
+   "zh": "Bedrock 知识库支持按租户定制回答",
+   "brief": "AWS 介绍在共享知识库中通过检索指令为每个租户设定语气、格式与回答策略，并用元数据过滤隔离数据。",
+   "why": "多租户 SaaS 或集团多子公司共用知识库的企业可直接参考。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Use prompt caching with open-weight models on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock/",
+   "summary": "Many generative AI applications resend the same long context on every request. Prompt caching lets open-weight models on Amazon Bedrock reuse it to reduce input cost and latency. This post shows implicit and explicit caching through the Chat Completions API and applies caching to an OpenCode coding agent session.",
+   "ts": 1794843761,
+   "zh": "Bedrock 开源权重模型支持提示缓存",
+   "brief": "AWS 介绍 Bedrock 上开源权重模型的隐式与显式提示缓存，可降低重复长上下文的输入成本与延迟。",
+   "why": "长文档问答类应用可降本提速，是老板关心的成本优化点。",
+   "score": 7
+  },
+  {
+   "id": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "New Ask Maps features to help with holiday travel and prep",
+   "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+   "summary": "tbd",
+   "ts": 1794837600,
+   "zh": "谷歌地图 Ask Maps 新增假期出行功能",
+   "brief": "谷歌发布 Ask Maps 新功能，帮助用户规划假期出行与准备。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://openai.com/index/science-at-the-frontier",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "link": "https://openai.com/index/science-at-the-frontier",
+   "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+   "ts": 1794830400,
+   "zh": "OpenAI 调查 1800 名科学家如何使用 ChatGPT",
+   "brief": "OpenAI 发布研究，展示 1800 多名科学家在科研中使用 ChatGPT 的日常流程与效率反馈。",
+   "why": "可作为知识型岗位 AI 提效的实证素材。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/lvmh-media-division-partnership",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "link": "https://openai.com/index/lvmh-media-division-partnership",
+   "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "ts": 1794819600,
+   "zh": "LVMH 媒体部门与 OpenAI 达成战略合作",
+   "brief": "LVMH 媒体部门与 OpenAI 宣布合作，用 AI 支持新闻业并让旗下出版物通过 ChatGPT 更易获取。",
+   "why": "大型集团媒体业务接入 AI 的标杆案例，可讲行业落地。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Our first phase of embedded assessments",
+   "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "ts": 1794816000,
+   "zh": "OpenAI 启动首阶段嵌入式模型评估",
+   "brief": "OpenAI 与 Apollo Research、METR、Transluce、Goodfire 合作，独立评估模型对齐、防护与监控系统。",
+   "why": "反映 AI 安全与合规评估趋势，可作治理话题素材。",
+   "score": 5
+  },
+  {
+   "id": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Advancing computer-use agents for healthcare teams",
+   "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "summary": "",
+   "ts": 1794808800,
+   "zh": "OpenAI 推进医疗团队计算机使用智能体",
+   "brief": "OpenAI 发布面向医疗团队的计算机使用智能体相关进展。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "ts": 1794808800,
+   "zh": "ChatGPT 医疗版新增智能体与临床插件",
+   "brief": "OpenAI 为 ChatGPT 医疗版推出计算机使用智能体、改进的临床回答及可跨医疗软件工作的新插件。",
+   "why": "垂直行业 AI 智能体落地案例，可类比其他行业场景。",
+   "score": 7
+  },
   {
    "id": "https://arxiv.org/abs/2611.17338",
    "source": "arxiv",
@@ -179,6 +452,32 @@
    "brief": "英伟达在首尔举办AI Day，超2000人参加，聚焦物理AI与AI智能体及韩国生态。",
    "why": "",
    "score": 3
+  },
+  {
+   "id": "https://openai.com/index/the-kings-trust-and-openai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
+   "link": "https://openai.com/index/the-kings-trust-and-openai",
+   "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+   "ts": 1794787200,
+   "zh": "英国国王信托与 OpenAI 启动百万英镑合作",
+   "brief": "双方启动 100 万英镑合作，帮助英国最多 2.5 万名年轻人掌握实用 AI 技能。",
+   "why": "企业 AI 培训与人才技能项目的参考范本。",
+   "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/openrouter",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "link": "https://huggingface.co/blog/openrouter",
+   "summary": "",
+   "ts": 1794787200,
+   "zh": "Hugging Face 与 OpenRouter 合作简化开源模型运行",
+   "brief": "Hugging Face 与 OpenRouter 联手，让开源权重模型更易于运行和调用。",
+   "why": "降低企业使用开源模型的门槛，影响选型与成本。",
+   "score": 6
   },
   {
    "id": "https://openai.com/index/step-toward-defining-the-standard-model",
