@@ -1,11 +1,11 @@
 {
- "updated": 1794887853,
+ "updated": 1794931758,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 1
+   "new": 3
   },
   "anthropic": {
    "name": "Anthropic",
@@ -41,13 +41,13 @@
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 2
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 3
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,50 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 8,
+   "count": 0,
    "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How ArisGlobal scaled generative AI inference on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/",
+   "summary": "ArisGlobal runs NavaX, its life-sciences AI engine, on Amazon Bedrock. By caching the shared prompt prefix instead of each per-case document, ArisGlobal cut effective input cost by about 50% and overall monthly inference spend by about 40%, while onboarding more tenants without proportional cost growth.",
+   "ts": 1794931029,
+   "zh": "ArisGlobal在Bedrock上降低生成式AI推理成本",
+   "brief": "ArisGlobal在Amazon Bedrock上运行生命科学AI引擎NavaX，通过缓存共享提示前缀，将有效输入成本降低约50%，月度推理支出降低约40%。",
+   "why": "提示缓存可省近半推理成本，中小企业可借鉴降本思路。",
+   "score": 8
+  },
+  {
+   "id": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+   "ts": 1794873600,
+   "zh": "OpenAI与北约合作强化网络防御",
+   "brief": "OpenAI与北约及盟国网络机构合作，帮助防御方发现漏洞、测试修复并保护关键系统。",
+   "why": "AI安全合规信号，涉及政企合作与网络安全治理。",
+   "score": 5
+  },
+  {
+   "id": "https://openai.com/index/introducing-openai-for-chile",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Introducing OpenAI for Chile",
+   "link": "https://openai.com/index/introducing-openai-for-chile",
+   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+   "ts": 1794873600,
+   "zh": "OpenAI与智利政府合作推动AI应用",
+   "brief": "OpenAI与智利政府合作，支持负责任AI采用、建设公共部门技能并帮助本地创业公司开发AI应用。",
+   "why": "政府级AI落地案例，可参考公共部门与生态合作模式。",
+   "score": 6
+  },
   {
    "id": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
    "source": "nvidia",
@@ -348,6 +387,19 @@
    "brief": "OpenAI 发布研究，展示 1800 多名科学家在科研中使用 ChatGPT 的日常流程与效率反馈。",
    "why": "可作为知识型岗位 AI 提效的实证素材。",
    "score": 6
+  },
+  {
+   "id": "https://openai.com/business/customer-stories/revolut",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Revolut raises ambition without lowering the bar",
+   "link": "https://openai.com/business/customer-stories/revolut",
+   "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+   "ts": 1794821400,
+   "zh": "Revolut用OpenAI模型缩短30-60%编码时间",
+   "brief": "Revolut使用OpenAI模型和Codex将编码时间缩短30-60%，扩展金融犯罪调查规模，同时保持安全标准。",
+   "why": "金融企业AI落地实证，编码提效数据可直接用于客户案例。",
+   "score": 8
   },
   {
    "id": "https://openai.com/index/lvmh-media-division-partnership",
