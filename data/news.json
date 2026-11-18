@@ -1,11 +1,11 @@
 {
- "updated": 1794931758,
+ "updated": 1794963587,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 3
+   "new": 4
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,32 +22,32 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 8,
+   "count": 7,
    "new": 0
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 9,
-   "new": 0
+   "count": 10,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 15,
+   "count": 14,
    "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 1
+   "new": 13
   },
   "qwen": {
    "name": "通义千问",
@@ -64,6 +64,201 @@
  },
  "items": [
   {
+   "id": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+   "link": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+   "summary": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
+   "ts": 1794958406,
+   "zh": "SageMaker HyperPod 支持 NVIDIA Dynamo 分布式推理",
+   "brief": "SageMaker HyperPod 推理新增 NVIDIA Dynamo 支持，具备多节点、分离式服务、KV 感知路由与自动故障恢复。",
+   "why": "大模型自建推理门槛降低，可评估私有化部署成本。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+   "link": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/",
+   "summary": "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb. This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction. Together they cut per-turn token use by up to 71% and latency by up to 80%.",
+   "ts": 1794955491,
+   "zh": "降低 AgentCore JSON 负载的 token 成本与延迟",
+   "brief": "介绍三种可组合策略：大文件卸载至 S3、按需分页返回结果、字典压缩，显著降低每轮 token 消耗。",
+   "why": "Agent 上线后 token 成本可控，直接影响 AI 项目 ROI。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Cut generative AI costs: Code for rules, models for judgment",
+   "link": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+   "summary": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
+   "ts": 1794950095,
+   "zh": "用代码处理规则，用模型处理判断以省成本",
+   "brief": "提出判断每个流程步骤是否真需调用模型，并映射到确定性代码、受限决策调用或合适规模模型。",
+   "why": "给老板讲清 AI 成本结构的最佳素材，落地方法论。",
+   "score": 9
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+   "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+   "summary": "Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each request to the instance holding the longest cached match for its prompt. Learn how it works, when to use it compared with prefix-aware routing, and how to enable, invoke, and verify it on single model and inference component endpoints.",
+   "ts": 1794949911,
+   "zh": "SageMaker 实时端点支持 KV 缓存感知路由",
+   "brief": "实时端点新增 KV 缓存感知路由，将请求路由到缓存匹配最长的实例，并说明与前缀感知路由的取舍。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Govern and discover records with common metadata in AWS Agent Registry",
+   "link": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/",
+   "summary": "Custom metadata schemas in AWS Agent Registry let an administrator define typed, validated fields that every agent, MCP server, and skill must carry. This post follows an MCP record from schema definition through registration, enrichment, approval, and discovery, so teams govern and find resources with one shared set of facts.",
+   "ts": 1794947464,
+   "zh": "AWS Agent Registry 支持自定义元数据治理",
+   "brief": "管理员可定义带类型校验的元数据字段，要求每个 agent、MCP 服务器和技能携带，便于注册与发现。",
+   "why": "多 Agent 上规模后的资产治理与合规抓手。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+   "summary": "When an AI agent on Amazon Bedrock AgentCore calls Snowflake Cortex AI over MCP, how does it authenticate? This post walks through three OAuth patterns we tested on AgentCore Identity: Snowflake OAuth, three-legged OAuth with a corporate IdP, and two-legged OAuth, so you can match your organization's identity, audit, and compliance needs.",
+   "ts": 1794947123,
+   "zh": "AgentCore 调用 Snowflake Cortex 的 OAuth 模式",
+   "brief": "介绍在 AgentCore Identity 上验证的三种 OAuth 模式：Snowflake OAuth、三方 OAuth 与两方 OAuth。",
+   "why": "企业数据接入 AI 的身份认证方案参考。",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+   "link": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+   "summary": "Amazon SageMaker AI now offers AI data preparation capabilities for building high-quality training and evaluation data. Generate synthetic examples, assess and improve datasets, auto-label at scale, and bring in expert review through Python SDK APIs and an agent skill, all from your own notebook or IDE.",
+   "ts": 1794944401,
+   "zh": "SageMaker 推出 AI 数据准备能力",
+   "brief": "新增数据准备能力：生成合成样本、评估改进数据集、规模化自动标注，并通过 Python SDK 与 agent 技能使用。",
+   "why": "训练与评测数据是 AI 项目隐性成本大头。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Getting AI out of the demo and into businesses globally",
+   "link": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/",
+   "summary": "Most enterprises have AI that works in a demo but stalls before production. AWS Forward Deployed Engineering closes that gap. AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns.",
+   "ts": 1794942322,
+   "zh": "AWS 派驻工程师帮企业 AI 从演示走向生产",
+   "brief": "AWS 前沿部署工程团队嵌入客户团队，以 45 天冲刺将高价值流程推向生产，交付客户自有的流程与治理基础。",
+   "why": "典型企业 AI 落地案例，可作咨询方法论参考。",
+   "score": 9
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Build WhatsApp AI agents with Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/",
+   "summary": "SMART, an open-source Python SDK and Terraform stack, deploys the full WhatsApp channel layer to your AWS account with one command. Bring any agent that runs on Amazon Bedrock AgentCore, and SMART handles webhook ingestion, media, conversation memory, scheduling, and Meta message templates.",
+   "ts": 1794941330,
+   "zh": "用 AgentCore 构建 WhatsApp AI 智能体",
+   "brief": "开源 SDK 与 Terraform 栈 SMART 一键部署 WhatsApp 渠道层，处理 webhook、媒体、会话记忆与消息模板。",
+   "why": "客服类 AI 落地路径清晰，中小企业可复制。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Reason over time-series data with OpenTSLM on Amazon SageMaker JumpStart",
+   "link": "https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/",
+   "summary": "OpenTSLM, an open source family of time-series language models, is now available in Amazon SageMaker JumpStart. See how Nexthink and Aionic Labs apply it to proactive IT support, then deploy OpenTSLM to a real-time endpoint and fine-tune it on your own data with TimeNet and a SageMaker training job.",
+   "ts": 1794938804,
+   "zh": "OpenTSLM 时序模型上线 SageMaker JumpStart",
+   "brief": "开源时序语言模型家族 OpenTSLM 登陆 JumpStart，含 Nexthink 主动 IT 支持案例与微调部署方法。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "ts": 1794937500,
+   "zh": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+   "brief": "新模型在专业输出、编程、电脑操作与效率上提升，成本更低，覆盖 ChatGPT Work、Codex 与 API。",
+   "why": "模型能力与价格变化，直接影响企业选型与预算。",
+   "score": 9
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/your-complete-guide-to-aws-quick-at-aws-reinvent-2026/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Your complete guide to AWS Quick at AWS re:Invent 2026",
+   "link": "https://aws.amazon.com/blogs/machine-learning/your-complete-guide-to-aws-quick-at-aws-reinvent-2026/",
+   "summary": "AWS Quick gives your whole organization AI that knows your business, respects your security rules, and acts on your behalf. At AWS re:Invent 2026, customers including Allianz, Cox Automotive, and Southwest Airlines share how they govern, extend, and scale Quick. Use this guide to find the sessions that fit your goals.",
+   "ts": 1794935301,
+   "zh": "AWS re:Invent 2026 Quick 参会指南",
+   "brief": "汇总 Quick 相关议程，Allianz、Cox Automotive、西南航空等客户分享如何治理、扩展与规模化 Quick。",
+   "why": "大企业 AI 平台化案例，可提炼管理经验。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/",
+   "summary": "LoanPro worked with AWS Partner AllCloud and the AWS Generative AI Innovation Center to build a multi-agent AI assistant on Amazon Bedrock and Amazon Bedrock AgentCore. It gives loan servicing agents instant borrower context and next-best-action recommendations, reducing customer call times by up to 15 percent.",
+   "ts": 1794934868,
+   "zh": "LoanPro用Amazon Bedrock构建贷款服务AI助手",
+   "brief": "LoanPro与AWS合作伙伴AllCloud及生成式AI创新中心合作，基于Amazon Bedrock AgentCore构建多智能体贷款服务助手，为客服提供借款人背景与下一步行动建议，缩短通话时长。",
+   "why": "金融服务业AI客服落地案例，可讲多智能体如何缩短业务处理时间。",
+   "score": 8
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Put Gemini to work for you",
+   "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "summary": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+   "ts": 1794934800,
+   "zh": "谷歌展示Gemini任务界面",
+   "brief": "谷歌展示Gemini用户界面，输入框上方显示提示语“我能帮你完成什么？”，框内为占位文字“描述一项任务”。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Responsible AI for agentic AI: A phased roadmap for platform and application teams",
+   "link": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/",
+   "summary": "Enterprises adopting agentic AI at scale need platforms that embed responsible AI from the start. This post gives platform and application teams a three-phase roadmap (governance foundation, pilot deployment, and evaluation and hardening) that maps the AWS Responsible AI Lens pillars to each phase, with guidance on when to revisit each one.",
+   "ts": 1794934591,
+   "zh": "AWS发布智能体AI负责任AI三阶段路线图",
+   "brief": "AWS发布面向平台与应用团队的智能体AI负责任AI三阶段路线图：治理基础、试点部署、评估加固，并将AWS负责任AI透镜支柱映射到各阶段。",
+   "why": "企业规模化上智能体AI的治理框架，适合给管理层讲合规与风险控制。",
+   "score": 8
+  },
+  {
    "id": "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/",
    "source": "aws-ml",
    "sourceName": "AWS 机器学习",
@@ -74,6 +269,32 @@
    "zh": "ArisGlobal在Bedrock上降低生成式AI推理成本",
    "brief": "ArisGlobal在Amazon Bedrock上运行生命科学AI引擎NavaX，通过缓存共享提示前缀，将有效输入成本降低约50%，月度推理支出降低约40%。",
    "why": "提示缓存可省近半推理成本，中小企业可借鉴降本思路。",
+   "score": 8
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+   "link": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+   "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
+   "ts": 1794924010,
+   "zh": "NVIDIA在SC26发布科学智能体工具",
+   "brief": "NVIDIA的Ian Buck在芝加哥SC26开幕演讲中发布面向AI智能体的新工具，可规划实验、运行代码并核验结果，同时发布Nemotron for Science与Rubin HPC GPU。",
+   "why": "科研场景智能体工具，偏技术前沿，与中小企业关联较弱。",
+   "score": 4
+  },
+  {
+   "id": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Introducing ChatGPT for Sales",
+   "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+   "ts": 1794902400,
+   "zh": "OpenAI推出ChatGPT销售插件",
+   "brief": "OpenAI推出ChatGPT销售插件及30多个新增和扩展的合作伙伴插件，用于调研潜在客户、准备推介、更新CRM并推进交易。",
+   "why": "销售场景AI工具直接可用，可讲中小企业销售提效的具体切入点。",
    "score": 8
   },
   {
@@ -100,6 +321,19 @@
    "zh": "OpenAI与智利政府合作推动AI应用",
    "brief": "OpenAI与智利政府合作，支持负责任AI采用、建设公共部门技能并帮助本地创业公司开发AI应用。",
    "why": "政府级AI落地案例，可参考公共部门与生态合作模式。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/astra-law-6-2",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Astra for Law leads in legal intelligence",
+   "link": "https://openai.com/index/astra-law-6-2",
+   "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+   "ts": 1794873600,
+   "zh": "Astra for Law法律智能评测排名第一",
+   "brief": "Astra for Law在覆盖24个法律领域的发布评测中排名第一，所有ChatGPT Enterprise客户现可申请使用。",
+   "why": "垂直行业AI能力评测案例，可讲专业服务业的AI选型参考。",
    "score": 6
   },
   {
@@ -1206,6 +1440,19 @@
    "brief": "Hugging Face发布3D生成模型微调的完整指南，介绍训练方法与流程。",
    "why": "",
    "score": 3
+  },
+  {
+   "id": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "ChatGPT Ads increases its market presence in 44 countries",
+   "link": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+   "summary": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
+   "ts": 1794441600,
+   "zh": "ChatGPT广告业务扩展至44国",
+   "brief": "Aleph成为ChatGPT Ads在44个国家的独家经销商，为品牌和代理商提供本地开票、线下支持与本地市场经验。",
+   "why": "AI平台广告商业化信号，影响企业营销投放渠道选择。",
+   "score": 6
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
@@ -6237,19 +6484,6 @@
    "brief": "论文提出递归目标分解的自相似多智能体架构，含通信、收敛与深度约束。",
    "why": "",
    "score": 3
-  },
-  {
-   "id": "https://huggingface.co/blog/hf-torchneuron",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-   "link": "https://huggingface.co/blog/hf-torchneuron",
-   "summary": "",
-   "ts": 1792368000,
-   "zh": "TorchNeuron简化HF模型在Trainium上运行",
-   "brief": "发布TorchNeuron，让Hugging Face模型在AWS Trainium上运行更简单。",
-   "why": "",
-   "score": 2
   }
  ]
 }
