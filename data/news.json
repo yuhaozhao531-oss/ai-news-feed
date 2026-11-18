@@ -1,11 +1,11 @@
 {
- "updated": 1794963587,
+ "updated": 1795002727,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 4
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -29,7 +29,7 @@
    "name": "Google AI",
    "ok": true,
    "count": 10,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
@@ -41,13 +41,13 @@
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 13
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -58,11 +58,128 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2611.21799",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+   "link": "https://arxiv.org/abs/2611.21799",
+   "summary": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this risk through persona-control training: supervised fine-tuning on mathematical reasoning traces rewritten in the voices of diverse personas. This induces a broader ability to control CoT, even though training contains no monitor-evasion examples. In covert side-task evaluations, traces in which a gpt-o",
+   "ts": 1794978000,
+   "zh": "研究：思维链可控性可能削弱其可监控性",
+   "brief": "arXiv新论文指出，模型若能有意识地塑造推理过程，思维链监控作为检测隐藏目标的手段可能失效。",
+   "why": "提示企业：别把AI推理日志当审计依据，需配套其他风控手段。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.21948",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Honest Brokers in AI Regulation: How Public Comments Introduce Evidence to Regulators",
+   "link": "https://arxiv.org/abs/2611.21948",
+   "summary": "arXiv:2611.21948v1 Announce Type: new Abstract: The regulation of Artificial Intelligence is susceptible to various forms of capture by industry actors that hold undue influence over the policymaking process, due in part to their information advantage in developing these technologies. In the following paper, we investigate the roles of public commenters in providing evidence to potential regulation in the USA. We build a corpus of 40 potential regulations, and 2,664 public comments submitted by a variety of stakeholders. We computationally process these texts to extract evidence meant to infor",
+   "ts": 1794978000,
+   "zh": "研究：公众意见如何为AI监管引入证据",
+   "brief": "arXiv论文分析公众评论如何向监管机构提供行业外的证据，缓解AI政策被产业界俘获的风险。",
+   "why": "关注AI监管走向的老板可留意合规环境变化，但短期无直接动作。",
+   "score": 4
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.21950",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
+   "link": "https://arxiv.org/abs/2611.21950",
+   "summary": "arXiv:2611.21950v1 Announce Type: new Abstract: AI agents can assist scientific research, but balancing autonomous investigation with scientists' ability to inspect and redirect ongoing work remains a central design challenge. We present DiscoveryAgent, a domain-agnostic, scientist-centric system that combines autonomous investigation with scientist-directed hypothesis steering. Scientists select, refine, or replace hypotheses between research rounds, while audit agents interrogate checkpointed records to trace claims, reproduce analyses, and inform subsequent decisions. Across two predictive ",
+   "ts": 1794978000,
+   "zh": "DiscoveryAgent：以科学家为中心的科研智能体框架",
+   "brief": "提出一个领域无关的智能体系统，让科研人员能随时查看并调整AI的自主研究过程。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.21978",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution for an Agent-Native Web",
+   "link": "https://arxiv.org/abs/2611.21978",
+   "summary": "arXiv:2611.21978v1 Announce Type: new Abstract: Large language models are moving from isolated assistants toward autonomous agents that can plan, use tools, and coordinate with others, motivating an emerging Agentic Web of independently developed agents and services. Realizing this vision requires agent behavior to move across creators, hosts, and runtimes without coupling publication to a particular execution environment or transferring authority over user resources. We introduce WebAgents, which unbundles these roles through a signed agent.pkg that carries portable workflows, skills, schemas",
+   "ts": 1794978000,
+   "zh": "WebAgents：拆分智能体创建、托管与执行",
+   "brief": "提出面向智能体原生网络的架构，将智能体的创建、托管与执行解耦，便于独立开发与协作。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.22017",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "SkillBuffBench: Measuring What Agent Skills Contribute across Harnesses, Models, Skill Access Modes and Memory",
+   "link": "https://arxiv.org/abs/2611.22017",
+   "summary": "arXiv:2611.22017v1 Announce Type: new Abstract: Agent Skills, file-based packages of procedural knowledge that a coding agent can discover and load on demand, are now shipped by every major agent harness, yet the evidence for how much they help comes almost entirely from settings in which the right Skill is hand-picked for the task and the agent starts from a blank slate. Neither holds in deployment, where an agent chooses from whatever library happens to be installed and frequently carries memory from earlier work. We present SkillBuffBench, a benchmark and paired evaluation protocol that tre",
+   "ts": 1794978000,
+   "zh": "SkillBuffBench：量化智能体技能的实际贡献",
+   "brief": "新基准测试智能体技能包在不同框架、模型、访问方式和记忆条件下带来的实际增益。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.22030",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "What Does an Agent Need? Bundle-Aware Agent Resource Composition",
+   "link": "https://arxiv.org/abs/2611.22030",
+   "summary": "arXiv:2611.22030v1 Announce Type: new Abstract: An agent resource's value depends on its backbone and companion resources and is known only after execution. Token-based generators remain tied to their training catalog, while independent resource scoring misses complementarities and reused bundles target other tasks. We formulate Task-Conditioned Agent Resource Composition (AgentComposition): jointly selecting a backbone model and a tool-skill bundle to maximize end-to-end execution utility. Our Retrieval-Grounded Bundle-Aware Agent Generation retrieves candidate resources and past configuratio",
+   "ts": 1794978000,
+   "zh": "Bundle-Aware：智能体资源的组合式选择",
+   "brief": "论文提出按组合效果而非单独打分来为智能体挑选配套资源，考虑资源间的互补性。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.22033",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+   "link": "https://arxiv.org/abs/2611.22033",
+   "summary": "arXiv:2611.22033v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models with more thinking power would make higher-quality purchasing decisions. To test this belief, we ask two questions about such agents: does asking a model to think harder make it choose better products, and does the confidence it reports tell us the likelihood it may be wrong? We benchmark ten frontie",
+   "ts": 1794978000,
+   "zh": "研究：推理更久只增自信不增正确率",
+   "brief": "针对LLM购物智能体的研究发现，提高推理投入会提升模型信心，但并未提升选择正确性。",
+   "why": "提醒老板：别盲目追求“更会思考”的模型，效果需实测验证。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.22075",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Can You Undo It? Reversibility Classes for AI Agent Actions",
+   "link": "https://arxiv.org/abs/2611.22075",
+   "summary": "arXiv:2611.22075v1 Announce Type: new Abstract: Tool-using AI agents change files, databases, access rights and public information, yet permission to call a tool does not establish whether a mistake can be undone. We present Reversibility Classes, a declared five-level vocabulary with argument-sensitive rules, conservative defaults and an explicit prior-state capture contract. The pinned implementation and evidence-linked registry cover 536 tools across 20 MCP servers. All 738 rule-case checks conform to declared expectations, while native annotation mapping differs from draft registry labels ",
+   "ts": 1794978000,
+   "zh": "AI智能体动作可逆性分级框架",
+   "brief": "论文提出五级可逆性词汇表，用于判断智能体调用工具造成的改动能否撤销。",
+   "why": "给企业设计AI权限与回滚机制提供参考，降低误操作风险。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+   "ts": 1794960000,
+   "zh": "费加罗报业集团与OpenAI合作接入ChatGPT",
+   "brief": "双方合作将《费加罗报》新闻以摘要和摘录形式引入ChatGPT，并附原文链接。",
+   "why": "内容行业与AI合作模式样本，可参考媒体版权变现路径。",
+   "score": 5
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
    "source": "aws-ml",
@@ -6380,110 +6497,6 @@
    "brief": "OpenAI 介绍 ChatGPT 在低资源编程语言上的改进，新增软件工程、SQLite 和 COBOL 迁移评测。",
    "why": "老系统迁移类场景或受益，可作企业遗留系统改造话题。",
    "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.22373",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
-   "link": "https://arxiv.org/abs/2610.22373",
-   "summary": "arXiv:2610.22373v1 Announce Type: new Abstract: LLM-based agents are increasingly used as autonomous orchestrators in distributed and multi-agent systems, yet a control gap remains: no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles. Free-text overrides suffer from ambiguous interpretation due to lack of schema validation and from authority erosion as operator instructions lose influence within accumulating context. We propose Structured Authority Injection (SAI), a protocol that addresses these issues by routing operator correct",
-   "ts": 1792382400,
-   "zh": "结构化权威注入：用MCP覆盖实现人类对LLM智能体的持久控制",
-   "brief": "论文提出通过类型化MCP覆盖机制，让人类指令在智能体规划周期中持续生效。",
-   "why": "提示企业AI智能体需保留人工干预与审批通道，可作为治理话题素材。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.22408",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
-   "link": "https://arxiv.org/abs/2610.22408",
-   "summary": "arXiv:2610.22408v1 Announce Type: new Abstract: Long-horizon GUI agents rely on visual history to maintain task states, but retaining historical screenshots increases visual-token usage and inference costs, while textual summaries can discard critical state information, undermining long-horizon reliability. We propose ECHOES, which leverages training-time privileged information to guide textual history compression and strengthen long-horizon reasoning. Specifically, ECHOES adopts a Compression-Think-Action (CTA) format to recursively update a textual history state and reason. The same model, g",
-   "ts": 1792382400,
-   "zh": "ECHOES：用递归历史压缩与特权在线蒸馏扩展GUI智能体",
-   "brief": "论文提出压缩视觉历史并蒸馏状态信息，降低长任务GUI智能体的推理成本。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.22420",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Sensitivity Analysis of Decision Rules in an Agent-Based Agro-Ecological Model",
-   "link": "https://arxiv.org/abs/2610.22420",
-   "summary": "arXiv:2610.22420v1 Announce Type: new Abstract: Agent-based models are well-suited for modelling agro-ecological systems for decision-making, yet turning their simulations into actionable insight requires identifying which decisions actually drive the behaviours. In such a context, sensitivity analysis stumbles upon a structural feature of many complex systems: the parameters are not a flat vector but a decision tree in which many parameters appear only when a higher-level choice activates them. Classical global sensitivity analysis presupposes independent inputs over a fixed Cartesian product",
-   "ts": 1792382400,
-   "zh": "农业生态智能体模型的决策规则敏感性分析",
-   "brief": "论文对智能体农业生态模型中的决策规则做敏感性分析，识别关键决策因素。",
-   "why": "",
-   "score": 1
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.22426",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents",
-   "link": "https://arxiv.org/abs/2610.22426",
-   "summary": "arXiv:2610.22426v1 Announce Type: new Abstract: LLM agents are used to check records against an organization's requirements, for example whether a vulnerability report is ready for investigation. Requirements often allow several ways to be met, such as a severity rating with a curator-reviewed advisory or a published advisory link. Agents fail by accepting a report after a required check has failed, or by settling for a weaker conclusion without trying another way that could still succeed. We introduce PRIME (Precommitted Rules for Inference from Minimal Evidence). Before checking, it fixes ev",
-   "ts": 1792382400,
-   "zh": "PRIME：让LLM智能体给出可验证的证据推理",
-   "brief": "论文提出PRIME方法，使智能体按组织要求核查记录时给出可验证的证据依据。",
-   "why": "合规审查类AI应用的可信度问题，可作企业风控落地参考。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.22465",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Author-in-the-loop Agentic Reproducibility Auditing for a Machine Learning Conference",
-   "link": "https://arxiv.org/abs/2610.22465",
-   "summary": "arXiv:2610.22465v1 Announce Type: new Abstract: Reproducibility checks during peer review require a shared understanding of what authors' code is expected to reproduce. We present an author-in-the-loop collaborative audit that makes author declarations explicit inputs to an AI agent's investigation and assessment. A structured checklist records reproduction instructions and limitations; a two-stage workflow on GitHub connects agent checks to author clarification, revision, and agent reassessment. The agent separately assesses whether results have been reproduced and whether authors need to pro",
-   "ts": 1792382400,
-   "zh": "作者参与的智能体复现性审计：面向机器学习会议",
-   "brief": "论文提出让作者声明作为AI智能体审计输入的协作式复现性核查方法。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.22466",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
-   "link": "https://arxiv.org/abs/2610.22466",
-   "summary": "arXiv:2610.22466v1 Announce Type: new Abstract: Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the search set. But how much of this gain reflects benchmark-specific overfitting or additional inference-time compute, and how much may generalize beyond the search set? In this work, we introduce Harness-Delta Attribution (HDA), an evaluation protocol that dissects an evolution",
-   "ts": 1792382400,
-   "zh": "Harness-Delta归因：拆解智能体框架演进的收益来源",
-   "brief": "论文提出归因方法，分析提示、工具与编排代码优化各自带来的性能提升。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.22469",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Testing the Planning Claims of LLM-Based Agents against Formal Semantics",
-   "link": "https://arxiv.org/abs/2610.22469",
-   "summary": "arXiv:2610.22469v1 Announce Type: new Abstract: LLM-based agents are increasingly credited with the competences of practical reasoning: planning, monitoring, and correcting their own actions. Their success is attributed to the prompting strategies and agent architectures built around the model, such as chain-of-thought, search-based prompting, self-refinement, reflection, critics and tool-using loops. Yet these claims are usually supported by end-to-end success rates, which show only whether a task was completed, or by LLM judges, which are not verifiers. We test LLM planning against formal se",
-   "ts": 1792382400,
-   "zh": "用形式语义检验LLM智能体的规划能力宣称",
-   "brief": "论文以形式语义为基准，检验LLM智能体在规划、监控与纠错上的实际能力。",
-   "why": "提醒老板别高估智能体自主规划能力，可作预期管理素材。",
-   "score": 4
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.22561",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "FRACTAL: A Self-Similar Multi-Agent Orchestration Architecture with Formal Communication, Convergence, and Depth Bounds",
-   "link": "https://arxiv.org/abs/2610.22561",
-   "summary": "arXiv:2610.22561v1 Announce Type: new Abstract: We present FRACTAL, a self-similar multi-agent architecture for recursive goal decomposition, in which the same five-component organizational pattern -- Orchestrator, Ensemble, Knowledge Ledger, Decision Maker, Meta-Observer -- recurs at every level of a decomposition tree. We make four formal contributions: (1) a communication bound showing intra-node cost is linear in ensemble size and round count (O(kr)) under a two-phase blind-proposal/stress-test protocol, versus quadratic cost for free-form debate, with an explicit, stated assumption on fix",
-   "ts": 1792382400,
-   "zh": "FRACTAL：自相似多智能体编排架构",
-   "brief": "论文提出递归目标分解的自相似多智能体架构，含通信、收敛与深度约束。",
-   "why": "",
-   "score": 3
   }
  ]
 }
