@@ -1,11 +1,11 @@
 {
- "updated": 1795002727,
+ "updated": 1795034304,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 1
+   "new": 4
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,32 +22,32 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 7,
-   "new": 0
+   "count": 8,
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 10,
-   "new": 0
+   "count": 11,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 14,
-   "new": 0
+   "count": 18,
+   "new": 5
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 5
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,179 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+   "summary": "Learn how Salesforce uses the cross-Region inference router in Amazon SageMaker AI to turn fragmented Regional capacity into reliable model serving. Salesforce adds capacity securely across Regions and accounts while keeping its data residency commitments, and sees per request where each call was served and why.",
+   "ts": 1795032798,
+   "zh": "Salesforce用SageMaker跨区域推理路由",
+   "brief": "AWS介绍Salesforce如何用SageMaker AI跨区域推理路由器，整合分散区域算力并满足数据驻留要求。",
+   "why": "多云多区域部署AI时，算力调度与数据合规可兼得，可作架构参考。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "summary": "",
+   "ts": 1795031696,
+   "zh": "DaisyRose-27B：后训练效率新突破",
+   "brief": "Hugging Face发布DaisyRose-27B模型，主打后训练效率提升。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Social Department built culture-aware video discovery",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/",
+   "summary": "Social Department, an AI operating system for entertainment marketing, worked with TrackIt and AWS to build QuickSearch: single-action queries that surface shareable scenes, quotable lines, memeable frames, and trend-aligned moments across large video libraries, using TwelveLabs models on Amazon Bedrock and Amazon OpenSearch Serverless.",
+   "ts": 1795030076,
+   "zh": "Social Department构建文化感知视频检索",
+   "brief": "Social Department联合TrackIt与AWS，用TwelveLabs模型在Bedrock上做视频场景与台词检索。",
+   "why": "内容营销团队可参考AI视频素材检索的落地方式。",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection",
+   "link": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/",
+   "summary": "Many enterprises run a centralized network model: one account owns every VPC and a central firewall inspects all traffic. This post shows a tested pattern for connecting Amazon Bedrock AgentCore Gateway to private APIs and MCP servers in that model, with the VPC Lattice resource gateway in the network account so every hop crosses the firewall.",
+   "ts": 1795028745,
+   "zh": "AgentCore网关接入私有API的集线辐条方案",
+   "brief": "AWS给出在集中式网络与防火墙审查下，将AgentCore Gateway连接私有API和MCP服务器的模式。",
+   "why": "企业上Agent前必答的网络与安全架构问题，有实操价值。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/",
+   "summary": "Stretto replaced its web-form lead capture with Tara, an AI voice agent built on Amazon Nova 2 Sonic that conducts bankruptcy intake interviews by phone and qualifies leads. See how Stretto, the AWS Generative AI Innovation Center, and CI&T designed the voice architecture, validated it for sensitive conversations, and moved it to production.",
+   "ts": 1795028322,
+   "zh": "Stretto用Nova 2 Sonic做AI语音坐席",
+   "brief": "Stretto用Amazon Nova 2 Sonic构建电话语音坐席Tara，替代网页表单做破产咨询初筛。",
+   "why": "语音Agent替代表单获客的完整案例，适合讲给老板听。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/from-reporting-to-reasoning-getting-enterprise-data-ready-for-ai-agents/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "From reporting to reasoning: Getting enterprise data ready for AI agents",
+   "link": "https://aws.amazon.com/blogs/machine-learning/from-reporting-to-reasoning-getting-enterprise-data-ready-for-ai-agents/",
+   "summary": "A recap of the inaugural AWS Quick User Group DC meetup, where data leaders explored getting enterprise data ready for AI agents. It covers what's new in AWS Quick, Financial Independence Group's AI analytics journey, and hands-on app and no-code flow building.",
+   "ts": 1795028048,
+   "zh": "企业数据如何为AI Agent做好准备",
+   "brief": "AWS用户组活动回顾，讨论企业数据为AI Agent做准备、Quick新功能与无代码流程搭建。",
+   "why": "数据治理是AI落地前置条件，可作培训素材。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "summary": "",
+   "ts": 1795028023,
+   "zh": "微调耗时为何超出FLOPs预期",
+   "brief": "Hugging Face技术文章分析微调任务实际耗时高于理论算力的原因。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://deepmind.google/blog/genie-4-is-now-available/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Genie 4 is now available",
+   "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+   "summary": "",
+   "ts": 1795025622,
+   "zh": "Genie 4正式发布",
+   "brief": "Google DeepMind宣布Genie 4现已可用。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "The Gemini app is now available on lower-memory Android devices.",
+   "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+   "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+   "ts": 1795021200,
+   "zh": "Gemini应用支持低内存安卓设备",
+   "brief": "Google Gemini应用现支持低内存安卓手机，可使用Gemini Live和自定义图像生成。",
+   "why": "员工端AI工具门槛降低，利于全员AI普及。",
+   "score": 4
+  },
+  {
+   "id": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "summary": "",
+   "ts": 1795014023,
+   "zh": "Streamhouse中的时序模型新前沿",
+   "brief": "Hugging Face文章介绍时序模型在Streamhouse场景的新前沿与应用案例。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+   "link": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+   "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
+   "ts": 1795010431,
+   "zh": "NVIDIA RTX Spark紧凑台式机开售",
+   "brief": "华硕、戴尔、微星推出RTX Spark紧凑台式机，最高128GB统一内存，支持本地AI智能体与模型微调。",
+   "why": "本地跑大模型的硬件成本下降，涉及数据不出内网的场景。",
+   "score": 5
+  },
+  {
+   "id": "https://openai.com/index/inside-the-codex-sandbox",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Inside the Codex sandbox",
+   "link": "https://openai.com/index/inside-the-codex-sandbox",
+   "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+   "ts": 1794988800,
+   "zh": "Codex沙箱运行机制解析",
+   "brief": "OpenAI介绍Codex如何在macOS、Linux、Windows上执行命令并强制文件系统与网络限制。",
+   "why": "企业评估AI编程工具的安全边界时可参考。",
+   "score": 5
+  },
+  {
+   "id": "https://openai.com/index/managing-frontier-ai-risk",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Managing frontier AI risk: From training to deployment",
+   "link": "https://openai.com/index/managing-frontier-ai-risk",
+   "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+   "ts": 1794981600,
+   "zh": "OpenAI详解前沿AI风险管理全流程",
+   "brief": "OpenAI发文介绍从训练到部署的前沿AI风险管理方法，包括模型对齐、沙箱、拦截防护与监控。",
+   "why": "帮老板理解大模型供应商的安全机制，评估合规与数据风险。",
+   "score": 7
+  },
   {
    "id": "https://arxiv.org/abs/2611.21799",
    "source": "arxiv",
@@ -179,6 +348,58 @@
    "brief": "双方合作将《费加罗报》新闻以摘要和摘录形式引入ChatGPT，并附原文链接。",
    "why": "内容行业与AI合作模式样本，可参考媒体版权变现路径。",
    "score": 5
+  },
+  {
+   "id": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Advancing chip design with OpenAI models",
+   "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+   "ts": 1794960000,
+   "zh": "OpenAI模型辅助芯片电路设计取得进展",
+   "brief": "OpenAI称其模型优化了Jalapeño芯片电路并改进RISC-V核心设计，展示AI辅助芯片设计进展。",
+   "why": "AI进入研发核心环节的案例，可讲AI提效不止于文案。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/index/the-silent-consensus",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "The Silent Consensus",
+   "link": "https://openai.com/index/the-silent-consensus",
+   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+   "ts": 1794960000,
+   "zh": "OpenAI战略未来负责人谈AI与社会控制",
+   "brief": "OpenAI战略未来负责人Dean Ball撰文探讨更强AI如何重塑社会及人们如何保持对机构的控制。",
+   "why": "适合做AI治理与长期趋势话题，对中小企业落地关联较弱。",
+   "score": 4
+  },
+  {
+   "id": "https://huggingface.co/blog/moe-expert-streaming",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "link": "https://huggingface.co/blog/moe-expert-streaming",
+   "summary": "",
+   "ts": 1794960000,
+   "zh": "180B参数模型在32GB内存上跑MoE推理",
+   "brief": "Hugging Face介绍用Transformers将MoE推理推到极限，180B参数模型仅需32GB内存。",
+   "why": "降低大模型部署硬件门槛，可讲企业私有化成本。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/rumble-2-flash",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "link": "https://huggingface.co/blog/rumble-2-flash",
+   "summary": "",
+   "ts": 1794960000,
+   "zh": "开源0.5B语音模型支持40多种语言",
+   "brief": "Hugging Face发布Rumble-2-Flash，开源0.5B语音模型，支持40多种语言。",
+   "why": "小模型开源利好语音客服等低成本落地场景。",
+   "score": 6
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
@@ -6405,97 +6626,6 @@
    "zh": "SageMaker JumpStart 2026 年进展回顾",
    "brief": "前三季度 JumpStart 接入 30 家供应商的 100 多个新模型，并简化 Model Hub 与部署选项。",
    "why": "模型选择更丰富，企业选型时可参考生态成熟度。",
-   "score": 5
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-   "link": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-   "summary": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by tracing NVIDIA’s longstanding relationship with German industry, beginning with gaming systems, workstations and automotive […]",
-   "ts": 1792438028,
-   "zh": "英伟达与德国总理共商工业AI路线图",
-   "brief": "德国总理默茨与黄仁勋在柏林对话，讨论德国AI路线图及工业AI应用。",
-   "why": "工业AI成国家战略，制造业老板可关注AI改造生产的机会。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
-   "summary": "TwelveLabs Pegasus 1.5 is now available in Amazon Bedrock. The video language model turns long-form video into structured, timestamped metadata: define the moments that matter and get every matching segment back as JSON, with new video segmentation, multimodal prompting with reference images, and on-the-fly processing of up to two hours of video.",
-   "ts": 1792428559,
-   "zh": "TwelveLabs Pegasus 1.5上线亚马逊Bedrock",
-   "brief": "视频语言模型Pegasus 1.5在Bedrock可用，可将长视频转为带时间戳的结构化JSON元数据。",
-   "why": "视频内容自动结构化，适合有大量视频素材的企业做检索与剪辑。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
-   "link": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
-   "summary": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post covers porting to the AWS Neuron stack, kernel-level tuning, a data-parallel Rust runtime, and the throughput and cost results on batch transcription.",
-   "ts": 1792427002,
-   "zh": "Deepgram用AWS Trainium优化语音AI",
-   "brief": "Deepgram将Nova-3语音转文字模型移植到Trainium2做离线批量推理，并公布吞吐与成本结果。",
-   "why": "语音转写成本与吞吐优化，客服、会议记录类应用可降本。",
-   "score": 5
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
-   "link": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
-   "summary": "vLLM's prefill-decode disaggregation splits LLM inference across engine instances but must transfer the KV cache between them. This post introduces a push-based NIXL connector that moves transfer coordination off the critical path, delivering up to 3x better TTFT and 30% better TPOT in benchmarks on Amazon EC2 P5en instances with AWS EFA.",
-   "ts": 1792425917,
-   "zh": "vLLM推出推送式KV传输优化推理延迟",
-   "brief": "vLLM引入基于NIXL的推送式连接器，将KV缓存传输移出关键路径，TTFT提升最高3倍。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
-   "link": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/",
-   "summary": "Multi-turn agentic workloads reprocess growing conversation context each turn, driving up latency. See how bi-directional KV cache transfer lets prefill and decode nodes reuse previously computed context across turns, cutting time to first token by up to 1.6x for Qwen3-32B and 3.3x for GLM-5-FP8 on Amazon EC2 P5en instances with EFA.",
-   "ts": 1792425803,
-   "zh": "vLLM双向KV传输降低多轮对话延迟",
-   "brief": "双向KV缓存传输让预填充与解码节点复用上下文，Qwen3-32B首字延迟最高降1.6倍。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-   "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-   "summary": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration […]",
-   "ts": 1792422031,
-   "zh": "英伟达推进媒体行业智能体安全",
-   "brief": "英伟达与Adobe、贝塔斯曼等合作，欧洲广播联盟将扩展其主权AI合作。",
-   "why": "媒体内容生产引入AI智能体，内容与传媒企业可关注合规与安全方案。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/low-resource-programming-languages",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Advancing coding in low‑resource programming languages",
-   "link": "https://openai.com/index/low-resource-programming-languages",
-   "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-   "ts": 1792411200,
-   "zh": "OpenAI 提升低资源编程语言能力",
-   "brief": "OpenAI 介绍 ChatGPT 在低资源编程语言上的改进，新增软件工程、SQLite 和 COBOL 迁移评测。",
-   "why": "老系统迁移类场景或受益，可作企业遗留系统改造话题。",
    "score": 5
   }
  ]
