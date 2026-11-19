@@ -1,11 +1,11 @@
 {
- "updated": 1795088935,
+ "updated": 1795121044,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,14 +22,14 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 9,
+   "count": 8,
    "new": 0
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 11,
-   "new": 0
+   "count": 12,
+   "new": 2
   },
   "huggingface": {
    "name": "Hugging Face",
@@ -41,13 +41,13 @@
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 2
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 8
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,175 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks",
+   "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+   "summary": "Amazon Bedrock AgentCore harness now runs on the open-source Strands harness, bringing a recommended model, task-oriented defaults, automatic prompt caching, proactive context management, and new built-in tools. It also adds lifecycle hooks so you can run deterministic allow or deny checks at defined points in the agent loop.",
+   "ts": 1795118466,
+   "zh": "Bedrock AgentCore harness 新增 Strands 默认配置与内置工具",
+   "brief": "AgentCore harness 改用开源 Strands 框架，提供推荐模型、任务默认配置、自动提示缓存、上下文管理和生命周期钩子。",
+   "why": "企业搭智能体可少写底层代码，权限校验更可控，落地门槛降低。",
+   "score": 7
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+   "link": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+   "summary": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to […]",
+   "ts": 1795118415,
+   "zh": "英伟达与微软扩大合作，从 Azure 延伸至 Windows PC",
+   "brief": "双方在 Ignite 宣布扩展全栈合作，覆盖 Azure 基础设施、工业系统和 Windows PC 的智能应用部署。",
+   "why": "企业 AI 算力与终端入口进一步打通，采购与部署选择增多。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
+   "link": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/",
+   "summary": "Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven languages.",
+   "ts": 1795118012,
+   "zh": "亚马逊 Polly 上线语音克隆功能",
+   "brief": "Polly 语音克隆正式可用，几分钟录音即可生成定制声音，支持七种语言，运行于生成式引擎。",
+   "why": "客服、培训、品牌内容可用自有声音，内容生产成本下降。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach",
+   "link": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/",
+   "summary": "As enterprises scale AI on Amazon Bedrock, token spend can grow even as per-token prices fall. This post walks through six composable optimization levers, shows how Accenture applied them across four client engagements, and recommends a sequence for cutting AI token spend on your own workloads.",
+   "ts": 1795114135,
+   "zh": "埃森哲分享 Bedrock 上降低 AI token 成本的六种方法",
+   "brief": "文章介绍六个可组合的优化手段，并展示埃森哲在四个客户项目中应用后的降本效果与推荐顺序。",
+   "why": "AI 用量越大账单越高，这套降本思路可直接讲给老板。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League",
+   "link": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/",
+   "summary": "Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon Bedrock AgentCore, and how to host your own league.",
+   "ts": 1795112782,
+   "zh": "思科用 AWS AI League 培训 1200 名工程师",
+   "brief": "思科通过转型活动和 AI League 推动智能体 AI 实操学习，1200 名工程师参赛，一名工程师获全球冠军。",
+   "why": "大厂 AI 培训与内部竞赛案例，可直接借鉴做企业培训方案。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+   "summary": "Cross-Region inference routing in Amazon SageMaker AI gives your application one invocation path across the endpoints and inference components you already run, in one or more AWS Regions and AWS accounts. The router prefers its own Region and shifts new requests to another destination only when the local one can't serve reliably.",
+   "ts": 1795112454,
+   "zh": "SageMaker AI 支持跨区域推理路由",
+   "brief": "跨区域推理路由让应用通过单一调用路径，在多个区域和账户的端点间自动切换请求。",
+   "why": "区域容量不足时业务不中断，稳定性与合规部署更灵活。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway",
+   "link": "https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/",
+   "summary": "Learn how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents call. Added as a gateway interceptor, Skyflow de-identifies data before any tool, model, or log sees it, and restores it for authorized callers, with no change to your agent code.",
+   "ts": 1795112076,
+   "zh": "Skyflow 与 Bedrock AgentCore 网关保护工具调用数据",
+   "brief": "Skyflow 作为网关拦截器，在工具、模型和日志接触前对敏感数据脱敏，授权调用方再还原。",
+   "why": "智能体接内部系统最怕数据泄露，这是可讲的安全合规方案。",
+   "score": 7
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Introducing Tool Retrieval in the Gemini API",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "summary": "Gemini spark on a space background",
+   "ts": 1795111200,
+   "zh": "Gemini API 推出工具检索功能",
+   "brief": "Gemini API 新增工具检索能力，帮助模型在大量工具中检索并选用合适工具。",
+   "why": "工具多时智能体选错工具的问题有解，复杂业务场景更可行。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "PolyAI Dialog-RSN-1 is now on Amazon SageMaker JumpStart",
+   "link": "https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/",
+   "summary": "PolyAI Dialog-RSN-1, a reasoning model built for real-time complex dialog, is available today on AWS Marketplace and Amazon SageMaker JumpStart. Discover it, evaluate it on your own data, and deploy it to a secure SageMaker endpoint in your own AWS account.",
+   "ts": 1795109327,
+   "zh": "PolyAI 对话推理模型上线 SageMaker JumpStart",
+   "brief": "面向实时复杂对话的 Dialog-RSN-1 模型上架 AWS Marketplace 和 JumpStart，可用自有数据评估并部署。",
+   "why": "客服对话场景多一个可私有部署的模型选项。",
+   "score": 5
+  },
+  {
+   "id": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+   "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+   "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+   "ts": 1795107600,
+   "zh": "沃尔特·艾萨克森谈 AI 时代的创造力",
+   "brief": "传记作家艾萨克森与 Google 对话，谈历史创新者如何启发 AI 时代的创造力与人类判断力。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Using NVIDIA Run:ai GPU Fractioning on Amazon EKS",
+   "link": "https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks/",
+   "summary": "Learn how to run two memory-bounded Kubernetes Pods on a single NVIDIA A10G GPU using open-source NVIDIA Run:ai GPU Fractioning on Amazon EKS. This walkthrough builds a custom Amazon Linux 2023 image, installs KAI Scheduler and the GPU Fractioning Operator, and validates per-Pod GPU-memory contracts with enforcement and metrics.",
+   "ts": 1795104831,
+   "zh": "在 EKS 上用英伟达 Run:ai 切分 GPU",
+   "brief": "教程演示在单张 A10G 上运行两个内存受限 Pod，安装调度器与切分算子并验证显存配额。",
+   "why": "GPU 利用率提升可降算力成本，但偏技术实施细节。",
+   "score": 4
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+   "summary": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVIDIA holiday deals for gamers, […]",
+   "ts": 1795096812,
+   "zh": "GeForce NOW 推出黑五会员折扣",
+   "brief": "GeForce NOW 黑五活动回归六个月会员，Performance 与 Ultimate 首期享七折优惠。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "ts": 1795075200,
+   "zh": "OpenAI如何用性能工厂保持ChatGPT速度",
+   "brief": "OpenAI介绍其Performance Factory系统，用Codex驱动的工作流发现并修复性能问题，以保持ChatGPT响应速度。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/",
    "source": "aws-ml",
@@ -6432,201 +6601,6 @@
    "brief": "AWS介绍i14用原生PyTorch在Trainium2上训练并部署Laplace 3B线性注意力模型，其循环状态固定为每序列29.5MB，不随上下文增长。",
    "why": "",
    "score": 3
-  },
-  {
-   "id": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-   "link": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-   "summary": "",
-   "ts": 1792520267,
-   "zh": "英伟达Cosmos3-H-Dreams：用生成式仿真呈现临床手术",
-   "brief": "Hugging Face发布NVIDIA Cosmos3-H-Dreams，用生成式仿真呈现临床手术场景。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Work management context for AI agents with Smartsheet MCP on AWS",
-   "link": "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
-   "summary": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live work management data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.",
-   "ts": 1792519147,
-   "zh": "Smartsheet MCP登陆AWS，让AI代理接入工作管理数据",
-   "brief": "AWS介绍Smartsheet MCP服务器在AWS上的两种接入方式：面向业务团队的Amazon Quick和面向开发者的Kiro。",
-   "why": "说明AI代理可直接读写企业项目管理数据，是落地场景参考。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Workflow context for AI agents with Smartsheet MCP on AWS",
-   "link": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
-   "summary": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.",
-   "ts": 1792519147,
-   "zh": "AWS上通过Smartsheet MCP为AI智能体提供工作流上下文",
-   "brief": "AWS博客介绍Smartsheet MCP服务器，让AI智能体读写实时数据，并给出面向业务团队和开发者的两种接入方式。",
-   "why": "中小企业可用现成SaaS数据打通AI智能体，落地门槛低。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/",
-   "summary": "Enterprise supply chains are data-rich but insight-poor, with the data to decide scattered across ERP, monitoring, procurement, and email. This post shows how Amazon Bedrock AgentCore exposes those systems as a governed tool layer, and how Amazon Quick turns them into one conversational experience for business users, with a deploy-it-yourself walkthrough.",
-   "ts": 1792518770,
-   "zh": "亚马逊Quick与Bedrock AgentCore打造对话式供应链智能",
-   "brief": "AWS展示用Bedrock AgentCore把ERP、采购等系统封装为受管控工具层，再由Amazon Quick提供统一对话入口。",
-   "why": "示范跨系统数据打通做对话式决策，适合讲给管理层。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
-   "link": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
-   "summary": "Learn how we fine-tuned GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod, and how to decide between supervised fine-tuning (SFT) and reinforcement learning with GRPO. SFT took reasoning-language accuracy from 22% to 100%, and GRPO added measurable gains where headroom existed.",
-   "ts": 1792518507,
-   "zh": "在SageMaker HyperPod上微调GPT-OSS-20B多语言推理",
-   "brief": "AWS分享在SageMaker HyperPod上微调GPT-OSS-20B，监督微调将推理语言准确率从22%提升至100%。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
-   "summary": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
-   "ts": 1792517644,
-   "zh": "Octave基于Amazon Bedrock构建多租户AI基础",
-   "brief": "Octave用Cohere Embed v4与Bedrock AgentCore搭建多租户AI底座，支撑检索20亿份受监管文件的投诉分诊助手。",
-   "why": "多租户隔离+合规文档检索，是企业级落地好案例。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-   "link": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
-   "summary": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
-   "ts": 1792514573,
-   "zh": "加拿大区域可通过跨区域推理在Bedrock使用OpenAI模型",
-   "brief": "加拿大企业现可通过跨区域推理，在加拿大中部和卡尔加里区域访问Bedrock上的OpenAI GPT系列模型。",
-   "why": "模型供给与区域合规选择增多，影响企业选型。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Discover tools at runtime with AWS Agent Registry",
-   "link": "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/",
-   "summary": "Hardcoded tool wiring breaks down as an agent's catalog grows from a handful of tools to hundreds. This post walks through a runtime Discover, Instantiate, Execute loop built on AWS Agent Registry, where an orchestrator discovers MCP servers and A2A agents through semantic search at runtime instead of compiling every tool at build time.",
-   "ts": 1792513344,
-   "zh": "AWS Agent Registry支持运行时发现工具",
-   "brief": "AWS介绍基于Agent Registry的运行时“发现—实例化—执行”循环，用语义搜索动态发现MCP服务器和A2A代理。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://huggingface.co/blog/allenai/fairstress",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-   "link": "https://huggingface.co/blog/allenai/fairstress",
-   "summary": "",
-   "ts": 1792512559,
-   "zh": "FairStress：更深入评估大模型决策公平性",
-   "brief": "Hugging Face发布FairStress，用于更深入评估大模型决策中的公平性。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Securing AI agent identity with X.509 PKI on AWS",
-   "link": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/",
-   "summary": "Learn how to secure multi-agent AI systems with cryptographic identity using Keyfactor EJBCA and AWS services. This reference architecture combines signed request envelopes, user-signed delegation assertions, RFC 8693 audience-scoped tokens, and real-time OCSP revocation to prove agent identity and prevent request forgery across agent-to-agent and MCP tool calls.",
-   "ts": 1792512228,
-   "zh": "用X.509 PKI在AWS上保障AI代理身份安全",
-   "brief": "AWS给出结合Keyfactor EJBCA的多代理加密身份参考架构，含签名请求信封、委托断言与实时吊销。",
-   "why": "代理身份与审计是合规落地前提，值得关注。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
-   "summary": "Learn how Eon replaced per-tool credentials and local MCP processes across AWS, GCP, and Azure with a single authenticated Amazon Bedrock AgentCore gateway, giving more than 100 developers and autonomous agents unified access to production investigation and cutting new-engineer onboarding from two days to two minutes.",
-   "ts": 1792511877,
-   "zh": "Eon用MCP网关在AgentCore实现多云调查",
-   "brief": "Eon用单一认证的Bedrock AgentCore网关替代各工具凭证，让100多名开发者和代理统一访问生产调查系统。",
-   "why": "多云工具统一接入，可讲企业IT治理与效率。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore/",
-   "summary": "Build a governed semantic layer for agentic AI on AWS with the Denodo Platform and Amazon Bedrock AgentCore. It federates Amazon Aurora, Amazon Redshift, and an on-premises PostgreSQL database into a single customer 360 view an agent queries in VQL, with identity propagation and row- and column-level access control enforced at the semantic layer.",
-   "ts": 1792510744,
-   "zh": "用Denodo与AgentCore为代理式AI建语义层",
-   "brief": "AWS介绍用Denodo平台与Bedrock AgentCore联邦Aurora、Redshift和本地PostgreSQL，构建带行列级权限的客户360视图。",
-   "why": "语义层+权限管控是数据可用不可见的关键。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore/",
-   "summary": "The third post in our semantic-layer series builds a customer 360 across Amazon Redshift and Amazon Aurora with Strategy Mosaic, exposes it to a Strands agent on Amazon Bedrock AgentCore through the Mosaic MCP server, and enforces per-user row and column security end-to-end.",
-   "ts": 1792510599,
-   "zh": "用Strategy Mosaic与AgentCore构建代理语义层",
-   "brief": "AWS系列第三篇用Strategy Mosaic在Redshift与Aurora上建客户360，经MCP服务器暴露给Strands代理并端到端执行行列级安全。",
-   "why": "",
-   "score": 5
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore/",
-   "summary": "The third post in our semantic-layer series builds a governed customer 360 model on Amazon Redshift with AtScale, then exposes it to a Strands agent on Amazon Bedrock AgentCore through the AtScale MCP server. Identity propagation, RBAC, row security, and full query audit are enforced at the semantic layer, not the prompt.",
-   "ts": 1792510434,
-   "zh": "AWS与AtScale构建Agentic AI语义层",
-   "brief": "AWS博客介绍用AtScale在Redshift建客户360语义模型，经MCP服务器供Bedrock AgentCore上的Strands智能体使用，并强制身份传递、RBAC、行级安全和查询审计。",
-   "why": "说明企业数据治理与AI智能体结合的技术路径，可作为数据安全落地案例参考。",
-   "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-   "link": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-   "summary": "",
-   "ts": 1792509588,
-   "zh": "ALTK-Evolve：学习记忆登顶客服基准",
-   "brief": "Hugging Face发布ALTK-Evolve，通过学习记忆在客服任务τ²-bench排行榜上超越前沿模型。",
-   "why": "提示中小企业可用记忆增强方案低成本提升客服AI效果。",
-   "score": 6
   }
  ]
 }
