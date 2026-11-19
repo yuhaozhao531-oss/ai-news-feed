@@ -1,17 +1,17 @@
 {
- "updated": 1795034304,
+ "updated": 1795055858,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 4
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 2,
-   "new": 0
+   "count": 3,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -22,32 +22,32 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 8,
+   "count": 9,
    "new": 1
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
    "count": 11,
-   "new": 1
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 18,
-   "new": 5
+   "count": 17,
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 1
+   "new": 0
   },
   "aws-ml": {
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 5
+   "new": 7
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,110 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization",
+   "link": "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/",
+   "summary": "Amazon SageMaker AI Serverless Model Customization now supports Full Fine-Tuning (FFT). This post explores when FFT outperforms LoRA across key benchmarks, examines the spectral properties of model weight matrices behind the quality gap, shares practical hyperparameter tuning guidelines, and shows how to get started.",
+   "ts": 1795047358,
+   "zh": "SageMaker无服务器定制支持全量微调",
+   "brief": "Amazon SageMaker AI无服务器模型定制新增全量微调（FFT）支持，并对比其与LoRA的效果差异。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+   "link": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/",
+   "summary": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI kernels, reaching a 47% gain in performance and cost per million documents.",
+   "ts": 1795046302,
+   "zh": "Exa在AWS AI芯片上提升嵌入吞吐50%",
+   "brief": "Exa分享在AWS Inferentia2和Trainium2上用自研NKI内核优化嵌入推理，吞吐提升50%。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/",
+   "summary": "Large training jobs can stall or compute wrong results even when every node looks healthy. Amazon SageMaker HyperPod now adds workload recovery and expanded infrastructure checks that catch these failures sooner and raise the goodput of your training workloads.",
+   "ts": 1795043009,
+   "zh": "SageMaker HyperPod新增工作负载恢复",
+   "brief": "Amazon SageMaker HyperPod新增工作负载恢复和扩展基础设施检查，提升训练有效吞吐。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing the Amazon SageMaker JumpStart Model Leaderboard",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/",
+   "summary": "The Amazon SageMaker JumpStart Model Leaderboard compares 70+ foundation models side by side on quality, speed, and cost, directly in SageMaker Studio. Learn what the leaderboard shows, how AWS benchmarks models, and how to go from a shortlist to a deployed model.",
+   "ts": 1795041064,
+   "zh": "SageMaker JumpStart推出模型排行榜",
+   "brief": "AWS推出JumpStart模型排行榜，在Studio内对比70多个基础模型的质量、速度和成本。",
+   "why": "选型有公开对比参考，降低企业挑模型的试错成本。",
+   "score": 7
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Airbnb uses cost per task to operate coding agents on Amazon Bedrock",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/",
+   "summary": "Airbnb runs evals on real engineering tasks and uses Amazon Bedrock observability to choose models for its coding agents and control production costs. This post shows how cost per task guides model selection, why production spending can differ from eval results, and how to monitor latency, manage quotas, and attribute spend.",
+   "ts": 1795038499,
+   "zh": "Airbnb用单任务成本运营编码智能体",
+   "brief": "Airbnb基于真实工程任务做评测，用Bedrock可观测性选模型并控制编码智能体成本。",
+   "why": "提供按任务成本管控AI智能体预算的企业实践参考。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+   "link": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
+   "summary": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
+   "ts": 1795037902,
+   "zh": "Aurora PostgreSQL的负责任AI控制设计",
+   "brief": "介绍用Aurora PostgreSQL、pgvector和Bedrock Guardrails让RAG回答可溯源并记录日志。",
+   "why": "RAG可溯源与合规审计，是落地企业知识库的关键设计。",
+   "score": 7
+  },
+  {
+   "id": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Introducing Gemini 4 Neon",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "summary": "",
+   "ts": 1795037743,
+   "zh": "DeepMind发布Gemini 4 Neon",
+   "brief": "",
+   "why": "",
+   "score": 0
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Private certificate authority support in Amazon Bedrock AgentCore Identity",
+   "link": "https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/",
+   "summary": "Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs), so your agents can connect to self-hosted identity providers that use a private CA. This post shows how to issue an IdP certificate with AWS Private CA, configure a credential provider to trust it, rotate the CA, and protect the certificate.",
+   "ts": 1795035221,
+   "zh": "Bedrock AgentCore支持私有证书机构",
+   "brief": "Amazon Bedrock AgentCore Identity支持私有CA，可连接使用私有CA的自托管身份提供商。",
+   "why": "",
+   "score": 3
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
    "source": "aws-ml",
@@ -218,6 +322,32 @@
    "brief": "OpenAI介绍Codex如何在macOS、Linux、Windows上执行命令并强制文件系统与网络限制。",
    "why": "企业评估AI编程工具的安全边界时可参考。",
    "score": 5
+  },
+  {
+   "id": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Research acceleration: The jagged frontier",
+   "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "ts": 1794988800,
+   "zh": "OpenAI研究：编码智能体的锯齿前沿",
+   "brief": "OpenAI测量编码智能体加速AI研究的效果，指出其表现不均衡及对递归自我改进的启示。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://openai.com/business/customer-stories/sumitomo-life",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+   "link": "https://openai.com/business/customer-stories/sumitomo-life",
+   "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+   "ts": 1794988800,
+   "zh": "住友生命高管推动ChatGPT企业版落地",
+   "brief": "住友生命用ChatGPT Enterprise做保险调研、提案准备和投资分析代码，高管先行使用带动采纳。",
+   "why": "高管带头推动AI采纳的企业案例，可直接用于培训内容。",
+   "score": 9
   },
   {
    "id": "https://openai.com/index/managing-frontier-ai-risk",
@@ -399,6 +529,19 @@
    "zh": "开源0.5B语音模型支持40多种语言",
    "brief": "Hugging Face发布Rumble-2-Flash，开源0.5B语音模型，支持40多种语言。",
    "why": "小模型开源利好语音客服等低成本落地场景。",
+   "score": 6
+  },
+  {
+   "id": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Anthropic prices initial public offering",
+   "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "summary": "Anthropic prices initial public offering",
+   "ts": 1794960000,
+   "zh": "Anthropic公布IPO发行定价",
+   "brief": "Anthropic公布首次公开募股的发行定价。",
+   "why": "头部AI公司上市，影响企业AI供应商格局与采购判断。",
    "score": 6
   },
   {
@@ -6535,97 +6678,6 @@
    "zh": "西班牙初创企业借助巴塞罗那超算中心推进区域创新",
    "brief": "巴塞罗那超算中心AI工厂加速器计划在试点后全面运营，为初创企业提供主权算力、技术支持和培训。",
    "why": "展示政府主导的算力+培训扶持模式，可类比国内中小企业AI扶持政策。",
-   "score": 5
-  },
-  {
-   "id": "https://huggingface.co/blog/anylanguagemodel-1-0",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-   "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
-   "summary": "",
-   "ts": 1792454400,
-   "zh": "AnyLanguageModel 1.0：苹果平台本地模型一年实践",
-   "brief": "Hugging Face 发布 AnyLanguageModel 1.0，总结在苹果平台运行本地模型一年的经验。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://huggingface.co/blog/mps-pytorch-2-15",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "MPS in PyTorch 2.15",
-   "link": "https://huggingface.co/blog/mps-pytorch-2-15",
-   "summary": "",
-   "ts": 1792454400,
-   "zh": "PyTorch 2.15 引入 MPS 支持",
-   "brief": "Hugging Face 介绍 PyTorch 2.15 中的 MPS（Metal 性能着色器）相关更新。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "OpenAI acquires Orchestra Bio",
-   "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-   "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-   "ts": 1792454400,
-   "zh": "OpenAI收购Orchestra Bio",
-   "brief": "OpenAI宣布收购Orchestra Bio，将AI运营引入生命科学研发，帮助生物制药团队加速药物开发。",
-   "why": "显示AI向垂直行业运营渗透，可作行业趋势素材。",
-   "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/hf-torchtpu",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-   "link": "https://huggingface.co/blog/hf-torchtpu",
-   "summary": "",
-   "ts": 1792454400,
-   "zh": "Hugging Face原生支持TorchTPU",
-   "brief": "Hugging Face宣布与TorchTPU合作，实现TPU的原生支持。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
-   "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
-   "ts": 1792452739,
-   "zh": "Bedrock 为 Claude 模型支持结构化输出",
-   "brief": "Amazon Bedrock 的 Claude 模型现支持结构化输出，按 JSON Schema 返回合规 JSON，无需自定义解析或重试。",
-   "why": "企业做 AI 应用集成时数据对接更稳，减少开发返工。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Developers can now access SageMaker Studio through the new AWS experience",
-   "link": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
-   "summary": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
-   "ts": 1792449564,
-   "zh": "SageMaker Studio 推出全新上手体验",
-   "brief": "新用户可用现有账号几步进入配置好的 SageMaker Studio，多数无需信用卡，附 100 美元免费额度。",
-   "why": "降低企业试用门槛，但偏开发者工具，老板关注度有限。",
-   "score": 4
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
-   "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
-   "summary": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options, and Hugging Face deep link integration.",
-   "ts": 1792444484,
-   "zh": "SageMaker JumpStart 2026 年进展回顾",
-   "brief": "前三季度 JumpStart 接入 30 家供应商的 100 多个新模型，并简化 Model Hub 与部署选项。",
-   "why": "模型选择更丰富，企业选型时可参考生态成熟度。",
    "score": 5
   }
  ]
