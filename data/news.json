@@ -1,17 +1,17 @@
 {
- "updated": 1795055858,
+ "updated": 1795088935,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 3,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -23,7 +23,7 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 9,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 7
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -6627,58 +6627,6 @@
    "brief": "Hugging Face发布ALTK-Evolve，通过学习记忆在客服任务τ²-bench排行榜上超越前沿模型。",
    "why": "提示中小企业可用记忆增强方案低成本提升客服AI效果。",
    "score": 6
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
-   "link": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
-   "summary": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera CPUs to build the next wave of infrastructure. Their momentum reflects rapid advancements in agentic computing. Agents do more than generate answers: they retrieve information, run software tools, execute code and evaluate results. Each step depends on fast CPU processing. Vera accelerates that […]",
-   "ts": 1792492211,
-   "zh": "欧洲企业采用英伟达Vera CPU建本地基础设施",
-   "brief": "Nebius与Nscale等伙伴采用英伟达Vera CPU构建新一代智能体计算基础设施。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://openai.com/index/ted-taylor-restaurant",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-   "link": "https://openai.com/index/ted-taylor-restaurant",
-   "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-   "ts": 1792490400,
-   "zh": "加盟商用ChatGPT Work对账省94%时间",
-   "brief": "一位Schlotzsky's和Cinnabon加盟商将菜单改价时间缩短95%，并搭建可释放10万美元现金流的工作流。",
-   "why": "典型中小企业AI落地案例，可直接用于向老板讲降本增效。",
-   "score": 9
-  },
-  {
-   "id": "https://openai.com/index/terminal-x",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-   "link": "https://openai.com/index/terminal-x",
-   "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-   "ts": 1792479600,
-   "zh": "Terminal X用GPT-6.1匹配资深投资人判断88.6%",
-   "brief": "Terminal X的评估智能体按54项标准打分，用GPT-6.1后多发现25%偏离基金授权之处。",
-   "why": "金融等专业场景可参考AI评估替代人工审核的落地案例。",
-   "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-   "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
-   "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some […]",
-   "ts": 1792472400,
-   "zh": "西班牙初创企业借助巴塞罗那超算中心推进区域创新",
-   "brief": "巴塞罗那超算中心AI工厂加速器计划在试点后全面运营，为初创企业提供主权算力、技术支持和培训。",
-   "why": "展示政府主导的算力+培训扶持模式，可类比国内中小企业AI扶持政策。",
-   "score": 5
   }
  ]
 }
