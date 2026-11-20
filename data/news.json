@@ -1,17 +1,17 @@
 {
- "updated": 1795175369,
+ "updated": 1795206485,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 2
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 3,
-   "new": 0
+   "count": 4,
+   "new": 1
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -34,8 +34,8 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 16,
-   "new": 0
+   "count": 18,
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 2
   },
   "qwen": {
    "name": "通义千问",
@@ -59,10 +59,49 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+   "link": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+   "summary": "Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with no model training required.",
+   "ts": 1795206120,
+   "zh": "亚马逊Textract推出可验证生成式AI文档解析",
+   "brief": "Amazon Textract Insights正式可用，用户用自然语言描述所需字段，提交文档或混合包后返回带置信度和页码定位的结构化结果。",
+   "why": "票据、合同、表单等文档自动化提取有了可验证的生成式AI方案，适合评估财务与行政流程降本。",
+   "score": 8
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
+   "summary": "Amazon SageMaker HyperPod now offers enhanced observability to help you diagnose GPU training issues faster. It brings together diagnostic and profiling capabilities for training workloads on both Amazon EKS and Slurm orchestrators, pinpointing issues across GPU, network, and host layers.",
+   "ts": 1795199046,
+   "zh": "SageMaker HyperPod增强基础设施可观测性",
+   "brief": "SageMaker HyperPod新增可观测性能力，聚合诊断与性能分析，定位GPU、网络、主机层训练问题。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Combatting adversarial distillation",
+   "link": "https://openai.com/index/combatting-adversarial-distillation",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "ts": 1795168800,
+   "zh": "OpenAI介绍对抗性蒸馏的防护做法",
+   "brief": "OpenAI发文说明其对抗性蒸馏的分层防护思路，结合模型训练、安全措施、检测与执法来防止能力被提取。",
+   "why": "提示企业使用第三方模型或自研模型时需关注模型能力被窃取与合规风险。",
+   "score": 5
+  },
   {
    "id": "https://arxiv.org/abs/2611.23375",
    "source": "arxiv",
@@ -70,7 +109,11 @@
    "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
    "link": "https://arxiv.org/abs/2611.23375",
    "summary": "arXiv:2611.23375v1 Announce Type: new Abstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a theory of software thermodynamics. The theory draws analogues from classical and stochastic thermodynamics, extends them, and applies them to modern agentic coding. We count the tokens an agent generates as its cost and divide that cost into work and heat. The test suite acts as a software Maxwell's daemon that judges every coding change. We test the theory with an analogue of the experiments in which a single molecul",
-   "ts": 1795150800
+   "ts": 1795150800,
+   "zh": "论文提出软件热力学理论分析编码智能体",
+   "brief": "arXiv新论文提出“软件热力学”理论，用热、熵与误差概念分析编码智能体的token消耗与产出。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://arxiv.org/abs/2611.23398",
@@ -79,7 +122,11 @@
    "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
    "link": "https://arxiv.org/abs/2611.23398",
    "summary": "arXiv:2611.23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training workloads, the downtime of individual machines can cause outsized economic losses. Minimizing machine downtime, therefore, is more important than ever. To address this, we present Hardware Diagnoser (HardwareDx), an AI-driven hardware diagnosis system that applies a graph foundation model approach to automated datacenter maintenance. It allow",
-   "ts": 1795150800
+   "ts": 1795150800,
+   "zh": "研究提出数据中心机器维修图模型系统",
+   "brief": "arXiv论文提出HardwareDx图模型系统，用于数据中心硬件故障诊断与维修，减少大规模AI集群停机。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://arxiv.org/abs/2611.23456",
@@ -88,7 +135,11 @@
    "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
    "link": "https://arxiv.org/abs/2611.23456",
    "summary": "arXiv:2611.23456v1 Announce Type: new Abstract: Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints: mathematical correctness, curriculum alignment, appropriate cognitive difficulty, and educator reviewability. While prior work has advanced text generation, reliable assessment authoring requires granular control over localized examination formats and expert educational judgment. To address this challenge, we present VeriMath, a generaliz",
-   "ts": 1795150800
+   "ts": 1795150800,
+   "zh": "人机协同生成与校验数学测评题",
+   "brief": "arXiv论文提出VeriMath，用人在回路方式生成并验证符合课程标准的数学测评题目。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://arxiv.org/abs/2611.23476",
@@ -97,7 +148,11 @@
    "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
    "link": "https://arxiv.org/abs/2611.23476",
    "summary": "arXiv:2611.23476v1 Announce Type: new Abstract: Autonomous AI agents pair a frozen base model with an editable harness of prompts, skills, tool rules, and memory. Recursive self-improvement (RSI) adapts this harness from experience without weight updates, yet self-editing without external graders often backfires: reflection and scalar scores conflate what an edit newly broke with what remains unsolved, causing local regressions, skill forgetting, and memory bloat. We introduce GUARD (Grader-free Unsupervised Environment Design [UED] with Adaptive Rule Distillation), a closed-loop framework for",
-   "ts": 1795150800
+   "ts": 1795150800,
+   "zh": "GUARD用遗憾引导稳定递归自我改进",
+   "brief": "arXiv论文提出GUARD方法，通过遗憾引导让智能体在无外部评分时安全地进行提示与工具规则的自编辑。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://arxiv.org/abs/2611.23480",
@@ -106,7 +161,11 @@
    "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
    "link": "https://arxiv.org/abs/2611.23480",
    "summary": "arXiv:2611.23480v1 Announce Type: new Abstract: Purpose. To evaluate the diagnostic accuracy and image navigation behavior of vision-language model (VLM) agents under varying exploration strategies. Materials and Methods. In this retrospective study, six VLMs read 100 emergency CT and MRI examinations published in a public archive (March 2025-August 2026) under four conditions (free navigation, navigation from a key slice, and all slices or key slices in a single request), twice each (4800 runs). Nine radiologists read 30 of those cases. A large language model judge validated against two radio",
-   "ts": 1795150800
+   "ts": 1795150800,
+   "zh": "视觉语言模型读急诊CT与MRI的诊断准确性研究",
+   "brief": "回顾性研究评估六种视觉语言模型智能体阅读100例急诊CT和MRI的导航行为与诊断准确性。",
+   "why": "",
+   "score": 3
   },
   {
    "id": "https://arxiv.org/abs/2611.23483",
@@ -115,7 +174,11 @@
    "title": "SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs",
    "link": "https://arxiv.org/abs/2611.23483",
    "summary": "arXiv:2611.23483v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) that think with images interleave reasoning with zoom-in tool calls. However, this sequential loop is slow, and its answers carry no reliability score. Prior speculation of tokens, reasoning steps, or answers keeps the loop, and answer speculation also accepts confident errors. We find that the loop mostly adds one zoom-in step, with which a small model is ahead of the agent on most splits. Our key insight is to speculate the agent's next observation, which, unlike a drafted answer, can be verified",
-   "ts": 1795150800
+   "ts": 1795150800,
+   "zh": "SpecLook加速多模态智能体图像检索推理",
+   "brief": "arXiv论文提出SpecLook，推测智能体应在何处放大查看图像，以加快推理并给出可靠性评分。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://arxiv.org/abs/2611.23509",
@@ -124,7 +187,11 @@
    "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
    "link": "https://arxiv.org/abs/2611.23509",
    "summary": "arXiv:2611.23509v1 Announce Type: new Abstract: Automated agent design searches for executable architectures that improve LLM-based agent performance, with evolutionary methods using language-model crossover to recombine promising mechanisms for task decomposition, model coordination, and verification. This search, however, is typically guided by aggregate fitness alone, which hides the instance-level successes and failures behind each score. We introduce Execution Guided Genetic Recombination for Agent Design (GRAFT), which uses aggregate fitness for selection and survival and parent-specific",
-   "ts": 1795150800
+   "ts": 1795150800,
+   "zh": "GRAFT用执行引导的基因重组设计智能体",
+   "brief": "arXiv论文提出GRAFT，通过执行引导的遗传重组自动搜索更优的LLM智能体架构。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://arxiv.org/abs/2611.23520",
@@ -133,7 +200,11 @@
    "title": "BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing",
    "link": "https://arxiv.org/abs/2611.23520",
    "summary": "arXiv:2611.23520v1 Announce Type: new Abstract: Time-series sensing increasingly relies on neural networks, yet deployment on resource-constrained microcontrollers remains challenging. Aggressive model compression can reduce accuracy, while restricting weights to multiplication-free representations introduces further losses. We present BeFit, an end-to-end framework that shifts model capacity from weights to learnable Bernstein polynomial activations. BeFit (i) finds compact Bernstein-activated convolutional neural networks (BeCNNs) through hardware-aware neural architecture search and trains ",
-   "ts": 1795150800
+   "ts": 1795150800,
+   "zh": "BeFit用Bernstein激活降低边缘设备算力需求",
+   "brief": "arXiv论文提出BeFit，将复杂度从权重转移到Bernstein激活，以便在资源受限微控制器上部署时序传感模型。",
+   "why": "",
+   "score": 1
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
@@ -160,6 +231,58 @@
    "brief": "Kimi Code CLI v2.7.0新增Bedrock提供商，可用AWS凭证链连接Kimi K3.1 Pro等模型。",
    "why": "",
    "score": 4
+  },
+  {
+   "id": "https://openai.com/index/introducing-medchembench",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "link": "https://openai.com/index/introducing-medchembench",
+   "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "ts": 1795132800,
+   "zh": "OpenAI发布MedChemBench评估AI药物发现能力",
+   "brief": "OpenAI介绍MedChemBench基准，评估AI模型解读分子结构、依据实验证据推理并筛选早期药物候选化合物的能力。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://www.anthropic.com/news/ipo-close",
+   "source": "anthropic",
+   "sourceName": "Anthropic",
+   "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+   "link": "https://www.anthropic.com/news/ipo-close",
+   "summary": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.",
+   "ts": 1795132800,
+   "zh": "Anthropic宣布完成首次公开募股",
+   "brief": "Anthropic宣布完成IPO，发行11.27亿股A类普通股，每股83美元，含承销商超额配售选择权全部行使。",
+   "why": "AI头部公司上市，说明资本看好企业级AI，老板可关注其商业化路径。",
+   "score": 7
+  },
+  {
+   "id": "https://huggingface.co/blog/inkling2mini",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "link": "https://huggingface.co/blog/inkling2mini",
+   "summary": "",
+   "ts": 1795132800,
+   "zh": "Hugging Face发布Inkling 2 Mini模型",
+   "brief": "Hugging Face发布Inkling 2 Mini，主打本地部署场景下的高性能表现。",
+   "why": "本地可跑的小模型，降低中小企业数据合规与部署成本门槛。",
+   "score": 6
+  },
+  {
+   "id": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "summary": "",
+   "ts": 1795132800,
+   "zh": "Hugging Face推出harness适配器",
+   "brief": "Hugging Face推出harness adapters，可将模型适配到自有harness以提升性能并降低成本。",
+   "why": "偏开发者工程细节，对老板决策关联弱，可作技术趋势参考。",
+   "score": 3
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/",
@@ -6348,136 +6471,6 @@
    "brief": "OpenAI说明如何与分发伙伴合作，维持一致的安全防护、支持负责任访问并明确使用政策预期。",
    "why": "涉及AI使用政策与合规预期，可作企业选型参考。",
    "score": 5
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Train Qwen3 on AWS Trainium with torchtitan",
-   "link": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
-   "summary": "Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformers v5 modeling backend, torchtitan's native Qwen3, and NKI mixture-of-experts kernels. The same torchrun launcher and config structure work unchanged across all three paths, including loading and saving published Hugging Face safetensors.",
-   "ts": 1792612822,
-   "zh": "在AWS Trainium上用torchtitan训练Qwen3",
-   "brief": "AWS介绍在单台trn2.48xlarge上通过三种方式用torchtitan训练Qwen3模型。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
-   "link": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/",
-   "summary": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
-   "ts": 1792610390,
-   "zh": "美国饥饿组织用Amazon Quick连接数据与决策",
-   "brief": "非营利组织U.S. Hunger用Amazon Quick让领导层直接探索数据、共享KPI定义并研究政策问题。",
-   "why": "可作为企业用AI工具辅助管理层决策的落地案例参考。",
-   "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/nvidia/kumo-relational",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-   "link": "https://huggingface.co/blog/nvidia/kumo-relational",
-   "summary": "",
-   "ts": 1792607190,
-   "zh": "英伟达Kumo关系模型无需训练超越监督学习",
-   "brief": "Hugging Face发布NVIDIA Kumo关系模型，称在关系数据上无需训练即优于监督机器学习。",
-   "why": "若成立可降低企业结构化数据建模门槛与成本。",
-   "score": 6
-  },
-  {
-   "id": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-   "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-   "summary": "",
-   "ts": 1792604136,
-   "zh": "专用词表让小模型推理成本降77%",
-   "brief": "Hugging Face文章介绍在真实应用中通过定制小模型词表将推理成本降低77%。",
-   "why": "直接关系AI推理成本，可作企业降本增效的谈资。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/att-legal",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "How AT&T is rethinking in-house legal work with OpenAI",
-   "link": "https://openai.com/index/att-legal",
-   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-   "ts": 1792602000,
-   "zh": "AT&T用OpenAI重塑内部法务工作",
-   "brief": "OpenAI介绍AT&T法务团队LegalEdge借助OpenAI提升法律知识获取效率，重构受理流程并扩展法律判断能力。",
-   "why": "大企业法务AI落地案例，可类比讲给中小企业管理层。",
-   "score": 8
-  },
-  {
-   "id": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-   "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-   "summary": "",
-   "ts": 1792598683,
-   "zh": "TorchNeuron性能分析（一）：AWS Trainium系统级剖析",
-   "brief": "Hugging Face发布博客，介绍在AWS Trainium上进行系统级性能分析的方法。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-   "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-   "summary": "",
-   "ts": 1792594698,
-   "zh": "Granite Speech 5.0：更准更快的转写、翻译与说话人归属",
-   "brief": "Hugging Face发布Granite Speech 5.0，提升语音转写、翻译和说话人归属的准确性与速度。",
-   "why": "语音转写与翻译能力升级，可评估用于会议记录、客服质检等场景。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-   "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-   "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-   "ts": 1792587600,
-   "zh": "ChatGPT广告扩展至26国，超10万广告主已使用",
-   "brief": "OpenAI称ChatGPT广告已覆盖26个新国家，累计超10万广告主使用该平台。",
-   "why": "AI对话入口成新投放渠道，企业需关注品牌曝光与获客方式变化。",
-   "score": 7
-  },
-  {
-   "id": "https://huggingface.co/blog/nvidia/kumo-forecast",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-   "link": "https://huggingface.co/blog/nvidia/kumo-forecast",
-   "summary": "",
-   "ts": 1792587084,
-   "zh": "英伟达Kumo Forecast：预训练时序表示结合历史模式检索",
-   "brief": "Hugging Face介绍NVIDIA Kumo Forecast，将预训练时序表示与历史模式检索、可解释性结合。",
-   "why": "时序预测可用于销量、库存与需求预测，值得关注落地可能。",
-   "score": 5
-  },
-  {
-   "id": "https://openai.com/index/openai-models-google-cloud",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "OpenAI models are coming to Google Cloud",
-   "link": "https://openai.com/index/openai-models-google-cloud",
-   "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-   "ts": 1792584000,
-   "zh": "OpenAI模型将登陆Google Cloud",
-   "brief": "OpenAI与Google Cloud合作，前沿模型和Codex工作流将进入Gemini模型花园及云市场。",
-   "why": "多云可选降低单一供应商依赖，采购AI能力时议价空间更大。",
-   "score": 8
   }
  ]
 }
