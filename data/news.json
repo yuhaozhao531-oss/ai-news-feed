@@ -1,17 +1,17 @@
 {
- "updated": 1795206485,
+ "updated": 1795227872,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 2
+   "new": 1
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
    "count": 4,
-   "new": 1
+   "new": 0
   },
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
@@ -35,7 +35,7 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 18,
-   "new": 2
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 2
+   "new": 5
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,71 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+   "link": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+   "summary": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+   "ts": 1795223202,
+   "zh": "AWS Quick 更新：流程、网页体验与多智能体协作",
+   "brief": "AWS Quick 发布更新，支持在聊天中构建业务流程、新版网页应用、多智能体协同回答及接入 Meta 广告等数据源。",
+   "why": "展示 AI 工作台如何嵌入业务流程，可作为企业办公自动化的参考案例。",
+   "score": 6
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+   "link": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+   "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+   "ts": 1795220066,
+   "zh": "分布式 KV 缓存降低自托管大模型成本与延迟",
+   "brief": "AWS 介绍用 ElastiCache 做分布式 KV 缓存，可将推理成本降最多 40%、首字延迟降最多 80%。",
+   "why": "自建大模型的企业可据此评估降本空间，但偏技术实施细节。",
+   "score": 5
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+   "summary": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes. This post explains how the extensions work and follows a platform team through a quarter of running a shared Slurm cluster with them.",
+   "ts": 1795216023,
+   "zh": "SageMaker HyperPod Slurm 推出托管集群扩展",
+   "brief": "HyperPod 为 Slurm 集群节点提供可观测性与用户管理的托管扩展，支持 API 和控制台声明式配置。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+   "summary": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions. It picks the best cluster, fails over automatically, and authenticates every request with SigV4 and IAM over AWS PrivateLink.",
+   "ts": 1795214124,
+   "zh": "HyperPod 推出跨区域全局推理网关",
+   "brief": "HyperPod 发布 Global Inference Gateway，单一端点跨区域和集群路由推理请求，自动故障转移并用 IAM 鉴权。",
+   "why": "多集群部署大模型的企业可关注其高可用与统一接入能力。",
+   "score": 4
+  },
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+   "link": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+   "summary": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+   "ts": 1795207051,
+   "zh": "标准银行用大模型自动化生成式 AI 风险评估",
+   "brief": "标准银行与 AWS 合作，在自有账户内用 Bedrock 的 LLM 评审自动为生成式 AI 用例打分，对照国际标准与内部政策。",
+   "why": "AI 合规审批自动化的真实案例，适合讲给关注治理的老板。",
+   "score": 8
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
    "source": "aws-ml",
@@ -283,6 +348,19 @@
    "brief": "Hugging Face推出harness adapters，可将模型适配到自有harness以提升性能并降低成本。",
    "why": "偏开发者工程细节，对老板决策关联弱，可作技术趋势参考。",
    "score": 3
+  },
+  {
+   "id": "https://openai.com/business/customer-stories/hebbia",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "link": "https://openai.com/business/customer-stories/hebbia",
+   "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "ts": 1795132800,
+   "zh": "Hebbia 测试 GPT-6 Astra 提升金融研究效果",
+   "brief": "Hebbia 预发布评测显示 GPT-6 Astra 在来源覆盖、引用相关性和呈现质量上有提升。",
+   "why": "新模型在专业场景的能力信号，可作选型参考。",
+   "score": 6
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/",
@@ -6380,97 +6458,6 @@
    "brief": "政府用开放模型适配本地语言与公共服务，并在自有基础设施上运行。",
    "why": "数据主权与自主可控思路可类比企业私有化部署。",
    "score": 6
-  },
-  {
-   "id": "https://openai.com/index/uber-chatgpt-work-rollout",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-   "link": "https://openai.com/index/uber-chatgpt-work-rollout",
-   "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-   "ts": 1792627200,
-   "zh": "Uber向3万员工全面部署ChatGPT企业版",
-   "brief": "Uber将ChatGPT Work推广至超3万名员工，用于调研、数据分析、做演示和复杂流程。",
-   "why": "大企业全员AI落地的标杆案例，适合给老板讲。",
-   "score": 9
-  },
-  {
-   "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Donating Agent Skills to the Agentic AI Foundation",
-   "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-   "summary": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
-   "ts": 1792627200,
-   "zh": "Anthropic将Agent Skills捐赠给基金会",
-   "brief": "Anthropic把Agent Skills开放标准捐给Agentic AI Foundation，已有70多个平台接入。",
-   "why": "智能体标准趋于统一，企业选型时互操作性风险下降。",
-   "score": 7
-  },
-  {
-   "id": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Open call for guest investigators in the life sciences",
-   "link": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-   "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
-   "ts": 1792627200,
-   "zh": "Anthropic公开招募生命科学领域客座研究员",
-   "brief": "Anthropic宣布面向生命科学界公开招募，邀请申请者参与其特别合作项目。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Securing Quick access from corporate networks with AWS PrivateLink",
-   "link": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/",
-   "summary": "Learn how to connect on-premises data sources to Amazon Quick privately with AWS PrivateLink, keeping analytics traffic off the public internet. This walkthrough covers VPC endpoints for user and API access, VPC connections for data sources, DNS and endpoint policies, identity federation, and enforcing VPC-endpoint-only access for compliance.",
-   "ts": 1792625918,
-   "zh": "用AWS PrivateLink安全接入企业网络",
-   "brief": "AWS发布教程，介绍如何通过PrivateLink将本地数据源私密接入Amazon Quick，避免分析流量走公网。",
-   "why": "企业用AI分析工具时，数据不出内网是可讲的合规卖点。",
-   "score": 5
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
-   "link": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them/",
-   "summary": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.",
-   "ts": 1792625807,
-   "zh": "多智能体系统上生产的五大挑战",
-   "brief": "AWS发文总结多智能体系统落地生产的五大挑战：编排、模型选择、可靠运行、安全执行代码与监控，并给出开源方案Deep Insight的解法。",
-   "why": "老板关心AI项目为何卡在试点，这是现成的落地难点清单。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Adaptive agentic intelligence framework using Strands Agents",
-   "link": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
-   "summary": "The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of Things monitoring scenario.",
-   "ts": 1792617806,
-   "zh": "AWS发布自适应智能体框架AAIF",
-   "brief": "AWS介绍用Strands Agents构建的AAIF框架，本地小模型处理常规任务，复杂请求经Bedrock路由到云端模型。",
-   "why": "展示本地小模型+云端大模型的分层架构，可作企业降本落地参考。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/broad-access-through-consistent-standards",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Broad access through consistent standards",
-   "link": "https://openai.com/index/broad-access-through-consistent-standards",
-   "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-   "ts": 1792616400,
-   "zh": "OpenAI：以一致标准推动广泛可及",
-   "brief": "OpenAI说明如何与分发伙伴合作，维持一致的安全防护、支持负责任访问并明确使用政策预期。",
-   "why": "涉及AI使用政策与合规预期，可作企业选型参考。",
-   "score": 5
   }
  ]
 }
