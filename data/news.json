@@ -1,5 +1,5 @@
 {
- "updated": 1795289037,
+ "updated": 1795310623,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -6131,58 +6131,6 @@
    "ts": 1792720813,
    "zh": "哈萨克斯坦扩大算力布局AI未来",
    "brief": "英伟达介绍哈萨克斯坦AI生态从基础设施规划转向部署，覆盖算力、模型到应用全栈的多项公告。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-   "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-   "ts": 1792713600,
-   "zh": "OpenAI与波兰NASK合作推进AI安全",
-   "brief": "OpenAI与波兰NASK宣布在AI安全、安保和技术研究方面合作，以加强防护并支持更具韧性的数字生态。",
-   "why": "AI安全合规成国际合作议题，出海或涉欧业务企业需关注监管风向。",
-   "score": 4
-  },
-  {
-   "id": "https://huggingface.co/blog/torch-neuronx-model-support",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Does Your Model Run on AWS Trainium? Look It Up",
-   "link": "https://huggingface.co/blog/torch-neuronx-model-support",
-   "summary": "",
-   "ts": 1792713600,
-   "zh": "你的模型能在AWS Trainium上运行吗？可查询",
-   "brief": "Hugging Face发布查询工具，用于查看模型是否可在AWS Trainium上运行。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://openai.com/index/anima",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-   "link": "https://openai.com/index/anima",
-   "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
-   "ts": 1792713600,
-   "zh": "Anima用GPT-6将诊所电话等待降75%",
-   "brief": "Anima借助GPT-6和GPT-Live扩展护理团队能力，将诊所电话等待时间缩短75%。",
-   "why": "客服场景AI降本增效的量化案例，适合给老板讲ROI。",
-   "score": 8
-  },
-  {
-   "id": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-   "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-   "summary": "",
-   "ts": 1792707874,
-   "zh": "把数据库评分变成强化学习奖励：ThinkingBox智能体后训练",
-   "brief": "Hugging Face博客介绍ThinkingBox方法，将数据库评分转化为强化学习奖励，用于智能体后训练。",
    "why": "",
    "score": 3
   }
