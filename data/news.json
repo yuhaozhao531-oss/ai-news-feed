@@ -1,5 +1,5 @@
 {
- "updated": 1795310623,
+ "updated": 1795347321,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 0
+   "new": 1
   },
   "qwen": {
    "name": "通义千问",
@@ -63,6 +63,19 @@
   }
  },
  "items": [
+  {
+   "id": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+   "source": "aws-ml",
+   "sourceName": "AWS 机器学习",
+   "title": "Meta ads is now available in AWS Quick",
+   "link": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+   "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+   "ts": 1795312753,
+   "zh": "Meta广告AI连接器上线AWS Quick",
+   "brief": "AWS Quick新增Meta广告AI连接器，广告主可用自然语言创建、管理、分析广告活动，并整合多方数据生成看板与文档。",
+   "why": "广告投放可用自然语言操作，中小企业营销团队效率与门槛将变化。",
+   "score": 6
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
    "source": "aws-ml",
@@ -6003,136 +6016,6 @@
    "brief": "Hugging Face发布LitPivot，通过文献图景中的动态情境化来发展研究想法。",
    "why": "",
    "score": 2
-  },
-  {
-   "id": "https://openai.com/index/securing-our-frontier-model-training-environment",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Securing our frontier model training environment",
-   "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
-   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-   "ts": 1792749600,
-   "zh": "OpenAI 强化前沿模型训练环境安全",
-   "brief": "OpenAI 说明如何加强前沿模型训练与评估的隔离，含离线环境与高算力红队测试。",
-   "why": "提示企业关注 AI 安全与合规，可作为治理话题切入。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.28698",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
-   "link": "https://arxiv.org/abs/2610.28698",
-   "summary": "arXiv:2610.28698v1 Announce Type: new Abstract: Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours",
-   "ts": 1792728000,
-   "zh": "游戏世界中的扩展：面向具身智能体的持续预训练",
-   "brief": "arXiv新论文研究在多样虚拟世界中对具身智能体进行持续预训练，检验数据与模型规模扩展是否在虚拟环境中同样有效。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.28763",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
-   "link": "https://arxiv.org/abs/2610.28763",
-   "summary": "arXiv:2610.28763v1 Announce Type: new Abstract: Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11 domains. Rather than ranking agents on a leaderboard, Agent4Sci asks what kinds of progress agents can make on these tasks under in-th",
-   "ts": 1792728000,
-   "zh": "自动化科研ML：前沿智能体能否攀登科学高峰",
-   "brief": "arXiv论文提出Agent基准，测试前沿编程智能体能否端到端改进科学模型，而不仅是常规机器学习工程。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.28815",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
-   "link": "https://arxiv.org/abs/2610.28815",
-   "summary": "arXiv:2610.28815v1 Announce Type: new Abstract: Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as evolving evidence. While more evolution tasks should intuitively improve performance, our preliminary study reveals a paradoxical failure mode: the performance of existing methods degrades as the task pool expands. Our further analysis demonstrates that this degradation stems from suboptimal evidence selection during optimization, as different evidence combinations lead to substantially different evolution outcomes. To a",
-   "ts": 1792728000,
-   "zh": "智能体框架进化：用更多任务打造更好执行框架",
-   "brief": "arXiv论文发现进化任务增多反而可能降低效果，并提出基于连续规模竞赛的智能体框架进化方法。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.28891",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Fig: Automated Multiagent Behavior Elicitor",
-   "link": "https://arxiv.org/abs/2610.28891",
-   "summary": "arXiv:2610.28891v1 Announce Type: new Abstract: Many social evaluations for multiagent systems study behaviors as they emerge from environments instead of systematically intervening in the environment to elicit such behaviors. We introduce Fig (Finding Interactions in Games), an agentic system that performs targeted elicitation interventions on game environments. It takes a natural language behavior description, decomposes it into sub-behaviors, generates new social games or selects existing ones, and executes single or combined interventions to the games' engine, opponents, instructions, and ",
-   "ts": 1792728000,
-   "zh": "Fig：自动化多智能体行为诱导系统",
-   "brief": "arXiv论文提出Fig系统，通过主动干预游戏环境来系统性地诱导多智能体行为，而非仅观察自然涌现行为。",
-   "why": "",
-   "score": 1
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.28905",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
-   "link": "https://arxiv.org/abs/2610.28905",
-   "summary": "arXiv:2610.28905v1 Announce Type: new Abstract: Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usually discard those states and make agents communicate only after decoding text. We ask whether one independent diffusion trajectory can pass a compact hidden message into another and, crucially, whether the receiver uses what that message means. In Hidden Messages, a sender compresses its denoising state into four signed dense vectors; the receiver consumes them while retaining its own context, canvas, and trajectory. Removing a me",
-   "ts": 1792728000,
-   "zh": "扩散语言模型智能体间的隐式通信",
-   "brief": "arXiv论文发现扩散语言模型的中间连续状态可在智能体间传递信息，为多智能体通信提供新路径。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.28909",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
-   "link": "https://arxiv.org/abs/2610.28909",
-   "summary": "arXiv:2610.28909v1 Announce Type: new Abstract: Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use. Almost all production systems are built on autoregressive (AR) language models and inherit left-to-right decoding in planning and long-form writing. We present DiffResearch, an open multi-agent deep research framework that places a diffusion language model (dLLM) at the core of every stage, and measure how a diffusion backbone changes latency and report quality. Holding the agentic scaffold, retrieval co",
-   "ts": 1792728000,
-   "zh": "DiffResearch：用扩散语言模型加速深度研究",
-   "brief": "arXiv论文提出DiffResearch，用扩散语言模型替代自回归模型来降低深度研究系统的端到端延迟。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.28914",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "D-Skill: Distilling Teacher Knowledge through Agent Skills",
-   "link": "https://arxiv.org/abs/2610.28914",
-   "summary": "arXiv:2610.28914v1 Announce Type: new Abstract: Frontier language-model agents excel at complex tasks, but high inference costs make transferring their capabilities to smaller models essential. Traditional knowledge distillation achieves this through parameter updates, requiring access to the student's weights and additional training compute while encoding the transferred knowledge implicitly in the parameters. We introduce D-Skill, a framework that treats the teacher as a black box and distills its behavioral advantage into an interpretable natural-language skill by analyzing paired rollouts ",
-   "ts": 1792728000,
-   "zh": "D-Skill：通过智能体技能蒸馏教师知识",
-   "brief": "arXiv论文提出D-Skill方法，无需访问学生模型参数，通过智能体技能将大模型能力蒸馏到小模型。",
-   "why": "可降低企业部署AI智能体的推理成本，值得关注。",
-   "score": 5
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.28934",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Back Up Before You Regret: Measuring Backup Awareness and Automating Backup in Coding Agents",
-   "link": "https://arxiv.org/abs/2610.28934",
-   "summary": "arXiv:2610.28934v1 Announce Type: new Abstract: Coding agents now complete tasks autonomously, modifying real-world state such as artifacts, software environments, and configurations along the way. Yet they show limited backup awareness: recognizing that an action will modify state that may later be needed, and preserving it beforehand. To evaluate backup awareness, we introduce RegretBench, a benchmark of 205 executable tasks grounded in regret moments reported on platforms such as X.com, GitHub, and Stack Overflow, where users explicitly regretted not preserving state they later needed. Acro",
-   "ts": 1792728000,
-   "zh": "编码智能体备份意识测量与自动备份",
-   "brief": "arXiv论文测量编码智能体对状态修改的备份意识不足，并提出自动化备份方案以减少不可逆操作风险。",
-   "why": "企业用AI写代码需关注误改生产环境的风险管控。",
-   "score": 5
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Kazakhstan Expands Compute for Its AI Future",
-   "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-   "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. Read All NVIDIA in Europe […]",
-   "ts": 1792720813,
-   "zh": "哈萨克斯坦扩大算力布局AI未来",
-   "brief": "英伟达介绍哈萨克斯坦AI生态从基础设施规划转向部署，覆盖算力、模型到应用全栈的多项公告。",
-   "why": "",
-   "score": 3
   }
  ]
 }
