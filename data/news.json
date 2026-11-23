@@ -1,5 +1,5 @@
 {
- "updated": 1795398428,
+ "updated": 1795438824,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -34,7 +34,7 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 18,
+   "count": 17,
    "new": 0
   },
   "nvidia": {
@@ -58,11 +58,115 @@
   "arxiv": {
    "name": "arXiv cs.AI",
    "ok": true,
-   "count": 0,
-   "new": 0
+   "count": 8,
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2611.26663",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+   "link": "https://arxiv.org/abs/2611.26663",
+   "summary": "arXiv:2611.26663v1 Announce Type: new Abstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized by the participant) in a brainstorming experiment ($N$=168) with human-human dyads as reference. Two-AI rooms posted more ideas to the shared board, but human-authored ideas dropped substantially. With one AI partner, formation mattered: humans paired with an average-calibrated AI posted more than a",
+   "ts": 1795410000,
+   "zh": "多一个AI伙伴：AI团队规模与构成如何影响头脑风暴",
+   "brief": "arXiv论文研究人类与一个或两个AI组队头脑风暴时，产出效率与多样性的差异。",
+   "why": "老板可据此思考：给团队配几个AI助手更合适，而非越多越好。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.26717",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
+   "link": "https://arxiv.org/abs/2611.26717",
+   "summary": "arXiv:2611.26717v1 Announce Type: new Abstract: Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leaves the relationships between them ungrounded. We study an alternative paradigm, generation by simulation: rather than describing a relational artifact, we simulate a process that produces it and take the artifact to be its causal record. Language-model agents propose intent and a deterministic referee resolves outcomes against an explicit world model, so a relation is em",
+   "ts": 1795410000,
+   "zh": "构造式一致性：CTI知识图谱合成与一致性验证边界",
+   "brief": "论文提出用大模型合成网络威胁情报知识图谱的方法，并讨论一致性验证的形式化局限。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.26722",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+   "link": "https://arxiv.org/abs/2611.26722",
+   "summary": "arXiv:2611.26722v1 Announce Type: new Abstract: To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models. Supervised fine-tuning (SFT) optimises for producing the correct call, but never contrasts it with a plausible incorrect one. In an environment where even a minor formatting error can invalidate a call and an incorrect decision can derail the interaction, direct preference optimisation (DPO) targets exactly this contrast. DPO, therefore, requires preference pairs r",
+   "ts": 1795410000,
+   "zh": "TOUMAII：450万对工具调用偏好数据集及生成器",
+   "brief": "发布450万对工具调用偏好数据集及与数据来源无关的生成器，用于训练企业智能体调用API。",
+   "why": "企业智能体落地依赖工具调用能力，可作为选型与自建参考。",
+   "score": 5
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.26782",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+   "link": "https://arxiv.org/abs/2611.26782",
+   "summary": "arXiv:2611.26782v1 Announce Type: new Abstract: Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: designing the simulation, writing reliable input scripts, executing them, and analyzing the results with separate tools. Here we present ChatAtom, a multi-agent large language model system that translates a natural-language request into a complete MD workflow without the user writing input scripts or a",
+   "ts": 1795410000,
+   "zh": "ChatAtom：分子动力学模拟与可视化的多智能体系统",
+   "brief": "论文提出多智能体大模型系统，自动完成分子动力学模拟与可视化流程。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.26906",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
+   "link": "https://arxiv.org/abs/2611.26906",
+   "summary": "arXiv:2611.26906v1 Announce Type: new Abstract: Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the cheapest solver wastes attempts on subgoals that require stronger models. We present BudgetPV, an agentic budget-aware predict-and-verify system that allocates computation across unresolved subgoals and heterogeneous LLM solvers. BudgetPV uses a cross-solver predictor to guide solver selection for each subgoal and revises",
+   "ts": 1795410000,
+   "zh": "预算感知的异构LLM定理证明与验证",
+   "brief": "论文提出按推理成本调度不同LLM求解器进行定理证明的预算感知方法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.26910",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+   "link": "https://arxiv.org/abs/2611.26910",
+   "summary": "arXiv:2611.26910v1 Announce Type: new Abstract: LLM agents are expected to improve themselves from their own experience across episodes, with fixed weights. Self-improvement in an embodied world cannot be read from one measure. Existing benchmarks measure task progress, world-knowledge question answering (QA), and episodic memory, but a correct answer does not show that the agent ever observed the evidence for it, and progress does not show what the agent learned. We introduce AstronautBench, which measures one agent's self-improvement through three views on the same run: what it knows, whethe",
+   "ts": 1795410000,
+   "zh": "AstronautBench：跨回合衡量智能体自我改进",
+   "brief": "发布基准，从知识、证据与进展三方面衡量LLM智能体跨回合的自我改进能力。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.26912",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Self-Evolving Beyond Human-Crafted Experience for EDA Scripting",
+   "link": "https://arxiv.org/abs/2611.26912",
+   "summary": "arXiv:2611.26912v1 Announce Type: new Abstract: The growing complexity of electronic systems demands efficient design flows, yet EDA scripting remains a bottleneck: proprietary APIs are sparsely documented, and errors often appear as silent failures or cryptic exceptions. Hand-crafted knowledge helps but is difficult to maintain as toolchains evolve. We present ZhuLong-SE (Self-Evolution), an execution-grounded LLM agent that learns reusable knowledge from prior task traces. Building on ZhuLong, it enhances the task-level harness with API retrieval, documentation responses, isolated sandbox ex",
+   "ts": 1795410000,
+   "zh": "面向EDA脚本的自演化经验学习",
+   "brief": "论文提出让智能体在EDA脚本编写中自我演化经验，减少对人工知识的依赖。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.26935",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Self-similar Organization of Information in Language",
+   "link": "https://arxiv.org/abs/2611.26935",
+   "summary": "arXiv:2611.26935v1 Announce Type: new Abstract: How much information relevant to predicting the future of a passage (i.e. predictive information) is carried by the preceding text, and how is this information distributed along that history? These questions are fundamental to understanding both the statistical structure of language and what large language models (LLMs) can learn about it. Indeed, LLMs trained to predict the next token in text must exploit this predictive information, so its organization determines how the structure of language becomes available to the model to learn. We develop ",
+   "ts": 1795410000,
+   "zh": "语言中信息的自相似组织方式",
+   "brief": "论文研究预测性信息在文本历史中的分布规律，发现其呈自相似组织。",
+   "why": "",
+   "score": 1
+  },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
    "source": "aws-ml",
