@@ -1,11 +1,11 @@
 {
- "updated": 1795528349,
+ "updated": 1795564549,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 5
   },
   "anthropic": {
    "name": "Anthropic",
@@ -22,20 +22,20 @@
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
-   "count": 6,
+   "count": 5,
    "new": 0
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 12,
-   "new": 0
+   "count": 11,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
    "count": 16,
-   "new": 0
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -47,7 +47,7 @@
    "name": "AWS 机器学习",
    "ok": true,
    "count": 20,
-   "new": 1
+   "new": 0
   },
   "qwen": {
    "name": "通义千问",
@@ -64,6 +64,58 @@
  },
  "items": [
   {
+   "id": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+   "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+   "summary": "",
+   "ts": 1795538053,
+   "zh": "Microduck避障：基于Isaac Lab与Newton的Sim2Real流程",
+   "brief": "Hugging Face发布用Isaac Lab和Newton实现微型机器人避障的仿真到现实迁移工作流。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "How Gemini is changing the game for Golden State's organization and fans.",
+   "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+   "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+   "ts": 1795536000,
+   "zh": "Gemini助力金州勇士队球迷体验与运营",
+   "brief": "Google Gemini与金州勇士合作，为勇士、女武神队及大通中心提供球迷体验和业务运营支持。",
+   "why": "体育娱乐行业的AI落地案例，可作行业参考。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+   "ts": 1795525200,
+   "zh": "GPT-6展现内在蛋白质设计能力",
+   "brief": "GPT-6通过推理和代码设计蛋白质结构与序列，实验室测试发现五个靶点存在结合证据。",
+   "why": "AI进入科研研发环节，提示生物医药企业关注。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Searching for distant planets with Astra",
+   "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+   "ts": 1795518000,
+   "zh": "用Astra搜寻遥远行星",
+   "brief": "两位业余天文学家借助Codex和Astra，从NASA开普勒与TESS公开数据中寻找潜在系外行星。",
+   "why": "",
+   "score": 3
+  },
+  {
    "id": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
    "source": "aws-ml",
    "sourceName": "AWS 机器学习",
@@ -74,6 +126,45 @@
    "zh": "亚马逊Bedrock推出可信访问API",
    "brief": "Amazon Bedrock上线可信访问计划API，可统一发现、申请并加入模型供应商计划，首批为Anthropic的企业前沿保障与企业数据控制（公开预览）。",
    "why": "企业用第三方大模型的数据合规与安全管控有了统一入口，选型时可关注。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/business/customer-stories/intentful-dots",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How Intentful uses dots to make more time for growth",
+   "link": "https://openai.com/business/customer-stories/intentful-dots",
+   "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+   "ts": 1795478400,
+   "zh": "Intentful用dots为增长腾出时间",
+   "brief": "Marina Petrova的dot Aria可研究网站、生成提案，并主动标记消息和解决问题。",
+   "why": "展示AI助手替代重复性知识工作的具体场景。",
+   "score": 5
+  },
+  {
+   "id": "https://openai.com/business/customer-stories/ifood",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "How iFood scales coding agents across 15,000 repositories",
+   "link": "https://openai.com/business/customer-stories/ifood",
+   "summary": "",
+   "ts": 1795478400,
+   "zh": "iFood在1.5万个代码库中扩展编码智能体",
+   "brief": "OpenAI介绍iFood如何在15000个代码仓库中规模化部署编码智能体。",
+   "why": "大规模工程提效案例，技术团队可借鉴。",
+   "score": 7
+  },
+  {
+   "id": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Clay helps sales teams win with Codex and ChatGPT",
+   "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+   "ts": 1795478400,
+   "zh": "Clay用Codex与ChatGPT助力销售团队",
+   "brief": "ChatGPT与Codex集成帮助Clay用户研究交易、把数据转化为市场进入策略，由GPT-6负责推理。",
+   "why": "销售场景AI落地案例，中小企业可直接对标。",
    "score": 7
   },
   {
