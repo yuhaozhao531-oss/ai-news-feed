@@ -1,16 +1,16 @@
 {
- "updated": 1795438824,
+ "updated": 1795486581,
  "sources": {
   "openai": {
    "name": "OpenAI",
    "ok": true,
    "count": 30,
-   "new": 0
+   "new": 3
   },
   "anthropic": {
    "name": "Anthropic",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "new": 0
   },
   "anthropic-eng": {
@@ -23,25 +23,25 @@
    "name": "Google DeepMind",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 12,
-   "new": 0
+   "count": 13,
+   "new": 1
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 17,
-   "new": 0
+   "count": 16,
+   "new": 2
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
    "count": 18,
-   "new": 0
+   "new": 1
   },
   "aws-ml": {
    "name": "AWS 机器学习",
@@ -59,10 +59,101 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
+  {
+   "id": "https://openai.com/index/introducing-shirudo",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "link": "https://openai.com/index/introducing-shirudo",
+   "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+   "ts": 1795468800,
+   "zh": "OpenAI与思科推出开源运行时Shirudo",
+   "brief": "OpenAI与思科发布面向Linux的开源运行时Shirudo，帮助团队在打补丁期间保护运行中的系统。",
+   "why": "提示企业补丁窗口期的安全风险，可作为IT运维与安全合规话题。",
+   "score": 5
+  },
+  {
+   "id": "https://huggingface.co/blog/allenai/robotrack",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+   "link": "https://huggingface.co/blog/allenai/robotrack",
+   "summary": "",
+   "ts": 1795454437,
+   "zh": "RoboTrack：真实机器人操作的点跟踪方法",
+   "brief": "Hugging Face发布RoboTrack，用于真实世界机器人操作场景的点跟踪研究。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+   "source": "nvidia",
+   "sourceName": "NVIDIA",
+   "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+   "link": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+   "summary": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. […]",
+   "ts": 1795453208,
+   "zh": "英伟达假日季游戏与创作技术推荐",
+   "brief": "英伟达发布假日季内容，介绍其技术可用于游戏、创作等个人娱乐场景。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+   "source": "google-ai",
+   "sourceName": "Google AI",
+   "title": "A more tailored Google Search that’s uniquely yours",
+   "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+   "summary": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+   "ts": 1795453200,
+   "zh": "谷歌搜索推出更个性化的“个人智能”",
+   "brief": "谷歌展示带“Personal Intelligence”字样的搜索栏，关联钱包、云盘、邮箱、相册、日历等个人数据。",
+   "why": "个人数据与AI搜索结合，可引申企业知识库与数据治理话题。",
+   "score": 5
+  },
+  {
+   "id": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "Finding faster quantum algorithms with agents and formal verification",
+   "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+   "ts": 1795453180,
+   "zh": "用智能体与形式验证寻找更快量子算法",
+   "brief": "谷歌DeepMind用智能体团队和形式验证改进用于聚变与化学的量子算法。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Connected intelligence for in-house legal",
+   "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+   "ts": 1795420800,
+   "zh": "OpenAI谈企业内部法务的互联智能",
+   "brief": "OpenAI与LECG、Cooley嘉宾对谈，探讨AI如何帮内部法务团队连接业务背景、构建可复用工作流。",
+   "why": "法务是AI落地典型场景，可作部门级落地案例素材。",
+   "score": 6
+  },
+  {
+   "id": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "title": "Richpanel helps companies automate 50% of support in 30 days",
+   "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+   "ts": 1795420800,
+   "zh": "Richpanel用AI 30天自动化50%客服",
+   "brief": "Richpanel借助GPT-6 Astra、GPT-6.1 Sol和GPT-6 Luna，为AI客服代理配置工具与流程。",
+   "why": "客服自动化50%的量化案例，适合讲降本增效。",
+   "score": 8
+  },
   {
    "id": "https://arxiv.org/abs/2611.26663",
    "source": "arxiv",
@@ -166,6 +257,19 @@
    "brief": "论文研究预测性信息在文本历史中的分布规律，发现其呈自相似组织。",
    "why": "",
    "score": 1
+  },
+  {
+   "id": "https://huggingface.co/blog/agentic-evals",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "How to build and maintain an agentic evaluation",
+   "link": "https://huggingface.co/blog/agentic-evals",
+   "summary": "",
+   "ts": 1795392000,
+   "zh": "如何构建与维护智能体评估体系",
+   "brief": "Hugging Face发布教程，讲解如何构建和维护智能体（agentic）评估。",
+   "why": "智能体上线需评估机制，可作企业AI项目治理参考。",
+   "score": 5
   },
   {
    "id": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
