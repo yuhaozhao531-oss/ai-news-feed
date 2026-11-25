@@ -1,5 +1,5 @@
 {
- "updated": 1795596283,
+ "updated": 1795634543,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -16,26 +16,26 @@
   "anthropic-eng": {
    "name": "Anthropic 工程博客",
    "ok": true,
-   "count": 1,
-   "new": 0
+   "count": 2,
+   "new": 1
   },
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
    "count": 5,
-   "new": 0
+   "new": 1
   },
   "google-ai": {
    "name": "Google AI",
    "ok": true,
-   "count": 11,
+   "count": 8,
    "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 14,
-   "new": 0
+   "count": 15,
+   "new": 3
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -64,6 +64,58 @@
  },
  "items": [
   {
+   "id": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Where scientists draw the line on AI agents",
+   "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "summary": "",
+   "ts": 1795632775,
+   "zh": "科学家为AI智能体划定边界",
+   "brief": "Hugging Face发布文章，探讨科学家在AI智能体应用上划定的界限。",
+   "why": "帮老板理解AI智能体能力边界与风险预期。",
+   "score": 5
+  },
+  {
+   "id": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "An Indic Voice Agent with CUGA",
+   "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+   "summary": "",
+   "ts": 1795602129,
+   "zh": "基于CUGA的印度语语音智能体",
+   "brief": "Hugging Face展示一个使用CUGA构建的印度语语音智能体项目。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://www.anthropic.com/research/migrating-api-to-rust",
+   "source": "anthropic-eng",
+   "sourceName": "Anthropic 工程博客",
+   "title": "Migrating our Messages API to Rust",
+   "link": "https://www.anthropic.com/research/migrating-api-to-rust",
+   "summary": "How we migrated our Messages API from Python to Rust.",
+   "ts": 1795564800,
+   "zh": "Anthropic将Messages API迁移至Rust",
+   "brief": "Anthropic工程博客介绍其Messages API从Python迁移到Rust的过程。",
+   "why": "",
+   "score": 2
+  },
+  {
+   "id": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+   "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+   "summary": "",
+   "ts": 1795564800,
+   "zh": "单张RTX PRO 6000上的Inkling 2 Mini推理",
+   "brief": "Hugging Face分享在单张RTX PRO 6000显卡上优化Inkling 2 Mini推理的实践。",
+   "why": "",
+   "score": 2
+  },
+  {
    "id": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
    "source": "huggingface",
    "sourceName": "Hugging Face",
@@ -88,6 +140,19 @@
    "brief": "Google Gemini与金州勇士合作，为勇士、女武神队及大通中心提供球迷体验和业务运营支持。",
    "why": "体育娱乐行业的AI落地案例，可作行业参考。",
    "score": 6
+  },
+  {
+   "id": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+   "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+   "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+   "ts": 1795525673,
+   "zh": "谷歌推出质谱分析AI技能工具",
+   "brief": "Google DeepMind发布Mass Spec Skills，助科研人员用Antigravity解读串联质谱。",
+   "why": "",
+   "score": 2
   },
   {
    "id": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
@@ -6016,97 +6081,6 @@
    "brief": "Greptile借助GPT-6 Astra测试用户工作流，用Daybreak加强安全，用Codex减少返工。",
    "why": "展示AI编程工具从代码审查走向工作流测试，可作研发提效案例。",
    "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
-   "link": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
-   "summary": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
-   "ts": 1793037418,
-   "zh": "SageMaker SDK v3 边缘视觉全机队生命周期方案",
-   "brief": "AWS 发布参考架构，用 SageMaker SDK v3 为每台摄像头训练、质检、编译并版本化模型。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
-   "link": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
-   "summary": "Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for OpenAI models on Amazon Bedrock lets your agent remember, cutting input cost and latency without resending the same tools, instructions, and history every turn.",
-   "ts": 1793035640,
-   "zh": "Bedrock 上 OpenAI 模型的提示缓存模式",
-   "brief": "介绍在 Amazon Bedrock 上为 OpenAI 模型启用提示缓存，降低智能体输入成本与延迟。",
-   "why": "智能体反复读上下文成本高，缓存可直接降本，值得给老板讲。",
-   "score": 7
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
-   "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
-   "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as a single CDK application.",
-   "ts": 1793034914,
-   "zh": "用 CDK 构建 Bedrock 知识库智能检索",
-   "brief": "AWS 发布用 CDK 搭建企业级智能检索的方案，含路由、引用回答与七层可观测性。",
-   "why": "企业知识库问答落地的可参考架构，适合做方案讲解素材。",
-   "score": 7
-  },
-  {
-   "id": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-   "source": "google-ai",
-   "sourceName": "Google AI",
-   "title": "Our newest AI Quest: Mapping the human brain",
-   "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-   "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
-   "ts": 1793030400,
-   "zh": "谷歌推出新 AI Quest：绘制人脑图谱",
-   "brief": "谷歌发布名为 Mapping the human brain 的 AI Quest 互动学习内容。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Working with academic communities to build scientific understanding",
-   "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-   "ts": 1793025000,
-   "zh": "OpenAI与学术界共建科学理解",
-   "brief": "OpenAI公布在Kakeya猜想、指数时间假设和量子色动力学上的模型结果及验证方式。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-   "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-   "ts": 1793022300,
-   "zh": "GPT-6.1 Sol助CodeRabbit强化代码安全",
-   "brief": "CodeRabbit用GPT-6.1 Sol排查复杂代码库安全风险，安全智能体协助审查发现与修复建议。",
-   "why": "说明AI可承担代码安全审查，适合讲研发与安全降本。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "ChatGPT’s expanding world of work",
-   "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-   "ts": 1793008800,
-   "zh": "ChatGPT 工作场景使用数据报告",
-   "brief": "OpenAI 发布 Signals 数据，覆盖近 100 个国家、165 项工作活动的使用情况。",
-   "why": "可用来向老板说明 AI 在各岗位的真实渗透趋势。",
-   "score": 8
   }
  ]
 }
