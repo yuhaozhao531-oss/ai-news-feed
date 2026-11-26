@@ -1,5 +1,5 @@
 {
- "updated": 1795634543,
+ "updated": 1795664248,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -17,13 +17,13 @@
    "name": "Anthropic 工程博客",
    "ok": true,
    "count": 2,
-   "new": 1
+   "new": 0
   },
   "deepmind": {
    "name": "Google DeepMind",
    "ok": true,
    "count": 5,
-   "new": 1
+   "new": 0
   },
   "google-ai": {
    "name": "Google AI",
@@ -34,8 +34,8 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 15,
-   "new": 3
+   "count": 14,
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -6028,58 +6028,6 @@
    "zh": "AgentOrch：全局编排能否逼近逐步交互",
    "brief": "比较企业工作流智能体的全局编排与逐步交互两种模式的效果差距。",
    "why": "为企业工作流智能体的架构选型提供参考。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/check-point-daybreak",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "How Check Point accelerates vulnerability research with Daybreak",
-   "link": "https://openai.com/index/check-point-daybreak",
-   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-   "ts": 1793059200,
-   "zh": "Check Point用Daybreak加速漏洞研究",
-   "brief": "Check Point借助OpenAI Daybreak加快安全防护研究，更快将漏洞情报转为客户防御。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://www.anthropic.com/research/early-progress-drug-development",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Early progress on accelerating drug development with Claude",
-   "link": "https://www.anthropic.com/research/early-progress-drug-development",
-   "summary": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
-   "ts": 1793059200,
-   "zh": "Anthropic：用Claude加速药物研发早期进展",
-   "brief": "Anthropic与六家新药研发机构建立深度研究合作，探索用Claude加速药物开发。",
-   "why": "",
-   "score": 4
-  },
-  {
-   "id": "https://www.anthropic.com/news/expanding-partnership-gsa",
-   "source": "anthropic",
-   "sourceName": "Anthropic",
-   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-   "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
-   "summary": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
-   "ts": 1793059200,
-   "zh": "Anthropic与GSA合作扩展政府市场",
-   "brief": "Anthropic扩大与GSA合作，政府客户享Claude企业版及API四折优惠。",
-   "why": "大模型厂商降价进政府市场，预示企业采购成本与合规趋势。",
-   "score": 7
-  },
-  {
-   "id": "https://openai.com/index/greptile-code-review-codex-astra",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-   "link": "https://openai.com/index/greptile-code-review-codex-astra",
-   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-   "ts": 1793052000,
-   "zh": "Greptile用GPT-6 Astra扩展缺陷检测",
-   "brief": "Greptile借助GPT-6 Astra测试用户工作流，用Daybreak加强安全，用Codex减少返工。",
-   "why": "展示AI编程工具从代码审查走向工作流测试，可作研发提效案例。",
    "score": 6
   }
  ]
