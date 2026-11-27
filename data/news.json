@@ -1,5 +1,5 @@
 {
- "updated": 1795783012,
+ "updated": 1795822198,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -35,12 +35,12 @@
    "name": "Hugging Face",
    "ok": true,
    "count": 15,
-   "new": 1
+   "new": 0
   },
   "nvidia": {
    "name": "NVIDIA",
    "ok": true,
-   "count": 17,
+   "count": 16,
    "new": 0
   },
   "aws-ml": {
@@ -59,7 +59,7 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 8
+   "new": 0
   }
  },
  "items": [
@@ -5808,110 +5808,6 @@
    "brief": "Credit Saison的ChatGPT企业版试点实现954%投资回报率，并推广至全公司。",
    "why": "高ROI企业案例，适合说服老板投入AI。",
    "score": 9
-  },
-  {
-   "id": "https://openai.com/ads/customers/evernote",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Evernote turns AI-driven discovery into paid subscriptions",
-   "link": "https://openai.com/ads/customers/evernote",
-   "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
-   "ts": 1793216449,
-   "zh": "Evernote用ChatGPT广告转化付费订阅",
-   "brief": "Evernote通过ChatGPT广告推广笔记应用，并追踪免费试用转付费订阅的效果。",
-   "why": "展示AI平台广告投放获客的新渠道，可讲给市场负责人。",
-   "score": 6
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
-   "link": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
-   "summary": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that gates each agent before production.",
-   "ts": 1793212106,
-   "zh": "在Amazon Bedrock AgentCore上构建智能体AI平台",
-   "brief": "AWS发布在Bedrock AgentCore上搭建多账户、可治理的智能体AI平台架构及开源参考蓝图。",
-   "why": "想上智能体的企业可参考其治理与多账户架构，降低自建门槛。",
-   "score": 8
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Distributed training with Ray Train DLCs and EFA on EKS",
-   "link": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
-   "summary": "The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the container exactly as published.",
-   "ts": 1793211594,
-   "zh": "用Ray Train容器与EFA在EKS上做分布式训练",
-   "brief": "AWS给出在EKS上用Ray Train深度学习容器和EFA微调Qwen2.5-1.5B的可复现样例。",
-   "why": "偏工程实现细节，中小企业老板基本用不上。",
-   "score": 3
-  },
-  {
-   "id": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/",
-   "source": "aws-ml",
-   "sourceName": "AWS 机器学习",
-   "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
-   "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/",
-   "summary": "As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that controls who can see and change what.",
-   "ts": 1793211133,
-   "zh": "用Amazon Nova Act实现智能体化QA自动化（三）",
-   "brief": "QA Studio系列第三篇新增测试组织、健康指标报告和基于团队的用户权限管理。",
-   "why": "测试自动化落地案例，可讲AI替代重复性岗位。",
-   "score": 6
-  },
-  {
-   "id": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "source": "deepmind",
-   "sourceName": "Google DeepMind",
-   "title": "Gemini 4 Carbon: Our next frontier model",
-   "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "summary": "",
-   "ts": 1793206858,
-   "zh": "Gemini 4 Carbon：下一代前沿模型",
-   "brief": "Google DeepMind发布下一代前沿模型Gemini 4 Carbon，正文内容缺失。",
-   "why": "新模型发布，需关注能力与价格变化。",
-   "score": 7
-  },
-  {
-   "id": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-   "source": "nvidia",
-   "sourceName": "NVIDIA",
-   "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-   "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-   "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified […]",
-   "ts": 1793199646,
-   "zh": "NVIDIA RTX Spark轻薄笔记本新增模型与智能体工具",
-   "brief": "搭载Blackwell RTX GPU与Grace CPU的RTX Spark笔记本上市，新增模型、智能体工具和游戏。",
-   "why": "终端侧AI能力提升，与多数中小企业采购关系不大。",
-   "score": 4
-  },
-  {
-   "id": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-   "source": "huggingface",
-   "sourceName": "Hugging Face",
-   "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-   "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-   "summary": "",
-   "ts": 1793199497,
-   "zh": "NVIDIA Nemotron 3.5转写与Granary v2发布",
-   "brief": "NVIDIA发布可提示、可适配的多语言智能转写模型Nemotron 3.5与Granary v2。",
-   "why": "多语言转写可用于会议记录等场景，值得关注。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/openai-servicenow-partnership-expansion",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-   "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
-   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-   "ts": 1793193300,
-   "zh": "OpenAI与ServiceNow扩大企业工作流合作",
-   "brief": "双方扩大合作，将OpenAI模型和智能体接入ServiceNow，并将ServiceNow工作流接入ChatGPT和Codex。",
-   "why": "主流AI与企业IT系统深度打通，是老板评估AI落地路径的重要信号。",
-   "score": 8
   }
  ]
 }
