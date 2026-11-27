@@ -1,5 +1,5 @@
 {
- "updated": 1795743979,
+ "updated": 1795783012,
  "sources": {
   "openai": {
    "name": "OpenAI",
@@ -34,8 +34,8 @@
   "huggingface": {
    "name": "Hugging Face",
    "ok": true,
-   "count": 14,
-   "new": 0
+   "count": 15,
+   "new": 1
   },
   "nvidia": {
    "name": "NVIDIA",
@@ -59,10 +59,127 @@
    "name": "arXiv cs.AI",
    "ok": true,
    "count": 8,
-   "new": 0
+   "new": 8
   }
  },
  "items": [
+  {
+   "id": "https://arxiv.org/abs/2611.33394",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Confidence scores for gated automation of large language models",
+   "link": "https://arxiv.org/abs/2611.33394",
+   "summary": "arXiv:2611.33394v1 Announce Type: new Abstract: AI agents built on large language models (LLMs) demonstrate strong capabilities in automated decision-making. However, LLMs may produce incorrect answers with high confidence, limiting their applicability in decisions that affect individuals and organizations. Reliable confidence scores are necessary to gate such decisions, and existing estimates are frequently unavailable or too coarse to support effective gating. This work uses supervised learning to train models to predict the correctness of LLM-generated answers, enabling automated confident ",
+   "ts": 1795755600,
+   "zh": "大模型高置信度错误与门控自动化评分",
+   "brief": "arXiv新论文研究为LLM自动化决策加置信度评分，以控制高风险场景下的错误输出。",
+   "why": "提醒老板：AI自动决策需设置信度门槛和人工复核，别全自动放权。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.33402",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+   "link": "https://arxiv.org/abs/2611.33402",
+   "summary": "arXiv:2611.33402v1 Announce Type: new Abstract: AI models vary enormously in capability and price. Model routing exploits this by sending easier tasks to cheaper models. However, a single agentic task often combines easy and difficult subtasks, making one model choice for the entire task inefficient. We introduce partial routing, which guides a frontier lead model to delegate suitable subtasks to a cheaper worker model. From both models' past runs, we identify recurring subtasks and measure each model's quality and cost on them. These measurements produce delegation guidance, with a parameter,",
+   "ts": 1795755600,
+   "zh": "部分路由：按子任务分配模型的智能体工作流",
+   "brief": "论文提出将智能体任务拆分为子任务、分别路由到不同价位模型的省成本方法。",
+   "why": "AI成本可按任务难度分层，老板可据此压低推理开支。",
+   "score": 6
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.33411",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
+   "link": "https://arxiv.org/abs/2611.33411",
+   "summary": "arXiv:2611.33411v1 Announce Type: new Abstract: Internet of Things (IoT) systems generate low-level sensor observations that are not directly suitable for process analysis and must first be transformed into semantically meaningful events. This paper investigates collaborative language models as a zero-shot semantic abstraction layer for converting such observations into higher-level event and activity labels. We propose a five-stage workflow comprising semantic mapping, semantic aggregation, temporal and contextual aggregation, specialized reasoning, and final event abstraction. The resulting ",
+   "ts": 1795755600,
+   "zh": "协作语言模型处理语义物联网数据",
+   "brief": "论文用多个语言模型协作把物联网底层传感器数据转成语义事件，并做零样本活动识别验证。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.33470",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+   "link": "https://arxiv.org/abs/2611.33470",
+   "summary": "arXiv:2611.33470v1 Announce Type: new Abstract: We present an end-to-end empirical study of dynamic reasoning in next-generation detection and response pipelines, evaluating how static classifiers, graph-based signal fusion, and large language model (LLM) triage agents perform under strict human-analyst attention budgets (Recall at B alerts/day). Across 56 reproducible experiments spanning a multi-layer enterprise-and-cloud simulator and four public datasets (SOREL-20M, BODMAS, LANL, and DARPA Transparent Computing), we test twelve architectural claims governing modern fleet-scale defense. Fir",
+   "ts": 1795755600,
+   "zh": "LLM辅助安全检测与响应的实证研究",
+   "brief": "论文端到端评测静态分类器、图信号融合与LLM分诊代理在人工分析约束下的表现及对抗规避。",
+   "why": "",
+   "score": 4
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.33513",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Learning to Reason in Real-Time",
+   "link": "https://arxiv.org/abs/2611.33513",
+   "summary": "arXiv:2611.33513v1 Announce Type: new Abstract: AI agents that operate in the real world must reason correctly and on-time, yet they currently do not account for how time should alter their reasoning. Modern agents learn to do tasks in environments that are entirely synchronous: where the world waits for the agent to act before changing. A real-time environment, by contrast, changes independent of the agent. Existing approaches try to bridge this gap by imposing a ratio of thinking to acting. However, for an agent to succeed in real-time it must learn to act quickly when delay is costly and to",
+   "ts": 1795755600,
+   "zh": "实时环境中的推理学习",
+   "brief": "论文指出当前智能体训练环境完全同步、未考虑时间因素，提出实时推理的学习方法。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.33555",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "PeerReveal: Learning to Generalize in AI Peer Review Detection",
+   "link": "https://arxiv.org/abs/2611.33555",
+   "summary": "arXiv:2611.33555v1 Announce Type: new Abstract: Can we distinguish fully AI-generated reviews from those using AI only to rewrite human judgement? Furthermore, can we do so reliably when reviews are generated from diverse AI models and workflows across scientific domains? To this end, we introduce PeerReveal, a new detector that grounds its decisions in learned relationships between a review's claims and reference claims drawn from AI-generated reviews of the same paper, complemented by review-level textual signals. We evaluate PeerReveal on PeerShift, a new, challenging test set of 5,430 revi",
+   "ts": 1795755600,
+   "zh": "AI同行评审检测的泛化方法",
+   "brief": "论文提出PeerReveal，区分全AI生成与AI仅润色的评审，并跨模型跨领域验证可靠性。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.33563",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+   "link": "https://arxiv.org/abs/2611.33563",
+   "summary": "arXiv:2611.33563v1 Announce Type: new Abstract: Automated Scientific Hypothesis Generation (ASHG) leveraging large language models (LLMs) aims to harness their strengths in knowledge integration, logical reasoning, and text generation for efficiently producing innovative, verifiable scientific hypotheses. However, existing approaches face three critical limitations: (i) insufficient fine-grained knowledge representation, as unstructured context impairs LLM comprehension and reasoning; (ii) lack of knowledge evolution traceability, constraining the generation of innovative cross-domain conjectu",
+   "ts": 1795755600,
+   "zh": "多智能体协作自动生成科学假设",
+   "brief": "论文提出基于细粒度灵感图的多智能体协作框架，用于自动生成可验证的科学假设。",
+   "why": "",
+   "score": 3
+  },
+  {
+   "id": "https://arxiv.org/abs/2611.33617",
+   "source": "arxiv",
+   "sourceName": "arXiv cs.AI",
+   "title": "Controllable CAD Generation and Interactive Editing of Fluid Rotors",
+   "link": "https://arxiv.org/abs/2611.33617",
+   "summary": "arXiv:2611.33617v1 Announce Type: new Abstract: Computer-aided design (CAD) provides the geometric foundation for rotors in fluid rotating machinery. However, creating models for different rotors requires different modeling processes, making it difficult to control geometry through design intent and reuse existing models. We introduce VaneCraft, an agent-driven framework for rotor generation, inverse recovery, and editing through a unified analytical representation. The agent interprets design requests and invokes geometric modeling operations. The representation defines geometric controls thr",
+   "ts": 1795755600,
+   "zh": "流体转子CAD生成与交互式编辑",
+   "brief": "论文研究可控的流体机械转子CAD模型生成与交互式编辑方法。",
+   "why": "",
+   "score": 1
+  },
+  {
+   "id": "https://huggingface.co/blog/video-trainium3",
+   "source": "huggingface",
+   "sourceName": "Hugging Face",
+   "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+   "link": "https://huggingface.co/blog/video-trainium3",
+   "summary": "",
+   "ts": 1795737600,
+   "zh": "在Trainium3上生成视频：LTX-2.5实践",
+   "brief": "Hugging Face发布文章，介绍在AWS Trainium3芯片上运行LTX-2.5模型生成视频。",
+   "why": "自研芯片跑视频生成，提示企业关注推理算力成本与替代方案。",
+   "score": 5
+  },
   {
    "id": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
    "source": "nvidia",
@@ -5795,149 +5912,6 @@
    "brief": "双方扩大合作，将OpenAI模型和智能体接入ServiceNow，并将ServiceNow工作流接入ChatGPT和Codex。",
    "why": "主流AI与企业IT系统深度打通，是老板评估AI落地路径的重要信号。",
    "score": 8
-  },
-  {
-   "id": "https://openai.com/index/the-future-of-the-firm",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "The future of the firm",
-   "link": "https://openai.com/index/the-future-of-the-firm",
-   "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-   "ts": 1793181600,
-   "zh": "企业的未来：AI如何进入组织架构",
-   "brief": "OpenAI发文探讨AI可能以何种方式进入组织架构，位于人之下、之旁与之间。",
-   "why": "直接对应老板关心的组织与岗位设计，适合做内容。",
-   "score": 9
-  },
-  {
-   "id": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Legora is building the agentic operating system for legal work",
-   "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-   "ts": 1793179800,
-   "zh": "Legora用OpenAI打造法律智能体操作系统",
-   "brief": "Legora介绍如何用OpenAI模型、ChatGPT和Codex加速法律工作流、扩展合同分析。",
-   "why": "法律行业AI落地案例，可类比讲给老板：专业服务如何用AI提效。",
-   "score": 6
-  },
-  {
-   "id": "https://openai.com/index/legora",
-   "source": "openai",
-   "sourceName": "OpenAI",
-   "title": "Legora is building the agentic operating system for legal work",
-   "link": "https://openai.com/index/legora",
-   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-   "ts": 1793179800,
-   "zh": "Legora打造法律工作的智能体操作系统",
-   "brief": "Legora用OpenAI模型、ChatGPT和Codex加速法律流程、扩展合同分析。",
-   "why": "垂直行业智能体落地案例，可类比讲给老板。",
-   "score": 8
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.36077",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-   "link": "https://arxiv.org/abs/2610.36077",
-   "summary": "arXiv:2610.36077v1 Announce Type: new Abstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self-improvement framework coupling world generation with",
-   "ts": 1793160000,
-   "zh": "多模态智能体递归自我改进框架",
-   "brief": "arXiv发布论文，提出多模态智能体能力驱动的递归自我改进方法。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.36100",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
-   "link": "https://arxiv.org/abs/2610.36100",
-   "summary": "arXiv:2610.36100v1 Announce Type: new Abstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirements. We introduce CohortFlow, a steerable agent that represents natural language corrections as localized updates to a structured cohort specification and reconciles them with a persistent execution graph. Explicitly recorded semantic dependencies enable affected computations to be selectively invalidated while preserving valid prior results. On 100 scenarios derived from clinical-trial eligibility c",
-   "ts": 1793160000,
-   "zh": "可调控临床队列筛选智能体CohortFlow",
-   "brief": "arXiv发布论文，提出支持局部语义修正的可调控临床队列筛选智能体。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.36169",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule",
-   "link": "https://arxiv.org/abs/2610.36169",
-   "summary": "arXiv:2610.36169v1 Announce Type: new Abstract: A retrieval-augmented language model answers from two sources, the retrieved context and its own knowledge, and the two disagree whenever the context is incomplete or wrong. Existing methods settle the disagreement with a rule fixed at design time: follow the context, amplify it in proportion to how far it moves the model, or trust the model's memory. Each rule is confidently wrong in some deployment. In a decision-theoretic model of two sources, the score of any fixed rule is linear in the share of reliable contexts while the best attainable sco",
-   "ts": 1793160000,
-   "zh": "知识冲突处理需先验而非固定规则",
-   "brief": "arXiv论文指出检索增强模型知识冲突不应靠设计时固定规则解决。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.36188",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
-   "link": "https://arxiv.org/abs/2610.36188",
-   "summary": "arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-specific skills must evolve with changing code structures, implementation conventions, and maintenance requirements. Pull requests (PRs) provide a natural source of such knowledge by recording how repositories evolve through implementation and review. Meanwhile, new PRs must follow repository-specific implementation patterns, modify related c",
-   "ts": 1793160000,
-   "zh": "技能梦境：通过PR流演化仓库技能",
-   "brief": "arXiv论文提出利用拉取请求流演化代码仓库专用技能库的方法。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.36308",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "When Retrieval Is Not Enough: Obsolete Facts in Agent Memory",
-   "link": "https://arxiv.org/abs/2610.36308",
-   "summary": "arXiv:2610.36308v1 Announce Type: new Abstract: Memory-agent benchmarks often collapse retrieval and answer generation into one score, making it hard to tell whether a failure comes from missing an update or from not using an update that was already retrieved. We examine this distinction on the single-hop FactConsolidation task of MemoryAgentBench. With Qwen2.5-7B-Instruct on 6K-history BM25 accuracy drops from 45% to 32% when the retrieved evidence budget grows from 64 to 512 tokens, even though a gold-assisted post-hoc audit finds the newest statement in every retrieved set. Most of the erro",
-   "ts": 1793160000,
-   "zh": "智能体记忆中的过时事实问题",
-   "brief": "arXiv论文区分智能体记忆失败源于未更新还是未使用已检索更新。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.36325",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis",
-   "link": "https://arxiv.org/abs/2610.36325",
-   "summary": "arXiv:2610.36325v1 Announce Type: new Abstract: Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inconsistent reasoning. Large Language Models (LLMs) have recently shown promising capabilities in medical question answering and clinical reasoning; however, even when achieving competitive performance on medical benchmarks, they often rely on pattern recognition learned from training data rather than grounded clinical evidence, and can generate plausible ",
-   "ts": 1793160000,
-   "zh": "本体引导多智能体可解释鉴别诊断",
-   "brief": "arXiv论文提出本体引导的多智能体推理方法用于可解释鉴别诊断。",
-   "why": "",
-   "score": 2
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.36329",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "Plenty of Room in the Middle: Revealing Opportunities on a GPU Cluster via Fine-Grained Monitoring",
-   "link": "https://arxiv.org/abs/2610.36329",
-   "summary": "arXiv:2610.36329v1 Announce Type: new Abstract: GPU clusters have become essential computing resources for AI and scientific research in academia and industry. However, their high cost and growing demand often result in long queueing delays. While previous monitoring efforts have operated at second- or minute-level frequencies, they primarily informed job-level scheduling for clusters and lacked the detail needed to optimize GPU-level utilization. This paper presents an in-depth study of a university research GPU cluster, analyzing resource usage at 100 ms intervals. We have developed a lightw",
-   "ts": 1793160000,
-   "zh": "GPU集群细粒度监控揭示闲置机会",
-   "brief": "arXiv论文通过细粒度监控揭示GPU集群中可被利用的空闲资源。",
-   "why": "",
-   "score": 3
-  },
-  {
-   "id": "https://arxiv.org/abs/2610.36335",
-   "source": "arxiv",
-   "sourceName": "arXiv cs.AI",
-   "title": "OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning",
-   "link": "https://arxiv.org/abs/2610.36335",
-   "summary": "arXiv:2610.36335v1 Announce Type: new Abstract: Large language models (LLMs) perform well across many real-world tasks but remain prone to hallucination, limiting their reliability in domains such as biomedicine and healthcare, where answers must be grounded in established knowledge. Retrieval-augmented generation (RAG) mitigates this problem by incorporating external information, but often overlooks logical relationships and relies heavily on the LLM's own reasoning, which can compromise answer faithfulness. We propose OA-RAG, an agent that integrates formal reasoning with LLM reasoning, draw",
-   "ts": 1793160000,
-   "zh": "基于本体的智能体RAG提升推理忠实度",
-   "brief": "arXiv论文提出OA-RAG方法，用本体增强检索智能体以减少幻觉。",
-   "why": "",
-   "score": 3
   }
  ]
 }
